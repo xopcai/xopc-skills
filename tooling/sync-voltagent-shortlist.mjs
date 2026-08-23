@@ -28,15 +28,22 @@ async function loadReadme(policy) {
     })
   }
 
-  const controller = new AbortController()
-  const timer = setTimeout(() => controller.abort(), 30_000)
-  try {
-    const response = await fetch(policy.source.readmeUrl, { signal: controller.signal })
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    return await response.text()
-  } finally {
-    clearTimeout(timer)
+  const urls = [policy.source.readmeUrl, policy.source.mirrorUrl].filter(Boolean)
+  const failures = []
+  for (const url of urls) {
+    const controller = new AbortController()
+    const timer = setTimeout(() => controller.abort(), 20_000)
+    try {
+      const response = await fetch(url, { signal: controller.signal })
+      if (!response.ok) throw new Error(`HTTP ${response.status}`)
+      return await response.text()
+    } catch (error) {
+      failures.push(`${url}: ${error.name === "AbortError" ? "timeout" : error.message}`)
+    } finally {
+      clearTimeout(timer)
+    }
   }
+  throw new Error(`Unable to load pinned VoltAgent README (${failures.join("; ")})`)
 }
 
 function parseOfficialEntries(readme) {

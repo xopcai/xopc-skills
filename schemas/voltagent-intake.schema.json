@@ -7,7 +7,14 @@
     "schemaVersion": { "const": 1 },
     "source": {
       "type": "object",
-      "required": ["upstreamId", "commit", "readmeUrl", "scope"]
+      "required": ["upstreamId", "commit", "readmeUrl", "scope"],
+      "properties": {
+        "upstreamId": { "type": "string", "minLength": 1 },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "readmeUrl": { "type": "string", "format": "uri" },
+        "mirrorUrl": { "type": "string", "format": "uri" },
+        "scope": { "type": "string", "minLength": 1 }
+      }
     },
     "selections": {
       "type": "array",

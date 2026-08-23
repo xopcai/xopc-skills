@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "document-requirements-review",
+  "cases": [
+    {"id":"positive-01","shouldTrigger":true,"prompt":"按 RFP 附件逐条检查我们的投标文件并生成 traceability matrix。"},
+    {"id":"positive-02","shouldTrigger":true,"prompt":"Compare this proposal against the supplied mandatory requirements."},
+    {"id":"positive-03","shouldTrigger":true,"prompt":"检查申请材料是否漏了必填章节和附件。"},
+    {"id":"positive-04","shouldTrigger":true,"prompt":"把政策草案与这份内部控制清单逐项对照。"},
+    {"id":"positive-05","shouldTrigger":true,"prompt":"找出标书里只有承诺、没有证据支持的条目。"},
+    {"id":"positive-06","shouldTrigger":true,"prompt":"核对供应商响应和采购要求之间的冲突。"},
+    {"id":"positive-07","shouldTrigger":true,"prompt":"根据给定审核 checklist 标记 met、partial 和 missing。"},
+    {"id":"positive-08","shouldTrigger":true,"prompt":"审查跨三个附件的要求覆盖率和引用位置。"},
+    {"id":"positive-09","shouldTrigger":true,"prompt":"列出需要合规专家解释的歧义要求，不要替他们下结论。"},
+    {"id":"positive-10","shouldTrigger":true,"prompt":"给这份 submission 做格式和证据完整性预检。"},
+    {"id":"negative-01","shouldTrigger":false,"prompt":"我们需要遵守 GDPR 吗？"},
+    {"id":"negative-02","shouldTrigger":false,"prompt":"生成一套 SOC 2 控制清单。"},
+    {"id":"negative-03","shouldTrigger":false,"prompt":"帮我起草一份合同。"},
+    {"id":"negative-04","shouldTrigger":false,"prompt":"给这份合同提供法律意见。"},
+    {"id":"negative-05","shouldTrigger":false,"prompt":"总结这个 PDF。"},
+    {"id":"negative-06","shouldTrigger":false,"prompt":"编辑 Word 文档排版。"},
+    {"id":"negative-07","shouldTrigger":false,"prompt":"签署并提交这份投标文件。"},
+    {"id":"negative-08","shouldTrigger":false,"prompt":"研究 ISO 27001 最新变化。"},
+    {"id":"negative-09","shouldTrigger":false,"prompt":"从会议里提取任务。"},
+    {"id":"negative-10","shouldTrigger":false,"prompt":"为产品写安全白皮书。"}
+  ]
+}

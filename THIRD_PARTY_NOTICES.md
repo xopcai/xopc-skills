@@ -8,6 +8,12 @@ The following XOPC Adapted Skills include or derive from MIT-licensed work. Thei
 | `supabase-postgres-best-practices` | `supabase/agent-skills` | Copyright (c) 2026 Supabase |
 | `playwright-webapp-testing` | `LambdaTest/agent-skills` | Copyright (c) 2025 TestMu AI / LambdaTest |
 | `release-notes` | `phuryn/pm-skills` | Copyright (c) 2026 Pawel Huryn |
+| `evidence-based-research` | `microsoft/vscode-team-kit` | Copyright (c) Microsoft Corporation |
+| `meeting-to-actions` | `mohitagw15856/pm-claude-skills` | Copyright (c) 2026 Mohit Aggarwal |
+| `content-campaign-pack` | `coreyhaines31/marketingskills` | Copyright (c) 2025 Corey Haines |
+| `prospect-research` | `coreyhaines31/marketingskills` | Copyright (c) 2025 Corey Haines |
+| `document-requirements-review` | `mohitagw15856/pm-claude-skills` | Copyright (c) 2026 Mohit Aggarwal |
+| `weekly-planning-review` | `alirezarezvani/claude-skills` | Copyright (c) 2025 Alireza Rezvani |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

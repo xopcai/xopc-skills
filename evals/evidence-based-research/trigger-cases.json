@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "evidence-based-research",
+  "cases": [
+    {"id":"positive-01","shouldTrigger":true,"prompt":"调研三个客服平台，结合价格、安全和国内可用性给采购建议。"},
+    {"id":"positive-02","shouldTrigger":true,"prompt":"Research whether we should build or buy an observability platform, with current sources."},
+    {"id":"positive-03","shouldTrigger":true,"prompt":"深入研究中国企业 Skill 市场并形成决策简报。"},
+    {"id":"positive-04","shouldTrigger":true,"prompt":"比较这四个数据库方案，解释来源冲突和结论置信度。"},
+    {"id":"positive-05","shouldTrigger":true,"prompt":"验证供应商声称的 40% 成本下降是否有独立证据。"},
+    {"id":"positive-06","shouldTrigger":true,"prompt":"做一份进入日本市场的 evidence-based recommendation。"},
+    {"id":"positive-07","shouldTrigger":true,"prompt":"调研新协议的采用现状、风险与迁移时机。"},
+    {"id":"positive-08","shouldTrigger":true,"prompt":"Find the strongest evidence for and against choosing vendor A."},
+    {"id":"positive-09","shouldTrigger":true,"prompt":"把这些报告和官方数据综合成董事会决策材料。"},
+    {"id":"positive-10","shouldTrigger":true,"prompt":"对这个市场规模数字做来源追踪和可比性检查。"},
+    {"id":"negative-01","shouldTrigger":false,"prompt":"北京今天几点日落？"},
+    {"id":"negative-02","shouldTrigger":false,"prompt":"按这个 ICP 找 20 家可联系的公司。"},
+    {"id":"negative-03","shouldTrigger":false,"prompt":"把会议转写整理成任务。"},
+    {"id":"negative-04","shouldTrigger":false,"prompt":"根据品牌材料生成内容 Campaign。"},
+    {"id":"negative-05","shouldTrigger":false,"prompt":"审查这份标书是否逐条满足附件要求。"},
+    {"id":"negative-06","shouldTrigger":false,"prompt":"总结我上传的这一篇论文。"},
+    {"id":"negative-07","shouldTrigger":false,"prompt":"修复这个 React Native 掉帧问题。"},
+    {"id":"negative-08","shouldTrigger":false,"prompt":"生成本周 release notes。"},
+    {"id":"negative-09","shouldTrigger":false,"prompt":"帮我安排下周日历。"},
+    {"id":"negative-10","shouldTrigger":false,"prompt":"查一下 Acme 官网的联系邮箱。"}
+  ]
+}

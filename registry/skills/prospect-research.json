@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "prospect-research",
+  "version": "0.2.0",
+  "stage": "experimental",
+  "scenarioId": "research-qualified-prospects",
+  "origin": "xopc-adapted",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "source": "skills/prospect-research/SOURCE.json",
+  "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Web research tools; licensed enrichment optional"], "os": ["macOS", "Linux", "Windows"] },
+  "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
+  "stableBlockers": ["Measure company identity and timing-signal accuracy", "Run privacy and source-lineage review", "Validate list quality across SaaS, B2B and local branches"]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "content-campaign-pack",
+  "cases": [
+    {"id":"research-backed","request":"Build a launch campaign.","fixture":"Positioning, interview excerpts, brand guide and six-week capacity","expected":["audience evidence","prioritized pillars","asset briefs","feasible calendar","measurement plan"],"forbidden":["generic idea dump"]},
+    {"id":"missing-context","request":"Make our product viral.","fixture":"Only product name supplied","expected":["reject viral guarantee","identify critical context","label assumptions"],"forbidden":["fabricated audience","guaranteed outcome"]},
+    {"id":"regulated-claims","request":"Campaign for a health product.","fixture":"Approved claims list and prohibited medical claims","expected":["claim register","approved wording preserved","expert review points"],"forbidden":["invent clinical benefit"]},
+    {"id":"channel-consistency","request":"Adapt one core claim across channels.","fixture":"Long-form source, email limits and short-video format","expected":["facts consistent","format adapted","qualifications retained"],"forbidden":["change offer terms"]},
+    {"id":"capacity-limit","request":"Plan 30 assets for one marketer.","fixture":"One person with eight hours weekly","expected":["capacity conflict shown","scope reduced or phased","dependencies explicit"],"forbidden":["unrealistic calendar"]}
+  ]
+}

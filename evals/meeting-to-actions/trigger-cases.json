@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "meeting-to-actions",
+  "cases": [
+    {"id":"positive-01","shouldTrigger":true,"prompt":"把这份会议转写变成 decisions 和 owner 明确的 action items。"},
+    {"id":"positive-02","shouldTrigger":true,"prompt":"Who committed to what in this customer call, and by when?"},
+    {"id":"positive-03","shouldTrigger":true,"prompt":"从周会笔记提取可以直接建 Linear ticket 的任务。"},
+    {"id":"positive-04","shouldTrigger":true,"prompt":"整理会议纪要，标出没有责任人的 should-do。"},
+    {"id":"positive-05","shouldTrigger":true,"prompt":"把昨天评审会的决定、异议和 reopen condition 记下来。"},
+    {"id":"positive-06","shouldTrigger":true,"prompt":"Summarize this transcript into decisions, actions and open questions."},
+    {"id":"positive-07","shouldTrigger":true,"prompt":"会议里说的下周五请换算日期，但不确定的标 TBD。"},
+    {"id":"positive-08","shouldTrigger":true,"prompt":"先生成会后行动计划，确认后再写入 Jira。"},
+    {"id":"positive-09","shouldTrigger":true,"prompt":"找出这次 sync 里只是讨论、并没有真正决定的事项。"},
+    {"id":"positive-10","shouldTrigger":true,"prompt":"从客户访谈记录中提取双方明确承诺。"},
+    {"id":"negative-01","shouldTrigger":false,"prompt":"帮我预约周五的会议室。"},
+    {"id":"negative-02","shouldTrigger":false,"prompt":"实时录下这个 Zoom 会议。"},
+    {"id":"negative-03","shouldTrigger":false,"prompt":"总结这篇行业报告。"},
+    {"id":"negative-04","shouldTrigger":false,"prompt":"给项目写下周计划。"},
+    {"id":"negative-05","shouldTrigger":false,"prompt":"把已有任务批量导入 Jira。"},
+    {"id":"negative-06","shouldTrigger":false,"prompt":"准备明天会议的议程和 pre-read。"},
+    {"id":"negative-07","shouldTrigger":false,"prompt":"给参会者发送会议邀请。"},
+    {"id":"negative-08","shouldTrigger":false,"prompt":"分析客户访谈里的用户需求主题。"},
+    {"id":"negative-09","shouldTrigger":false,"prompt":"把这段音频转成文字。"},
+    {"id":"negative-10","shouldTrigger":false,"prompt":"审查 PR 并留下评论。"}
+  ]
+}

@@ -126,6 +126,42 @@
       "licenseStatus": "mit",
       "decision": "candidate",
       "notes": "由 VoltAgent 产品管理官方分区发现；release-notes 场景简洁实用，XOPC 适配增加发布状态、证据和安全披露门槛。"
+    },
+    {
+      "id": "microsoft-vscode-team-kit",
+      "repository": "https://github.com/microsoft/vscode-team-kit",
+      "observedCommit": "b6c13ecc74ac49be9fe621163e6937f61b9f368b",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "Microsoft 维护的多源研究编排；XOPC 适配保留证据与冲突门禁，移除强制多代理和客户端绑定。"
+    },
+    {
+      "id": "coreyhaines-marketing-skills",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "observedCommit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "高采用量 MIT 营销 Skill 库；仅吸收内容 Campaign 与潜客研究两个互斥场景。"
+    },
+    {
+      "id": "mohit-pm-claude-skills",
+      "repository": "https://github.com/mohitagw15856/pm-claude-skills",
+      "observedCommit": "f4e8863c138607e17634ae85c79d5f6a68b76125",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "会议行动和合规清单方法完整；XOPC 分别适配为会后执行闭环与显式要求文档审查。"
+    },
+    {
+      "id": "alirezarezvani-claude-skills",
+      "repository": "https://github.com/alirezarezvani/claude-skills",
+      "observedCommit": "98180dafc4f0bc9d629bd479fc6107674cfb3cf8",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "周复盘方法和闭环门禁清晰；XOPC 适配增加容量计算、数据范围和写回确认。"
     }
   ]
 }

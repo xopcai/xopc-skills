@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "prospect-research",
+  "cases": [
+    {"id":"positive-01","shouldTrigger":true,"prompt":"按这个 ICP 找 15 家有近期采购信号的 SaaS 公司并给证据。"},
+    {"id":"positive-02","shouldTrigger":true,"prompt":"Build a verified B2B prospect list with fit and timing scored separately."},
+    {"id":"positive-03","shouldTrigger":true,"prompt":"帮我找上海没有在线预约能力的 10 家诊所，只用公开企业信息。"},
+    {"id":"positive-04","shouldTrigger":true,"prompt":"从 GitHub issue 和招聘信息寻找我们开发者工具的 design partners。"},
+    {"id":"positive-05","shouldTrigger":true,"prompt":"验证这批 target accounts 哪些真的符合 ICP。"},
+    {"id":"positive-06","shouldTrigger":true,"prompt":"查找最近扩张门店且可能需要库存系统的零售企业。"},
+    {"id":"positive-07","shouldTrigger":true,"prompt":"为每个潜客保留来源、验证日期和置信度。"},
+    {"id":"positive-08","shouldTrigger":true,"prompt":"Find fewer but higher-quality prospects; don't fill the quota with guesses."},
+    {"id":"positive-09","shouldTrigger":true,"prompt":"把这些公司去重并标出缺少购买时机的 ICP fit。"},
+    {"id":"positive-10","shouldTrigger":true,"prompt":"研究哪些公开企业近期更可能需要我们的合规产品。"},
+    {"id":"negative-01","shouldTrigger":false,"prompt":"研究 CRM 市场并推荐产品。"},
+    {"id":"negative-02","shouldTrigger":false,"prompt":"给这 20 个潜客写冷邮件。"},
+    {"id":"negative-03","shouldTrigger":false,"prompt":"把已有线索导入 Salesforce。"},
+    {"id":"negative-04","shouldTrigger":false,"prompt":"查询某个私人手机号的主人。"},
+    {"id":"negative-05","shouldTrigger":false,"prompt":"分析现有客户访谈主题。"},
+    {"id":"negative-06","shouldTrigger":false,"prompt":"抓取 LinkedIn 上全部 CTO 邮箱。"},
+    {"id":"negative-07","shouldTrigger":false,"prompt":"制作销售 battlecard。"},
+    {"id":"negative-08","shouldTrigger":false,"prompt":"给指定公司写一份投资尽调。"},
+    {"id":"negative-09","shouldTrigger":false,"prompt":"自动联系所有高分 leads。"},
+    {"id":"negative-10","shouldTrigger":false,"prompt":"统计我们的销售 pipeline。"}
+  ]
+}

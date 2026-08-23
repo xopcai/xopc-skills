@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/microsoft/vscode-team-kit",
+  "commit": "b6c13ecc74ac49be9fe621163e6937f61b9f368b",
+  "path": "research/skills/research",
+  "license": "MIT",
+  "copyright": "Copyright (c) Microsoft Corporation",
+  "xopcChanges": ["Removed mandatory subagent and client-specific orchestration", "Added decision criteria, stopping conditions, and source independence", "Added external-content isolation and quantitative comparability rules"]
+}

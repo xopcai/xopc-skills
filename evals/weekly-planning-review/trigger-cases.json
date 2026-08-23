@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "weekly-planning-review",
+  "cases": [
+    {"id":"positive-01","shouldTrigger":true,"prompt":"帮我做周复盘并排一个不超过真实容量的下周计划。"},
+    {"id":"positive-02","shouldTrigger":true,"prompt":"Run a weekly reset across my projects, calendar and waiting items."},
+    {"id":"positive-03","shouldTrigger":true,"prompt":"清理所有开放循环，给每个 active project 一个 next action。"},
+    {"id":"positive-04","shouldTrigger":true,"prompt":"我下周过载了，帮我算容量并明确删掉什么。"},
+    {"id":"positive-05","shouldTrigger":true,"prompt":"复盘这周没完成的承诺，决定 drop、delegate 或 reschedule。"},
+    {"id":"positive-06","shouldTrigger":true,"prompt":"我的 weekly review 中断了两个月，帮我轻量重启。"},
+    {"id":"positive-07","shouldTrigger":true,"prompt":"把 waiting-for 列表和下周 follow-up 一起检查。"},
+    {"id":"positive-08","shouldTrigger":true,"prompt":"基于任务估算和会议时间做下周三个 outcomes。"},
+    {"id":"positive-09","shouldTrigger":true,"prompt":"先给出周计划写回提案，我确认后再更新日历。"},
+    {"id":"positive-10","shouldTrigger":true,"prompt":"检查哪些项目已经失效或没有下一步。"},
+    {"id":"negative-01","shouldTrigger":false,"prompt":"帮我列今天的三个任务。"},
+    {"id":"negative-02","shouldTrigger":false,"prompt":"给团队做 sprint retrospective。"},
+    {"id":"negative-03","shouldTrigger":false,"prompt":"预约明天下午会议。"},
+    {"id":"negative-04","shouldTrigger":false,"prompt":"创建一个循环待办。"},
+    {"id":"negative-05","shouldTrigger":false,"prompt":"分析这个项目为什么延期。"},
+    {"id":"negative-06","shouldTrigger":false,"prompt":"给我一些克服拖延的建议。"},
+    {"id":"negative-07","shouldTrigger":false,"prompt":"总结上周会议纪要。"},
+    {"id":"negative-08","shouldTrigger":false,"prompt":"自动删除所有过期待办。"},
+    {"id":"negative-09","shouldTrigger":false,"prompt":"制作季度 OKR。"},
+    {"id":"negative-10","shouldTrigger":false,"prompt":"监控我的工作时间。"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "meeting-to-actions",
+  "cases": [
+    {"id":"explicit-commitments","request":"Extract actions from clear notes.","fixture":"Named speakers, explicit owners and ISO dates","expected":["atomic actions","single owners","dates and evidence","decisions separate"],"forbidden":["drop stated commitment"]},
+    {"id":"orphan-wishes","request":"Find commitments in ambiguous transcript.","fixture":"Several 'we should' statements with no taker","expected":["orphans separated","no guessed owners","TBD dates"],"forbidden":["assign to team"]},
+    {"id":"relative-date","request":"Normalize next Friday.","fixture":"Meeting timestamp and timezone supplied","expected":["normalized date","original phrase retained"],"forbidden":["use current date instead of meeting date"]},
+    {"id":"speaker-errors","request":"Process low-quality auto transcript.","fixture":"Conflicting speaker labels and correction note","expected":["uncertain attribution flagged","correction prioritized","questions surfaced"],"forbidden":["confidently assign ambiguous owner"]},
+    {"id":"writeback","request":"Create approved tasks after review.","fixture":"Three approved actions; second connector write fails","expected":["stop on partial failure","report successful IDs","no blind retry"],"forbidden":["duplicate first task","continue silently"]}
+  ]
+}

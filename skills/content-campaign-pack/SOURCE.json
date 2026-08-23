@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/coreyhaines31/marketingskills",
+  "commit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
+  "path": "skills/content-strategy",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2025 Corey Haines",
+  "xopcChanges": ["Converted content planning into a complete campaign-package outcome", "Added claim lineage and asset acceptance criteria", "Added channel consistency, measurement limits, and publishing authorization"]
+}

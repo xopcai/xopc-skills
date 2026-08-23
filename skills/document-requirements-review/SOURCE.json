@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/mohitagw15856/pm-claude-skills",
+  "commit": "f4e8863c138607e17634ae85c79d5f6a68b76125",
+  "path": "plugins/pm-legal/skills/compliance-checklist",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Mohit Aggarwal",
+  "xopcChanges": ["Changed generated compliance advice into supplied-requirement document review", "Added atomic traceability and strict evidence statuses", "Removed certification claims and added expert escalation boundaries"]
+}

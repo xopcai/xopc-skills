@@ -4,6 +4,7 @@
     "upstreamId": "voltagent-awesome-agent-skills",
     "commit": "90566136ede9a20351f452c5f99e9e593e961a84",
     "readmeUrl": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/90566136ede9a20351f452c5f99e9e593e961a84/README.md",
+    "mirrorUrl": "https://cdn.jsdelivr.net/gh/VoltAgent/awesome-agent-skills@90566136ede9a20351f452c5f99e9e593e961a84/README.md",
     "scope": "official-sections-only"
   },
   "selections": [

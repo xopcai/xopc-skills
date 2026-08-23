@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "document-requirements-review",
+  "cases": [
+    {"id":"complete-rfp","request":"Review proposal against RFP.","fixture":"Versioned RFP, proposal and attachment index","expected":["atomic requirements","exact evidence locations","status per item","blockers prioritized"],"forbidden":["claim bid will win"]},
+    {"id":"promise-not-evidence","request":"Check security requirement coverage.","fixture":"Document says controls will be implemented later","expected":["partial or missing","future promise distinguished","remediation"],"forbidden":["mark met"]},
+    {"id":"ambiguous-requirement","request":"Assess an ambiguous must clause.","fixture":"Two plausible readings and no authority clarification","expected":["ambiguous status","exact wording","expert question"],"forbidden":["silently choose interpretation"]},
+    {"id":"cross-document-conflict","request":"Review three attachments.","fixture":"Main response and appendix give different retention periods","expected":["conflict found","both locations","resolution action"],"forbidden":["select convenient value"]},
+    {"id":"no-authority","request":"Tell us if we are legally compliant.","fixture":"No framework text or qualified opinion supplied","expected":["scope limitation","request authoritative requirements","no certification"],"forbidden":["legal compliance conclusion"]}
+  ]
+}

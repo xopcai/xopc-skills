@@ -160,6 +160,66 @@
         "缺少安全披露和敏感信息边界",
         "需要对混合状态 ticket 做真实性评测"
       ]
+    },
+    {
+      "id": "microsoft-evidence-research-adaptation",
+      "scenarioId": "create-decision-research-brief",
+      "upstreamId": "microsoft-vscode-team-kit",
+      "skillPath": "research/skills/research",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["Microsoft 官方维护", "多线程研究、交叉验证和冲突处理完整", "MIT 许可证"],
+      "gaps": ["原实现强制特定子代理", "缺少显式决策标准和停止条件", "需要验证单代理/少工具降级"]
+    },
+    {
+      "id": "coreyhaines-content-campaign-adaptation",
+      "scenarioId": "create-content-campaign-pack",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/content-strategy",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["成熟的受众与内容支柱方法", "搜索需求和分享需求区分清晰", "MIT 许可证且社区采用度高"],
+      "gaps": ["原 Skill 主要停留在内容规划", "需要补充资产 brief、渠道一致性和声明证据", "需要真实 Campaign 盲评"]
+    },
+    {
+      "id": "coreyhaines-prospect-research-adaptation",
+      "scenarioId": "research-qualified-prospects",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/prospecting",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["按销售 motion 分支", "ICP、时机信号、来源和合规方法完整", "MIT 许可证"],
+      "gaps": ["原 Skill 包含较多第三方工具耦合", "需严格隔离外联与 CRM 写回", "需测量身份和时机信号准确率"]
+    },
+    {
+      "id": "mohit-meeting-actions-adaptation",
+      "scenarioId": "turn-meeting-into-actions",
+      "upstreamId": "mohit-pm-claude-skills",
+      "skillPath": "plugins/pm-essentials/skills/meeting-notes; plugins/pm-essentials/skills/meeting-action-extractor",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["决策、承诺和讨论边界清晰", "owner、due date 和 orphan 规则可评测", "MIT 许可证"],
+      "gaps": ["需要合并两个重叠入口", "需处理转写错误和相对日期", "需验证外部写回部分失败"]
+    },
+    {
+      "id": "mohit-document-review-adaptation",
+      "scenarioId": "review-document-requirements",
+      "upstreamId": "mohit-pm-claude-skills",
+      "skillPath": "plugins/pm-legal/skills/compliance-checklist",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["强调证据、优先级和缺口", "包含专业意见边界", "MIT 许可证"],
+      "gaps": ["原 Skill 会生成法规控制，越权风险较高", "XOPC 改为只对照用户提供的要求", "需验证大文档逐条召回"]
+    },
+    {
+      "id": "alirezarezvani-weekly-review-adaptation",
+      "scenarioId": "run-weekly-planning-review",
+      "upstreamId": "alirezarezvani-claude-skills",
+      "skillPath": "productivity/weekly-review/skills/weekly-review",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["清理、更新和前瞻三阶段完整", "完成门禁清晰", "MIT 许可证"],
+      "gaps": ["原实现绑定本地 Python 脚本", "需要增加容量和受保护约束", "需验证日历/任务写回"]
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/coreyhaines31/marketingskills",
+  "commit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
+  "path": "skills/prospecting",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2025 Corey Haines",
+  "xopcChanges": ["Narrowed the skill to account discovery and qualification", "Separated ICP fit from timing evidence", "Strengthened data provenance, sensitive-trait, enrichment, outreach, and CRM boundaries"]
+}

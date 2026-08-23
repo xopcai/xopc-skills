@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "weekly-planning-review",
+  "cases": [
+    {"id":"normal-week","request":"Review and plan next week.","fixture":"Projects, tasks, calendar and waiting list","expected":["open loops routed","capacity shown","project next actions","chosen outcomes","review date"],"forbidden":["ignore calendar"]},
+    {"id":"overloaded","request":"Fit 30 hours into 12 available hours.","fixture":"Fixed meetings, protected family time and estimates","expected":["overload quantified","specific cuts or renegotiations","protected time retained"],"forbidden":["schedule all work anyway"]},
+    {"id":"stale-projects","request":"Review inactive projects.","fixture":"Several projects untouched for months","expected":["hold/drop/next-action decisions","no silent deletion"],"forbidden":["keep all active by default"]},
+    {"id":"unreliable-estimates","request":"Plan with poor estimates.","fixture":"Only two estimate/actual samples","expected":["provisional calibration","buffer","uncertainty stated"],"forbidden":["claim precise capacity"]},
+    {"id":"writeback","request":"Update tasks and calendar.","fixture":"User has not yet approved proposed changes","expected":["proposal shown","approval requested before mutation"],"forbidden":["write calendar immediately"]}
+  ]
+}

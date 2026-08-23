@@ -106,6 +106,34 @@ if (opportunities) {
   }
 }
 
+const scenarioGroups = readJson("registry/scenario-groups.json")
+if (scenarioGroups) {
+  if (scenarioGroups.schemaVersion !== 1 || !Array.isArray(scenarioGroups.groups)) {
+    errors.push("registry/scenario-groups.json: unsupported shape")
+  } else {
+    if (!Number.isInteger(scenarioGroups.maxSkillsPerGroup) || scenarioGroups.maxSkillsPerGroup < 1 || scenarioGroups.maxSkillsPerGroup > 20) {
+      errors.push("registry/scenario-groups.json: maxSkillsPerGroup must be 1..20")
+    }
+    checkUnique(scenarioGroups.groups, "id", "registry/scenario-groups.json")
+    const scenarioIds = new Set(scenarios?.scenarios?.map((item) => item.id) ?? [])
+    const groupedSkills = new Set()
+    for (const group of scenarioGroups.groups) {
+      requireString(group.id, "scenarioGroup.id")
+      requireString(group.title, `${group.id}.title`)
+      if (!Array.isArray(group.scenarioIds) || group.scenarioIds.length === 0) errors.push(`${group.id}: scenarioIds are required`)
+      if (!Array.isArray(group.skills)) errors.push(`${group.id}: skills must be an array`)
+      if ((group.skills?.length ?? 0) > scenarioGroups.maxSkillsPerGroup) errors.push(`${group.id}: exceeds ${scenarioGroups.maxSkillsPerGroup} Skills`)
+      for (const scenarioId of group.scenarioIds ?? []) {
+        if (!scenarioIds.has(scenarioId)) errors.push(`${group.id}: unknown scenarioId '${scenarioId}'`)
+      }
+      for (const skill of group.skills ?? []) {
+        if (groupedSkills.has(skill)) errors.push(`${skill}: assigned to more than one scenario group`)
+        groupedSkills.add(skill)
+      }
+    }
+  }
+}
+
 const intake = readJson("registry/voltagent-intake.json")
 const shortlist = readJson("registry/voltagent-shortlist.json")
 if (intake && shortlist) {
@@ -172,6 +200,26 @@ const skillsDir = join(root, "skills")
 const skillDirs = existsSync(skillsDir)
   ? readdirSync(skillsDir).map((name) => join(skillsDir, name)).filter((path) => statSync(path).isDirectory())
   : []
+
+if (scenarioGroups?.groups) {
+  const groupedSkills = new Set(scenarioGroups.groups.flatMap((group) => group.skills ?? []))
+  for (const skillDir of skillDirs) {
+    const name = basename(skillDir)
+    if (!groupedSkills.has(name)) errors.push(`${name}: missing primary scenario-group assignment`)
+  }
+  for (const name of groupedSkills) {
+    if (!existsSync(join(skillsDir, name))) errors.push(`registry/scenario-groups.json: unknown distributed Skill '${name}'`)
+  }
+  for (const group of scenarioGroups.groups) {
+    const allowedScenarios = new Set(group.scenarioIds ?? [])
+    for (const name of group.skills ?? []) {
+      const catalog = readJson(`registry/skills/${name}.json`)
+      if (catalog && !allowedScenarios.has(catalog.scenarioId)) {
+        errors.push(`${name}: catalog scenarioId '${catalog.scenarioId}' is outside primary group '${group.id}'`)
+      }
+    }
+  }
+}
 
 if (skillDirs.length === 0) warnings.push("No official skills yet; repository is in design stage.")
 
@@ -298,4 +346,4 @@ if (errors.length > 0) {
   process.exit(1)
 }
 
-console.log(`Validation passed: ${scenarios?.scenarios?.length ?? 0} scenarios, ${opportunities?.opportunities?.length ?? 0} opportunities, ${upstreams?.upstreams?.length ?? 0} upstreams, ${candidates?.candidates?.length ?? 0} candidates, ${shortlist?.shortlist?.length ?? 0} VoltAgent selections, ${skillDirs.length} skills.`)
+console.log(`Validation passed: ${scenarios?.scenarios?.length ?? 0} scenarios, ${scenarioGroups?.groups?.length ?? 0} scenario groups, ${opportunities?.opportunities?.length ?? 0} opportunities, ${upstreams?.upstreams?.length ?? 0} upstreams, ${candidates?.candidates?.length ?? 0} candidates, ${shortlist?.shortlist?.length ?? 0} VoltAgent selections, ${skillDirs.length} skills.`)

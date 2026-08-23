@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/mohitagw15856/pm-claude-skills",
+  "commit": "f4e8863c138607e17634ae85c79d5f6a68b76125",
+  "path": "plugins/pm-essentials/skills/meeting-notes; plugins/pm-essentials/skills/meeting-action-extractor",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Mohit Aggarwal",
+  "xopcChanges": ["Merged notes and action extraction into one post-meeting outcome", "Added transcript uncertainty and source evidence", "Added approval, verification, and partial-failure rules for write-back"]
+}

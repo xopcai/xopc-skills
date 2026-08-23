@@ -78,6 +78,66 @@
       "briefPath": "briefs/write-evidence-based-release-notes.md",
       "targetOutcome": "产出不夸大、不泄密并清晰披露破坏性变化的用户发布说明",
       "priority": 12
+    },
+    {
+      "id": "create-decision-research-brief",
+      "title": "从多源研究形成可追溯的决策简报",
+      "domain": "research-and-decision",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/create-decision-research-brief.md",
+      "targetOutcome": "形成区分事实、推断、冲突和未知且关键结论均可追溯的决策建议",
+      "priority": 18
+    },
+    {
+      "id": "turn-meeting-into-actions",
+      "title": "把会议记录转成可执行行动闭环",
+      "domain": "work-management",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/turn-meeting-into-actions.md",
+      "targetOutcome": "准确提取决策、责任人、截止日期、未决问题并形成经确认的写回计划",
+      "priority": 17
+    },
+    {
+      "id": "create-content-campaign-pack",
+      "title": "从业务目标形成完整内容营销 Campaign",
+      "domain": "content-marketing",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/create-content-campaign-pack.md",
+      "targetOutcome": "形成基于受众证据的内容支柱、资产 brief、渠道适配、日历与度量方案",
+      "priority": 16
+    },
+    {
+      "id": "research-qualified-prospects",
+      "title": "按 ICP 研究并验证高质量潜在客户",
+      "domain": "sales-operations",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/research-qualified-prospects.md",
+      "targetOutcome": "交付小而可信、包含匹配度、时机信号、来源和置信度的潜客清单",
+      "priority": 15
+    },
+    {
+      "id": "review-document-requirements",
+      "title": "按明确要求审查专业文档完整性",
+      "domain": "document-operations",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/review-document-requirements.md",
+      "targetOutcome": "形成逐条可追溯矩阵、证据缺口、冲突和修复计划而不越权作法律结论",
+      "priority": 14
+    },
+    {
+      "id": "run-weekly-planning-review",
+      "title": "完成个人周复盘并生成容量可行的下周计划",
+      "domain": "personal-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/run-weekly-planning-review.md",
+      "targetOutcome": "关闭开放循环、处理逾期承诺并产出不超过真实容量的周计划",
+      "priority": 13
     }
   ]
 }

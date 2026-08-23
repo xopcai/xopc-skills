@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "content-campaign-pack",
+  "cases": [
+    {"id":"positive-01","shouldTrigger":true,"prompt":"为新品发布做一个包含公众号、视频号和邮件的完整内容 Campaign。"},
+    {"id":"positive-02","shouldTrigger":true,"prompt":"Turn our customer research into a six-week multi-channel content campaign."},
+    {"id":"positive-03","shouldTrigger":true,"prompt":"我们有产品定位和用户访谈，帮我做内容支柱、brief 和排期。"},
+    {"id":"positive-04","shouldTrigger":true,"prompt":"设计从行业报告到短视频和社交帖的内容生产包。"},
+    {"id":"positive-05","shouldTrigger":true,"prompt":"为 B2B webinar 生成预热、直播和会后内容序列。"},
+    {"id":"positive-06","shouldTrigger":true,"prompt":"把一个核心观点适配到三个渠道，同时保持声明一致。"},
+    {"id":"positive-07","shouldTrigger":true,"prompt":"给小团队做一个现实可执行的季度内容日历和测量方案。"},
+    {"id":"positive-08","shouldTrigger":true,"prompt":"Create asset briefs and acceptance criteria for this product campaign."},
+    {"id":"positive-09","shouldTrigger":true,"prompt":"根据销售异议设计内容主题、CTA 和渠道节奏。"},
+    {"id":"positive-10","shouldTrigger":true,"prompt":"检查我们的 Campaign 有没有无证据效果声明并补齐 claim register。"},
+    {"id":"negative-01","shouldTrigger":false,"prompt":"写一篇 800 字公众号文章。"},
+    {"id":"negative-02","shouldTrigger":false,"prompt":"生成一条小红书文案。"},
+    {"id":"negative-03","shouldTrigger":false,"prompt":"帮我购买 Meta 广告。"},
+    {"id":"negative-04","shouldTrigger":false,"prompt":"调研竞争对手市场份额。"},
+    {"id":"negative-05","shouldTrigger":false,"prompt":"设计产品 logo。"},
+    {"id":"negative-06","shouldTrigger":false,"prompt":"剪辑这个视频。"},
+    {"id":"negative-07","shouldTrigger":false,"prompt":"写本周 release notes。"},
+    {"id":"negative-08","shouldTrigger":false,"prompt":"找 20 个销售潜客。"},
+    {"id":"negative-09","shouldTrigger":false,"prompt":"审查网站 SEO 技术问题。"},
+    {"id":"negative-10","shouldTrigger":false,"prompt":"把英文博客翻译成中文。"}
+  ]
+}

@@ -22,9 +22,9 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.1 experimental`。Experimental 表示结构、来源、安全边界、评测资产和确定性脚本已通过仓库门禁，允许受控试用；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.2 experimental`。Experimental 表示结构、来源、安全边界、评测资产和确定性脚本已通过仓库门禁，允许受控试用；它不等于已获得真实用户 baseline 的 stable 推荐。
 
-## v0.1 场景 Skill
+## v0.2 场景 Skill
 
 | Skill | 用户场景 | 来源 |
 |---|---|---|
@@ -34,6 +34,14 @@ tooling/              仓库校验与后续评测工具
 | `supabase-postgres-best-practices` | 审查生产 PostgreSQL 性能、RLS、schema 和锁风险 | Supabase MIT Adapted |
 | `react-native-best-practices` | 用测量证据诊断 React Native 性能 | CallStack MIT Adapted |
 | `release-notes` | 从已发布变更生成有证据的用户发布说明 | Paweł Huryn MIT Adapted |
+| `evidence-based-research` | 从多源事实形成可追溯的决策简报 | Microsoft MIT Adapted |
+| `meeting-to-actions` | 将会议记录转成决策、责任人与待确认写回计划 | Mohit Aggarwal MIT Adapted |
+| `content-campaign-pack` | 从业务目标形成内容支柱、资产 brief、渠道适配和度量 | Corey Haines MIT Adapted |
+| `prospect-research` | 按 ICP、时机信号和来源验证高质量潜客 | Corey Haines MIT Adapted |
+| `document-requirements-review` | 按显式要求形成专业文档逐条证据矩阵 | Mohit Aggarwal MIT Adapted |
+| `weekly-planning-review` | 关闭开放循环并生成容量可行的下周计划 | Alireza Rezvani MIT Adapted |
+
+8 个用户场景组及其唯一 Skill 归属见 [`registry/scenario-groups.json`](registry/scenario-groups.json)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含 `SOURCE.json`。
 
@@ -44,6 +52,8 @@ tooling/              仓库校验与后续评测工具
 ```bash
 npx skills add https://github.com/xopcai/xopc-skills --skill xopc-model-gateway
 npx skills add https://github.com/xopcai/xopc-skills --skill playwright-webapp-testing
+npx skills add https://github.com/xopcai/xopc-skills --skill evidence-based-research
+npx skills add https://github.com/xopcai/xopc-skills --skill meeting-to-actions
 ```
 
 也可以 clone 后从本地路径安装，适合评审固定 commit：

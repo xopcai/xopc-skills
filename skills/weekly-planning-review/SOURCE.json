@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "commit": "98180dafc4f0bc9d629bd479fc6107674cfb3cf8",
+  "path": "productivity/weekly-review/skills/weekly-review",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2025 Alireza Rezvani",
+  "xopcChanges": ["Added capacity arithmetic and protected constraints", "Removed mandatory local scripts and client-specific invocation", "Added scoped data access, overload trade-offs, and approval-before-write"]
+}
