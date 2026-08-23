@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "decision-prototype",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "做个一次性原型验证这个状态机",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "用三个界面方案帮我决定布局",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "先做可点击 demo 验证业务流程",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "构建一个不会写真实数据的产品原型",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "用原型回答这个 API 形状是否合理",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "build a throwaway prototype to answer this question",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "为边界场景做单文件逻辑模拟器",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "在现有页面里加入可切换设计变体",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "用假数据验证操作流程是否好理解",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "记录原型结论和清理计划",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "实现生产功能",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "设计最终品牌官网",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "修复现有页面样式",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "写系统架构文档",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "把原型直接发布到生产",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "连接真实客户数据库",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "制作产品演示 PPT",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "写单元测试覆盖生产代码",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "生成设计系统",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "优化已经确定的交互",
+      "shouldTrigger": false
+    }
+  ]
+}

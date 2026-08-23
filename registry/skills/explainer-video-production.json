@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "name": "explainer-video-production",
+  "path": "skills/media-production/explainer-video-production",
+  "version": "0.7.0",
+  "stage": "experimental",
+  "scenarioId": "produce-explainer-video",
+  "origin": "xopc-adapted",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "source": "skills/media-production/explainer-video-production/SOURCE.json",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Supplied media or artifact and an available local or approved production tool"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-and-upstream-evidence",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic task baseline",
+    "Measure error and omission rates",
+    "Collect domain-review feedback"
+  ]
+}

@@ -9,11 +9,11 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `content-campaign` | Goal to measurable campaign package | `content-campaign-pack` |
 | `sales-account-research` | ICP to verified prospect list | `prospect-research` |
 | `api-integration` | API or external service to a validated agent integration | `xopc-model-gateway`, `xopc-connector-builder`, `mcp-server-builder` |
-| `software-delivery` | Engineering evidence to safer release | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes`, `code-review`, `systematic-debugging`, `github-actions-ci-fix`, `test-driven-development`, `github-review-comments` |
+| `software-delivery` | Engineering evidence to safer release | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes`, `code-review`, `systematic-debugging`, `github-actions-ci-fix`, `test-driven-development`, `github-review-comments`, `merge-conflict-resolution` |
 | `document-compliance` | Supplied requirements to traceable review | `document-requirements-review` |
 | `weekly-planning` | Open loops to a capacity-feasible week | `weekly-planning-review` |
 | `product-interface-design` | Product brief to rendered and accessible interface | `frontend-design` |
-| `software-security` | Architecture and code evidence to prioritized security action | `security-threat-model`, `secure-code-review` |
+| `software-security` | Architecture, code and ownership evidence to prioritized security action | `security-threat-model`, `secure-code-review`, `security-ownership-analysis` |
 | `data-notebooks` | Analysis or lesson to reproducible `.ipynb` | `jupyter-notebook` |
 | `internal-communications` | Operating facts to audience-appropriate internal update | `internal-communications` |
 | `developer-tools` | Repeated workflow to durable agent-friendly CLI | `agent-cli-builder` |
@@ -24,13 +24,16 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `email-productivity` | Mailbox context to attention list or grounded reply draft | `inbox-triage`, `email-reply-drafting` |
 | `calendar-productivity` | Calendar evidence to daily understanding, meeting readiness, or ranked slots | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` |
 | `knowledge-workspace` | Scattered internal evidence to a current cited answer | `workspace-knowledge-synthesis` |
-| `work-management` | Communications and project evidence to commitments, health, and digest | `commitment-task-capture`, `project-status-synthesis`, `workstream-digest` |
+| `work-management` | Communications, specs and project evidence to executable work | `commitment-task-capture`, `project-status-synthesis`, `workstream-digest`, `spec-to-work-items` |
 | `business-operations` | Customer or financial intake to a reviewable operations package | `customer-support-ticket-triage`, `invoice-receipt-reconciliation` |
 | `language-localization` | Source content to locale-correct reviewed translation | `translation-localization-review` |
 | `file-organization` | Bounded files to a safe, previewed and reversible organization plan | `safe-file-organization` |
 | `forms-surveys` | Collection goal to testable form and response schema | `form-survey-builder` |
 | `procurement-operations` | Vendor evidence to cost, risk and recommendation | `vendor-evaluation` |
 | `people-operations` | Recruiting records to pipeline health and operating actions | `recruiting-pipeline-review` |
+| `product-discovery` | One uncertain decision to observable prototype evidence | `decision-prototype` |
+| `media-production` | Source media or facts to faithful transcript or verified explainer | `audio-transcription`, `explainer-video-production` |
+| `brand-operations` | Approved brand guide to accessible artifact conformance | `brand-style-application` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

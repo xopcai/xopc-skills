@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0 - 2026-08-23
+
+- Re-audited the eight requested upstream repositories at fixed commits and added seven distinct experimental Skills: merge conflict resolution, spec decomposition, decision prototyping, security ownership analysis, audio transcription, explainer video production, and brand style application.
+- Added three scenario groups, seven briefs, 140 trigger cases, and 35 task fixtures with explicit intent, privacy, consent, rights, cost, publishing, and destructive-action boundaries.
+- Reimplemented OpenAI's large ownership toolchain as one dependency-free, read-only Git analyzer with deterministic fixture coverage; retained Remotion and Karpathy-inspired sources as reference-only because redistribution rights or standalone task boundaries remain absent.
+
 ## 0.6.0 - 2026-08-23
 
 - Added 12 non-overlapping Skills across knowledge synthesis, work management, customer and finance operations, localization, safe file organization, forms, visualization, procurement and recruiting.

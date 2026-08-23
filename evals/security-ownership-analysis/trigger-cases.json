@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "security-ownership-analysis",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "分析敏感代码的 bus factor",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "找出无人维护的认证代码",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "比较 CODEOWNERS 和 Git 历史实际所有权",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "生成安全所有权拓扑",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "识别单人控制的加密模块",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "analyze security ownership from git history",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "查过去一年敏感文件维护集中度",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "找出长期无人触碰的安全热点",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "导出安全所有权 CSV 和 JSON",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "评估团队变动后的代码所有权风险",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "列出仓库所有贡献者",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "给工程师做绩效排名",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "修改 CODEOWNERS",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "执行普通代码审查",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "做软件威胁模型",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "查文件最后作者",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "授予仓库访问权限",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "分析销售团队 bus factor",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "修复安全漏洞",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "生成组织架构图",
+      "shouldTrigger": false
+    }
+  ]
+}

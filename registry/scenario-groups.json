@@ -41,8 +41,8 @@
       "id": "software-delivery",
       "title": "软件发布交付闭环",
       "directory": "skills/software-delivery",
-      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions", "implement-change-with-tdd", "address-github-review-comments"],
-      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix", "test-driven-development", "github-review-comments"]
+      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions", "implement-change-with-tdd", "address-github-review-comments", "resolve-git-conflicts"],
+      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix", "test-driven-development", "github-review-comments", "merge-conflict-resolution"]
     },
     {
       "id": "document-compliance",
@@ -69,8 +69,8 @@
       "id": "software-security",
       "title": "软件安全分析与加固",
       "directory": "skills/software-security",
-      "scenarioIds": ["threat-model-software-system", "review-code-security"],
-      "skills": ["security-threat-model", "secure-code-review"]
+      "scenarioIds": ["threat-model-software-system", "review-code-security", "analyze-security-ownership"],
+      "skills": ["security-threat-model", "secure-code-review", "security-ownership-analysis"]
     },
     {
       "id": "data-notebooks",
@@ -146,8 +146,8 @@
       "id": "work-management",
       "title": "承诺、项目状态与协作流",
       "directory": "skills/work-management",
-      "scenarioIds": ["capture-cross-source-commitments","synthesize-project-status","digest-team-workstream"],
-      "skills": ["commitment-task-capture","project-status-synthesis","workstream-digest"]
+      "scenarioIds": ["capture-cross-source-commitments","synthesize-project-status","digest-team-workstream","decompose-spec-into-work-items"],
+      "skills": ["commitment-task-capture","project-status-synthesis","workstream-digest","spec-to-work-items"]
     },
     {
       "id": "business-operations",
@@ -190,6 +190,27 @@
       "directory": "skills/people-operations",
       "scenarioIds": ["review-recruiting-pipeline"],
       "skills": ["recruiting-pipeline-review"]
+    },
+    {
+      "id": "product-discovery",
+      "title": "产品决策验证",
+      "directory": "skills/product-discovery",
+      "scenarioIds": ["prototype-product-decision"],
+      "skills": ["decision-prototype"]
+    },
+    {
+      "id": "media-production",
+      "title": "音视频制作与质检",
+      "directory": "skills/media-production",
+      "scenarioIds": ["transcribe-audio-accurately", "produce-explainer-video"],
+      "skills": ["audio-transcription", "explainer-video-production"]
+    },
+    {
+      "id": "brand-operations",
+      "title": "品牌规范应用",
+      "directory": "skills/brand-operations",
+      "scenarioIds": ["apply-brand-style-to-artifact"],
+      "skills": ["brand-style-application"]
     }
   ]
 }

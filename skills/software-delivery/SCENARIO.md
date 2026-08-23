@@ -15,10 +15,11 @@ Use domain-specific engineering evidence to reduce release risk and communicate 
 - `github-actions-ci-fix` — adapted from the current [OpenAI GitHub plugin](https://github.com/openai/plugins); deterministically inspects failing Actions checks and requires approval before editing.
 - `test-driven-development` — adapted from [obra/superpowers](https://github.com/obra/superpowers); owns explicitly selected red-green-refactor implementation evidence.
 - `github-review-comments` — adapted from [OpenAI Plugins](https://github.com/openai/plugins); owns triage and closure of feedback on an existing pull request.
+- `merge-conflict-resolution` — adapted from [Matt Pocock's Skills](https://github.com/mattpocock/skills); owns intent-preserving resolution of an active merge, rebase, or cherry-pick conflict.
 
 ## Boundary and overlap
 
-Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, release communication, bounded code review, defect diagnosis, CI recovery, explicitly requested TDD implementation, or existing PR feedback closure. None can claim successful deployment or repair without fresh evidence.
+Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, release communication, bounded code review, defect diagnosis, CI recovery, explicitly requested TDD implementation, existing PR feedback closure, or an active Git conflict. None can claim successful deployment or repair without fresh evidence.
 
 ## Evaluated alternatives
 

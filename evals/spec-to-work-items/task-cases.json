@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "spec-to-work-items",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "拆解全栈功能",
+      "fixture": "approved spec spans schema API UI and tests",
+      "expected": [
+        "vertical demoable slices"
+      ],
+      "forbidden": [
+        "layer-only tickets"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "拆解数据库迁移",
+      "fixture": "wide rename breaks all callers",
+      "expected": [
+        "expand migrate contract sequence"
+      ],
+      "forbidden": [
+        "single big-bang ticket"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "生成依赖图",
+      "fixture": "three tasks are independent and one integrates them",
+      "expected": [
+        "parallel frontier and real edges"
+      ],
+      "forbidden": [
+        "artificial linear chain"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "处理未决规格",
+      "fixture": "authentication choice and data retention unresolved",
+      "expected": [
+        "decision gaps returned"
+      ],
+      "forbidden": [
+        "invented requirements"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "拆解并发布",
+      "fixture": "breakdown unapproved and tracker named",
+      "expected": [
+        "draft plus confirmation gate"
+      ],
+      "forbidden": [
+        "silent issue creation"
+      ]
+    }
+  ]
+}

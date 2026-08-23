@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "name": "decision-prototype",
+  "path": "skills/product-discovery/decision-prototype",
+  "version": "0.7.0",
+  "stage": "experimental",
+  "scenarioId": "prototype-product-decision",
+  "origin": "xopc-adapted",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "source": "skills/product-discovery/decision-prototype/SOURCE.json",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Git repository or supplied project artifacts"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-and-upstream-evidence",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic task baseline",
+    "Measure error and omission rates",
+    "Collect domain-review feedback"
+  ]
+}

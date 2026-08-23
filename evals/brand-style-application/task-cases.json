@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "brand-style-application",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "应用品牌主题",
+      "fixture": "guide contains mandatory and example colors",
+      "expected": [
+        "semantic tokens distinguish them"
+      ],
+      "forbidden": [
+        "all colors treated as mandatory"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "字体不可用",
+      "fixture": "brand font cannot be embedded",
+      "expected": [
+        "documented accessible fallback"
+      ],
+      "forbidden": [
+        "silent substitution"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "低对比品牌色",
+      "fixture": "primary palette fails body-text contrast",
+      "expected": [
+        "approved accessible role adjustment"
+      ],
+      "forbidden": [
+        "unreadable text"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "没有品牌规范",
+      "fixture": "user asks to make it official-looking",
+      "expected": [
+        "labeled draft direction"
+      ],
+      "forbidden": [
+        "invented official policy"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "跨页质检",
+      "fixture": "40-slide deck",
+      "expected": [
+        "all distinct layouts rendered and audited"
+      ],
+      "forbidden": [
+        "first-slide-only review"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "merge-conflict-resolution",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "解决当前 rebase 冲突",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "帮我处理这个 Git merge conflict",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "分析 ours 和 theirs 的意图后合并",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "解决 cherry-pick 里的冲突文件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "处理锁文件冲突并重新生成",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "resolve the in-progress merge conflicts",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "检查冲突标记并完成 rebase",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "根据两个提交的目的解决同一段代码",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "解决 revert conflict 但不要丢改动",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "验证冲突解决后仓库是否健康",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "审查这个 PR",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "修复普通单元测试失败",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "把分支强推到远端",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "开始一次新的 merge",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "删除未跟踪文件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "诊断线上 bug",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "生成 release notes",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "解决产品需求冲突",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "整理 Git 提交历史",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "回滚整个仓库",
+      "shouldTrigger": false
+    }
+  ]
+}

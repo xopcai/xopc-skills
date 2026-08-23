@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "decision-prototype",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "验证订单状态模型",
+      "fixture": "uncertain transitions with three edge cases",
+      "expected": [
+        "single runnable simulator and observable state"
+      ],
+      "forbidden": [
+        "production persistence"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "探索设置页布局",
+      "fixture": "existing route and data with visual uncertainty",
+      "expected": [
+        "three structurally different variants"
+      ],
+      "forbidden": [
+        "color-only variants"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "处理模糊问题",
+      "fixture": "request says prototype it but no decision question",
+      "expected": [
+        "question clarified or bounded assumption"
+      ],
+      "forbidden": [
+        "arbitrary demo"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "使用客户数据",
+      "fixture": "live PII dataset is available",
+      "expected": [
+        "representative synthetic data"
+      ],
+      "forbidden": [
+        "live mutation"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "原型结论已确认",
+      "fixture": "one variant wins",
+      "expected": [
+        "verdict and production rewrite plan"
+      ],
+      "forbidden": [
+        "prototype promoted unchanged"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "audio-transcription",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这段采访转成带时间戳的文字",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "为视频生成逐字稿和说话人标签",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "转录会议录音但先不要总结",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "标记听不清的音频片段",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "批量转写这些播客文件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "transcribe this audio with timestamps",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "将中英混合录音忠实转成文本",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "给法务访谈做可回听的 transcript",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "检查现有转录里的姓名和数字",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "离线转写敏感录音",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "总结这场会议并提取待办",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "把英文字幕翻成中文",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "模仿录音中的声音",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "删除原始录音",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "发布播客",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "只给我视频摘要",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "生成一段语音",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "整理会议纪要",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "分析说话人情绪",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "润色采访稿成文章",
+      "shouldTrigger": false
+    }
+  ]
+}

@@ -111,7 +111,39 @@ try {
   ].join("; "), ciScript])
   assert(ciUnit.code === 0, `CI inspector deterministic checks failed: ${ciUnit.stderr}`)
 
-  console.log("Skill script tests passed: gateway, connector, notebook scaffolding, overwrite refusal, and CI log parsing.")
+  const ownershipRepo = join(temp, "ownership-repo")
+  const ownershipOut = join(temp, "ownership-output")
+  mkdirSync(join(ownershipRepo, "src", "auth"), { recursive: true })
+  const gitSteps = [
+    ["init"],
+    ["config", "user.name", "Alice"],
+    ["config", "user.email", "alice@example.test"]
+  ]
+  for (const args of gitSteps) {
+    const result = await run("git", args, { cwd: ownershipRepo })
+    assert(result.code === 0, `ownership fixture git setup failed: ${result.stderr}`)
+  }
+  writeFileSync(join(ownershipRepo, "src", "auth", "login.py"), "def login():\n    return True\n")
+  for (const args of [["add", "."], ["commit", "-m", "add auth"]]) {
+    const result = await run("git", args, { cwd: ownershipRepo })
+    assert(result.code === 0, `ownership fixture commit failed: ${result.stderr}`)
+  }
+  const ownership = await run("python3", [
+    "skills/software-security/security-ownership-analysis/scripts/analyze_ownership.py",
+    "--repo", ownershipRepo,
+    "--out", ownershipOut,
+    "--sensitive", "*auth*",
+    "--identity", "name",
+    "--exclude-path", "vendor/*"
+  ])
+  assert(ownership.code === 0, `ownership analysis failed: ${ownership.stderr}`)
+  const ownershipSummary = JSON.parse(readFileSync(join(ownershipOut, "summary.json"), "utf8"))
+  assert(ownershipSummary.sensitive_files === 1, "ownership analysis missed the sensitive fixture")
+  assert(ownershipSummary.sensitive_low_bus_factor_files === 1, "ownership analysis missed low bus factor")
+  assert(ownershipSummary.identity_mode === "name", "ownership analysis ignored identity mode")
+  assert(readFileSync(join(ownershipOut, "files.csv"), "utf8").includes("src/auth/login.py"), "ownership CSV omitted the fixture path")
+
+  console.log("Skill script tests passed: gateway, connector, notebook scaffolding, overwrite refusal, CI log parsing, and security ownership analysis.")
 } finally {
   rmSync(temp, { recursive: true, force: true })
 }

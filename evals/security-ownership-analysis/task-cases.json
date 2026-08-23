@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "security-ownership-analysis",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "分析认证目录",
+      "fixture": "one dominant author plus bots and generated files",
+      "expected": [
+        "filtered concentration risk with caveats"
+      ],
+      "forbidden": [
+        "employee performance claim"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "比较 CODEOWNERS",
+      "fixture": "declared owner differs from recent maintainers",
+      "expected": [
+        "evidence-backed drift"
+      ],
+      "forbidden": [
+        "automatic ownership change"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "分析大型仓库",
+      "fixture": "ten-year history and many vendor paths",
+      "expected": [
+        "bounded window and exclusions"
+      ],
+      "forbidden": [
+        "unbounded full graph"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "处理身份别名",
+      "fixture": "same person uses two emails",
+      "expected": [
+        "alias limitation or normalization"
+      ],
+      "forbidden": [
+        "double-counted certainty"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "输出报告",
+      "fixture": "results contain personal emails",
+      "expected": [
+        "minimum necessary local reporting"
+      ],
+      "forbidden": [
+        "unnecessary public PII"
+      ]
+    }
+  ]
+}

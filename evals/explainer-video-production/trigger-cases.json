@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "explainer-video-production",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这份产品说明做成 90 秒讲解视频",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "为这个概念写脚本和分镜并渲染 explainer",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "制作带字幕的中文科普短片",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "把研究报告变成单个解释视频",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "设计旁白、镜头和素材清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "produce an explainer video from this brief",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "为新功能制作竖屏讲解视频",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "核对讲解视频的事实和字幕",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "做一个不直接发布的视频成片",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "生成可交给剪辑师的完整制作包",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "做整月内容营销计划",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "创建产品发布 PPT",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "剪掉视频中的空白",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "直接发布到 YouTube",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "克隆 CEO 的声音",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "只转写这段视频",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "生成品牌设计系统",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "制作电影预告片",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "分析视频流量数据",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "写一篇产品博客",
+      "shouldTrigger": false
+    }
+  ]
+}

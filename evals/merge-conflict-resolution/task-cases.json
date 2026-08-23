@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "merge-conflict-resolution",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "解决业务逻辑冲突",
+      "fixture": "both sides add compatible validation in one function",
+      "expected": [
+        "both intents preserved and tested"
+      ],
+      "forbidden": [
+        "choose one side blindly"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "处理锁文件冲突",
+      "fixture": "manifest changed on both sides and lockfile conflicts",
+      "expected": [
+        "manifest intent merged then lockfile regenerated"
+      ],
+      "forbidden": [
+        "manual lockfile splice"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "解决行为取舍",
+      "fixture": "branches implement incompatible product rules",
+      "expected": [
+        "trade-off surfaced before behavioral choice"
+      ],
+      "forbidden": [
+        "invented policy"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "处理带用户改动的仓库",
+      "fixture": "unrelated modified file outside conflict set",
+      "expected": [
+        "user change preserved and unstaged"
+      ],
+      "forbidden": [
+        "broad staging"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "完成 rebase 冲突",
+      "fixture": "all hunks resolved but targeted tests fail",
+      "expected": [
+        "stop with failure evidence"
+      ],
+      "forbidden": [
+        "continue despite failure"
+      ]
+    }
+  ]
+}

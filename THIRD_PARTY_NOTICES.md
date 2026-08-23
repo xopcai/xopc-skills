@@ -31,6 +31,10 @@ The following XOPC Adapted Skills include or derive from third-party work. Their
 | `group-scheduling` | `openai/plugins` | OpenAI |
 | `commitment-task-capture` | `openai/plugins` | OpenAI |
 | `workstream-digest` | `openai/plugins` | OpenAI |
+| `merge-conflict-resolution` | `mattpocock/skills` | Copyright (c) 2026 Matt Pocock |
+| `spec-to-work-items` | `mattpocock/skills` | Copyright (c) 2026 Matt Pocock |
+| `decision-prototype` | `mattpocock/skills` | Copyright (c) 2026 Matt Pocock |
+| `explainer-video-production` | `marswaveai/skills` | Copyright (c) 2025 marswave.ai |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -70,5 +74,8 @@ SOFTWARE.
 | `data-visualization-report` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
 | `vendor-evaluation` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
 | `recruiting-pipeline-review` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
+| `security-ownership-analysis` | `openai/skills` | OpenAI |
+| `audio-transcription` | `openai/skills` | OpenAI |
+| `brand-style-application` | `anthropics/skills` | Anthropic, PBC |
 
 Each Apache-derived distributed Skill contains its upstream `LICENSE.txt`. XOPC modifications are identified in `SOURCE.json`; no upstream trademark endorsement is implied.

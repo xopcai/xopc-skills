@@ -105,3 +105,19 @@ The v0.6 review added pinned official sources from [Anthropic Knowledge Work Plu
 | Google Workspace CLI | `form-survey-builder` | Goal-first question design, privacy truthfulness, stable response schema and publish confirmation |
 
 `invoice-receipt-reconciliation`, `translation-localization-review`, and `safe-file-organization` are XOPC-original implementations. Composio's marketplace skills provided demand signals for invoice and file organization, but the reviewed repository commit `be2a406` had no repository-wide redistribution license, so no content was copied or adapted.
+
+## Focused re-audit and expansion in v0.7
+
+The eight original repositories were cloned and re-enumerated at the same fixed commits. XOPC selected seven additional outcomes only where the trigger, final artifact, permission boundary, and acceptance criteria remain distinct from the existing catalog.
+
+| XOPC Skill | Pinned source | Why it is distinct | Main adaptation |
+|---|---|---|---|
+| `merge-conflict-resolution` | Matt Pocock `resolving-merge-conflicts` | Owns an already-active Git conflict, not general review or debugging | Replaced “never abort” and unconditional completion with intent recovery, safe pause, scoped staging, and validation gates |
+| `spec-to-work-items` | Matt Pocock `to-tickets` | Turns an approved spec into delivery slices, not existing communications into commitments | Removed tracker assumptions; added vertical slices, DAG checks, uncertainty disclosure, and publish confirmation |
+| `decision-prototype` | Matt Pocock `prototype` | Learning and a verdict are the deliverable, not production UI | Enforced one decision question, sample data, stubbed mutations, disposable isolation, and a rewrite plan |
+| `security-ownership-analysis` | OpenAI `security-ownership-map` | Measures sensitive-code maintenance concentration, not vulnerabilities or attack paths | Replaced the roughly 116 KB optional graph toolchain with one dependency-free read-only analyzer and explicit people-data limitations |
+| `audio-transcription` | OpenAI `transcribe` | Produces faithful time-addressable text, not meeting interpretation | Removed provider lock-in; added upload authorization, uncertainty notation, long-media coverage, and source sampling |
+| `explainer-video-production` | MarsWave `explainer` | Produces one educational video, not a campaign or slide deck | Removed ListenHub coupling; added factual sourcing, asset rights, voice consent, tool-availability honesty, and full-render QA |
+| `brand-style-application` | Anthropic `theme-factory` and `brand-guidelines` | Applies an approved identity to an existing artifact, not brand invention or artifact authoring | Removed Anthropic-specific values; added user-supplied authority, semantic tokens, accessibility, font fallback, and exception audit |
+
+Remotion remains the strongest specialist reference for programmatic-video decomposition, but its reviewed repository still has no explicit redistribution license. Karpathy-inspired guidance and most Superpowers entries remain global agent behavior rather than narrow user-triggered outcomes. MiniMax's remaining mobile, full-stack, and multimodal suites are broad or provider-coupled; MarsWave's content parser is service-specific preprocessing rather than a distinct user result. These were not distributed.

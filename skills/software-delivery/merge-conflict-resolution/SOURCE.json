@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "5b15a47f2d7150f545fbcacbfe381787fc0230dc",
+  "path": "skills/engineering/resolving-merge-conflicts",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Matt Pocock",
+  "xopcChanges": [
+    "Made the workflow provider-neutral and outcome-scoped",
+    "Removed mandatory tracker, agent, and client assumptions",
+    "Added evidence, privacy, validation, and external-mutation boundaries"
+  ]
+}

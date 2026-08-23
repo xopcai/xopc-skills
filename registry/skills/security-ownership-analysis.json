@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "name": "security-ownership-analysis",
+  "path": "skills/software-security/security-ownership-analysis",
+  "version": "0.7.0",
+  "stage": "experimental",
+  "scenarioId": "analyze-security-ownership",
+  "origin": "xopc-adapted",
+  "license": "Apache-2.0",
+  "owner": "XOPC Skills Team",
+  "source": "skills/software-security/security-ownership-analysis/SOURCE.json",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Git repository or supplied project artifacts"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-and-upstream-evidence",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic task baseline",
+    "Measure error and omission rates",
+    "Collect domain-review feedback"
+  ]
+}

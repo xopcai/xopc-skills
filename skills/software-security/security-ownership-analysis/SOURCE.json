@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/openai/skills",
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "path": "skills/.curated/security-ownership-map",
+  "license": "Apache-2.0",
+  "copyright": "OpenAI",
+  "xopcChanges": [
+    "Made the workflow provider-neutral and outcome-scoped",
+    "Removed mandatory tracker, agent, and client assumptions",
+    "Added evidence, privacy, validation, and external-mutation boundaries"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "spec-to-work-items",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这份技术方案拆成可执行 tickets",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "从 PRD 生成有依赖关系的工作项",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "把已批准规格拆成垂直切片",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "生成 tracker-ready 实施任务",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "找出哪些开发任务可以并行",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "turn this spec into implementation work items",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "为大规模迁移设计 expand-contract tickets",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "检查任务依赖是否有环",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "把计划拆成每个都可独立验收的事项",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "先给我任务草稿不要发布",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "从邮件提取现有待办",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "帮我写产品需求文档",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "直接实现这个功能",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "创建 Jira 任务不用确认",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "做个人周计划",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "总结项目状态",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "解决 merge conflict",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "估算团队绩效",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "写会议行动项",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "拆解一个还没决定目标的想法",
+      "shouldTrigger": false
+    }
+  ]
+}

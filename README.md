@@ -22,13 +22,13 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.6 experimental`，包含 27 个场景组、48 个场景和 46 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.7 experimental`，包含 30 个场景组、55 个场景和 53 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
 机器可读的完整能力清单以 [场景组 registry](registry/scenario-groups.json) 和 [Skill registry](registry/skills/) 为唯一事实来源；面向维护者的简表见 [场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。每个场景目录的 `SCENARIO.md` 记录用户结果和相邻边界。
 
-v0.6 新增跨工作区知识综合、承诺捕获、项目状态、协作摘要、客服分诊、票据核对、翻译本地化、安全文件整理、表单问卷、数据可视化、供应商评估和招聘漏斗审查。所有外部写入、发布、付款、审批、招聘决定和破坏性文件操作都保留显式授权边界。
+v0.7 再次审查八个指定上游仓库，新增 Git 冲突解决、规格拆解、产品决策原型、安全所有权分析、音频转写、讲解视频制作和品牌规范应用。每项能力都有固定来源、许可证、10+10 触发样例、5 个任务 fixture，并保持外部写入、付费调用、媒体上传、素材权利和发布的显式授权边界。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含固定 commit 的 `SOURCE.json`。
 
@@ -71,4 +71,4 @@ npm run test:scripts
 npm run check:voltagent
 ```
 
-校验器检查 registry 数据、场景目录、来源与许可证、Skill 基础规范、引用文件、每个 Skill 的 10+10 触发集和至少 5 个任务 fixture。脚本测试使用本地 mock 验证 Model Gateway、Connector 安全、Notebook 模板与覆盖保护，以及 GitHub Actions 日志解析。它们不替代真实任务 baseline。
+校验器检查 registry 数据、场景目录、来源与许可证、Skill 基础规范、引用文件、每个 Skill 的 10+10 触发集和至少 5 个任务 fixture。脚本测试使用本地 mock 验证 Model Gateway、Connector 安全、Notebook 模板与覆盖保护、GitHub Actions 日志解析，以及安全所有权分析。它们不替代真实任务 baseline。

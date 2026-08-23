@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/openai/skills",
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "path": "skills/.curated/transcribe",
+  "license": "Apache-2.0",
+  "copyright": "OpenAI",
+  "xopcChanges": [
+    "Made the workflow provider-neutral and outcome-scoped",
+    "Removed mandatory service and authentication assumptions",
+    "Added consent, provenance, accessibility, validation, and external-mutation boundaries"
+  ]
+}

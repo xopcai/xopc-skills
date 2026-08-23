@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "brand-style-application",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这份 PPT 按我们的品牌手册统一样式",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "从品牌规范提取颜色和字体 tokens",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "检查这份报告是否符合品牌规范",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "将网页应用现有品牌主题",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "为文档设置品牌字体回退",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "apply our approved brand guide to this deck",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "统一 campaign 素材的 logo 和色彩",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "审查暗色模式里的品牌对比度",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "给多种办公文件建立一致主题",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "记录品牌规范例外",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "从零设计公司品牌",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "照着苹果品牌做一套",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "写完整产品白皮书",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "创建演示文稿内容",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "申请商标",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "发布品牌活动",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "只修改一个拼写错误",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "设计网页信息架构",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "生成公司 logo",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "撰写品牌口号",
+      "shouldTrigger": false
+    }
+  ]
+}

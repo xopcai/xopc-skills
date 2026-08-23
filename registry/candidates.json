@@ -560,6 +560,76 @@
       "status": "implemented-experimental",
       "strengths": ["招聘阶段和核心运营指标明确", "官方 Apache-2.0"],
       "gaps": ["原实现隐私和公平边界不足", "需统一阶段分母", "需将 ATS 写入与审查分离"]
+    },
+    {
+      "id": "mattpocock-merge-conflict-resolution",
+      "scenarioId": "resolve-git-conflicts",
+      "upstreamId": "mattpocock-skills",
+      "skillPath": "skills/engineering/resolving-merge-conflicts",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["市场采用信号强", "强调理解双方意图和验证", "MIT 许可证"],
+      "gaps": ["原实现禁止中止过于绝对", "缺少安全暂停条件", "需覆盖 merge、rebase 和 cherry-pick"]
+    },
+    {
+      "id": "mattpocock-spec-to-work-items",
+      "scenarioId": "decompose-spec-into-work-items",
+      "upstreamId": "mattpocock-skills",
+      "skillPath": "skills/engineering/to-tickets",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["纵向切片方法清晰", "显式依赖和扩展迁移模式", "MIT 许可证"],
+      "gaps": ["原实现绑定具体工单系统", "需增加写入确认", "需防止把未知内容伪装成验收条件"]
+    },
+    {
+      "id": "mattpocock-decision-prototype",
+      "scenarioId": "prototype-product-decision",
+      "upstreamId": "mattpocock-skills",
+      "skillPath": "skills/engineering/prototype",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["围绕单一决策问题", "逻辑模拟与 UI 变体路径明确", "MIT 许可证"],
+      "gaps": ["需与正式实现强隔离", "需限制真实外部写入", "需记录证据和否证条件"]
+    },
+    {
+      "id": "openai-security-ownership-analysis",
+      "scenarioId": "analyze-security-ownership",
+      "upstreamId": "openai-skills-deprecated",
+      "skillPath": "skills/.curated/security-ownership-map",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["安全所有权风险场景边界明确", "包含可复现历史分析", "Apache-2.0 许可证"],
+      "gaps": ["原脚本依赖和输出较重", "Git 触达不能代表责任关系", "需保护个人身份数据并校验 CODEOWNERS"]
+    },
+    {
+      "id": "openai-audio-transcription",
+      "scenarioId": "transcribe-audio-accurately",
+      "upstreamId": "openai-skills-deprecated",
+      "skillPath": "skills/.curated/transcribe",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["转录交付边界明确", "包含时间戳和说话人需求", "Apache-2.0 许可证"],
+      "gaps": ["原实现绑定 OpenAI API", "需增加隐私和付费调用门禁", "需覆盖长音频和不确定片段"]
+    },
+    {
+      "id": "marswave-explainer-video-production",
+      "scenarioId": "produce-explainer-video",
+      "upstreamId": "marswave-skills",
+      "skillPath": "explainer",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["从主题到成片的完整用户旅程", "脚本、旁白和视觉阶段清晰", "MIT 许可证"],
+      "gaps": ["原实现绑定 ListenHub", "需加强事实和素材权利门槛", "需支持无渲染工具的制作包交付"]
+    },
+    {
+      "id": "anthropic-brand-style-application",
+      "scenarioId": "apply-brand-style-to-artifact",
+      "upstreamId": "anthropic-skills",
+      "skillPath": "skills/theme-factory; skills/brand-guidelines",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["主题 token 和品牌应用规则互补", "跨产物视觉一致性路径清晰", "Apache-2.0 许可证"],
+      "gaps": ["上游品牌指南含 Anthropic 专属值", "需只使用用户授权品牌来源", "需增加可访问性和字体回退检查"]
     }
   ]
 }
