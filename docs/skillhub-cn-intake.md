@@ -31,7 +31,7 @@ The market states that content can originate from public channels, enterprises, 
 | IT 运维与安全 | Software security and delivery exist; infrastructure operations remain a future evidence-backed opportunity |
 | 生活服务 | Added travel planning; health and regulated life advice remain out of scope pending governance |
 
-XOPC preserves scenario-specific directories for quality ownership, while Store discovery uses SkillHub's 12 functional level-one categories with `en` and `zh-CN` labels. `Pay Skill` is excluded as a commerce attribute. Every released Skill still belongs to exactly one non-empty functional category.
+XOPC preserves scenario-specific directories for quality ownership. Store discovery uses SkillHub's 12 functional level-one categories plus the XOPC-native `one-person-company` category, all with `en` and `zh-CN` labels. `Pay Skill` is excluded as a commerce attribute. Every released Skill still belongs to exactly one non-empty functional category.
 
 ## Audited shortlist
 

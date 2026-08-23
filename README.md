@@ -22,13 +22,13 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.13 experimental`，包含 12 个中英双语功能分类、52 个细粒度场景目录、82 个场景和 80 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.14 experimental`，包含 13 个中英双语功能分类、53 个细粒度场景目录、92 个场景和 90 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
-机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 52 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
+机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 53 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
 
-v0.13 将 Store 功能分类与 SkillHub 中国市场的 12 个功能分类对齐，排除作为商业属性的 `Pay Skill`。本次根据市场缺口独立实现自然中文编辑、图表表达、投标响应审查、学术写作辅导、Agent Skill 安全审查和微信小程序交付；未复制无许可证市场包或绑定其付费服务。
+v0.14 在 12 个 SkillHub 对齐分类之外新增 XOPC 原生的“一人公司（OPC）”分类，从 XOPC 应用 Git 历史找回十个业务生命周期技能名并按当前质量标准独立重写。历史提交、舍弃项和非重叠边界见 [OPC 恢复审计](docs/opc-skill-recovery-2026-08.md)。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含固定 commit 的 `SOURCE.json`。
 

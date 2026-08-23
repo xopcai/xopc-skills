@@ -4,6 +4,7 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 
 | Scenario directory | Primary outcome | Selected Skills |
 |---|---|---|
+| `one-person-company` | Founder evidence and constraints to a focused, profitable operating loop | `find-community`, `validate-idea`, `processize`, `mvp`, `pricing`, `first-customers`, `marketing-plan`, `grow-sustainably`, `minimalist-review`, `company-values` |
 | `decision-research` | Evidence to decision brief | `evidence-based-research` |
 | `meeting-execution` | Meeting record to owned execution | `meeting-to-actions` |
 | `content-campaign` | Goal to measurable campaign package | `content-campaign-pack` |
@@ -66,6 +67,6 @@ Each `SCENARIO.md` explains the user boundary, why the current Skills were selec
 3. Prefer first-party domain expertise, permissive licensing, maintained source, narrow triggers, reusable artifacts, and verifiable outcomes.
 4. Adapt only after pinning the source commit and recording XOPC changes in `SOURCE.json`.
 5. Reject duplicates: one Skill owns one primary intent; adjacent Skills compose through artifacts.
-6. Assign every Skill to exactly one of the Store's 12 SkillHub-aligned functional categories, with at most 20 Skills per category. Experimental Skills may enter when the specific scenario and boundary are clear, then graduate using real usage evidence.
+6. Assign every Skill to exactly one Store category: one of the 12 SkillHub-aligned general categories or XOPC's `one-person-company` category, with at most 20 Skills per category. Experimental Skills may enter when the specific scenario and boundary are clear, then graduate using real usage evidence.
 
 Scenario directories intentionally do not contain a root `SKILL.md`. This preserves recursive discovery of every child Skill in common Agent Skills installers.

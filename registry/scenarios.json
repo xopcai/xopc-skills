@@ -2,6 +2,106 @@
   "schemaVersion": 1,
   "scenarios": [
     {
+      "id": "find-opc-community",
+      "title": "找到一人公司真正可服务的社区",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/find-opc-community.md",
+      "targetOutcome": "形成有真实连接、问题证据和学习计划的社区选择",
+      "priority": 18
+    },
+    {
+      "id": "validate-opc-idea",
+      "title": "验证一人公司问题与付费意愿",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/validate-opc-idea.md",
+      "targetOutcome": "基于行为和交易证据作出继续、修正、补证或停止决策",
+      "priority": 18
+    },
+    {
+      "id": "processize-opc-offer",
+      "title": "把一人公司 Offer 变成可收费的手工交付流程",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/processize-opc-offer.md",
+      "targetOutcome": "形成有质量、异常、容量和经济性控制的手工交付闭环",
+      "priority": 17
+    },
+    {
+      "id": "scope-opc-mvp",
+      "title": "设计验证单一风险的一人公司 MVP",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/scope-opc-mvp.md",
+      "targetOutcome": "形成可交付客户价值、可观测且有停止规则的最小实验",
+      "priority": 17
+    },
+    {
+      "id": "price-opc-offer",
+      "title": "为一人公司 Offer 设计并验证定价",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/price-opc-offer.md",
+      "targetOutcome": "形成有价值、成本、容量和现金依据的可测试价格",
+      "priority": 17
+    },
+    {
+      "id": "win-first-opc-customers",
+      "title": "获得一人公司的首批可重复付费客户",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/win-first-opc-customers.md",
+      "targetOutcome": "形成合规、小规模且能持续学习的创始人销售闭环",
+      "priority": 17
+    },
+    {
+      "id": "plan-opc-marketing",
+      "title": "建立一人公司可持续营销系统",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/plan-opc-marketing.md",
+      "targetOutcome": "形成聚焦受众、定位、渠道、内容和转化的四周获客循环",
+      "priority": 16
+    },
+    {
+      "id": "grow-opc-sustainably",
+      "title": "在容量和现金约束内增长一人公司",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/grow-opc-sustainably.md",
+      "targetOutcome": "识别单一增长约束并运行带护栏的三十天实验",
+      "priority": 16
+    },
+    {
+      "id": "review-opc-business",
+      "title": "完成一人公司经营复盘并选择下一约束",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/review-opc-business.md",
+      "targetOutcome": "形成经营记分卡、单一约束和符合真实容量的下一周期承诺",
+      "priority": 16
+    },
+    {
+      "id": "define-opc-principles",
+      "title": "定义一人公司的可执行经营原则",
+      "domain": "one-person-company",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/define-opc-principles.md",
+      "targetOutcome": "形成能指导客户、自动化、协作和未来招聘决策的经营原则",
+      "priority": 14
+    },
+    {
       "id": "connect-ai-app-to-xopc-models",
       "title": "将现有 AI 应用接入 XOPC Model Gateway",
       "domain": "xopc-platform",

@@ -4,6 +4,7 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 
 | Scenario area | Directory | User outcome | Current Skills | Exclusions |
 |---|---|---|---|---|
+| One-person company | `skills/one-person-company` | One founder's evidence and constraints become a focused path from community to sustainable operation | `find-community`, `validate-idea`, `processize`, `mvp`, `pricing`, `first-customers`, `marketing-plan`, `grow-sustainably`, `minimalist-review`, `company-values` | Generic research, artifact production, autonomous outreach, regulated advice |
 | Decision research | `skills/decision-research` | Current evidence becomes a decision brief | `evidence-based-research` | Prospect lists, single-source summaries |
 | Meeting execution | `skills/meeting-execution` | Existing notes become decisions and owned actions | `meeting-to-actions` | Scheduling, live transcription, general summaries |
 | Content campaign | `skills/content-campaign` | One goal becomes a coherent multi-asset campaign | `content-campaign-pack` | Single-asset writing, ad buying, publishing |

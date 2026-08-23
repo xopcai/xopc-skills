@@ -114,7 +114,7 @@ if (categoryRegistry) {
     if (!Number.isInteger(categoryRegistry.maxSkillsPerCategory) || categoryRegistry.maxSkillsPerCategory < 1 || categoryRegistry.maxSkillsPerCategory > 20) {
       errors.push("registry/categories.json: maxSkillsPerCategory must be 1..20")
     }
-    if (categoryRegistry.categories.length > 12) errors.push("registry/categories.json: no more than 12 functional categories are allowed")
+    if (categoryRegistry.categories.length > 13) errors.push("registry/categories.json: no more than 13 functional categories are allowed")
     checkUnique(categoryRegistry.categories, "id", "registry/categories.json")
     const scenarioIds = new Set(scenarios?.scenarios?.map((item) => item.id) ?? [])
     const groupedSkills = new Set()

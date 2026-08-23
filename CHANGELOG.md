@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.14.0 - 2026-08-24
+
+- Recovered ten historical XOPC OPC lifecycle intents from application commit history into a dedicated bilingual `one-person-company` Store category.
+- Independently rewrote community discovery, idea validation, manual delivery, MVP, pricing, first customers, marketing, sustainable growth, operating review, and company-principle Skills with current evidence and authorization boundaries.
+- Added ten scenario briefs, 200 trigger fixtures, 50 adversarial task fixtures, and a historical recovery and non-overlap audit.
+- Kept the application repository unchanged and rejected a provider-bound X/Twitter Skill as a standalone duplicate while retaining its safe planning principles.
+
 ## 0.13.0 - 2026-08-24
 
 - Aligned Store discovery directly with SkillHub China's 12 functional level-one categories and excluded `Pay Skill` as a commerce attribute.
