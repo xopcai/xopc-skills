@@ -29,6 +29,33 @@
       "notes": "文档类 PDF/DOCX/PPTX/XLSX 禁止复制和派生；其他目录逐项审查。"
     },
     {
+      "id": "anthropic-knowledge-work-plugins",
+      "repository": "https://github.com/anthropics/knowledge-work-plugins",
+      "observedCommit": "5267cf7bff3031921d4474b8e8f86ad02d2b8f6d",
+      "role": "adaptation-candidate",
+      "licenseStatus": "apache-2.0",
+      "decision": "candidate",
+      "notes": "Anthropic 官方知识工作场景库；优先吸收企业搜索、运营、客服、数据和人力资源中边界清晰且可验证的工作流。"
+    },
+    {
+      "id": "googleworkspace-cli",
+      "repository": "https://github.com/googleworkspace/cli",
+      "observedCommit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+      "role": "adaptation-candidate",
+      "licenseStatus": "apache-2.0",
+      "decision": "candidate",
+      "notes": "Google 官方 Workspace CLI 与 Skills；吸收 Forms 等高频工作流时去除产品命令绑定并保留发布和权限确认。"
+    },
+    {
+      "id": "composio-awesome-claude-skills",
+      "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "observedCommit": "be2a406907dbc61b73e6827ded415c96139d13a2",
+      "role": "market-reference",
+      "licenseStatus": "no-repository-license-found",
+      "decision": "reference-only",
+      "notes": "invoice-organizer 和 file-organizer 提供市场需求信号，但仓库未发现统一可再分发许可证；XOPC 不复制或派生其内容。"
+    },
+    {
       "id": "openai-plugins",
       "repository": "https://github.com/openai/plugins",
       "observedCommit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",

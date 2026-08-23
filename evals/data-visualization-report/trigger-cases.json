@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "data-visualization-report",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这份数据做成适合汇报的图表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "选择正确图表展示月度趋势",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "生成带结论和数据来源的可视化报告",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "检查这个柱状图是否误导",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "create an accessible visualization from this CSV",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "为仪表盘生成一张留存率图",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "用图展示类别分布并说明限制",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "渲染并检查图表标签和刻度",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "把查询结果变成管理层图表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "为报告制作可复现的数据图",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "编辑 Excel 里的公式",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "清洗整个数据仓库",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "证明这个变量导致增长",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "做一份没有数据的漂亮图",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "创建 PowerPoint 演示文稿",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "设计调查问卷",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "写统计学论文",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "搭建实时 BI 平台",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "从 PDF 提取表格",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "生成项目状态报告",
+      "shouldTrigger": false
+    }
+  ]
+}

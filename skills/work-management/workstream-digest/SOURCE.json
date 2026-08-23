@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/openai/plugins",
+  "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+  "path": "plugins/slack/skills/slack-daily-digest",
+  "license": "MIT",
+  "copyright": "OpenAI",
+  "xopcChanges": [
+    "Generalized Slack to team collaboration sources",
+    "Allowed explicit periods beyond one day",
+    "Preserved scope-first retrieval and added evidence pointers plus omission reporting"
+  ]
+}

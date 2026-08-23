@@ -22,50 +22,15 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.5 experimental`。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.6 experimental`，包含 27 个场景组、48 个场景和 46 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
-## v0.3 场景 Skill
+## 当前能力
 
-| 场景目录 | Skill | 用户结果 | 来源 |
-|---|---|---|---|
-| `api-integration` | `xopc-model-gateway` | 将 OpenAI-compatible 应用迁移到 XOPC 并验证请求/流式 | XOPC Original |
-| `api-integration` | `xopc-connector-builder` | 为远程或审核后的本地 MCP 制作最小权限 Connector | XOPC Original |
-| `api-integration` | `mcp-server-builder` | 为外部服务构建可发现、可评估且权限清晰的 MCP Server | Anthropic Apache-2.0 Adapted |
-| `software-delivery` | `playwright-webapp-testing` | 为现有 Web 应用建立可靠的 Playwright E2E | TestMu MIT Adapted |
-| `software-delivery` | `supabase-postgres-best-practices` | 审查生产 PostgreSQL 性能、RLS、schema 和锁风险 | Supabase MIT Adapted |
-| `software-delivery` | `react-native-best-practices` | 用测量证据诊断 React Native 性能 | CallStack MIT Adapted |
-| `software-delivery` | `release-notes` | 从已发布变更生成有证据的用户发布说明 | Paweł Huryn MIT Adapted |
-| `decision-research` | `evidence-based-research` | 从多源事实形成可追溯的决策简报 | Microsoft MIT Adapted |
-| `meeting-execution` | `meeting-to-actions` | 将会议记录转成决策、责任人与待确认写回计划 | Mohit Aggarwal MIT Adapted |
-| `content-campaign` | `content-campaign-pack` | 从业务目标形成内容支柱、资产 brief、渠道适配和度量 | Corey Haines MIT Adapted |
-| `sales-account-research` | `prospect-research` | 按 ICP、时机信号和来源验证高质量潜客 | Corey Haines MIT Adapted |
-| `document-compliance` | `document-requirements-review` | 按显式要求形成专业文档逐条证据矩阵 | Mohit Aggarwal MIT Adapted |
-| `weekly-planning` | `weekly-planning-review` | 关闭开放循环并生成容量可行的下周计划 | Alireza Rezvani MIT Adapted |
-| `product-interface-design` | `frontend-design` | 设计并渲染验证有辨识度、响应式且可访问的 Web 界面 | Anthropic Apache-2.0 Adapted |
-| `software-delivery` | `code-review` | 按需求和仓库标准形成证据化代码审查 | Matt Pocock MIT Adapted |
-| `software-delivery` | `systematic-debugging` | 通过复现、假设和最小实验定位软件根因 | obra MIT Adapted |
-| `software-security` | `security-threat-model` | 形成仓库证据驱动的攻击路径和缓解方案 | OpenAI Apache-2.0 Adapted |
-| `data-notebooks` | `jupyter-notebook` | 创建或重构可从头运行的实验和教程 Notebook | OpenAI Apache-2.0 Adapted |
-| `software-delivery` | `github-actions-ci-fix` | 从 GitHub Actions 日志定位并经批准修复 CI | OpenAI Apache-2.0 Adapted |
-| `software-delivery` | `test-driven-development` | 通过真实红绿重构证据实现行为变更 | obra MIT Adapted |
-| `software-delivery` | `github-review-comments` | 筛选、修复、验证并闭环 GitHub PR 评论 | OpenAI Apache-2.0 Adapted |
-| `software-security` | `secure-code-review` | 对 Python、JavaScript/TypeScript、Go 应用做证据化安全审查 | OpenAI Apache-2.0 Adapted |
-| `internal-communications` | `internal-communications` | 从经营事实起草适配受众的内部更新 | Anthropic Apache-2.0 Adapted |
-| `developer-tools` | `agent-cli-builder` | 构建具备稳定 JSON 和安全写操作的 Agent 友好 CLI | OpenAI Apache-2.0 Adapted |
-| `software-architecture` | `module-design` | 设计接口精简、复杂度内聚且可测试的深模块 | Matt Pocock MIT Adapted |
-| `office-documents` | `document-authoring` | 创建、编辑并逐页验证专业可编辑文档 | MiniMax MIT Adapted |
-| `office-documents` | `pdf-workbench` | 读取、创建、重排或填写固定布局 PDF | MiniMax MIT Adapted |
-| `office-data` | `spreadsheet-workbench` | 分析、创建、编辑并验证电子表格 | MiniMax MIT Adapted |
-| `office-presentations` | `presentation-deck` | 创建叙事清晰且逐页验证的可编辑演示文稿 | MiniMax MIT Adapted |
-| `email-productivity` | `inbox-triage` | 对限定邮箱范围做优先级与下一步分拣 | OpenAI Plugins MIT Adapted |
-| `email-productivity` | `email-reply-drafting` | 根据完整线程起草准确邮件回复 | OpenAI Plugins MIT Adapted |
-| `calendar-productivity` | `daily-agenda-brief` | 将一天日程变成冲突、准备和空闲窗口简报 | OpenAI Plugins MIT Adapted |
-| `calendar-productivity` | `meeting-preparation` | 从邀请与材料生成会前准备简报 | OpenAI Plugins MIT Adapted |
-| `calendar-productivity` | `group-scheduling` | 跨参会人、时区和地点选择合理会议时间 | OpenAI Plugins MIT Adapted |
+机器可读的完整能力清单以 [场景组 registry](registry/scenario-groups.json) 和 [Skill registry](registry/skills/) 为唯一事实来源；面向维护者的简表见 [场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。每个场景目录的 `SCENARIO.md` 记录用户结果和相邻边界。
 
-19 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由和能力边界。上游审计与办公场景扩展见 [`docs/upstream-audit-2026-08.md`](docs/upstream-audit-2026-08.md)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
+v0.6 新增跨工作区知识综合、承诺捕获、项目状态、协作摘要、客服分诊、票据核对、翻译本地化、安全文件整理、表单问卷、数据可视化、供应商评估和招聘漏斗审查。所有外部写入、发布、付款、审批、招聘决定和破坏性文件操作都保留显式授权边界。
 
-完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含 `SOURCE.json`。
+完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含固定 commit 的 `SOURCE.json`。
 
 ## 安装
 

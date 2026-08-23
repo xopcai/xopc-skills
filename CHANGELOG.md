@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.0 - 2026-08-23
+
+- Added 12 non-overlapping Skills across knowledge synthesis, work management, customer and finance operations, localization, safe file organization, forms, visualization, procurement and recruiting.
+- Added eight scenario groups, 12 scenario briefs, 240 trigger cases and 60 task fixtures with explicit evidence, privacy and external-mutation boundaries.
+- Adapted pinned Apache-2.0 sources from Anthropic Knowledge Work Plugins and Google Workspace CLI plus current MIT OpenAI Plugins; kept unlicensed marketplace implementations reference-only.
+- Removed the duplicated static Skill catalog from the root README so registries remain the single source of truth.
+
 ## 0.5.0 - 2026-08-23
 
 - Added nine general office Skills covering Word-compatible documents, PDFs, spreadsheets, presentations, inbox triage, reply drafting, daily agendas, meeting preparation and group scheduling.

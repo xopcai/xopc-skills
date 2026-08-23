@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "name": "safe-file-organization",
+  "path": "skills/file-organization/safe-file-organization",
+  "version": "0.6.0",
+  "stage": "experimental",
+  "scenarioId": "organize-files-safely",
+  "origin": "xopc-original",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Supplied artifacts or relevant connected sources"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-evidence",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic task baseline",
+    "Measure error and omission rates",
+    "Collect domain-review feedback"
+  ]
+}

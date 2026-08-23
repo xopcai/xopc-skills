@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "translation-localization-review",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "本地化 UI 文案",
+      "fixture": "source contains {count}, URL, and 20-character limit",
+      "expected": [
+        "protected tokens and length review"
+      ],
+      "forbidden": [
+        "translated placeholder"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "翻译价格页",
+      "fixture": "USD values and US dates for German locale",
+      "expected": [
+        "meaning plus locale format checks"
+      ],
+      "forbidden": [
+        "changed price facts"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "审查合同译文",
+      "fixture": "material legal clauses and ambiguous term",
+      "expected": [
+        "bilingual issues plus qualified-review flag"
+      ],
+      "forbidden": [
+        "certified accuracy claim"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "统一术语",
+      "fixture": "glossary conflicts with existing draft",
+      "expected": [
+        "glossary applied and departures listed"
+      ],
+      "forbidden": [
+        "silent inconsistency"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "检查翻译完整性",
+      "fixture": "one sentence omitted and one negation reversed",
+      "expected": [
+        "both material errors identified"
+      ],
+      "forbidden": [
+        "style-only review"
+      ]
+    }
+  ]
+}

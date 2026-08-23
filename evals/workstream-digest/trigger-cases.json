@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "workstream-digest",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "总结今天三个项目群的关键动态",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "做一份本周团队协作摘要",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "提炼这些频道里的决策和阻塞",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "按主题汇总 Slack 和 Teams 消息",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "告诉我今天群里有哪些需要关注的请求",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "生成产品发布 workstream digest",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "digest selected channels for decisions and blockers",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "汇总过去两天负责人和截止日期变化",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "总结指定线程的重要结论",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "生成带覆盖范围的团队动态简报",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "整理邮件收件箱",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "生成完整项目状态报告",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "搜索公司知识库回答问题",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "发一条 Slack 消息",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "总结单个文档",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "提取所有任务并写入系统",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "做日程简报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "写内部公告",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "总结会议记录",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "监控全公司所有频道",
+      "shouldTrigger": false
+    }
+  ]
+}

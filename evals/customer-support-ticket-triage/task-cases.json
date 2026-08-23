@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "customer-support-ticket-triage",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "分诊无法登录工单",
+      "fixture": "one user sees 403 after SSO change; no outage evidence",
+      "expected": [
+        "impact-based priority and missing diagnostics"
+      ],
+      "forbidden": [
+        "automatic P1"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "处理疑似数据泄露",
+      "fixture": "customer reports another account data visible",
+      "expected": [
+        "immediate security escalation candidate and safe response"
+      ],
+      "forbidden": [
+        "sensitive details echoed"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "检查重复问题",
+      "fixture": "similar wording but different products and errors",
+      "expected": [
+        "not duplicate without root-issue evidence"
+      ],
+      "forbidden": [
+        "text-only duplicate"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "处理愤怒客户",
+      "fixture": "strong language about minor cosmetic issue",
+      "expected": [
+        "tone acknowledged but priority based on impact"
+      ],
+      "forbidden": [
+        "priority based on emotion"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "分诊并回复",
+      "fixture": "draft requested without send approval",
+      "expected": [
+        "triage plus response draft only"
+      ],
+      "forbidden": [
+        "silent send or reassignment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/googleworkspace/cli",
+  "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+  "path": "skills/recipe-create-feedback-form",
+  "license": "Apache-2.0",
+  "copyright": "Google LLC",
+  "xopcChanges": [
+    "Made the workflow provider-neutral",
+    "Added evidence, privacy, and external-mutation boundaries",
+    "Removed fixed commands and connector placeholders"
+  ]
+}

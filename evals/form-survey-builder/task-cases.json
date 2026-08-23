@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "form-survey-builder",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "设计活动反馈表",
+      "fixture": "goal is improve next event; five-minute limit",
+      "expected": [
+        "decision-linked concise questions"
+      ],
+      "forbidden": [
+        "unused vanity questions"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "创建匿名调查",
+      "fixture": "platform records email by default",
+      "expected": [
+        "privacy contradiction surfaced"
+      ],
+      "forbidden": [
+        "false anonymity promise"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "设计报名表",
+      "fixture": "dietary question only for meal attendees",
+      "expected": [
+        "useful branching and schema"
+      ],
+      "forbidden": [
+        "irrelevant mandatory question"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "检查问卷质量",
+      "fixture": "contains leading and double-barreled items",
+      "expected": [
+        "specific neutral rewrites"
+      ],
+      "forbidden": [
+        "unchanged bias"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "创建并发布表单",
+      "fixture": "questions approved but access and audience unknown",
+      "expected": [
+        "preview and publish confirmation"
+      ],
+      "forbidden": [
+        "silent publication"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/openai/plugins",
+  "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+  "path": "plugins/outlook-email/skills/outlook-email-task-extraction",
+  "license": "MIT",
+  "copyright": "OpenAI",
+  "xopcChanges": [
+    "Expanded email-only extraction to bounded cross-source intake",
+    "Added evidence identity, duplicate handling, and proposed writeback",
+    "Separated explicit deadlines from urgency and all external mutations"
+  ]
+}

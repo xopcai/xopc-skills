@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "translation-localization-review",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把产品页面翻译成简体中文并做本地化检查",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "审查英文到日文翻译是否漏掉变量",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "按术语表翻译这份帮助文档",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "检查多语言文案里的日期和货币格式",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "translate and localize this app copy for Germany",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "对照源文检查翻译遗漏和数字错误",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "保护占位符完成法语本地化",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "统一这批中文翻译中的产品术语",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "审查字幕翻译的语气与长度",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "为台湾地区本地化这份用户通知",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "润色这段中文",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "写一份英文营销文案",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "认证翻译这份出生证明",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "解释合同法律含义",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "总结这份外文文章",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "修复代码里的 i18n bug",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "创建术语管理系统",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "识别图片文字",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "翻译变量名和 API 字段",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "生成项目状态报告",
+      "shouldTrigger": false
+    }
+  ]
+}

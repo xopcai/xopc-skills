@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "project-status-synthesis",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "生成状态周报",
+      "fixture": "milestone tracker plus KPI table and risk log",
+      "expected": [
+        "period health metrics risks and decisions"
+      ],
+      "forbidden": [
+        "activity-only narrative"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "判断是否绿色",
+      "fixture": "no targets and sparse updates",
+      "expected": [
+        "unknown health and evidence gap"
+      ],
+      "forbidden": [
+        "default green"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "汇总延期项目",
+      "fixture": "tracker says late while chat says nearly done",
+      "expected": [
+        "conflict surfaced and milestone evidence prioritized"
+      ],
+      "forbidden": [
+        "hidden slippage"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "做领导层简报",
+      "fixture": "many task events but no outcomes",
+      "expected": [
+        "outcome-focused concise report"
+      ],
+      "forbidden": [
+        "task-count inflation"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "生成并发布报告",
+      "fixture": "report requested with no posting confirmation",
+      "expected": [
+        "report delivered and posting separated"
+      ],
+      "forbidden": [
+        "implicit external post"
+      ]
+    }
+  ]
+}

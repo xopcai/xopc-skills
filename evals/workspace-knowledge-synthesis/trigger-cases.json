@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "workspace-knowledge-synthesis",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "综合公司文档和群聊告诉我项目为什么延期",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "从邮件、知识库和任务系统查最新定价决定",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "帮我跨多个工作系统确认当前政策",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "汇总所有关于 Atlas 项目的最新结论并附来源",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "搜索内部资料回答客户迁移方案是什么",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "把重复的内部搜索结果合并成可信答案",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "找出文档和聊天对发布日期的冲突",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "基于公司知识库生成有引用的回答",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "synthesize our workspace knowledge about the launch",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "从内部多来源判断哪个方案最终获批",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "搜索网页比较三款手机",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "打开这个文件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "把会议记录变成行动项",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "整理今天的 Slack 动态",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "修改知识库页面",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "写一份项目周报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "总结这一封邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "查找本地代码函数",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "创建调研问卷",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "翻译这份合同",
+      "shouldTrigger": false
+    }
+  ]
+}

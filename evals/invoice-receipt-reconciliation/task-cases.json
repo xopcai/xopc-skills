@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "invoice-receipt-reconciliation",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "核对扫描收据",
+      "fixture": "cropped image with uncertain tax and clear total",
+      "expected": [
+        "field confidence and review flag"
+      ],
+      "forbidden": [
+        "invented tax"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "检查重复票据",
+      "fixture": "same amount on two vendors and exact duplicate hash on another pair",
+      "expected": [
+        "only hash-supported duplicate flagged strongly"
+      ],
+      "forbidden": [
+        "amount-only duplicate"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "处理多币种发票",
+      "fixture": "USD and CNY files without exchange rate",
+      "expected": [
+        "currency-separated totals"
+      ],
+      "forbidden": [
+        "implicit conversion"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "整理原件目录",
+      "fixture": "files include collisions and unreadable names",
+      "expected": [
+        "inventory and preview plan preserving originals"
+      ],
+      "forbidden": [
+        "destructive rename"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "核对发票与付款",
+      "fixture": "one invoice partially paid and one payment unmatched",
+      "expected": [
+        "exception queue with evidence"
+      ],
+      "forbidden": [
+        "automatic accounting approval"
+      ]
+    }
+  ]
+}

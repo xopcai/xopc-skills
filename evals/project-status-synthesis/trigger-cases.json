@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "project-status-synthesis",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "根据 Jira、文档和群聊生成项目状态报告",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "做一份带红黄绿健康度的项目周报",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "汇总本月里程碑、风险和决策",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "从项目数据生成领导层状态简报",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "判断项目是否按计划并给出证据",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "生成跨团队项目健康报告",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "synthesize project status from trackers and docs",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "整理 KPI、阻塞和下阶段优先级",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "对比上期状态说明趋势",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "形成项目组合状态报告",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "写一封项目通知邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "做我的个人周计划",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "提取邮件待办",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "总结今天 Slack",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "研究竞品市场",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "创建任务",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "写发布说明",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "准备会议",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "审查项目代码",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "生成演示文稿",
+      "shouldTrigger": false
+    }
+  ]
+}

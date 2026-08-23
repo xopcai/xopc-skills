@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "commitment-task-capture",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "从这些邮件和群聊提取所有行动项",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "把这批会议、文档里的承诺整理成任务清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "谁答应了什么，什么时候交付",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "识别这段聊天中的负责人和截止日期",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "从一个月邮件里提取我负责的待办",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "整理跨来源开放事项和阻塞",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "extract commitments and owners from these threads",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "把相同任务去重并保留最新状态",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "找出没有负责人的行动项",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "生成任务写回前的确认清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "总结这封邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "生成项目状态报告",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "创建一个新任务",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "安排下周会议",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "整理今天的日程",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "起草邮件回复",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "做周计划",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "搜索公司知识库",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "总结 Slack 今日动态",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "写会议纪要",
+      "shouldTrigger": false
+    }
+  ]
+}

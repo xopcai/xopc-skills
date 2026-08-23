@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "name": "workspace-knowledge-synthesis",
+  "path": "skills/knowledge-workspace/workspace-knowledge-synthesis",
+  "version": "0.6.0",
+  "stage": "experimental",
+  "scenarioId": "synthesize-workspace-knowledge",
+  "origin": "xopc-adapted",
+  "license": "Apache-2.0",
+  "owner": "XOPC Skills Team",
+  "source": "skills/knowledge-workspace/workspace-knowledge-synthesis/SOURCE.json",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Connected workplace sources or supplied artifacts"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-and-upstream-evidence",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic cross-source baseline",
+    "Measure decision accuracy and omission rate",
+    "Collect domain-review feedback"
+  ]
+}

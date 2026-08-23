@@ -19,10 +19,18 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `developer-tools` | Repeated workflow to durable agent-friendly CLI | `agent-cli-builder` |
 | `software-architecture` | Leaky module to deep stable interface | `module-design` |
 | `office-documents` | Source material to verified editable document or fixed-layout PDF | `document-authoring`, `pdf-workbench` |
-| `office-data` | Spreadsheet input to trustworthy workbook analysis or output | `spreadsheet-workbench` |
+| `office-data` | Tabular evidence to trustworthy workbook or visualization | `spreadsheet-workbench`, `data-visualization-report` |
 | `office-presentations` | Purpose and evidence to a rendered editable deck | `presentation-deck` |
 | `email-productivity` | Mailbox context to attention list or grounded reply draft | `inbox-triage`, `email-reply-drafting` |
 | `calendar-productivity` | Calendar evidence to daily understanding, meeting readiness, or ranked slots | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` |
+| `knowledge-workspace` | Scattered internal evidence to a current cited answer | `workspace-knowledge-synthesis` |
+| `work-management` | Communications and project evidence to commitments, health, and digest | `commitment-task-capture`, `project-status-synthesis`, `workstream-digest` |
+| `business-operations` | Customer or financial intake to a reviewable operations package | `customer-support-ticket-triage`, `invoice-receipt-reconciliation` |
+| `language-localization` | Source content to locale-correct reviewed translation | `translation-localization-review` |
+| `file-organization` | Bounded files to a safe, previewed and reversible organization plan | `safe-file-organization` |
+| `forms-surveys` | Collection goal to testable form and response schema | `form-survey-builder` |
+| `procurement-operations` | Vendor evidence to cost, risk and recommendation | `vendor-evaluation` |
+| `people-operations` | Recruiting records to pipeline health and operating actions | `recruiting-pipeline-review` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

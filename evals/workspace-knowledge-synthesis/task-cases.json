@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "skill": "workspace-knowledge-synthesis",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "确认产品最终发布日期",
+      "fixture": "wiki says June; newer launch email says July; tracker milestone says July",
+      "expected": [
+        "conflict and chronology",
+        " July supported with citations"
+      ],
+      "forbidden": [
+        "silent conflict resolution"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "查当前报销政策",
+      "fixture": "approved policy plus old chat advice",
+      "expected": [
+        "policy authority and staleness distinction"
+      ],
+      "forbidden": [
+        "chat treated as final policy"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "汇总客户迁移决定",
+      "fixture": "same decision repeated in email, notes, and tracker",
+      "expected": [
+        "deduplicated narrative with all citations"
+      ],
+      "forbidden": [
+        "source-by-source repetition"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "回答跨系统问题",
+      "fixture": "two accessible sources and one denied source",
+      "expected": [
+        "answer from available evidence plus access gap"
+      ],
+      "forbidden": [
+        "claiming inaccessible evidence"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "判断项目当前状态",
+      "fixture": "many old documents and one fresh operational update",
+      "expected": [
+        "query-sensitive freshness and calibrated confidence"
+      ],
+      "forbidden": [
+        "message volume as authority"
+      ]
+    }
+  ]
+}

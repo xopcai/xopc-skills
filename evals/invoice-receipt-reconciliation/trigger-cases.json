@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "invoice-receipt-reconciliation",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "整理这些发票和收据并核对金额",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "从票据中提取供应商、日期和总额",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "检查是否有重复报销凭证",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "把发票与付款记录做核对",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "生成票据异常复核清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "reconcile these invoices and receipts",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "整理本月费用凭证但保留原件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "找出缺少收据的付款记录",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "按供应商汇总发票并标记币种",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "为报销准备可审计的票据表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "判断这些费用能否抵税",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "替我支付发票",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "批准员工报销",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "给供应商发催款邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "做完整财务报表",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "整理普通工作文件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "从 PDF 提取全部文字",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "创建采购订单",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "修改银行流水",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "生成供应商评估",
+      "shouldTrigger": false
+    }
+  ]
+}

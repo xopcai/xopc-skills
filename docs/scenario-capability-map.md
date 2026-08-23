@@ -19,10 +19,18 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 | Developer tools | `skills/developer-tools` | A repeated workflow becomes a durable agent-friendly CLI | `agent-cli-builder` | One-off scripts, MCP servers |
 | Software architecture | `skills/software-architecture` | A leaky module becomes a deep stable interface | `module-design` | System-wide strategy, ordinary refactoring |
 | Office documents | `skills/office-documents` | Source material becomes a verified editable document or fixed-layout PDF | `document-authoring`, `pdf-workbench` | Plain prose, requirement compliance |
-| Office data | `skills/office-data` | Tabular data becomes a trustworthy workbook analysis or deliverable | `spreadsheet-workbench` | Databases, notebooks |
+| Office data | `skills/office-data` | Tabular data becomes a trustworthy workbook or visualization | `spreadsheet-workbench`, `data-visualization-report` | Databases, notebooks, unsupported causal claims |
 | Office presentations | `skills/office-presentations` | Purpose and evidence become a rendered editable deck | `presentation-deck` | Plain outlines, single images |
 | Email productivity | `skills/email-productivity` | Mailbox context becomes an attention list or grounded reply draft | `inbox-triage`, `email-reply-drafting` | New outreach, silent mailbox writes |
 | Calendar productivity | `skills/calendar-productivity` | Calendar evidence becomes daily understanding, meeting readiness, or ranked slots | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` | Post-meeting extraction, silent calendar writes |
+| Knowledge workspace | `skills/knowledge-workspace` | Scattered internal evidence becomes a current cited answer | `workspace-knowledge-synthesis` | Open-web research, source edits |
+| Work management | `skills/work-management` | Communications and project evidence become commitments, health, or a bounded digest | `commitment-task-capture`, `project-status-synthesis`, `workstream-digest` | Personal weekly planning, silent tracker writes |
+| Business operations | `skills/business-operations` | Customer or financial intake becomes a reviewable operations package | `customer-support-ticket-triage`, `invoice-receipt-reconciliation` | Ticket mutation, tax decisions, payment |
+| Language localization | `skills/language-localization` | Source content becomes locale-correct reviewed translation | `translation-localization-review` | Certified translation, same-language editing |
+| File organization | `skills/file-organization` | A bounded file set becomes a previewed, reversible organization plan | `safe-file-organization` | Unconfirmed deletion, app-specific libraries |
+| Forms and surveys | `skills/forms-surveys` | A collection goal becomes a testable form and response schema | `form-survey-builder` | Response analysis, silent publication |
+| Procurement operations | `skills/procurement-operations` | Vendor evidence becomes a cost, risk, and fit recommendation | `vendor-evaluation` | Legal approval, autonomous purchasing |
+| People operations | `skills/people-operations` | Recruiting records become pipeline health and operating actions | `recruiting-pipeline-review` | Candidate ranking, hiring decisions, silent ATS writes |
 
 ## Composition
 

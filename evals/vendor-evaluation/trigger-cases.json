@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "vendor-evaluation",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "比较两家 SaaS 供应商并给采购建议",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "评估这个供应商续约是否合理",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "计算供应商三年总拥有成本",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "整理供应商安全和退出风险",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "evaluate this vendor proposal",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "根据需求矩阵比较候选服务商",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "为采购谈判准备证据和要点",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "检查报价里隐藏的实施成本",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "生成供应商风险登记表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "评估单一供应商依赖",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "替我签署供应商合同",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "直接购买这个软件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "给供应商发送砍价邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "做一般竞品市场研究",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "审查合同法律条款",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "创建供应商准入表单",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "整理供应商发票",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "研究潜在客户",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "批准安全合规",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "生成项目状态报告",
+      "shouldTrigger": false
+    }
+  ]
+}

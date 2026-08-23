@@ -93,3 +93,15 @@ Daily office coverage is organized by user outcome rather than Microsoft, Google
 | Calendar | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` | One-day understanding versus one-meeting readiness versus multi-person slot selection |
 
 All email and calendar Skills default to read-only analysis or drafts. Sending, moving, deleting, categorizing, booking rooms, creating events, changing RSVPs, or editing invitations remains a separately authorized action.
+
+## Cross-workflow and business expansion in v0.6
+
+The v0.6 review added pinned official sources from [Anthropic Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins) at `5267cf7` and [Google Workspace CLI](https://github.com/googleworkspace/cli) at `a3768d0`. Both are Apache-2.0. Existing OpenAI Plugin adaptations remain pinned at `11c74d6` under their per-plugin MIT manifests.
+
+| Source | Adapted XOPC Skills | Material boundary added |
+|---|---|---|
+| Anthropic Knowledge Work Plugins | `workspace-knowledge-synthesis`, `project-status-synthesis`, `customer-support-ticket-triage`, `data-visualization-report`, `vendor-evaluation`, `recruiting-pipeline-review` | Provider-neutral evidence, configurable taxonomies, privacy, uncertainty and explicit writes |
+| OpenAI Plugins | `commitment-task-capture`, `workstream-digest` | Cross-source scope, deduplication, coverage reporting and no silent task or message mutation |
+| Google Workspace CLI | `form-survey-builder` | Goal-first question design, privacy truthfulness, stable response schema and publish confirmation |
+
+`invoice-receipt-reconciliation`, `translation-localization-review`, and `safe-file-organization` are XOPC-original implementations. Composio's marketplace skills provided demand signals for invoice and file organization, but the reviewed repository commit `be2a406` had no repository-wide redistribution license, so no content was copied or adapted.

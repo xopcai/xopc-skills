@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "customer-support-ticket-triage",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "帮我分流这个客户工单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "判断这个报障应该是 P1 还是 P2",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "检查客户问题是否是已知故障",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "给新来的支持请求分类和路由",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "提取工单影响范围并起草首轮回复",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "triage this customer support ticket",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "这条投诉应该交给哪个团队",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "判断重复工单并说明证据",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "整理安全相关客户问题的升级信息",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "对这批支持请求做优先级分诊",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "诊断代码里的软件缺陷",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "回复普通销售邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "总结客户访谈",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "写知识库文章",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "给客户退款",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "修改工单负责人",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "生成项目状态报告",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "研究潜在客户",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "整理发票",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "创建产品路线图",
+      "shouldTrigger": false
+    }
+  ]
+}

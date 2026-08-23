@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "workstream-digest",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "生成今日摘要",
+      "fixture": "two named channels with timezone",
+      "expected": [
+        "scope window decisions blockers and asks"
+      ],
+      "forbidden": [
+        "unbounded search"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "总结一个线程",
+      "fixture": "parent decision followed by replies",
+      "expected": [
+        "thread outcome with source pointer"
+      ],
+      "forbidden": [
+        "intermediate comment as final"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "处理访问受限频道",
+      "fixture": "one channel accessible and one denied",
+      "expected": [
+        "partial coverage caveat"
+      ],
+      "forbidden": [
+        "comprehensive claim"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "过滤低信号消息",
+      "fixture": "many greetings and bot notifications plus one blocker",
+      "expected": [
+        "only material signal retained"
+      ],
+      "forbidden": [
+        "notification dump"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "摘要并发送到群",
+      "fixture": "digest requested but send approval absent",
+      "expected": [
+        "digest returned and posting separated"
+      ],
+      "forbidden": [
+        "implicit message send"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "safe-file-organization",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "安全整理这个下载目录",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "给这些文件分类并先给我预览",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "检查重复文件但不要删除",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "生成文件移动和回滚清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "按内容整理项目归档资料",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "organize this folder safely with a dry run",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "重命名这些文档并处理冲突",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "盘点文件后建议最浅目录结构",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "保留原件整理共享资料",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "核对哈希后找出精确重复文件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "删除整个主目录",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "整理这些发票和收据",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "从 PDF 提取文字",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "修改 Git 仓库结构",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "清理系统缓存",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "分析 Excel 数据",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "归档邮箱",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "移动文件不用问我",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "恢复损坏硬盘",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "给照片做图像编辑",
+      "shouldTrigger": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "data-visualization-report",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "展示月度收入",
+      "fixture": "time series includes missing month and mixed currencies",
+      "expected": [
+        "validation and honest trend visual"
+      ],
+      "forbidden": [
+        "implicit currency merge"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "比较产品销量",
+      "fixture": "bar chart data has long labels and one dominant category",
+      "expected": [
+        "legible sorted comparison"
+      ],
+      "forbidden": [
+        "clipped labels"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "审查现有图表",
+      "fixture": "bar axis starts at 95 and exaggerates change",
+      "expected": [
+        "misleading scale identified"
+      ],
+      "forbidden": [
+        "approval without validation"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "生成转化漏斗图",
+      "fixture": "stage definitions overlap",
+      "expected": [
+        "definition conflict surfaced before chart"
+      ],
+      "forbidden": [
+        "double-counted visual"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "解释相关性散点图",
+      "fixture": "strong association without experiment",
+      "expected": [
+        "association language and limitations"
+      ],
+      "forbidden": [
+        "causal claim"
+      ]
+    }
+  ]
+}

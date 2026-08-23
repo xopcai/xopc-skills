@@ -358,6 +358,18 @@
       "briefPath": "briefs/schedule-group-meeting.md",
       "targetOutcome": "给出少量可解释候选时间并在确认后才创建邀请",
       "priority": 17
-    }
+    },
+    {"id":"synthesize-workspace-knowledge","title":"从跨系统信息形成可追溯的工作答案","domain":"knowledge-management","stage":"experimental","strategy":"adapt","briefPath":"briefs/synthesize-workspace-knowledge.md","targetOutcome":"对跨文档、邮件、聊天和任务结果去重、处理冲突并形成带来源和置信度的答案","priority":18},
+    {"id":"capture-cross-source-commitments","title":"从沟通记录提取可追踪承诺","domain":"work-management","stage":"experimental","strategy":"adapt","briefPath":"briefs/capture-cross-source-commitments.md","targetOutcome":"从邮件、聊天、会议和文档中提取责任人、期限、状态与证据，并在确认后写入任务系统","priority":18},
+    {"id":"synthesize-project-status","title":"从项目证据形成健康状态报告","domain":"project-operations","stage":"experimental","strategy":"adapt","briefPath":"briefs/synthesize-project-status.md","targetOutcome":"聚合里程碑、指标、交付、风险、阻塞和决策，形成证据化项目健康报告","priority":17},
+    {"id":"digest-team-workstream","title":"从团队协作流提炼关键动态","domain":"team-collaboration","stage":"experimental","strategy":"adapt","briefPath":"briefs/digest-team-workstream.md","targetOutcome":"对限定频道、主题和时间窗口提炼决策、阻塞、请求、负责人及状态变化","priority":16},
+    {"id":"triage-customer-support-ticket","title":"对客户支持请求进行证据化分诊","domain":"customer-support","stage":"experimental","strategy":"adapt","briefPath":"briefs/triage-customer-support-ticket.md","targetOutcome":"形成问题分类、影响优先级、重复证据、路由建议和安全的首轮回复草稿","priority":16},
+    {"id":"reconcile-invoices-and-receipts","title":"整理并核对发票与收据","domain":"finance-operations","stage":"experimental","strategy":"build","briefPath":"briefs/reconcile-invoices-and-receipts.md","targetOutcome":"保留原件并形成字段可追溯、异常明确的票据核对表和复核队列","priority":15},
+    {"id":"review-translation-localization","title":"翻译并审查本地化质量","domain":"language-localization","stage":"experimental","strategy":"build","briefPath":"briefs/review-translation-localization.md","targetOutcome":"交付保持源文含义、术语、变量和区域规范且经过双语质量检查的本地化内容","priority":15},
+    {"id":"organize-files-safely","title":"安全整理并可回滚文件集合","domain":"file-management","stage":"experimental","strategy":"build","briefPath":"briefs/organize-files-safely.md","targetOutcome":"形成有边界的文件盘点、分类预览、重复证据、冲突处理和回滚清单","priority":14},
+    {"id":"build-form-or-survey","title":"从收集目标设计表单或问卷","domain":"forms-and-surveys","stage":"experimental","strategy":"adapt","briefPath":"briefs/build-form-or-survey.md","targetOutcome":"交付问题精简、分支可测、隐私透明并具有稳定响应结构的表单设计","priority":14},
+    {"id":"create-data-visualization-report","title":"从可信数据生成可视化报告","domain":"data-analysis","stage":"experimental","strategy":"adapt","briefPath":"briefs/create-data-visualization-report.md","targetOutcome":"交付数据验证、图表选择、可访问渲染、来源说明和结论一致的可视化报告","priority":14},
+    {"id":"evaluate-vendor","title":"基于证据评估和比较供应商","domain":"procurement","stage":"experimental","strategy":"adapt","briefPath":"briefs/evaluate-vendor.md","targetOutcome":"形成需求可追溯、总成本透明、风险明确并包含尽调和谈判行动的供应商建议","priority":13},
+    {"id":"review-recruiting-pipeline","title":"审查招聘漏斗健康度和行动","domain":"people-operations","stage":"experimental","strategy":"adapt","briefPath":"briefs/review-recruiting-pipeline.md","targetOutcome":"在保护候选人隐私和公平性的前提下形成阶段、老化、转化、瓶颈和下一步行动报告","priority":13}
   ]
 }

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "recruiting-pipeline-review",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "审查本周招聘漏斗健康度",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "找出停留太久的候选人和反馈缺口",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "计算各招聘阶段转化率",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "按职位整理招聘进展和下一步",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "review our recruiting pipeline",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "检查不同渠道的候选人质量",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "整理 offer 阶段风险和负责人",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "识别面试排期瓶颈",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "生成招聘运营周报",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "核对 ATS 中重复候选人",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "根据照片给候选人排名",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "自动拒绝所有候选人",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "写职位描述",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "起草 offer 合同",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "调查候选人私人信息",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "修改 ATS 阶段",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "做员工绩效评价",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "安排面试时间",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "分析普通销售漏斗",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "决定录用谁",
+      "shouldTrigger": false
+    }
+  ]
+}

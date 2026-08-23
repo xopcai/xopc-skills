@@ -111,8 +111,8 @@
       "id": "office-data",
       "title": "电子表格分析与交付",
       "directory": "skills/office-data",
-      "scenarioIds": ["work-with-spreadsheet"],
-      "skills": ["spreadsheet-workbench"]
+      "scenarioIds": ["work-with-spreadsheet","create-data-visualization-report"],
+      "skills": ["spreadsheet-workbench","data-visualization-report"]
     },
     {
       "id": "office-presentations",
@@ -134,6 +134,62 @@
       "directory": "skills/calendar-productivity",
       "scenarioIds": ["build-daily-agenda", "prepare-for-meeting", "schedule-group-meeting"],
       "skills": ["daily-agenda-brief", "meeting-preparation", "group-scheduling"]
+    },
+    {
+      "id": "knowledge-workspace",
+      "title": "企业知识检索与综合",
+      "directory": "skills/knowledge-workspace",
+      "scenarioIds": ["synthesize-workspace-knowledge"],
+      "skills": ["workspace-knowledge-synthesis"]
+    },
+    {
+      "id": "work-management",
+      "title": "承诺、项目状态与协作流",
+      "directory": "skills/work-management",
+      "scenarioIds": ["capture-cross-source-commitments","synthesize-project-status","digest-team-workstream"],
+      "skills": ["commitment-task-capture","project-status-synthesis","workstream-digest"]
+    },
+    {
+      "id": "business-operations",
+      "title": "客服与财务运营",
+      "directory": "skills/business-operations",
+      "scenarioIds": ["triage-customer-support-ticket","reconcile-invoices-and-receipts"],
+      "skills": ["customer-support-ticket-triage","invoice-receipt-reconciliation"]
+    },
+    {
+      "id": "language-localization",
+      "title": "翻译与本地化质量",
+      "directory": "skills/language-localization",
+      "scenarioIds": ["review-translation-localization"],
+      "skills": ["translation-localization-review"]
+    },
+    {
+      "id": "file-organization",
+      "title": "安全文件整理",
+      "directory": "skills/file-organization",
+      "scenarioIds": ["organize-files-safely"],
+      "skills": ["safe-file-organization"]
+    },
+    {
+      "id": "forms-surveys",
+      "title": "表单与问卷设计",
+      "directory": "skills/forms-surveys",
+      "scenarioIds": ["build-form-or-survey"],
+      "skills": ["form-survey-builder"]
+    },
+    {
+      "id": "procurement-operations",
+      "title": "供应商采购评估",
+      "directory": "skills/procurement-operations",
+      "scenarioIds": ["evaluate-vendor"],
+      "skills": ["vendor-evaluation"]
+    },
+    {
+      "id": "people-operations",
+      "title": "招聘运营分析",
+      "directory": "skills/people-operations",
+      "scenarioIds": ["review-recruiting-pipeline"],
+      "skills": ["recruiting-pipeline-review"]
     }
   ]
 }

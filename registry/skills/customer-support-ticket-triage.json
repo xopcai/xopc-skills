@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "name": "customer-support-ticket-triage",
+  "path": "skills/business-operations/customer-support-ticket-triage",
+  "version": "0.6.0",
+  "stage": "experimental",
+  "scenarioId": "triage-customer-support-ticket",
+  "origin": "xopc-adapted",
+  "license": "Apache-2.0",
+  "owner": "XOPC Skills Team",
+  "source": "skills/business-operations/customer-support-ticket-triage/SOURCE.json",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Connected business systems or supplied artifacts"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-and-upstream-evidence",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic domain baseline",
+    "Measure false-positive and omission rates",
+    "Complete domain-review feedback"
+  ]
+}

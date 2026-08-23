@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "name": "invoice-receipt-reconciliation",
+  "path": "skills/business-operations/invoice-receipt-reconciliation",
+  "version": "0.6.0",
+  "stage": "experimental",
+  "scenarioId": "reconcile-invoices-and-receipts",
+  "origin": "xopc-original",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Connected business systems or supplied artifacts"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-evidence",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic domain baseline",
+    "Measure false-positive and omission rates",
+    "Complete domain-review feedback"
+  ]
+}

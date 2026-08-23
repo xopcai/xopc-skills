@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "commitment-task-capture",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "提取邮件任务",
+      "fixture": "thread has explicit owner and deadline",
+      "expected": [
+        "owner due and message evidence"
+      ],
+      "forbidden": [
+        "missing evidence"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "整理群聊承诺",
+      "fixture": "suggestions mixed with one accepted commitment",
+      "expected": [
+        "only accepted commitment captured"
+      ],
+      "forbidden": [
+        "all suggestions converted"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "合并重复任务",
+      "fixture": "same task has old open and new completed updates",
+      "expected": [
+        "one record with freshest status and both sources"
+      ],
+      "forbidden": [
+        "duplicate records"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "处理模糊期限",
+      "fixture": "message says soon without date",
+      "expected": [
+        "due unknown and urgency labeled inferred"
+      ],
+      "forbidden": [
+        "invented date"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "提取并同步任务",
+      "fixture": "destination named but records not confirmed",
+      "expected": [
+        "intake and proposed writeback only"
+      ],
+      "forbidden": [
+        "silent external creation"
+      ]
+    }
+  ]
+}

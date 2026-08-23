@@ -470,6 +470,96 @@
       "status": "implemented-experimental",
       "strengths": ["候选排序而非枚举", "参会人、时区、地点和状态权衡完整", "OpenAI Plugin MIT"],
       "gaps": ["原实现绑定 Outlook", "需加入 focus cost 和复发会议", "需验证公平性"]
+    },
+    {
+      "id": "anthropic-workspace-knowledge-synthesis",
+      "scenarioId": "synthesize-workspace-knowledge",
+      "upstreamId": "anthropic-knowledge-work-plugins",
+      "skillPath": "enterprise-search/skills/knowledge-synthesis",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["跨来源去重、权威性、时效和冲突处理完整", "官方 Apache-2.0"],
+      "gaps": ["原实现含连接器占位符", "固定来源等级需按查询类型调整", "需跨系统遗漏率评测"]
+    },
+    {
+      "id": "openai-cross-source-commitment-capture",
+      "scenarioId": "capture-cross-source-commitments",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/outlook-email/skills/outlook-email-task-extraction",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["责任人、期限、状态和证据边界清晰", "OpenAI Plugin MIT"],
+      "gaps": ["原实现仅覆盖 Outlook 邮件", "需跨来源去重", "需写回确认协议"]
+    },
+    {
+      "id": "anthropic-project-status-synthesis",
+      "scenarioId": "synthesize-project-status",
+      "upstreamId": "anthropic-knowledge-work-plugins",
+      "skillPath": "operations/skills/status-report",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["指标、风险、决策和下期优先级结构完整", "官方 Apache-2.0"],
+      "gaps": ["原实现缺少逐项证据要求", "红黄绿定义需组织化", "需处理缺失数据"]
+    },
+    {
+      "id": "openai-workstream-digest",
+      "scenarioId": "digest-team-workstream",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/slack/skills/slack-daily-digest",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["先限定频道主题和时间范围", "决策、阻塞和请求信号明确", "OpenAI Plugin MIT"],
+      "gaps": ["原实现绑定 Slack 和单日窗口", "需跨协作工具", "需明确覆盖缺口"]
+    },
+    {
+      "id": "anthropic-customer-support-triage",
+      "scenarioId": "triage-customer-support-ticket",
+      "upstreamId": "anthropic-knowledge-work-plugins",
+      "skillPath": "customer-support/skills/ticket-triage",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["分类、优先级、重复、路由和回复闭环完整", "官方 Apache-2.0"],
+      "gaps": ["固定 SLA 不适合通用分发", "需防止情绪和客户身份影响优先级", "需隔离内部信息"]
+    },
+    {
+      "id": "google-feedback-form-adaptation",
+      "scenarioId": "build-form-or-survey",
+      "upstreamId": "googleworkspace-cli",
+      "skillPath": "skills/recipe-create-feedback-form",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["官方 Forms 工作流和发布路径清晰", "Apache-2.0"],
+      "gaps": ["原实现过度绑定 Google 命令", "问题设计和隐私门禁不足", "需全分支预览评测"]
+    },
+    {
+      "id": "anthropic-data-visualization-report",
+      "scenarioId": "create-data-visualization-report",
+      "upstreamId": "anthropic-knowledge-work-plugins",
+      "skillPath": "data/skills/create-viz",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["图表选择、设计和渲染流程完整", "官方 Apache-2.0"],
+      "gaps": ["原实现固定 Python 偏好", "需加强数据验证和因果边界", "需与 spreadsheet 触发互斥"]
+    },
+    {
+      "id": "anthropic-vendor-evaluation",
+      "scenarioId": "evaluate-vendor",
+      "upstreamId": "anthropic-knowledge-work-plugins",
+      "skillPath": "operations/skills/vendor-review",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["TCO、风险、性能和谈判框架完整", "官方 Apache-2.0"],
+      "gaps": ["需区分供应商声明和独立证据", "需权重敏感性分析", "需专业审批边界"]
+    },
+    {
+      "id": "anthropic-recruiting-pipeline-review",
+      "scenarioId": "review-recruiting-pipeline",
+      "upstreamId": "anthropic-knowledge-work-plugins",
+      "skillPath": "human-resources/skills/recruiting-pipeline",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["招聘阶段和核心运营指标明确", "官方 Apache-2.0"],
+      "gaps": ["原实现隐私和公平边界不足", "需统一阶段分母", "需将 ATS 写入与审查分离"]
     }
   ]
 }

@@ -293,6 +293,8 @@ for (const skillDir of skillDirs) {
       requireString(catalog.owner, `${name}.owner`)
       if (catalog.origin === "xopc-adapted") {
         requireString(catalog.source, `${name}.source`)
+        const adaptationPath = `adaptations/${name}.md`
+        if (!existsSync(join(root, adaptationPath))) errors.push(`${name}: missing adaptation record '${adaptationPath}'`)
         if (catalog.source && !existsSync(join(root, catalog.source))) errors.push(`${name}: missing source record '${catalog.source}'`)
         if (catalog.source && existsSync(join(root, catalog.source))) {
           const source = readJson(catalog.source)
@@ -302,6 +304,13 @@ for (const skillDir of skillDirs) {
           if (!/^[0-9a-f]{40}$/.test(source?.commit ?? "")) errors.push(`${name}: source commit must be a full 40-character SHA`)
           if (source?.license !== catalog.license) errors.push(`${name}: source and catalog licenses differ`)
           if (catalog.license === "Apache-2.0" && !existsSync(join(skillDir, "LICENSE.txt"))) errors.push(`${name}: Apache-2.0 package must include LICENSE.txt`)
+          const upstream = upstreams?.upstreams?.find((item) => item.repository === source?.repository)
+          if (!upstream) {
+            errors.push(`${name}: source repository is missing from registry/upstreams.json`)
+          } else {
+            const candidate = candidates?.candidates?.find((item) => item.upstreamId === upstream.id && item.skillPath === source?.path && item.scenarioId === catalog.scenarioId)
+            if (!candidate) errors.push(`${name}: source path and scenario are missing from registry/candidates.json`)
+          }
         }
       }
       const versionInSkill = fields.metadata_version ?? fields.version

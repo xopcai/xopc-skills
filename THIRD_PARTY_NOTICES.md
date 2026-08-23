@@ -29,6 +29,8 @@ The following XOPC Adapted Skills include or derive from third-party work. Their
 | `daily-agenda-brief` | `openai/plugins` | OpenAI |
 | `meeting-preparation` | `openai/plugins` | OpenAI |
 | `group-scheduling` | `openai/plugins` | OpenAI |
+| `commitment-task-capture` | `openai/plugins` | OpenAI |
+| `workstream-digest` | `openai/plugins` | OpenAI |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -61,5 +63,12 @@ SOFTWARE.
 | `agent-cli-builder` | `openai/skills` | OpenAI |
 | `github-review-comments` | `openai/plugins` | OpenAI |
 | `secure-code-review` | `openai/skills` | OpenAI |
+| `workspace-knowledge-synthesis` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
+| `project-status-synthesis` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
+| `customer-support-ticket-triage` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
+| `form-survey-builder` | `googleworkspace/cli` | Google LLC |
+| `data-visualization-report` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
+| `vendor-evaluation` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
+| `recruiting-pipeline-review` | `anthropics/knowledge-work-plugins` | Anthropic, PBC |
 
 Each Apache-derived distributed Skill contains its upstream `LICENSE.txt`. XOPC modifications are identified in `SOURCE.json`; no upstream trademark endorsement is implied.

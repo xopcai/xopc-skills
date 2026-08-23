@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "form-survey-builder",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "设计一份客户反馈问卷",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "为活动报名创建表单结构",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "生成员工入职信息收集表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "把调研目标变成问题和跳转逻辑",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "build a product feedback survey",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "设计带验证规则的申请表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "为 NPS 反馈补充原因分支",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "创建表单响应字段 schema",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "检查问卷是否有诱导性问题",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "生成并预览供应商准入表单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "分析问卷结果",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "直接群发这个表单",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "创建 Excel 报表",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "写客户访谈总结",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "生成投票海报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "填写政府申请表",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "抓取网站表单数据",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "翻译问卷文案",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "设计数据库表",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "发布匿名问卷无需检查设置",
+      "shouldTrigger": false
+    }
+  ]
+}

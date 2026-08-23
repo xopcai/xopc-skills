@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/anthropics/knowledge-work-plugins",
+  "commit": "5267cf7bff3031921d4474b8e8f86ad02d2b8f6d",
+  "path": "operations/skills/status-report",
+  "license": "Apache-2.0",
+  "copyright": "Anthropic, PBC",
+  "xopcChanges": [
+    "Required traceable evidence for health and trend claims",
+    "Separated missing data from healthy status",
+    "Made report period, baseline, and mutation boundaries explicit"
+  ]
+}
