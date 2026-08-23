@@ -392,6 +392,12 @@
     {"id":"analyze-learning-assessment","title":"从测评证据诊断学情并规划再教学","domain":"education","stage":"experimental","strategy":"build","briefPath":"briefs/analyze-learning-assessment.md","targetOutcome":"交付数据可核、不过度标签化且能连接知识点、误概念、干预和再测的学情分析","priority":16},
     {"id":"coordinate-production-incident","title":"协调生产事故从影响控制到复盘闭环","domain":"software-operations","stage":"experimental","strategy":"build","briefPath":"briefs/coordinate-production-incident.md","targetOutcome":"交付时间线、角色、缓解证据、状态更新、恢复验证和无责改进行动","priority":18},
     {"id":"build-competitive-intelligence","title":"形成当前且可追溯的竞品情报","domain":"market-intelligence","stage":"experimental","strategy":"build","briefPath":"briefs/build-competitive-intelligence.md","targetOutcome":"交付口径可比、来源与日期清楚、保留自身劣势和未知项的竞争判断","priority":17},
-    {"id":"adapt-china-social-content","title":"将可信素材适配为中国社交平台单篇内容","domain":"content-creation","stage":"experimental","strategy":"build","briefPath":"briefs/adapt-china-social-content.md","targetOutcome":"交付平台原生、事实与权利可核验且未经确认不发布的单篇图文或脚本","priority":16}
+    {"id":"adapt-china-social-content","title":"将可信素材适配为中国社交平台单篇内容","domain":"content-creation","stage":"experimental","strategy":"build","briefPath":"briefs/adapt-china-social-content.md","targetOutcome":"交付平台原生、事实与权利可核验且未经确认不发布的单篇图文或脚本","priority":16},
+    {"id":"triage-suspected-scam","title":"安全分诊可疑信息并制定独立核验方案","domain":"life-safety","stage":"experimental","strategy":"build","briefPath":"briefs/triage-suspected-scam.md","targetOutcome":"识别诈骗信号、阻断高风险动作、保留证据并通过独立官方渠道核验","priority":18},
+    {"id":"enjoy-cultural-divination","title":"进行明确标注为娱乐的文化占卜与反思","domain":"cultural-entertainment","stage":"experimental","strategy":"build","briefPath":"briefs/enjoy-cultural-divination.md","targetOutcome":"提供非宿命、非确定预测且不影响重大决策的趣味文化体验","priority":13},
+    {"id":"plan-focus-session","title":"把混乱任务拆成一次可完成的专注时段","domain":"personal-productivity","stage":"experimental","strategy":"build","briefPath":"briefs/plan-focus-session.md","targetOutcome":"形成符合当前时间精力、完成条件清楚且不羞辱中断的专注计划","priority":15},
+    {"id":"build-reading-practice","title":"建立有目的且可持续的阅读与笔记实践","domain":"reading-life","stage":"experimental","strategy":"build","briefPath":"briefs/build-reading-practice.md","targetOutcome":"交付符合阅读目的、保留来源定位且不侵权的计划、笔记与复盘","priority":14},
+    {"id":"understand-china-social-security","title":"核验并理解当前中国社保与公积金信息","domain":"public-services","stage":"experimental","strategy":"build","briefPath":"briefs/understand-china-social-security.md","targetOutcome":"交付地区与日期明确、来源权威、公式假设透明且不保证资格的办事指南","priority":17},
+    {"id":"review-home-renovation","title":"审查家庭装修方案、报价与施工节点","domain":"home-living","stage":"experimental","strategy":"build","briefPath":"briefs/review-home-renovation.md","targetOutcome":"交付报价可比、增项与验收风险明确且专业安全门槛清楚的决策清单","priority":16}
   ]
 }

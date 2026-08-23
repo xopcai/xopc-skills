@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.11.0 - 2026-08-23
+
+- Added six non-overlapping life-service Skills from a focused SkillHub China category review.
+- Added scam-message triage, cultural divination, focus-session planning, reading companionship, China social-security guidance, and home-renovation review.
+- Added six localized categories, six scenario briefs, 120 trigger cases, and 30 task fixtures.
+- Kept divination explicitly recreational and added strict boundaries for fraud recovery, official-policy freshness, personal data, professional inspection, payment, and external mutation.
+
 ## 0.10.0 - 2026-08-23
 
 - Added nine non-overlapping Skills from the second SkillHub China and skills.sh scenario review.

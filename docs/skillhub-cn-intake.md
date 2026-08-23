@@ -88,3 +88,24 @@ The second pass compared SkillHub China demand with skills.sh adoption signals a
 | `china-social-content-adaptation` | Strong WeChat/Xiaohongshu/Douyin demand | `marketingskills@social-content` with 60K+ installs | China-platform adaptation, claims/rights ledger, disclosure, privacy, and publish confirmation |
 
 These packages are original XOPC implementations. External packages supplied scenario and adoption evidence; no external Skill text, templates, code, or assets are redistributed. Contract review, investment trading, medical advice, autonomous account operation, scraping, and crisis sentiment automation remain held for stronger domain and platform governance.
+
+## Life-service intake — v0.11
+
+On 2026-08-23, XOPC reviewed the score-ranked `life-service` results from the public SkillHub API. The category contained 8,529 listings at review time. Marketplace rank, downloads, and stars were treated as demand signals only; they did not waive license, safety, freshness, or evaluation requirements.
+
+| Market signal | Observed signal | XOPC decision | Reason |
+|---|---:|---|---|
+| Anti-fraud assistance | score 100,000 / 146,772 downloads | Build `scam-message-triage` | Very strong daily need; XOPC adds independent-channel verification, containment, evidence preservation, and secondary-recovery-scam controls |
+| Gift or red-envelope claiming | score 8,726 | Reject | Account automation, credential, platform-abuse, and payment risk exceed the user benefit |
+| Money, spending, and pressure tests | scores 7,252–8,474 | Covered / hold | Budget review already owns actionable finance reflection; unvalidated personality scoring could label users without reliable benefit |
+| WeRead assistant | score 6,850 / 54 stars | Build provider-neutral `reading-companion` | Reading support is broadly useful, but official XOPC capability must not depend on one account or reproduce copyrighted text |
+| Travel assistant | score 6,307 / 26 stars | Already covered | `travel-itinerary-planning` already owns the itinerary outcome and current-fact checks |
+| Bazi and divination assistants | scores 3,243–5,677 / up to 25 stars | Build `cultural-divination` | Clear entertainment demand; bounded to cultural symbolism and reflection, never certainty or consequential advice |
+| FocusFlow | score 2,988 | Build `focus-session-planning` | A short immediate execution loop is distinct from weekly planning and useful without medicalizing procrastination |
+| China social-security advisor | top-60 listing | Build `china-social-security-guidance` | High local relevance; requires location, effective date, official primary sources, explicit formulas, and no eligibility guarantees |
+| Renovation helpers | top-60 listings | Build `home-renovation-review` | Quotes, scope gaps, change orders, and milestone evidence are reviewable; regulated inspection and payment remain human decisions |
+| Relationship coaches | multiple top-60 listings | Hold | Needs a clearer boundary from mental-health support and stronger harmful-advice evaluation |
+| Fitness, nutrition, CBT, and disease-probability assistants | multiple top-60 listings | Hold | Medical and mental-health governance, qualified review, crisis routing, and harmful-error baselines are prerequisites |
+| Lottery and wealth prediction | multiple listings | Reject | Encourages unsupported financial claims and gambling harm; it is not an acceptable extension of cultural entertainment |
+
+This intake adds six mutually exclusive, XOPC-original packages: `scam-message-triage`, `cultural-divination`, `focus-session-planning`, `reading-companion`, `china-social-security-guidance`, and `home-renovation-review`. No SkillHub instructions, code, templates, assets, or brand claims are copied. Travel, job search, and personal budgeting remain in their existing scenario groups instead of receiving duplicate Skills.

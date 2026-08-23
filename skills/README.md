@@ -44,6 +44,12 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `data-protection` | Sensitive source artifact to verified redacted copy | `privacy-redaction` |
 | `market-intelligence` | Current market evidence to fair competitor intelligence | `competitive-intelligence` |
 | `china-social-content` | Verified source material to a platform-native Chinese social asset | `china-social-content-adaptation` |
+| `life-safety` | Suspicious contact to a safe verification and containment plan | `scam-message-triage` |
+| `cultural-entertainment` | Cultural symbols to an explicitly recreational reflection | `cultural-divination` |
+| `personal-focus` | One immediate task to a bounded and resumable focus session | `focus-session-planning` |
+| `reading-life` | Reading intent or notes to a sustainable practice and synthesis | `reading-companion` |
+| `public-services` | Location-specific China social-security questions to current official guidance | `china-social-security-guidance` |
+| `home-living` | Renovation scope and evidence to a reviewable risk checklist | `home-renovation-review` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

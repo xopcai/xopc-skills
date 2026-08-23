@@ -44,6 +44,12 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 | Data protection | `skills/data-protection` | Sensitive source artifacts become verified redacted copies | `privacy-redaction` | Compliance certification, original deletion, unprotected reversible maps |
 | Market intelligence | `skills/market-intelligence` | Current evidence becomes fair and traceable competitor intelligence | `competitive-intelligence` | Deception, restricted data, prospect lists, generic research |
 | China social content | `skills/china-social-content` | Verified material becomes one platform-native Chinese social asset | `china-social-content-adaptation` | Campaign strategy, scraping, automatic publishing, fake engagement |
+| Life safety | `skills/life-safety` | Suspicious contact becomes a safe verification, containment, and evidence plan | `scam-message-triage` | Opening supplied links, calling supplied numbers, payment, recovery guarantees |
+| Cultural entertainment | `skills/cultural-entertainment` | Cultural symbols become explicitly recreational reflection prompts | `cultural-divination` | Deterministic predictions, medical/legal/financial advice, consequential decisions |
+| Personal focus | `skills/personal-focus` | One immediate task becomes a bounded, interruption-aware focus session | `focus-session-planning` | Weekly planning, diagnosis, calendar writes, project decomposition |
+| Reading life | `skills/reading-life` | Reading intent or supplied notes become a sustainable practice and grounded synthesis | `reading-companion` | Copyright circumvention, invented quotations, publishing, purchases |
+| Public services | `skills/public-services` | A China social-security question becomes dated, location-specific official guidance | `china-social-security-guidance` | Benefit guarantees, legal conclusions, applications, account mutation |
+| Home living | `skills/home-living` | Renovation scope, quote, or evidence becomes a comparable review and risk checklist | `home-renovation-review` | Structural certification, legal approval, payment, purchasing, contractor control |
 
 ## Composition
 

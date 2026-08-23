@@ -281,6 +281,12 @@
       "directory": "skills/china-social-content",
       "scenarioIds": ["adapt-china-social-content"],
       "skills": ["china-social-content-adaptation"]
-    }
+    },
+    {"id":"life-safety","labels":{"en":"Life Safety","zh-CN":"生活安全与防骗"},"directory":"skills/life-safety","scenarioIds":["triage-suspected-scam"],"skills":["scam-message-triage"]},
+    {"id":"cultural-entertainment","labels":{"en":"Cultural Entertainment","zh-CN":"文化娱乐与趣味占卜"},"directory":"skills/cultural-entertainment","scenarioIds":["enjoy-cultural-divination"],"skills":["cultural-divination"]},
+    {"id":"personal-focus","labels":{"en":"Personal Focus","zh-CN":"个人专注与启动"},"directory":"skills/personal-focus","scenarioIds":["plan-focus-session"],"skills":["focus-session-planning"]},
+    {"id":"reading-life","labels":{"en":"Reading Life","zh-CN":"阅读与读书陪伴"},"directory":"skills/reading-life","scenarioIds":["build-reading-practice"],"skills":["reading-companion"]},
+    {"id":"public-services","labels":{"en":"Public Services","zh-CN":"公共服务与社保信息"},"directory":"skills/public-services","scenarioIds":["understand-china-social-security"],"skills":["china-social-security-guidance"]},
+    {"id":"home-living","labels":{"en":"Home Living","zh-CN":"家居装修与生活决策"},"directory":"skills/home-living","scenarioIds":["review-home-renovation"],"skills":["home-renovation-review"]}
   ]
 }
