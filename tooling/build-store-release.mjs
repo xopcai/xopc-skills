@@ -131,6 +131,17 @@ function sha256(data) {
 
 const options = parseArgs(process.argv)
 const packageJson = JSON.parse(readFileSync(join(root, "package.json"), "utf8"))
+const scenarioGroups = JSON.parse(readFileSync(join(root, "registry/scenario-groups.json"), "utf8"))
+if (scenarioGroups.schemaVersion !== 2 || !Array.isArray(scenarioGroups.groups)) {
+  throw new Error("registry/scenario-groups.json has an unsupported shape")
+}
+const categories = scenarioGroups.groups.map((group) => {
+  if (typeof group.id !== "string" || typeof group.labels?.en !== "string" || typeof group.labels?.["zh-CN"] !== "string") {
+    throw new Error("Every scenario category requires id, labels.en and labels.zh-CN")
+  }
+  return { id: group.id, labels: { en: group.labels.en, "zh-CN": group.labels["zh-CN"] } }
+})
+const categoryIds = new Set(categories.map((category) => category.id))
 const commit = options.commit ?? gitCommit()
 if (!/^[a-f0-9]{40}$/.test(commit)) throw new Error("--commit must be a full lowercase Git SHA")
 const output = resolve(root, options.out ?? `dist/xopc-skills-${packageJson.version}.zip`)
@@ -151,6 +162,7 @@ for (const catalogFile of catalogFiles) {
   }
   const parts = catalog.path.split("/")
   if (parts.length !== 3 || parts[2] !== catalog.name) throw new Error(`Skill path must be skills/<group>/<name>: ${catalog.path}`)
+  if (!categoryIds.has(parts[1])) throw new Error(`Unknown scenario category for ${catalog.name}: ${parts[1]}`)
   const artifactPath = `packages/${catalog.name}.zip`
   const artifact = createZip(listFiles(source).map((name) => ({ name, data: readFileSync(join(source, name)) })))
   bundleEntries.push({ name: artifactPath, data: artifact })
@@ -177,10 +189,11 @@ visitSkills(join(root, "skills"))
 if (discovered.length !== skills.length) throw new Error(`Registry has ${skills.length} Skills but filesystem has ${discovered.length}`)
 
 const manifest = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   catalogVersion: packageJson.version,
   repository: "https://github.com/xopcai/xopc-skills",
   commit,
+  categories: categories.filter((category) => skills.some((skill) => skill.scenarioGroup === category.id)),
   skills,
 }
 bundleEntries.push({ name: "release-manifest.json", data: `${JSON.stringify(manifest, null, 2)}\n` })

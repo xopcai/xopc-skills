@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.0 - 2026-08-23
+
+- Added stable scenario category IDs with English and Simplified Chinese labels as the official display taxonomy.
+- Included the complete localized category catalog in Store release manifests for XOPC marketplace filtering and display.
+
 ## 0.7.1 - 2026-08-23
 
 - Replaced the platform-dependent system ZIP publisher with a dependency-free deterministic ZIP writer so macOS and Linux produce byte-identical Store artifacts.

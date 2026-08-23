@@ -108,7 +108,7 @@ if (opportunities) {
 
 const scenarioGroups = readJson("registry/scenario-groups.json")
 if (scenarioGroups) {
-  if (scenarioGroups.schemaVersion !== 1 || !Array.isArray(scenarioGroups.groups)) {
+  if (scenarioGroups.schemaVersion !== 2 || !Array.isArray(scenarioGroups.groups)) {
     errors.push("registry/scenario-groups.json: unsupported shape")
   } else {
     if (!Number.isInteger(scenarioGroups.maxSkillsPerGroup) || scenarioGroups.maxSkillsPerGroup < 1 || scenarioGroups.maxSkillsPerGroup > 20) {
@@ -119,9 +119,10 @@ if (scenarioGroups) {
     const groupedSkills = new Set()
     for (const group of scenarioGroups.groups) {
       requireString(group.id, "scenarioGroup.id")
-      requireString(group.title, `${group.id}.title`)
+      requireString(group.labels?.en, `${group.id}.labels.en`)
+      requireString(group.labels?.["zh-CN"], `${group.id}.labels.zh-CN`)
       if (!Array.isArray(group.scenarioIds) || group.scenarioIds.length === 0) errors.push(`${group.id}: scenarioIds are required`)
-      if (!Array.isArray(group.skills)) errors.push(`${group.id}: skills must be an array`)
+      if (!Array.isArray(group.skills) || group.skills.length === 0) errors.push(`${group.id}: unused category must be removed`)
       if ((group.skills?.length ?? 0) > scenarioGroups.maxSkillsPerGroup) errors.push(`${group.id}: exceeds ${scenarioGroups.maxSkillsPerGroup} Skills`)
       for (const scenarioId of group.scenarioIds ?? []) {
         if (!scenarioIds.has(scenarioId)) errors.push(`${group.id}: unknown scenarioId '${scenarioId}'`)

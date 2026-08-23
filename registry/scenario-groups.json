@@ -1,213 +1,213 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "maxSkillsPerGroup": 20,
   "groups": [
     {
       "id": "decision-research",
-      "title": "深度调研到决策简报",
+      "labels": { "en": "Research and Decision Briefs", "zh-CN": "深度调研到决策简报" },
       "directory": "skills/decision-research",
       "scenarioIds": ["create-decision-research-brief"],
       "skills": ["evidence-based-research"]
     },
     {
       "id": "meeting-execution",
-      "title": "会议到执行闭环",
+      "labels": { "en": "Meetings to Execution", "zh-CN": "会议到执行闭环" },
       "directory": "skills/meeting-execution",
       "scenarioIds": ["turn-meeting-into-actions"],
       "skills": ["meeting-to-actions"]
     },
     {
       "id": "content-campaign",
-      "title": "营销内容生产包",
+      "labels": { "en": "Content Campaign Production", "zh-CN": "营销内容生产包" },
       "directory": "skills/content-campaign",
       "scenarioIds": ["create-content-campaign-pack", "create-multiformat-media-content"],
       "skills": ["content-campaign-pack"]
     },
     {
       "id": "sales-account-research",
-      "title": "销售客户研究",
+      "labels": { "en": "Sales Account Research", "zh-CN": "销售客户研究" },
       "directory": "skills/sales-account-research",
       "scenarioIds": ["research-qualified-prospects"],
       "skills": ["prospect-research"]
     },
     {
       "id": "api-integration",
-      "title": "API 到可用集成",
+      "labels": { "en": "API Integration", "zh-CN": "API 到可用集成" },
       "directory": "skills/api-integration",
       "scenarioIds": ["connect-ai-app-to-xopc-models", "build-trusted-xopc-connector", "publish-local-service-with-xopc-tunnel", "build-production-mcp-server"],
       "skills": ["xopc-model-gateway", "xopc-connector-builder", "mcp-server-builder"]
     },
     {
       "id": "software-delivery",
-      "title": "软件发布交付闭环",
+      "labels": { "en": "Software Delivery", "zh-CN": "软件发布交付闭环" },
       "directory": "skills/software-delivery",
       "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions", "implement-change-with-tdd", "address-github-review-comments", "resolve-git-conflicts"],
       "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix", "test-driven-development", "github-review-comments", "merge-conflict-resolution"]
     },
     {
       "id": "document-compliance",
-      "title": "专业文档要求审查",
+      "labels": { "en": "Document Compliance", "zh-CN": "专业文档要求审查" },
       "directory": "skills/document-compliance",
       "scenarioIds": ["review-document-requirements"],
       "skills": ["document-requirements-review"]
     },
     {
       "id": "weekly-planning",
-      "title": "个人与团队周计划",
+      "labels": { "en": "Weekly Planning", "zh-CN": "个人与团队周计划" },
       "directory": "skills/weekly-planning",
       "scenarioIds": ["run-weekly-planning-review"],
       "skills": ["weekly-planning-review"]
     },
     {
       "id": "product-interface-design",
-      "title": "产品界面设计与验证",
+      "labels": { "en": "Product Interface Design", "zh-CN": "产品界面设计与验证" },
       "directory": "skills/product-interface-design",
       "scenarioIds": ["design-distinctive-web-interface"],
       "skills": ["frontend-design"]
     },
     {
       "id": "software-security",
-      "title": "软件安全分析与加固",
+      "labels": { "en": "Software Security", "zh-CN": "软件安全分析与加固" },
       "directory": "skills/software-security",
       "scenarioIds": ["threat-model-software-system", "review-code-security", "analyze-security-ownership"],
       "skills": ["security-threat-model", "secure-code-review", "security-ownership-analysis"]
     },
     {
       "id": "data-notebooks",
-      "title": "可复现数据 Notebook",
+      "labels": { "en": "Reproducible Data Notebooks", "zh-CN": "可复现数据 Notebook" },
       "directory": "skills/data-notebooks",
       "scenarioIds": ["build-reproducible-notebook"],
       "skills": ["jupyter-notebook"]
     },
     {
       "id": "internal-communications",
-      "title": "内部沟通与经营更新",
+      "labels": { "en": "Internal Communications", "zh-CN": "内部沟通与经营更新" },
       "directory": "skills/internal-communications",
       "scenarioIds": ["draft-internal-communication"],
       "skills": ["internal-communications"]
     },
     {
       "id": "developer-tools",
-      "title": "Agent 友好开发工具",
+      "labels": { "en": "Agent-Friendly Developer Tools", "zh-CN": "Agent 友好开发工具" },
       "directory": "skills/developer-tools",
       "scenarioIds": ["build-agent-friendly-cli"],
       "skills": ["agent-cli-builder"]
     },
     {
       "id": "software-architecture",
-      "title": "软件模块架构设计",
+      "labels": { "en": "Software Architecture", "zh-CN": "软件模块架构设计" },
       "directory": "skills/software-architecture",
       "scenarioIds": ["design-deep-software-module"],
       "skills": ["module-design"]
     },
     {
       "id": "office-documents",
-      "title": "专业办公文档与 PDF",
+      "labels": { "en": "Office Documents and PDF", "zh-CN": "专业办公文档与 PDF" },
       "directory": "skills/office-documents",
       "scenarioIds": ["author-professional-document", "work-with-pdf"],
       "skills": ["document-authoring", "pdf-workbench"]
     },
     {
       "id": "office-data",
-      "title": "电子表格分析与交付",
+      "labels": { "en": "Spreadsheet Analysis", "zh-CN": "电子表格分析与交付" },
       "directory": "skills/office-data",
       "scenarioIds": ["work-with-spreadsheet","create-data-visualization-report"],
       "skills": ["spreadsheet-workbench","data-visualization-report"]
     },
     {
       "id": "office-presentations",
-      "title": "演示文稿设计与制作",
+      "labels": { "en": "Presentation Design", "zh-CN": "演示文稿设计与制作" },
       "directory": "skills/office-presentations",
       "scenarioIds": ["create-presentation-deck"],
       "skills": ["presentation-deck"]
     },
     {
       "id": "email-productivity",
-      "title": "邮件处理与回复",
+      "labels": { "en": "Email Productivity", "zh-CN": "邮件处理与回复" },
       "directory": "skills/email-productivity",
       "scenarioIds": ["triage-email-inbox", "draft-email-reply"],
       "skills": ["inbox-triage", "email-reply-drafting"]
     },
     {
       "id": "calendar-productivity",
-      "title": "日程理解、会前准备与排期",
+      "labels": { "en": "Calendar and Meeting Planning", "zh-CN": "日程理解、会前准备与排期" },
       "directory": "skills/calendar-productivity",
       "scenarioIds": ["build-daily-agenda", "prepare-for-meeting", "schedule-group-meeting"],
       "skills": ["daily-agenda-brief", "meeting-preparation", "group-scheduling"]
     },
     {
       "id": "knowledge-workspace",
-      "title": "企业知识检索与综合",
+      "labels": { "en": "Workspace Knowledge", "zh-CN": "企业知识检索与综合" },
       "directory": "skills/knowledge-workspace",
       "scenarioIds": ["synthesize-workspace-knowledge"],
       "skills": ["workspace-knowledge-synthesis"]
     },
     {
       "id": "work-management",
-      "title": "承诺、项目状态与协作流",
+      "labels": { "en": "Work Management", "zh-CN": "承诺、项目状态与协作流" },
       "directory": "skills/work-management",
       "scenarioIds": ["capture-cross-source-commitments","synthesize-project-status","digest-team-workstream","decompose-spec-into-work-items"],
       "skills": ["commitment-task-capture","project-status-synthesis","workstream-digest","spec-to-work-items"]
     },
     {
       "id": "business-operations",
-      "title": "客服与财务运营",
+      "labels": { "en": "Business Operations", "zh-CN": "客服与财务运营" },
       "directory": "skills/business-operations",
       "scenarioIds": ["triage-customer-support-ticket","reconcile-invoices-and-receipts"],
       "skills": ["customer-support-ticket-triage","invoice-receipt-reconciliation"]
     },
     {
       "id": "language-localization",
-      "title": "翻译与本地化质量",
+      "labels": { "en": "Language and Localization", "zh-CN": "翻译与本地化质量" },
       "directory": "skills/language-localization",
       "scenarioIds": ["review-translation-localization"],
       "skills": ["translation-localization-review"]
     },
     {
       "id": "file-organization",
-      "title": "安全文件整理",
+      "labels": { "en": "File Organization", "zh-CN": "安全文件整理" },
       "directory": "skills/file-organization",
       "scenarioIds": ["organize-files-safely"],
       "skills": ["safe-file-organization"]
     },
     {
       "id": "forms-surveys",
-      "title": "表单与问卷设计",
+      "labels": { "en": "Forms and Surveys", "zh-CN": "表单与问卷设计" },
       "directory": "skills/forms-surveys",
       "scenarioIds": ["build-form-or-survey"],
       "skills": ["form-survey-builder"]
     },
     {
       "id": "procurement-operations",
-      "title": "供应商采购评估",
+      "labels": { "en": "Procurement Operations", "zh-CN": "供应商采购评估" },
       "directory": "skills/procurement-operations",
       "scenarioIds": ["evaluate-vendor"],
       "skills": ["vendor-evaluation"]
     },
     {
       "id": "people-operations",
-      "title": "招聘运营分析",
+      "labels": { "en": "People Operations", "zh-CN": "招聘运营分析" },
       "directory": "skills/people-operations",
       "scenarioIds": ["review-recruiting-pipeline"],
       "skills": ["recruiting-pipeline-review"]
     },
     {
       "id": "product-discovery",
-      "title": "产品决策验证",
+      "labels": { "en": "Product Discovery", "zh-CN": "产品决策验证" },
       "directory": "skills/product-discovery",
       "scenarioIds": ["prototype-product-decision"],
       "skills": ["decision-prototype"]
     },
     {
       "id": "media-production",
-      "title": "音视频制作与质检",
+      "labels": { "en": "Media Production", "zh-CN": "音视频制作与质检" },
       "directory": "skills/media-production",
       "scenarioIds": ["transcribe-audio-accurately", "produce-explainer-video"],
       "skills": ["audio-transcription", "explainer-video-production"]
     },
     {
       "id": "brand-operations",
-      "title": "品牌规范应用",
+      "labels": { "en": "Brand Operations", "zh-CN": "品牌规范应用" },
       "directory": "skills/brand-operations",
       "scenarioIds": ["apply-brand-style-to-artifact"],
       "skills": ["brand-style-application"]
