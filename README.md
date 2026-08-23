@@ -16,7 +16,7 @@ XOPC 官方 Skill 仓库。这里维护的是经过场景定义、来源审查�
 docs/                 产品策略、场景方法、质量标准和上游适配规则
 registry/             场景、候选来源和已发布 Skill 的机器可读目录
 schemas/              registry 数据契约
-skills/<skill-name>/  最终可分发的官方 Skill
+skills/<scenario>/<skill-name>/  按用户场景组织的官方 Skill
 evals/<skill-name>/   不进入安装包的触发与任务评测
 templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
@@ -26,22 +26,22 @@ tooling/              仓库校验与后续评测工具
 
 ## v0.2 场景 Skill
 
-| Skill | 用户场景 | 来源 |
-|---|---|---|
-| `xopc-model-gateway` | 将现有 OpenAI-compatible 应用迁移到 XOPC 并验证请求/流式 | XOPC Original |
-| `xopc-connector-builder` | 为远程或审核后的本地 MCP 制作最小权限 Connector | XOPC Original |
-| `playwright-webapp-testing` | 为现有 Web 应用建立可靠的 Playwright E2E | TestMu MIT Adapted |
-| `supabase-postgres-best-practices` | 审查生产 PostgreSQL 性能、RLS、schema 和锁风险 | Supabase MIT Adapted |
-| `react-native-best-practices` | 用测量证据诊断 React Native 性能 | CallStack MIT Adapted |
-| `release-notes` | 从已发布变更生成有证据的用户发布说明 | Paweł Huryn MIT Adapted |
-| `evidence-based-research` | 从多源事实形成可追溯的决策简报 | Microsoft MIT Adapted |
-| `meeting-to-actions` | 将会议记录转成决策、责任人与待确认写回计划 | Mohit Aggarwal MIT Adapted |
-| `content-campaign-pack` | 从业务目标形成内容支柱、资产 brief、渠道适配和度量 | Corey Haines MIT Adapted |
-| `prospect-research` | 按 ICP、时机信号和来源验证高质量潜客 | Corey Haines MIT Adapted |
-| `document-requirements-review` | 按显式要求形成专业文档逐条证据矩阵 | Mohit Aggarwal MIT Adapted |
-| `weekly-planning-review` | 关闭开放循环并生成容量可行的下周计划 | Alireza Rezvani MIT Adapted |
+| 场景目录 | Skill | 用户结果 | 来源 |
+|---|---|---|---|
+| `api-integration` | `xopc-model-gateway` | 将 OpenAI-compatible 应用迁移到 XOPC 并验证请求/流式 | XOPC Original |
+| `api-integration` | `xopc-connector-builder` | 为远程或审核后的本地 MCP 制作最小权限 Connector | XOPC Original |
+| `software-delivery` | `playwright-webapp-testing` | 为现有 Web 应用建立可靠的 Playwright E2E | TestMu MIT Adapted |
+| `software-delivery` | `supabase-postgres-best-practices` | 审查生产 PostgreSQL 性能、RLS、schema 和锁风险 | Supabase MIT Adapted |
+| `software-delivery` | `react-native-best-practices` | 用测量证据诊断 React Native 性能 | CallStack MIT Adapted |
+| `software-delivery` | `release-notes` | 从已发布变更生成有证据的用户发布说明 | Paweł Huryn MIT Adapted |
+| `decision-research` | `evidence-based-research` | 从多源事实形成可追溯的决策简报 | Microsoft MIT Adapted |
+| `meeting-execution` | `meeting-to-actions` | 将会议记录转成决策、责任人与待确认写回计划 | Mohit Aggarwal MIT Adapted |
+| `content-campaign` | `content-campaign-pack` | 从业务目标形成内容支柱、资产 brief、渠道适配和度量 | Corey Haines MIT Adapted |
+| `sales-account-research` | `prospect-research` | 按 ICP、时机信号和来源验证高质量潜客 | Corey Haines MIT Adapted |
+| `document-compliance` | `document-requirements-review` | 按显式要求形成专业文档逐条证据矩阵 | Mohit Aggarwal MIT Adapted |
+| `weekly-planning` | `weekly-planning-review` | 关闭开放循环并生成容量可行的下周计划 | Alireza Rezvani MIT Adapted |
 
-8 个用户场景组及其唯一 Skill 归属见 [`registry/scenario-groups.json`](registry/scenario-groups.json)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
+8 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由、能力边界和未采用候选。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含 `SOURCE.json`。
 

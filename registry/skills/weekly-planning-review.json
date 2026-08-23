@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "name": "weekly-planning-review",
+  "path": "skills/weekly-planning/weekly-planning-review",
   "version": "0.2.0",
   "stage": "experimental",
   "scenarioId": "run-weekly-planning-review",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
-  "source": "skills/weekly-planning-review/SOURCE.json",
+  "source": "skills/weekly-planning/weekly-planning-review/SOURCE.json",
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["No helper runtime required; calendar/task connectors optional"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Validate plans against four weeks of actual execution", "Measure capacity overcommitment rate", "Test task/calendar write-back with rollback"]

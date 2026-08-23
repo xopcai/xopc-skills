@@ -30,21 +30,21 @@ try {
   const fixture = join(temp, "client")
   mkdirSync(fixture)
   writeFileSync(join(fixture, "app.ts"), 'import OpenAI from "openai"\nconst client = new OpenAI({ baseURL: process.env.AI_URL })\nclient.chat.completions.create({ model: "demo", stream: true })\n')
-  const detection = await run("node", ["skills/xopc-model-gateway/scripts/detect-ai-clients.mjs", fixture])
+  const detection = await run("node", ["skills/api-integration/xopc-model-gateway/scripts/detect-ai-clients.mjs", fixture])
   assert(detection.code === 0, `client detection failed: ${detection.stderr}`)
   const findings = JSON.parse(detection.stdout).findings
   assert(findings.some((item) => item.signals.includes("openai-sdk")), "OpenAI SDK was not detected")
   assert(findings.some((item) => item.signals.includes("streaming")), "streaming call was not detected")
 
-  const validManifest = join(root, "skills/xopc-connector-builder/assets/remote-api-key/xopc.connector.json")
-  const valid = await run("node", ["skills/xopc-connector-builder/scripts/validate-manifest.mjs", validManifest])
+  const validManifest = join(root, "skills/api-integration/xopc-connector-builder/assets/remote-api-key/xopc.connector.json")
+  const valid = await run("node", ["skills/api-integration/xopc-connector-builder/scripts/validate-manifest.mjs", validManifest])
   assert(valid.code === 0, `valid connector rejected: ${valid.stderr}`)
   const unsafePath = join(temp, "unsafe.connector.json")
   const unsafe = JSON.parse(readFileSync(validManifest, "utf8"))
   unsafe.runtime.serverTemplate.url = "http://127.0.0.1:3000/mcp"
   unsafe.permissions.networkDomains = ["127.0.0.1"]
   writeFileSync(unsafePath, JSON.stringify(unsafe))
-  const invalid = await run("node", ["skills/xopc-connector-builder/scripts/validate-manifest.mjs", unsafePath])
+  const invalid = await run("node", ["skills/api-integration/xopc-connector-builder/scripts/validate-manifest.mjs", unsafePath])
   assert(invalid.code !== 0, "unsafe loopback connector was accepted")
 
   const server = createServer(async (request, response) => {
@@ -79,7 +79,7 @@ try {
     ["--model", "xopc/test-model", "--stream", "--allow-request"]
   ]
   for (const extra of checks) {
-    const result = await run("node", ["skills/xopc-model-gateway/scripts/smoke-test.mjs", "--base-url", base, ...extra], { env })
+    const result = await run("node", ["skills/api-integration/xopc-model-gateway/scripts/smoke-test.mjs", "--base-url", base, ...extra], { env })
     assert(result.code === 0, `gateway smoke test failed: ${result.stderr}`)
     assert(!`${result.stdout}${result.stderr}`.includes(env.XOPC_ACCESS_TOKEN), "gateway smoke test leaked the token")
   }

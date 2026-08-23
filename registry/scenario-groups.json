@@ -5,48 +5,56 @@
     {
       "id": "decision-research",
       "title": "深度调研到决策简报",
+      "directory": "skills/decision-research",
       "scenarioIds": ["create-decision-research-brief"],
       "skills": ["evidence-based-research"]
     },
     {
       "id": "meeting-execution",
       "title": "会议到执行闭环",
+      "directory": "skills/meeting-execution",
       "scenarioIds": ["turn-meeting-into-actions"],
       "skills": ["meeting-to-actions"]
     },
     {
       "id": "content-campaign",
       "title": "营销内容生产包",
+      "directory": "skills/content-campaign",
       "scenarioIds": ["create-content-campaign-pack", "create-multiformat-media-content"],
       "skills": ["content-campaign-pack"]
     },
     {
       "id": "sales-account-research",
       "title": "销售客户研究",
+      "directory": "skills/sales-account-research",
       "scenarioIds": ["research-qualified-prospects"],
       "skills": ["prospect-research"]
     },
     {
       "id": "api-integration",
       "title": "API 到可用集成",
+      "directory": "skills/api-integration",
       "scenarioIds": ["connect-ai-app-to-xopc-models", "build-trusted-xopc-connector", "publish-local-service-with-xopc-tunnel"],
       "skills": ["xopc-model-gateway", "xopc-connector-builder"]
     },
     {
       "id": "software-delivery",
       "title": "软件发布交付闭环",
+      "directory": "skills/software-delivery",
       "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes"],
       "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes"]
     },
     {
       "id": "document-compliance",
       "title": "专业文档要求审查",
+      "directory": "skills/document-compliance",
       "scenarioIds": ["review-document-requirements"],
       "skills": ["document-requirements-review"]
     },
     {
       "id": "weekly-planning",
       "title": "个人与团队周计划",
+      "directory": "skills/weekly-planning",
       "scenarioIds": ["run-weekly-planning-review"],
       "skills": ["weekly-planning-review"]
     }

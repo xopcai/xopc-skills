@@ -3,10 +3,11 @@
   "title": "XOPC released Skill catalog entry",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "name", "version", "stage", "scenarioId", "origin", "license", "owner", "compatibility", "qualityGates", "stableBlockers"],
+  "required": ["schemaVersion", "name", "path", "version", "stage", "scenarioId", "origin", "license", "owner", "compatibility", "qualityGates", "stableBlockers"],
   "properties": {
     "schemaVersion": { "const": 1 },
     "name": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "path": { "type": "string", "pattern": "^skills/[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.-]+)?$" },
     "stage": { "enum": ["experimental", "candidate", "stable", "deprecated"] },
     "scenarioId": { "type": "string" },

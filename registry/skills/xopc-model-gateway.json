@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "xopc-model-gateway",
+  "path": "skills/api-integration/xopc-model-gateway",
   "version": "0.1.0",
   "stage": "experimental",
   "scenarioId": "connect-ai-app-to-xopc-models",

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs"
-import { basename, dirname, join, resolve } from "node:path"
+import { basename, dirname, join, relative, resolve } from "node:path"
 import { fileURLToPath } from "node:url"
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..")
@@ -196,10 +196,26 @@ function walkFiles(dir) {
   return files
 }
 
+function findSkillDirs(dir) {
+  if (!existsSync(dir)) return []
+  const skillDirs = []
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue
+    const path = join(dir, entry.name)
+    if (existsSync(join(path, "SKILL.md"))) skillDirs.push(path)
+    else skillDirs.push(...findSkillDirs(path))
+  }
+  return skillDirs
+}
+
 const skillsDir = join(root, "skills")
-const skillDirs = existsSync(skillsDir)
-  ? readdirSync(skillsDir).map((name) => join(skillsDir, name)).filter((path) => statSync(path).isDirectory())
-  : []
+const skillDirs = findSkillDirs(skillsDir)
+const skillDirsByName = new Map()
+for (const skillDir of skillDirs) {
+  const name = basename(skillDir)
+  if (skillDirsByName.has(name)) errors.push(`${name}: duplicate distributed Skill name`)
+  skillDirsByName.set(name, skillDir)
+}
 
 if (scenarioGroups?.groups) {
   const groupedSkills = new Set(scenarioGroups.groups.flatMap((group) => group.skills ?? []))
@@ -208,14 +224,22 @@ if (scenarioGroups?.groups) {
     if (!groupedSkills.has(name)) errors.push(`${name}: missing primary scenario-group assignment`)
   }
   for (const name of groupedSkills) {
-    if (!existsSync(join(skillsDir, name))) errors.push(`registry/scenario-groups.json: unknown distributed Skill '${name}'`)
+    if (!skillDirsByName.has(name)) errors.push(`registry/scenario-groups.json: unknown distributed Skill '${name}'`)
   }
   for (const group of scenarioGroups.groups) {
+    requireString(group.directory, `${group.id}.directory`)
+    const groupDir = group.directory ? join(root, group.directory) : null
+    if (groupDir && !existsSync(groupDir)) errors.push(`${group.id}: missing scenario directory '${group.directory}'`)
+    if (groupDir && existsSync(join(groupDir, "SKILL.md"))) errors.push(`${group.id}: scenario directory must not contain a root SKILL.md`)
+    if (groupDir && !existsSync(join(groupDir, "SCENARIO.md"))) errors.push(`${group.id}: missing SCENARIO.md`)
     const allowedScenarios = new Set(group.scenarioIds ?? [])
     for (const name of group.skills ?? []) {
       const catalog = readJson(`registry/skills/${name}.json`)
       if (catalog && !allowedScenarios.has(catalog.scenarioId)) {
         errors.push(`${name}: catalog scenarioId '${catalog.scenarioId}' is outside primary group '${group.id}'`)
+      }
+      if (catalog && catalog.path && dirname(catalog.path) !== group.directory) {
+        errors.push(`${name}: catalog path '${catalog.path}' is outside scenario directory '${group.directory}'`)
       }
     }
   }
@@ -225,7 +249,8 @@ if (skillDirs.length === 0) warnings.push("No official skills yet; repository is
 
 for (const skillDir of skillDirs) {
   const name = basename(skillDir)
-  const relativeSkill = `skills/${name}/SKILL.md`
+  const relativeDir = relative(root, skillDir)
+  const relativeSkill = `${relativeDir}/SKILL.md`
   const skillPath = join(skillDir, "SKILL.md")
   if (!existsSync(skillPath)) {
     errors.push(`${relativeSkill}: missing`)
@@ -257,6 +282,7 @@ for (const skillDir of skillDirs) {
     const catalog = readJson(`registry/skills/${name}.json`)
     if (catalog) {
       if (catalog.schemaVersion !== 1 || catalog.name !== name) errors.push(`registry/skills/${name}.json: unsupported shape or name mismatch`)
+      if (catalog.path !== relativeDir) errors.push(`${name}: catalog path must be '${relativeDir}'`)
       if (!/^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/.test(catalog.version ?? "")) errors.push(`${name}: invalid catalog version`)
       if (!["experimental", "candidate", "stable", "deprecated"].includes(catalog.stage)) errors.push(`${name}: invalid catalog stage`)
       const scenarioIds = new Set(scenarios?.scenarios?.map((item) => item.id) ?? [])
