@@ -70,3 +70,21 @@ All six are `xopc-original`. No SkillHub text, template, sample, script, asset, 
 - Measure trigger collision against adjacent official Skills.
 - Measure unsupported claims, omissions, formula errors, volatile-fact freshness, and privacy leakage.
 - Promote only individual Skills whose real-task evidence clears their blockers; do not promote the batch by download popularity.
+
+## Second intake — v0.10
+
+The second pass compared SkillHub China demand with skills.sh adoption signals and existing XOPC boundaries. It adds nine XOPC-original Skills:
+
+| Skill | Chinese market signal | Additional ecosystem signal | Primary quality improvement |
+|---|---|---|---|
+| `knowledge-base-curation` | 飞书/个人知识库整理 candidates | `basic-memory@memory-curate` | Source lineage, access metadata, conflict preservation, and retrieval tests |
+| `sop-authoring` | SOP 编写与治理 candidates | `founder-skills@sop-creator` | Observed-versus-approved state, explicit controls, exception paths, and walkthrough evidence |
+| `resume-tailoring` | Multiple 简历优化 candidates | `resumeskills@resume-tailor` with 6K+ installs | Requirement-to-evidence mapping and strict non-fabrication |
+| `personal-budget-review` | 家庭记账与预算 candidates | Smaller personal-budget ecosystem | Transfer/refund handling, irregular expenses, variable-income scenarios, and privacy |
+| `privacy-redaction` | 数据脱敏 candidates with strong local demand | Privacy/redaction specialist Skills | Copy-only operation, hidden-layer checks, mapping isolation, and residual-risk disclosure |
+| `learning-assessment-analysis` | 学情与试卷分析 candidates | Education assessment specialist Skills | Item quality, objective mapping, privacy, non-labeling, and reassessment |
+| `incident-response-coordination` | Production incident demand signal | Anthropic incident-response with 5K+ installs | Organization-specific severity, mutation authorization, recovery evidence, and blameless action verification |
+| `competitive-intelligence` | 竞品分析 candidates | Anthropic competitive intelligence with 3K+ installs | Comparable definitions, dated sources, fair disadvantages, and ethical collection |
+| `china-social-content-adaptation` | Strong WeChat/Xiaohongshu/Douyin demand | `marketingskills@social-content` with 60K+ installs | China-platform adaptation, claims/rights ledger, disclosure, privacy, and publish confirmation |
+
+These packages are original XOPC implementations. External packages supplied scenario and adoption evidence; no external Skill text, templates, code, or assets are redistributed. Contract review, investment trading, medical advice, autonomous account operation, scraping, and crisis sentiment automation remain held for stronger domain and platform governance.

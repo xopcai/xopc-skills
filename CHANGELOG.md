@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.10.0 - 2026-08-23
+
+- Added nine non-overlapping Skills from the second SkillHub China and skills.sh scenario review.
+- Added knowledge-base curation, SOP authoring, resume tailoring, personal budget review, privacy redaction, learning assessment analysis, incident response coordination, competitive intelligence, and China social content adaptation.
+- Added five localized categories, nine scenario briefs, 180 trigger cases, and 45 task fixtures.
+- Preserved originals and explicit authorization boundaries for knowledge mutations, controlled procedures, personal data, production changes, applications, accounts, and social publishing.
+
 ## 0.9.0 - 2026-08-23
 
 - Added a documented SkillHub China intake policy and category coverage review.

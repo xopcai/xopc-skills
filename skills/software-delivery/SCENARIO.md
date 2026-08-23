@@ -16,12 +16,13 @@ Use domain-specific engineering evidence to reduce release risk and communicate 
 - `test-driven-development` — adapted from [obra/superpowers](https://github.com/obra/superpowers); owns explicitly selected red-green-refactor implementation evidence.
 - `github-review-comments` — adapted from [OpenAI Plugins](https://github.com/openai/plugins); owns triage and closure of feedback on an existing pull request.
 - `merge-conflict-resolution` — adapted from [Matt Pocock's Skills](https://github.com/mattpocock/skills); owns intent-preserving resolution of an active merge, rebase, or cherry-pick conflict.
+- `incident-response-coordination` — owns active production impact triage, role and evidence coordination, mitigation controls, status communication, recovery validation, and blameless review.
 
 ## Boundary and overlap
 
-Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, release communication, bounded code review, defect diagnosis, CI recovery, explicitly requested TDD implementation, existing PR feedback closure, or an active Git conflict. None can claim successful deployment or repair without fresh evidence.
+Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, release communication, bounded code review, defect diagnosis, CI recovery, explicitly requested TDD implementation, existing PR feedback closure, an active Git conflict, or coordinated production impact. Ordinary defect diagnosis belongs to `systematic-debugging`; an active incident belongs to `incident-response-coordination`. None can claim successful deployment or repair without fresh evidence.
 
 ## Evaluated alternatives
 
 - Official domain-owner Skills are preferred over broad development bundles because their advice is easier to source, test, and update.
-- Security threat modeling is separated into `software-security`; incident response, CI-system design, and deployment remain future scenarios rather than additions to this group.
+- Security threat modeling is separated into `software-security`; CI-system design and deployment remain future scenarios rather than additions to this group.

@@ -41,8 +41,8 @@
       "id": "software-delivery",
       "labels": { "en": "Software Delivery", "zh-CN": "软件发布交付闭环" },
       "directory": "skills/software-delivery",
-      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions", "implement-change-with-tdd", "address-github-review-comments", "resolve-git-conflicts"],
-      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix", "test-driven-development", "github-review-comments", "merge-conflict-resolution"]
+      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions", "implement-change-with-tdd", "address-github-review-comments", "resolve-git-conflicts", "coordinate-production-incident"],
+      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix", "test-driven-development", "github-review-comments", "merge-conflict-resolution", "incident-response-coordination"]
     },
     {
       "id": "document-compliance",
@@ -139,8 +139,8 @@
       "id": "knowledge-workspace",
       "labels": { "en": "Workspace Knowledge", "zh-CN": "企业知识检索与综合" },
       "directory": "skills/knowledge-workspace",
-      "scenarioIds": ["synthesize-workspace-knowledge"],
-      "skills": ["workspace-knowledge-synthesis"]
+      "scenarioIds": ["synthesize-workspace-knowledge", "curate-knowledge-base"],
+      "skills": ["workspace-knowledge-synthesis", "knowledge-base-curation"]
     },
     {
       "id": "work-management",
@@ -153,8 +153,8 @@
       "id": "business-operations",
       "labels": { "en": "Business Operations", "zh-CN": "客服与财务运营" },
       "directory": "skills/business-operations",
-      "scenarioIds": ["triage-customer-support-ticket","reconcile-invoices-and-receipts"],
-      "skills": ["customer-support-ticket-triage","invoice-receipt-reconciliation"]
+      "scenarioIds": ["triage-customer-support-ticket","reconcile-invoices-and-receipts","author-standard-operating-procedure"],
+      "skills": ["customer-support-ticket-triage","invoice-receipt-reconciliation","sop-authoring"]
     },
     {
       "id": "language-localization",
@@ -237,8 +237,8 @@
       "id": "teaching-support",
       "labels": { "en": "Teaching Support", "zh-CN": "教学设计与备课" },
       "directory": "skills/teaching-support",
-      "scenarioIds": ["design-teaching-plan"],
-      "skills": ["teaching-plan-design"]
+      "scenarioIds": ["design-teaching-plan", "analyze-learning-assessment"],
+      "skills": ["teaching-plan-design", "learning-assessment-analysis"]
     },
     {
       "id": "travel-planning",
@@ -246,6 +246,41 @@
       "directory": "skills/travel-planning",
       "scenarioIds": ["plan-travel-itinerary"],
       "skills": ["travel-itinerary-planning"]
+    },
+    {
+      "id": "career-support",
+      "labels": { "en": "Career Support", "zh-CN": "求职与职业材料" },
+      "directory": "skills/career-support",
+      "scenarioIds": ["tailor-resume-to-role"],
+      "skills": ["resume-tailoring"]
+    },
+    {
+      "id": "personal-finance",
+      "labels": { "en": "Personal Finance", "zh-CN": "个人与家庭预算" },
+      "directory": "skills/personal-finance",
+      "scenarioIds": ["review-personal-budget"],
+      "skills": ["personal-budget-review"]
+    },
+    {
+      "id": "data-protection",
+      "labels": { "en": "Data Protection", "zh-CN": "隐私与数据脱敏" },
+      "directory": "skills/data-protection",
+      "scenarioIds": ["redact-sensitive-data"],
+      "skills": ["privacy-redaction"]
+    },
+    {
+      "id": "market-intelligence",
+      "labels": { "en": "Market Intelligence", "zh-CN": "市场与竞品情报" },
+      "directory": "skills/market-intelligence",
+      "scenarioIds": ["build-competitive-intelligence"],
+      "skills": ["competitive-intelligence"]
+    },
+    {
+      "id": "china-social-content",
+      "labels": { "en": "China Social Content", "zh-CN": "中国社交平台内容" },
+      "directory": "skills/china-social-content",
+      "scenarioIds": ["adapt-china-social-content"],
+      "skills": ["china-social-content-adaptation"]
     }
   ]
 }

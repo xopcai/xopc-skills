@@ -9,7 +9,7 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `content-campaign` | Goal to measurable campaign package | `content-campaign-pack` |
 | `sales-account-research` | ICP to verified prospect list | `prospect-research` |
 | `api-integration` | API or external service to a validated agent integration | `xopc-model-gateway`, `xopc-connector-builder`, `mcp-server-builder` |
-| `software-delivery` | Engineering evidence to safer release | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes`, `code-review`, `systematic-debugging`, `github-actions-ci-fix`, `test-driven-development`, `github-review-comments`, `merge-conflict-resolution` |
+| `software-delivery` | Engineering evidence or production impact to safer recovery and release | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes`, `code-review`, `systematic-debugging`, `github-actions-ci-fix`, `test-driven-development`, `github-review-comments`, `merge-conflict-resolution`, `incident-response-coordination` |
 | `document-compliance` | Supplied requirements to traceable review | `document-requirements-review` |
 | `weekly-planning` | Open loops to a capacity-feasible week | `weekly-planning-review` |
 | `product-interface-design` | Product brief to rendered and accessible interface | `frontend-design` |
@@ -23,9 +23,9 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `office-presentations` | Purpose and evidence to a rendered editable deck | `presentation-deck` |
 | `email-productivity` | Mailbox context to attention list or grounded reply draft | `inbox-triage`, `email-reply-drafting` |
 | `calendar-productivity` | Calendar evidence to daily understanding, meeting readiness, or ranked slots | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` |
-| `knowledge-workspace` | Scattered internal evidence to a current cited answer | `workspace-knowledge-synthesis` |
+| `knowledge-workspace` | Scattered evidence to a cited answer or governed knowledge base | `workspace-knowledge-synthesis`, `knowledge-base-curation` |
 | `work-management` | Communications, specs and project evidence to executable work | `commitment-task-capture`, `project-status-synthesis`, `workstream-digest`, `spec-to-work-items` |
-| `business-operations` | Customer or financial intake to a reviewable operations package | `customer-support-ticket-triage`, `invoice-receipt-reconciliation` |
+| `business-operations` | Customer, financial, or process evidence to a reviewable operations package | `customer-support-ticket-triage`, `invoice-receipt-reconciliation`, `sop-authoring` |
 | `language-localization` | Source content to locale-correct reviewed translation | `translation-localization-review` |
 | `file-organization` | Bounded files to a safe, previewed and reversible organization plan | `safe-file-organization` |
 | `forms-surveys` | Collection goal to testable form and response schema | `form-survey-builder` |
@@ -37,8 +37,13 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `business-analysis` | Financial or ecommerce evidence to decision-ready diagnosis | `financial-statement-analysis`, `ecommerce-performance-diagnosis` |
 | `chinese-professional-writing` | Facts and authority context to review-ready Chinese official text | `chinese-official-document-drafting` |
 | `user-research` | Mixed research evidence to traceable product insight | `user-research-synthesis` |
-| `teaching-support` | Learning context to aligned and feasible lesson plan | `teaching-plan-design` |
+| `teaching-support` | Learning context or assessment evidence to aligned teaching action | `teaching-plan-design`, `learning-assessment-analysis` |
 | `travel-planning` | Trip constraints and current facts to feasible itinerary | `travel-itinerary-planning` |
+| `career-support` | Verified experience and target role to truthful tailored resume | `resume-tailoring` |
+| `personal-finance` | Household records and goals to a privacy-aware budget review | `personal-budget-review` |
+| `data-protection` | Sensitive source artifact to verified redacted copy | `privacy-redaction` |
+| `market-intelligence` | Current market evidence to fair competitor intelligence | `competitive-intelligence` |
+| `china-social-content` | Verified source material to a platform-native Chinese social asset | `china-social-content-adaptation` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

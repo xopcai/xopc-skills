@@ -22,13 +22,13 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.9 experimental`，包含 35 个场景组、61 个场景和 59 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.10 experimental`，包含 40 个场景组、70 个场景和 68 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
 机器可读的完整能力清单以 [场景组 registry](registry/scenario-groups.json) 和 [Skill registry](registry/skills/) 为唯一事实来源；面向维护者的简表见 [场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。每个场景目录的 `SCENARIO.md` 记录用户结果和相邻边界。
 
-v0.9 在既有上游审查之外引入 [SkillHub 中国市场场景审计](docs/skillhub-cn-intake.md)，新增经营财务、电商、公文、用户研究、教学设计和旅行规划六项 XOPC 原创能力。每项能力都有 10+10 触发样例、5 个任务 fixture，并保持专业意见、动态事实、个人信息、外部写入、购买和发布的显式授权边界。
+v0.10 延续 [SkillHub 中国市场场景审计](docs/skillhub-cn-intake.md)，在首批六项本地场景后新增知识库治理、SOP、简历定制、个人预算、隐私脱敏、学情分析、生产事故响应、竞品情报和中国社交平台内容九项 XOPC 原创能力。每项能力都有 10+10 触发样例、5 个任务 fixture，并保持专业意见、个人信息、生产变更、外部写入、购买和发布的显式授权边界。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含固定 commit 的 `SOURCE.json`。
 
