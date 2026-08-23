@@ -23,7 +23,7 @@ jobs:
       - run: npm run validate
       - run: npm run test:scripts
       - run: npm run test:store-release
-      - run: npm run build:store-release -- --commit "$GITHUB_SHA"
+      - run: npm run build:store-release -- --commit "$(git rev-parse HEAD)"
       - run: npm run publish:store-release -- "dist/xopc-skills-$(node -p "require('./package.json').version").zip" --publish
         env:
           XOPC_API_BASE: https://store.xopc.ai

@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 import { createHash } from "node:crypto"
 import { spawnSync } from "node:child_process"
-import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync, utimesSync, writeFileSync } from "node:fs"
-import { tmpdir } from "node:os"
+import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs"
 import { dirname, join, relative, resolve } from "node:path"
 import { fileURLToPath } from "node:url"
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..")
-const fixedTime = new Date("1980-01-01T00:00:00.000Z")
+const utf8Flag = 0x0800
+const dosTime = 0
+const dosDate = 0x0021
 
 function parseArgs(argv) {
   const options = { out: null, commit: null }
@@ -42,33 +43,90 @@ function listFiles(directory) {
   return files
 }
 
-function normalizeTimes(directory) {
-  const visit = (current) => {
-    for (const entry of readdirSync(current, { withFileTypes: true })) {
-      const full = join(current, entry.name)
-      if (entry.isDirectory()) visit(full)
-      utimesSync(full, fixedTime, fixedTime)
+const crcTable = Array.from({ length: 256 }, (_, value) => {
+  let crc = value
+  for (let bit = 0; bit < 8; bit += 1) crc = (crc & 1) === 1 ? 0xedb88320 ^ (crc >>> 1) : crc >>> 1
+  return crc >>> 0
+})
+
+function crc32(data) {
+  let crc = 0xffffffff
+  for (const byte of data) crc = crcTable[(crc ^ byte) & 0xff] ^ (crc >>> 8)
+  return (crc ^ 0xffffffff) >>> 0
+}
+
+function createZip(entries) {
+  if (entries.length === 0) throw new Error("Cannot create an empty ZIP archive")
+  const names = new Set()
+  const localParts = []
+  const centralParts = []
+  let offset = 0
+
+  for (const entry of [...entries].sort((a, b) => a.name.localeCompare(b.name))) {
+    if (!entry.name || entry.name.startsWith("/") || entry.name.split("/").includes("..") || entry.name.includes("\\")) {
+      throw new Error(`Unsafe ZIP entry: ${entry.name}`)
     }
+    if (names.has(entry.name)) throw new Error(`Duplicate ZIP entry: ${entry.name}`)
+    names.add(entry.name)
+
+    const name = Buffer.from(entry.name, "utf8")
+    const data = Buffer.isBuffer(entry.data) ? entry.data : Buffer.from(entry.data)
+    if (name.length > 0xffff || data.length > 0xffffffff || offset > 0xffffffff) throw new Error(`ZIP entry is too large: ${entry.name}`)
+    const checksum = crc32(data)
+
+    const local = Buffer.alloc(30)
+    local.writeUInt32LE(0x04034b50, 0)
+    local.writeUInt16LE(20, 4)
+    local.writeUInt16LE(utf8Flag, 6)
+    local.writeUInt16LE(0, 8)
+    local.writeUInt16LE(dosTime, 10)
+    local.writeUInt16LE(dosDate, 12)
+    local.writeUInt32LE(checksum, 14)
+    local.writeUInt32LE(data.length, 18)
+    local.writeUInt32LE(data.length, 22)
+    local.writeUInt16LE(name.length, 26)
+    local.writeUInt16LE(0, 28)
+    localParts.push(local, name, data)
+
+    const central = Buffer.alloc(46)
+    central.writeUInt32LE(0x02014b50, 0)
+    central.writeUInt16LE(20, 4)
+    central.writeUInt16LE(20, 6)
+    central.writeUInt16LE(utf8Flag, 8)
+    central.writeUInt16LE(0, 10)
+    central.writeUInt16LE(dosTime, 12)
+    central.writeUInt16LE(dosDate, 14)
+    central.writeUInt32LE(checksum, 16)
+    central.writeUInt32LE(data.length, 20)
+    central.writeUInt32LE(data.length, 24)
+    central.writeUInt16LE(name.length, 28)
+    central.writeUInt16LE(0, 30)
+    central.writeUInt16LE(0, 32)
+    central.writeUInt16LE(0, 34)
+    central.writeUInt16LE(0, 36)
+    central.writeUInt32LE(0, 38)
+    central.writeUInt32LE(offset, 42)
+    centralParts.push(central, name)
+    offset += local.length + name.length + data.length
   }
-  visit(directory)
-  utimesSync(directory, fixedTime, fixedTime)
+
+  if (entries.length > 0xffff) throw new Error("ZIP has too many entries")
+  const centralDirectory = Buffer.concat(centralParts)
+  if (centralDirectory.length > 0xffffffff || offset > 0xffffffff) throw new Error("ZIP archive is too large")
+  const end = Buffer.alloc(22)
+  end.writeUInt32LE(0x06054b50, 0)
+  end.writeUInt16LE(0, 4)
+  end.writeUInt16LE(0, 6)
+  end.writeUInt16LE(entries.length, 8)
+  end.writeUInt16LE(entries.length, 10)
+  end.writeUInt32LE(centralDirectory.length, 12)
+  end.writeUInt32LE(offset, 16)
+  end.writeUInt16LE(0, 20)
+  return Buffer.concat([...localParts, centralDirectory, end])
 }
 
-function zipFiles(directory, output) {
-  const files = listFiles(directory)
-  if (files.length === 0) throw new Error(`Nothing to archive: ${directory}`)
-  rmSync(output, { force: true })
-  const result = spawnSync("zip", ["-X", "-q", output, "-@"], {
-    cwd: directory,
-    input: `${files.join("\n")}\n`,
-    encoding: "utf8",
-    env: { ...process.env, TZ: "UTC" },
-  })
-  if (result.status !== 0) throw new Error(result.stderr || `zip failed for ${directory}`)
-}
-
-function sha256(file) {
-  return createHash("sha256").update(readFileSync(file)).digest("hex")
+function sha256(data) {
+  return createHash("sha256").update(data).digest("hex")
 }
 
 const options = parseArgs(process.argv)
@@ -77,64 +135,55 @@ const commit = options.commit ?? gitCommit()
 if (!/^[a-f0-9]{40}$/.test(commit)) throw new Error("--commit must be a full lowercase Git SHA")
 const output = resolve(root, options.out ?? `dist/xopc-skills-${packageJson.version}.zip`)
 mkdirSync(dirname(output), { recursive: true })
-const temp = mkdtempSync(join(tmpdir(), "xopc-skill-release-"))
 
-try {
-  const bundleDir = join(temp, "bundle")
-  const packageDir = join(bundleDir, "packages")
-  mkdirSync(packageDir, { recursive: true })
-  const catalogFiles = readdirSync(join(root, "registry/skills")).filter((name) => name.endsWith(".json")).sort()
-  const names = new Set()
-  const skills = []
-  for (const catalogFile of catalogFiles) {
-    const catalog = JSON.parse(readFileSync(join(root, "registry/skills", catalogFile), "utf8"))
-    if (names.has(catalog.name)) throw new Error(`Duplicate registry Skill: ${catalog.name}`)
-    names.add(catalog.name)
-    const source = resolve(root, catalog.path)
-    if (!source.startsWith(`${resolve(root, "skills")}/`) || !existsSync(join(source, "SKILL.md")) || !statSync(source).isDirectory()) {
-      throw new Error(`Invalid registry path for ${catalog.name}: ${catalog.path}`)
-    }
-    const parts = catalog.path.split("/")
-    if (parts.length !== 3 || parts[2] !== catalog.name) throw new Error(`Skill path must be skills/<group>/<name>: ${catalog.path}`)
-    const staged = join(temp, "skills", catalog.name)
-    mkdirSync(dirname(staged), { recursive: true })
-    cpSync(source, staged, { recursive: true })
-    normalizeTimes(staged)
-    const artifactPath = `packages/${catalog.name}.zip`
-    const artifactFile = join(bundleDir, artifactPath)
-    zipFiles(staged, artifactFile)
-    utimesSync(artifactFile, fixedTime, fixedTime)
-    skills.push({
-      name: catalog.name,
-      path: catalog.path,
-      version: catalog.version,
-      scenarioGroup: parts[1],
-      scenarioId: catalog.scenarioId,
-      artifactPath,
-      artifactSha256: sha256(artifactFile),
-    })
+const catalogFiles = readdirSync(join(root, "registry/skills")).filter((name) => name.endsWith(".json")).sort()
+const names = new Set()
+const skills = []
+const bundleEntries = []
+for (const catalogFile of catalogFiles) {
+  const catalog = JSON.parse(readFileSync(join(root, "registry/skills", catalogFile), "utf8"))
+  if (names.has(catalog.name)) throw new Error(`Duplicate registry Skill: ${catalog.name}`)
+  names.add(catalog.name)
+  const source = resolve(root, catalog.path)
+  const skillsRoot = resolve(root, "skills")
+  if (!source.startsWith(`${skillsRoot}/`) || !existsSync(join(source, "SKILL.md")) || !statSync(source).isDirectory()) {
+    throw new Error(`Invalid registry path for ${catalog.name}: ${catalog.path}`)
   }
-  const discovered = []
-  const visitSkills = (directory) => {
-    for (const entry of readdirSync(directory, { withFileTypes: true })) {
-      const full = join(directory, entry.name)
-      if (entry.isDirectory()) visitSkills(full)
-      else if (entry.name === "SKILL.md") discovered.push(dirname(full))
-    }
-  }
-  visitSkills(join(root, "skills"))
-  if (discovered.length !== skills.length) throw new Error(`Registry has ${skills.length} Skills but filesystem has ${discovered.length}`)
-  const manifest = {
-    schemaVersion: 1,
-    catalogVersion: packageJson.version,
-    repository: "https://github.com/xopcai/xopc-skills",
-    commit,
-    skills,
-  }
-  writeFileSync(join(bundleDir, "release-manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`)
-  utimesSync(join(bundleDir, "release-manifest.json"), fixedTime, fixedTime)
-  zipFiles(bundleDir, output)
-  console.log(JSON.stringify({ output, commit, catalogVersion: packageJson.version, skillCount: skills.length, sha256: sha256(output) }, null, 2))
-} finally {
-  rmSync(temp, { recursive: true, force: true })
+  const parts = catalog.path.split("/")
+  if (parts.length !== 3 || parts[2] !== catalog.name) throw new Error(`Skill path must be skills/<group>/<name>: ${catalog.path}`)
+  const artifactPath = `packages/${catalog.name}.zip`
+  const artifact = createZip(listFiles(source).map((name) => ({ name, data: readFileSync(join(source, name)) })))
+  bundleEntries.push({ name: artifactPath, data: artifact })
+  skills.push({
+    name: catalog.name,
+    path: catalog.path,
+    version: catalog.version,
+    scenarioGroup: parts[1],
+    scenarioId: catalog.scenarioId,
+    artifactPath,
+    artifactSha256: sha256(artifact),
+  })
 }
+
+const discovered = []
+const visitSkills = (directory) => {
+  for (const entry of readdirSync(directory, { withFileTypes: true })) {
+    const full = join(directory, entry.name)
+    if (entry.isDirectory()) visitSkills(full)
+    else if (entry.name === "SKILL.md") discovered.push(dirname(full))
+  }
+}
+visitSkills(join(root, "skills"))
+if (discovered.length !== skills.length) throw new Error(`Registry has ${skills.length} Skills but filesystem has ${discovered.length}`)
+
+const manifest = {
+  schemaVersion: 1,
+  catalogVersion: packageJson.version,
+  repository: "https://github.com/xopcai/xopc-skills",
+  commit,
+  skills,
+}
+bundleEntries.push({ name: "release-manifest.json", data: `${JSON.stringify(manifest, null, 2)}\n` })
+const bundle = createZip(bundleEntries)
+writeFileSync(output, bundle)
+console.log(JSON.stringify({ output, commit, catalogVersion: packageJson.version, skillCount: skills.length, sha256: sha256(bundle) }, null, 2))

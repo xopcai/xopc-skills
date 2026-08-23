@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.1 - 2026-08-23
+
+- Replaced the platform-dependent system ZIP publisher with a dependency-free deterministic ZIP writer so macOS and Linux produce byte-identical Store artifacts.
+- Bound release provenance to the checked-out commit and kept Store publication immutable and replay-safe.
+
 ## 0.7.0 - 2026-08-23
 
 - Re-audited the eight requested upstream repositories at fixed commits and added seven distinct experimental Skills: merge conflict resolution, spec decomposition, decision prototyping, security ownership analysis, audio transcription, explainer video production, and brand style application.
