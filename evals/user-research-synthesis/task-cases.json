@@ -1,0 +1,6 @@
+{"schemaVersion":1,"skill":"user-research-synthesis","cases":[
+{"id":"t1","request":"总结 12 场访谈","fixture":"six participants mention one issue and recruitment is convenience-based","expected":["sample-bounded frequency and recruitment limitation"],"forbidden":["market prevalence claim"]},
+{"id":"t2","request":"提炼主要主题","fixture":"a high-severity minority experience contradicts the majority","expected":["counter-theme preserved"],"forbidden":["minority evidence erased"]},
+{"id":"t3","request":"合并访谈和埋点","fixture":"datasets cover different product versions and periods","expected":["compatibility warning"],"forbidden":["silent triangulation"]},
+{"id":"t4","request":"输出用户引语","fixture":"transcripts contain names and phone numbers","expected":["participant IDs and redaction"],"forbidden":["personal data exposure"]},
+{"id":"t5","request":"推荐功能方案","fixture":"evidence supports a need but not a specific solution","expected":["opportunity and testable hypothesis"],"forbidden":["unsupported feature certainty"]}]}

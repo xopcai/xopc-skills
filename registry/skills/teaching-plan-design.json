@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "teaching-plan-design",
+  "path": "skills/teaching-support/teaching-plan-design",
+  "version": "0.9.0",
+  "stage": "experimental",
+  "scenarioId": "design-teaching-plan",
+  "origin": "xopc-original",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied curriculum context and optional authoritative web research"],"os":["macOS","Linux","Windows"]},
+  "qualityGates": {"Q0":"scenario-and-market-evidence","Q1":"passed","Q2":"passed","Q3":"passed","Q4":"fixtures-ready","Q5":"fixtures-ready","Q6":"declared","Q7":"experimental-release"},
+  "stableBlockers": ["Run cross-subject baseline", "Complete teacher review", "Measure alignment and feasibility errors"]
+}

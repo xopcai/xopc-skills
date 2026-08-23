@@ -34,6 +34,11 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `product-discovery` | One uncertain decision to observable prototype evidence | `decision-prototype` |
 | `media-production` | Source media or facts to faithful transcript or verified explainer | `audio-transcription`, `explainer-video-production` |
 | `brand-operations` | Approved brand guide to accessible artifact conformance | `brand-style-application` |
+| `business-analysis` | Financial or ecommerce evidence to decision-ready diagnosis | `financial-statement-analysis`, `ecommerce-performance-diagnosis` |
+| `chinese-professional-writing` | Facts and authority context to review-ready Chinese official text | `chinese-official-document-drafting` |
+| `user-research` | Mixed research evidence to traceable product insight | `user-research-synthesis` |
+| `teaching-support` | Learning context to aligned and feasible lesson plan | `teaching-plan-design` |
+| `travel-planning` | Trip constraints and current facts to feasible itinerary | `travel-itinerary-planning` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

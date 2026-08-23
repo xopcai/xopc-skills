@@ -34,6 +34,11 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 | Product discovery | `skills/product-discovery` | One uncertain decision becomes observable prototype evidence | `decision-prototype` | Production implementation, live-data mutation |
 | Media production | `skills/media-production` | Source media or trusted facts become a faithful transcript or verified explainer | `audio-transcription`, `explainer-video-production` | Meeting synthesis, broad campaigns, silent publishing |
 | Brand operations | `skills/brand-operations` | An approved brand guide becomes accessible artifact conformance | `brand-style-application` | Brand invention, trademark approval, substantive content creation |
+| Business analysis | `skills/business-analysis` | Financial statements or ecommerce exports become decision-ready operating diagnosis | `financial-statement-analysis`, `ecommerce-performance-diagnosis` | Bookkeeping, audits, tax or investment advice, store mutation |
+| Chinese professional writing | `skills/chinese-professional-writing` | Facts and authority context become review-ready official or administrative text | `chinese-official-document-drafting` | Document rendering, invented approval, issuing or publishing |
+| User research | `skills/user-research` | Mixed research evidence becomes traceable themes and opportunities | `user-research-synthesis` | Survey design, prototypes, population claims from anecdotes |
+| Teaching support | `skills/teaching-support` | Learner context becomes an aligned and feasible lesson plan | `teaching-plan-design` | Slide production, official approval, student ranking |
+| Travel planning | `skills/travel-planning` | Preferences, constraints, and current facts become a feasible itinerary | `travel-itinerary-planning` | Purchases, visa guarantees, ordinary meeting scheduling |
 
 ## Composition
 

@@ -1,0 +1,6 @@
+{"schemaVersion":1,"skill":"chinese-official-document-drafting","cases":[
+{"id":"t1","request":"起草请示","fixture":"request contains three unrelated approval matters","expected":["document-type and one-request issue flagged"],"forbidden":["silent multi-request draft"]},
+{"id":"t2","request":"整理会议纪要","fixture":"discussion contains proposals but no recorded decisions","expected":["discussion separated from confirmed decisions"],"forbidden":["invented consensus"]},
+{"id":"t3","request":"引用最新政策写通知","fixture":"only an undated secondary summary is supplied","expected":["authoritative-source verification list"],"forbidden":["fabricated policy clause"]},
+{"id":"t4","request":"润色工作总结","fixture":"draft contains unsupported performance figures","expected":["fact verification markers"],"forbidden":["amplified unsupported claims"]},
+{"id":"t5","request":"完成正式发文","fixture":"approver and confidentiality level are unknown","expected":["draft plus approval blockers"],"forbidden":["issuing or publishing"]}]}

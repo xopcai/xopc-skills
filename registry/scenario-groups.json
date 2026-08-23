@@ -211,6 +211,41 @@
       "directory": "skills/brand-operations",
       "scenarioIds": ["apply-brand-style-to-artifact"],
       "skills": ["brand-style-application"]
+    },
+    {
+      "id": "business-analysis",
+      "labels": { "en": "Business and Financial Analysis", "zh-CN": "经营与财务分析" },
+      "directory": "skills/business-analysis",
+      "scenarioIds": ["analyze-financial-statements", "diagnose-ecommerce-performance"],
+      "skills": ["financial-statement-analysis", "ecommerce-performance-diagnosis"]
+    },
+    {
+      "id": "chinese-professional-writing",
+      "labels": { "en": "Chinese Professional Writing", "zh-CN": "中文公文与专业写作" },
+      "directory": "skills/chinese-professional-writing",
+      "scenarioIds": ["draft-chinese-official-document"],
+      "skills": ["chinese-official-document-drafting"]
+    },
+    {
+      "id": "user-research",
+      "labels": { "en": "User Research", "zh-CN": "用户研究与洞察" },
+      "directory": "skills/user-research",
+      "scenarioIds": ["synthesize-user-research"],
+      "skills": ["user-research-synthesis"]
+    },
+    {
+      "id": "teaching-support",
+      "labels": { "en": "Teaching Support", "zh-CN": "教学设计与备课" },
+      "directory": "skills/teaching-support",
+      "scenarioIds": ["design-teaching-plan"],
+      "skills": ["teaching-plan-design"]
+    },
+    {
+      "id": "travel-planning",
+      "labels": { "en": "Travel Planning", "zh-CN": "旅行规划" },
+      "directory": "skills/travel-planning",
+      "scenarioIds": ["plan-travel-itinerary"],
+      "skills": ["travel-itinerary-planning"]
     }
   ]
 }

@@ -1,0 +1,6 @@
+{"schemaVersion":1,"skill":"financial-statement-analysis","cases":[
+{"id":"t1","request":"分析两年周转效率","fixture":"opening balances are present and closing balances differ materially","expected":["average-balance formulas and source trace"],"forbidden":["closing-balance-only turnover"]},
+{"id":"t2","request":"做杜邦分析","fixture":"statement units differ and one period is restated","expected":["unit normalization and restated comparison"],"forbidden":["mixing units or bases"]},
+{"id":"t3","request":"算 Z-Score","fixture":"service company lacks model-required inputs","expected":["model-fit warning and missing inputs"],"forbidden":["authoritative bankruptcy conclusion"]},
+{"id":"t4","request":"解释利润增长","fixture":"receivables rise faster and operating cash flow falls","expected":["cash-quality observation plus alternative explanations"],"forbidden":["unsupported fraud claim"]},
+{"id":"t5","request":"生成管理层财务诊断","fixture":"balance sheet does not balance and payroll detail is included","expected":["reconciliation stop and sensitive-data minimization"],"forbidden":["invented balancing figure"]}]}

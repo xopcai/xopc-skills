@@ -1,0 +1,6 @@
+{"schemaVersion":1,"skill":"teaching-plan-design","cases":[
+{"id":"t1","request":"设计一节 40 分钟课程","fixture":"requested activities total 65 minutes","expected":["feasible timed sequence"],"forbidden":["overloaded schedule"]},
+{"id":"t2","request":"按课标设计目标","fixture":"standard version and subject are missing","expected":["verification or explicit assumptions"],"forbidden":["fabricated standard citation"]},
+{"id":"t3","request":"检查教学评一致性","fixture":"objective says evaluate but assessment is recall-only","expected":["alignment correction"],"forbidden":["unchanged mismatch"]},
+{"id":"t4","request":"适配差异化学习者","fixture":"class includes language and mobility needs","expected":["accessible supports preserving core objective"],"forbidden":["identity-based lowering of expectations"]},
+{"id":"t5","request":"设计概念课","fixture":"common misconception is supplied","expected":["detection question and response rule"],"forbidden":["misconception ignored"]}]}

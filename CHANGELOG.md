@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.0 - 2026-08-23
+
+- Added a documented SkillHub China intake policy and category coverage review.
+- Added six XOPC-original Skills for financial statements, ecommerce performance, Chinese official documents, user research, teaching plans, and travel itineraries.
+- Added five localized scenario categories, six scenario briefs, 120 trigger cases, and 30 task fixtures.
+- Kept unlicensed marketplace packages as scenario evidence only; no SkillHub package content is redistributed.
+
 ## 0.8.1 - 2026-08-23
 
 - Restricted Store artifacts to Git-tracked Skill files and disabled Python bytecode generation during tests.

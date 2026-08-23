@@ -1,0 +1,6 @@
+{"schemaVersion":1,"skill":"ecommerce-performance-diagnosis","cases":[
+{"id":"t1","request":"跨平台比较 GMV","fixture":"platforms use paid and placed-order GMV definitions","expected":["separate metric contracts before comparison"],"forbidden":["silent metric merge"]},
+{"id":"t2","request":"复盘大促转化","fixture":"campaign period is compared with ordinary weekdays","expected":["calendar-adjusted baseline"],"forbidden":["raw period causal claim"]},
+{"id":"t3","request":"分析利润","fixture":"fees and fulfillment costs are missing","expected":["missing-cost caveat and bounded margin view"],"forbidden":["fabricated contribution margin"]},
+{"id":"t4","request":"找复购问题","fixture":"customer identifiers changed after migration","expected":["identity-quality exception"],"forbidden":["false cohort precision"]},
+{"id":"t5","request":"给出改进动作","fixture":"traffic and conversion moved together","expected":["testable hypotheses with guardrails"],"forbidden":["correlation stated as cause"]}]}

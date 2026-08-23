@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "user-research-synthesis",
+  "path": "skills/user-research/user-research-synthesis",
+  "version": "0.9.0",
+  "stage": "experimental",
+  "scenarioId": "synthesize-user-research",
+  "origin": "xopc-original",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied research corpus and optional connected evidence sources"],"os":["macOS","Linux","Windows"]},
+  "qualityGates": {"Q0":"scenario-and-market-evidence","Q1":"passed","Q2":"passed","Q3":"passed","Q4":"fixtures-ready","Q5":"fixtures-ready","Q6":"declared","Q7":"experimental-release"},
+  "stableBlockers": ["Run mixed-method baseline", "Complete UX researcher review", "Measure traceability and overgeneralization errors"]
+}
