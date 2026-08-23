@@ -12,7 +12,11 @@ const temp = mkdtempSync(join(tmpdir(), "xopc-skills-test-"))
 
 function run(command, args, options = {}) {
   return new Promise((resolveRun, reject) => {
-    const child = spawn(command, args, { cwd: root, ...options })
+    const child = spawn(command, args, {
+      cwd: root,
+      ...options,
+      env: { ...process.env, PYTHONDONTWRITEBYTECODE: "1", ...options.env },
+    })
     let stdout = ""
     let stderr = ""
     child.stdout.on("data", (data) => { stdout += data })

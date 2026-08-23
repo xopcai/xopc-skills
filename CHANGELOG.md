@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.1 - 2026-08-23
+
+- Restricted Store artifacts to Git-tracked Skill files and disabled Python bytecode generation during tests.
+- Removed environment-dependent build output from `github-actions-ci-fix` and advanced that Skill to 0.3.1.
+- Replaced locale-sensitive archive ordering with a deterministic case-folded comparator while preserving established artifact order.
+
 ## 0.8.0 - 2026-08-23
 
 - Added stable scenario category IDs with English and Simplified Chinese labels as the official display taxonomy.

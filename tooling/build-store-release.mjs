@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { createHash } from "node:crypto"
 import { spawnSync } from "node:child_process"
-import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs"
+import { existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs"
 import { dirname, join, relative, resolve } from "node:path"
 import { fileURLToPath } from "node:url"
 
@@ -29,17 +29,34 @@ function gitCommit() {
   return result.stdout.trim()
 }
 
+function stableCompare(left, right) {
+  const leftFolded = left.toLowerCase()
+  const rightFolded = right.toLowerCase()
+  if (leftFolded < rightFolded) return -1
+  if (leftFolded > rightFolded) return 1
+  if (left < right) return -1
+  if (left > right) return 1
+  return 0
+}
+
 function listFiles(directory) {
-  const files = []
-  const visit = (current) => {
-    for (const entry of readdirSync(current, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
-      const full = join(current, entry.name)
-      if (entry.isDirectory()) visit(full)
-      else if (entry.isFile()) files.push(relative(directory, full).replaceAll("\\", "/"))
-      else throw new Error(`Unsupported filesystem entry: ${full}`)
-    }
+  const relativeDirectory = relative(root, directory).replaceAll("\\", "/")
+  const result = spawnSync("git", ["ls-files", "-z", "--", relativeDirectory], {
+    cwd: root,
+    encoding: "utf8",
+  })
+  if (result.status !== 0) throw new Error(result.stderr || `Unable to list tracked files in ${relativeDirectory}`)
+  const prefix = `${relativeDirectory}/`
+  const files = result.stdout.split("\0").filter(Boolean).map((path) => {
+    if (!path.startsWith(prefix)) throw new Error(`Tracked file escaped Skill directory: ${path}`)
+    const name = path.slice(prefix.length)
+    const stat = lstatSync(join(directory, name))
+    if (!stat.isFile() || stat.isSymbolicLink()) throw new Error(`Unsupported tracked filesystem entry: ${path}`)
+    return name
+  }).sort(stableCompare)
+  if (files.length === 0) {
+    throw new Error(`No tracked files found in ${relativeDirectory}`)
   }
-  visit(directory)
   return files
 }
 
@@ -62,7 +79,7 @@ function createZip(entries) {
   const centralParts = []
   let offset = 0
 
-  for (const entry of [...entries].sort((a, b) => a.name.localeCompare(b.name))) {
+  for (const entry of [...entries].sort((a, b) => stableCompare(a.name, b.name))) {
     if (!entry.name || entry.name.startsWith("/") || entry.name.split("/").includes("..") || entry.name.includes("\\")) {
       throw new Error(`Unsafe ZIP entry: ${entry.name}`)
     }
