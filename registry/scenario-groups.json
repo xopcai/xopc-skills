@@ -99,6 +99,41 @@
       "directory": "skills/software-architecture",
       "scenarioIds": ["design-deep-software-module"],
       "skills": ["module-design"]
+    },
+    {
+      "id": "office-documents",
+      "title": "专业办公文档与 PDF",
+      "directory": "skills/office-documents",
+      "scenarioIds": ["author-professional-document", "work-with-pdf"],
+      "skills": ["document-authoring", "pdf-workbench"]
+    },
+    {
+      "id": "office-data",
+      "title": "电子表格分析与交付",
+      "directory": "skills/office-data",
+      "scenarioIds": ["work-with-spreadsheet"],
+      "skills": ["spreadsheet-workbench"]
+    },
+    {
+      "id": "office-presentations",
+      "title": "演示文稿设计与制作",
+      "directory": "skills/office-presentations",
+      "scenarioIds": ["create-presentation-deck"],
+      "skills": ["presentation-deck"]
+    },
+    {
+      "id": "email-productivity",
+      "title": "邮件处理与回复",
+      "directory": "skills/email-productivity",
+      "scenarioIds": ["triage-email-inbox", "draft-email-reply"],
+      "skills": ["inbox-triage", "email-reply-drafting"]
+    },
+    {
+      "id": "calendar-productivity",
+      "title": "日程理解、会前准备与排期",
+      "directory": "skills/calendar-productivity",
+      "scenarioIds": ["build-daily-agenda", "prepare-for-meeting", "schedule-group-meeting"],
+      "skills": ["daily-agenda-brief", "meeting-preparation", "group-scheduling"]
     }
   ]
 }

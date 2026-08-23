@@ -1,7 +1,7 @@
 {
   "name": "@xopc/official-skills",
   "private": true,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Scenario-based official Agent Skills maintained by XOPC",
   "license": "MIT",
   "repository": "https://github.com/xopcai/xopc-skills",

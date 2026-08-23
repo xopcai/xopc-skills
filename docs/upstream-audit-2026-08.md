@@ -79,3 +79,17 @@ The v0.4 intake intentionally accepts useful Skills before stable-level outcome 
 | `secure-code-review` | OpenAI | Find concrete code-level vulnerabilities; unlike threat modeling, it does not own architecture-wide abuse paths |
 
 Broad provider suites, unlicensed sources, hidden external writes, native binaries, and overlapping catchall development Skills remain outside distribution.
+
+## General office expansion in v0.5
+
+Daily office coverage is organized by user outcome rather than Microsoft, Google, or local-file product names. Four artifact Skills adapt MiniMax's MIT Office file workflows; five communication and calendar Skills adapt the MIT-licensed Outlook plugins at the pinned current OpenAI Plugins commit while replacing Outlook-specific commands with provider-neutral evidence contracts.
+
+| Area | Added Skills | Non-overlap rule |
+|---|---|---|
+| Documents | `document-authoring`, `pdf-workbench` | Editable Word-compatible output versus fixed-layout PDF operations |
+| Data | `spreadsheet-workbench` | Spreadsheet input or output required; notebooks and databases remain separate |
+| Presentations | `presentation-deck` | Editable slide deliverable required; outlines and images remain separate |
+| Email | `inbox-triage`, `email-reply-drafting` | Mailbox attention ranking versus one selected thread response |
+| Calendar | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` | One-day understanding versus one-meeting readiness versus multi-person slot selection |
+
+All email and calendar Skills default to read-only analysis or drafts. Sending, moving, deleting, categorizing, booking rooms, creating events, changing RSVPs, or editing invitations remains a separately authorized action.

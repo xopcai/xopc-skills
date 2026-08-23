@@ -22,7 +22,7 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.4 experimental`。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.5 experimental`。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## v0.3 场景 Skill
 
@@ -53,8 +53,17 @@ tooling/              仓库校验与后续评测工具
 | `internal-communications` | `internal-communications` | 从经营事实起草适配受众的内部更新 | Anthropic Apache-2.0 Adapted |
 | `developer-tools` | `agent-cli-builder` | 构建具备稳定 JSON 和安全写操作的 Agent 友好 CLI | OpenAI Apache-2.0 Adapted |
 | `software-architecture` | `module-design` | 设计接口精简、复杂度内聚且可测试的深模块 | Matt Pocock MIT Adapted |
+| `office-documents` | `document-authoring` | 创建、编辑并逐页验证专业可编辑文档 | MiniMax MIT Adapted |
+| `office-documents` | `pdf-workbench` | 读取、创建、重排或填写固定布局 PDF | MiniMax MIT Adapted |
+| `office-data` | `spreadsheet-workbench` | 分析、创建、编辑并验证电子表格 | MiniMax MIT Adapted |
+| `office-presentations` | `presentation-deck` | 创建叙事清晰且逐页验证的可编辑演示文稿 | MiniMax MIT Adapted |
+| `email-productivity` | `inbox-triage` | 对限定邮箱范围做优先级与下一步分拣 | OpenAI Plugins MIT Adapted |
+| `email-productivity` | `email-reply-drafting` | 根据完整线程起草准确邮件回复 | OpenAI Plugins MIT Adapted |
+| `calendar-productivity` | `daily-agenda-brief` | 将一天日程变成冲突、准备和空闲窗口简报 | OpenAI Plugins MIT Adapted |
+| `calendar-productivity` | `meeting-preparation` | 从邀请与材料生成会前准备简报 | OpenAI Plugins MIT Adapted |
+| `calendar-productivity` | `group-scheduling` | 跨参会人、时区和地点选择合理会议时间 | OpenAI Plugins MIT Adapted |
 
-14 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由和能力边界。本轮 8 个指定上游的完整审计与扩展批次见 [`docs/upstream-audit-2026-08.md`](docs/upstream-audit-2026-08.md)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
+19 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由和能力边界。上游审计与办公场景扩展见 [`docs/upstream-audit-2026-08.md`](docs/upstream-audit-2026-08.md)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含 `SOURCE.json`。
 

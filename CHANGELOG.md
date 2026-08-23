@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0 - 2026-08-23
+
+- Added nine general office Skills covering Word-compatible documents, PDFs, spreadsheets, presentations, inbox triage, reply drafting, daily agendas, meeting preparation and group scheduling.
+- Added five office scenario groups, nine briefs, 180 trigger cases and 45 task fixtures.
+- Adapted MIT sources from MiniMax and current OpenAI office plugins into provider-neutral workflows with render verification and explicit external-write boundaries.
+
 ## 0.4.0 - 2026-08-23
 
 - Relaxed Experimental intake from near-stable proof to clear scenario value, permissive redistribution, non-overlap and baseline evaluation.

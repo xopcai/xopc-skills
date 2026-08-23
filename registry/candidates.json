@@ -380,6 +380,96 @@
       "status": "rejected-for-distribution",
       "strengths": ["简洁总结假设、简单性、手术式修改和目标验证", "社区关注度高"],
       "gaps": ["不是独立用户任务而是全局行为偏好", "与基础 Agent 行为和多数工程 Skill 重叠", "未发现明确可再分发许可证"]
+    },
+    {
+      "id": "minimax-document-authoring-adaptation",
+      "scenarioId": "author-professional-document",
+      "upstreamId": "minimax-ai-skills",
+      "skillPath": "skills/minimax-docx",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["创建、编辑、模板三条路径完整", "强调结构与视觉验证", "MiniMax 官方 MIT"],
+      "gaps": ["原实现强制 .NET 工具链", "触发范围过宽", "需跨 Office 套件验证"]
+    },
+    {
+      "id": "minimax-pdf-workbench-adaptation",
+      "scenarioId": "work-with-pdf",
+      "upstreamId": "minimax-ai-skills",
+      "skillPath": "skills/minimax-pdf",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["固定布局与视觉设计方法完整", "创建、表单和重排路径清晰", "MiniMax 官方 MIT"],
+      "gaps": ["原实现绑定脚本流水线", "需扩充 OCR 与页面操作", "需多查看器表单验证"]
+    },
+    {
+      "id": "minimax-spreadsheet-workbench-adaptation",
+      "scenarioId": "work-with-spreadsheet",
+      "upstreamId": "minimax-ai-skills",
+      "skillPath": "skills/minimax-xlsx",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["分析、创建、编辑、修复、验证完整", "工作簿完整性规则具体", "MiniMax 官方 MIT"],
+      "gaps": ["原实现偏好 XML-only", "需验证宏、pivot 和外链", "需兼容多公式引擎"]
+    },
+    {
+      "id": "minimax-presentation-deck-adaptation",
+      "scenarioId": "create-presentation-deck",
+      "upstreamId": "minimax-ai-skills",
+      "skillPath": "skills/pptx-generator",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["创建、模板编辑、内容读取完整", "设计系统和逐页 QA 明确", "MiniMax 官方 MIT"],
+      "gaps": ["原实现绑定 PptxGenJS", "包含强制子代理", "需跨套件渲染验证"]
+    },
+    {
+      "id": "openai-inbox-triage-adaptation",
+      "scenarioId": "triage-email-inbox",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/outlook-email/skills/outlook-email-inbox-triage",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["shortlist-first 读取成本低", "注意力分桶和下一步明确", "OpenAI Plugin MIT"],
+      "gaps": ["原实现绑定 Outlook", "reply-needed 是推断", "需高容量邮箱评测"]
+    },
+    {
+      "id": "openai-email-reply-drafting-adaptation",
+      "scenarioId": "draft-email-reply",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/outlook-email/skills/outlook-email-reply-drafting",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["线程上下文和 reply-all 判断清晰", "默认草稿并保留事实承诺", "OpenAI Plugin MIT"],
+      "gaps": ["原实现绑定 Outlook", "需加强附件与敏感收件人检查", "需跨语言语气评测"]
+    },
+    {
+      "id": "openai-daily-agenda-adaptation",
+      "scenarioId": "build-daily-agenda",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/outlook-calendar/skills/outlook-calendar-daily-brief",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["明确一天时间窗和状态语义", "强调工作日形态而非事件堆砌", "OpenAI Plugin MIT"],
+      "gaps": ["原实现绑定 Outlook", "固定输出格式过重", "需 DST 和多日历评测"]
+    },
+    {
+      "id": "openai-meeting-preparation-adaptation",
+      "scenarioId": "prepare-for-meeting",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/outlook-calendar/skills/outlook-calendar-meeting-prep",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["事件优先和关联上下文扩展合理", "确认信息与推断分离", "OpenAI Plugin MIT"],
+      "gaps": ["原实现绑定 Microsoft 数据源", "需处理材料时效性", "需量化准备简报价值"]
+    },
+    {
+      "id": "openai-group-scheduling-adaptation",
+      "scenarioId": "schedule-group-meeting",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/outlook-calendar/skills/outlook-calendar-group-scheduler",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["候选排序而非枚举", "参会人、时区、地点和状态权衡完整", "OpenAI Plugin MIT"],
+      "gaps": ["原实现绑定 Outlook", "需加入 focus cost 和复发会议", "需验证公平性"]
     }
   ]
 }

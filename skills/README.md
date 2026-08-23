@@ -18,6 +18,11 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `internal-communications` | Operating facts to audience-appropriate internal update | `internal-communications` |
 | `developer-tools` | Repeated workflow to durable agent-friendly CLI | `agent-cli-builder` |
 | `software-architecture` | Leaky module to deep stable interface | `module-design` |
+| `office-documents` | Source material to verified editable document or fixed-layout PDF | `document-authoring`, `pdf-workbench` |
+| `office-data` | Spreadsheet input to trustworthy workbook analysis or output | `spreadsheet-workbench` |
+| `office-presentations` | Purpose and evidence to a rendered editable deck | `presentation-deck` |
+| `email-productivity` | Mailbox context to attention list or grounded reply draft | `inbox-triage`, `email-reply-drafting` |
+| `calendar-productivity` | Calendar evidence to daily understanding, meeting readiness, or ranked slots | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

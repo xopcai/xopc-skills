@@ -20,6 +20,15 @@ The following XOPC Adapted Skills include or derive from third-party work. Their
 | `systematic-debugging` | `obra/superpowers` | Copyright (c) 2025 Jesse Vincent |
 | `test-driven-development` | `obra/superpowers` | Copyright (c) 2025 Jesse Vincent |
 | `module-design` | `mattpocock/skills` | Copyright (c) 2026 Matt Pocock |
+| `document-authoring` | `MiniMax-AI/skills` | Copyright (c) 2026 MiniMax |
+| `pdf-workbench` | `MiniMax-AI/skills` | Copyright (c) 2026 MiniMax |
+| `spreadsheet-workbench` | `MiniMax-AI/skills` | Copyright (c) 2026 MiniMax |
+| `presentation-deck` | `MiniMax-AI/skills` | Copyright (c) 2026 MiniMax |
+| `inbox-triage` | `openai/plugins` | OpenAI |
+| `email-reply-drafting` | `openai/plugins` | OpenAI |
+| `daily-agenda-brief` | `openai/plugins` | OpenAI |
+| `meeting-preparation` | `openai/plugins` | OpenAI |
+| `group-scheduling` | `openai/plugins` | OpenAI |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

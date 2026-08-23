@@ -268,6 +268,96 @@
       "briefPath": "briefs/review-code-security.md",
       "targetOutcome": "形成可复现、严重度合理并兼顾兼容性的安全发现与修复方向",
       "priority": 17
+    },
+    {
+      "id": "author-professional-document",
+      "title": "创建或编辑经过渲染验证的专业可编辑文档",
+      "domain": "office-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/author-professional-document.md",
+      "targetOutcome": "交付结构、样式、内容和逐页布局均经过验证的 Word 兼容文档",
+      "priority": 18
+    },
+    {
+      "id": "work-with-pdf",
+      "title": "读取、创建、重排或填写经过页面验证的 PDF",
+      "domain": "office-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/work-with-pdf.md",
+      "targetOutcome": "交付页面、文本、表单和固定布局均符合请求且经过渲染检查的 PDF",
+      "priority": 17
+    },
+    {
+      "id": "work-with-spreadsheet",
+      "title": "分析、创建或编辑保持完整性的电子表格",
+      "domain": "office-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/work-with-spreadsheet.md",
+      "targetOutcome": "交付公式、格式、结构、关键总计和兼容性经过验证的电子表格",
+      "priority": 18
+    },
+    {
+      "id": "create-presentation-deck",
+      "title": "创建叙事清晰且经过逐页视觉检查的演示文稿",
+      "domain": "office-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/create-presentation-deck.md",
+      "targetOutcome": "交付内容可信、可编辑、符合模板并经过完整渲染检查的演示文稿",
+      "priority": 18
+    },
+    {
+      "id": "triage-email-inbox",
+      "title": "对限定范围的收件箱进行优先级和下一步分拣",
+      "domain": "communication-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/triage-email-inbox.md",
+      "targetOutcome": "形成范围透明、判断有据且不改变邮箱状态的注意力清单",
+      "priority": 17
+    },
+    {
+      "id": "draft-email-reply",
+      "title": "根据完整线程上下文起草准确邮件回复",
+      "domain": "communication-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/draft-email-reply.md",
+      "targetOutcome": "交付收件人、事实、承诺和语气准确且可确认后发送的回复草稿",
+      "priority": 17
+    },
+    {
+      "id": "build-daily-agenda",
+      "title": "将一天的日程转成冲突、准备和空闲窗口简报",
+      "domain": "calendar-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/build-daily-agenda.md",
+      "targetOutcome": "形成时区明确、能解释工作日形态和注意事项的每日议程",
+      "priority": 16
+    },
+    {
+      "id": "prepare-for-meeting",
+      "title": "从邀请、材料和既有决策形成会前准备简报",
+      "domain": "calendar-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/prepare-for-meeting.md",
+      "targetOutcome": "形成目的、上下文、决策、问题、材料和准备动作清晰的会前简报",
+      "priority": 17
+    },
+    {
+      "id": "schedule-group-meeting",
+      "title": "跨参会人、时区和约束选择合理会议时间",
+      "domain": "calendar-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/schedule-group-meeting.md",
+      "targetOutcome": "给出少量可解释候选时间并在确认后才创建邀请",
+      "priority": 17
     }
   ]
 }

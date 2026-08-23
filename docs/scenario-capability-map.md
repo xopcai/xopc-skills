@@ -18,6 +18,11 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 | Internal communications | `skills/internal-communications` | Operating facts become an audience-appropriate internal update | `internal-communications` | Public marketing, sending, release notes |
 | Developer tools | `skills/developer-tools` | A repeated workflow becomes a durable agent-friendly CLI | `agent-cli-builder` | One-off scripts, MCP servers |
 | Software architecture | `skills/software-architecture` | A leaky module becomes a deep stable interface | `module-design` | System-wide strategy, ordinary refactoring |
+| Office documents | `skills/office-documents` | Source material becomes a verified editable document or fixed-layout PDF | `document-authoring`, `pdf-workbench` | Plain prose, requirement compliance |
+| Office data | `skills/office-data` | Tabular data becomes a trustworthy workbook analysis or deliverable | `spreadsheet-workbench` | Databases, notebooks |
+| Office presentations | `skills/office-presentations` | Purpose and evidence become a rendered editable deck | `presentation-deck` | Plain outlines, single images |
+| Email productivity | `skills/email-productivity` | Mailbox context becomes an attention list or grounded reply draft | `inbox-triage`, `email-reply-drafting` | New outreach, silent mailbox writes |
+| Calendar productivity | `skills/calendar-productivity` | Calendar evidence becomes daily understanding, meeting readiness, or ranked slots | `daily-agenda-brief`, `meeting-preparation`, `group-scheduling` | Post-meeting extraction, silent calendar writes |
 
 ## Composition
 
