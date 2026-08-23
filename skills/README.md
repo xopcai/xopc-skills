@@ -50,6 +50,12 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `reading-life` | Reading intent or notes to a sustainable practice and synthesis | `reading-companion` |
 | `public-services` | Location-specific China social-security questions to current official guidance | `china-social-security-guidance` |
 | `home-living` | Renovation scope and evidence to a reviewable risk checklist | `home-renovation-review` |
+| `chinese-content-editing` | Supplied Chinese prose to natural, faithful authorial expression | `chinese-natural-style-editing` |
+| `visual-diagrams` | Complex relationships to an accurate and accessible diagram | `diagram-communication` |
+| `tender-operations` | Tender requirements and response evidence to a compliance matrix | `tender-response-compliance-review` |
+| `academic-writing` | Research intent and evidence to an integrity-preserving manuscript revision | `academic-writing-coach` |
+| `skill-security` | An untrusted Skill package to a pre-installation risk decision | `agent-skill-security-review` |
+| `wechat-miniprogram` | Mini Program requirements and source to a verified platform-aware change | `wechat-miniprogram-delivery` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 
@@ -60,6 +66,6 @@ Each `SCENARIO.md` explains the user boundary, why the current Skills were selec
 3. Prefer first-party domain expertise, permissive licensing, maintained source, narrow triggers, reusable artifacts, and verifiable outcomes.
 4. Adapt only after pinning the source commit and recording XOPC changes in `SOURCE.json`.
 5. Reject duplicates: one Skill owns one primary intent; adjacent Skills compose through artifacts.
-6. Assign every Skill to exactly one of the Store's 10 broad display categories, with at most 20 Skills per category. Experimental Skills may enter when the specific scenario and boundary are clear, then graduate using real usage evidence.
+6. Assign every Skill to exactly one of the Store's 12 SkillHub-aligned functional categories, with at most 20 Skills per category. Experimental Skills may enter when the specific scenario and boundary are clear, then graduate using real usage evidence.
 
 Scenario directories intentionally do not contain a root `SKILL.md`. This preserves recursive discovery of every child Skill in common Agent Skills installers.

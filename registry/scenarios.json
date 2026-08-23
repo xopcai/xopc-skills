@@ -398,6 +398,12 @@
     {"id":"plan-focus-session","title":"把混乱任务拆成一次可完成的专注时段","domain":"personal-productivity","stage":"experimental","strategy":"build","briefPath":"briefs/plan-focus-session.md","targetOutcome":"形成符合当前时间精力、完成条件清楚且不羞辱中断的专注计划","priority":15},
     {"id":"build-reading-practice","title":"建立有目的且可持续的阅读与笔记实践","domain":"reading-life","stage":"experimental","strategy":"build","briefPath":"briefs/build-reading-practice.md","targetOutcome":"交付符合阅读目的、保留来源定位且不侵权的计划、笔记与复盘","priority":14},
     {"id":"understand-china-social-security","title":"核验并理解当前中国社保与公积金信息","domain":"public-services","stage":"experimental","strategy":"build","briefPath":"briefs/understand-china-social-security.md","targetOutcome":"交付地区与日期明确、来源权威、公式假设透明且不保证资格的办事指南","priority":17},
-    {"id":"review-home-renovation","title":"审查家庭装修方案、报价与施工节点","domain":"home-living","stage":"experimental","strategy":"build","briefPath":"briefs/review-home-renovation.md","targetOutcome":"交付报价可比、增项与验收风险明确且专业安全门槛清楚的决策清单","priority":16}
+    {"id":"review-home-renovation","title":"审查家庭装修方案、报价与施工节点","domain":"home-living","stage":"experimental","strategy":"build","briefPath":"briefs/review-home-renovation.md","targetOutcome":"交付报价可比、增项与验收风险明确且专业安全门槛清楚的决策清单","priority":16},
+    {"id":"edit-chinese-natural-style","title":"将中文内容编辑为自然且忠于作者意图的表达","domain":"content-creation","stage":"experimental","strategy":"build","briefPath":"briefs/edit-chinese-natural-style.md","targetOutcome":"交付保留事实、观点和作者声音且不承诺规避检测的自然中文稿","priority":16},
+    {"id":"create-decision-diagram","title":"将复杂关系转成准确可读的决策图表","domain":"design-media","stage":"experimental","strategy":"build","briefPath":"briefs/create-decision-diagram.md","targetOutcome":"交付语义准确、层级清楚、可访问且经过渲染检查的图表","priority":16},
+    {"id":"review-tender-response","title":"逐条审查招标要求与投标响应合规性","domain":"professional","stage":"experimental","strategy":"build","briefPath":"briefs/review-tender-response.md","targetOutcome":"交付要求到证据可追溯、废标风险和缺口明确且不虚构资质的审查矩阵","priority":18},
+    {"id":"coach-academic-writing","title":"辅导形成证据可靠且符合学术诚信的论文稿","domain":"education","stage":"experimental","strategy":"build","briefPath":"briefs/coach-academic-writing.md","targetOutcome":"交付研究问题、论证、结构、证据和引用可复核的修改方案并保留学生作者责任","priority":17},
+    {"id":"review-agent-skill-security","title":"安装前审查 Agent Skill 的代码、权限与供应链风险","domain":"it-ops-security","stage":"experimental","strategy":"build","briefPath":"briefs/review-agent-skill-security.md","targetOutcome":"交付覆盖全部文件、外部端点、权限和危险行为的证据化安装建议","priority":18},
+    {"id":"deliver-wechat-miniprogram","title":"基于官方约束开发并验证微信小程序功能","domain":"dev-programming","stage":"experimental","strategy":"build","briefPath":"briefs/deliver-wechat-miniprogram.md","targetOutcome":"交付权限与隐私边界清楚、可在开发者工具验证且未经确认不发布的小程序变更","priority":17}
   ]
 }

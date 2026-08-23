@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.13.0 - 2026-08-24
+
+- Aligned Store discovery directly with SkillHub China's 12 functional level-one categories and excluded `Pay Skill` as a commerce attribute.
+- Added six XOPC-original Skills for natural Chinese editing, diagram communication, tender-response review, academic writing coaching, Agent Skill security review, and WeChat Mini Program delivery.
+- Added six scenario directories, six briefs, 120 trigger cases, and 30 task fixtures with authorship, accessibility, procurement, academic-integrity, supply-chain, privacy, and publishing boundaries.
+- Audited score-ranked leaders in all 12 categories; packages without verified redistribution licenses remain market evidence only.
+
 ## 0.12.0 - 2026-08-23
 
 - Consolidated 46 implementation-level scenario groups into 10 user-facing bilingual Store categories while preserving all 74 Skills and 76 scenarios.

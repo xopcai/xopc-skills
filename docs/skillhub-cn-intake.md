@@ -31,7 +31,7 @@ The market states that content can originate from public channels, enterprises, 
 | IT 运维与安全 | Software security and delivery exist; infrastructure operations remain a future evidence-backed opportunity |
 | 生活服务 | Added travel planning; health and regulated life advice remain out of scope pending governance |
 
-XOPC preserves scenario-specific directories for quality ownership, while Store discovery uses 10 broader categories with `en` and `zh-CN` labels. This avoids exposing implementation-level fragmentation to users while every released Skill still belongs to exactly one non-empty display category.
+XOPC preserves scenario-specific directories for quality ownership, while Store discovery uses SkillHub's 12 functional level-one categories with `en` and `zh-CN` labels. `Pay Skill` is excluded as a commerce attribute. Every released Skill still belongs to exactly one non-empty functional category.
 
 ## Audited shortlist
 
@@ -109,3 +109,20 @@ On 2026-08-23, XOPC reviewed the score-ranked `life-service` results from the pu
 | Lottery and wealth prediction | multiple listings | Reject | Encourages unsupported financial claims and gambling harm; it is not an acceptable extension of cultural entertainment |
 
 This intake adds six mutually exclusive, XOPC-original packages: `scam-message-triage`, `cultural-divination`, `focus-session-planning`, `reading-companion`, `china-social-security-guidance`, and `home-renovation-review`. No SkillHub instructions, code, templates, assets, or brand claims are copied. Travel, job search, and personal budgeting remain in their existing scenarios instead of receiving duplicate Skills.
+
+## Direct category alignment and gap intake — v0.13
+
+On 2026-08-24, XOPC read the public SkillHub category API and the score-ranked first page for each functional category. The API exposed 13 level-one entries: 12 functional categories plus `Pay Skill`. XOPC adopted the 12 functional IDs and localized labels directly and kept paid/free state outside the taxonomy.
+
+| Market candidate or cluster | Signal observed | License/dependency finding | XOPC decision |
+|---|---:|---|---|
+| `diagram-builder` | 23,792 downloads / 135 stars | No license file; assumes SkillHub-specific rendering tools | Build independent `diagram-communication` with provider-neutral formats, semantic inventory, accessibility, and render QA |
+| Chinese “去 AI 味” leaders | up to 160,748 / 563 | No license file; detector-evasion framing creates authorship risk | Build `chinese-natural-style-editing` for faithful voice and clarity, explicitly no detector guarantee or fabricated experience |
+| Tender analysis and bid compliance cluster | many top-ranked business/data listings | No verified license; several packages bind paid proprietary APIs and sales claims | Build provider-neutral `tender-response-compliance-review` from supplied documents; no purchase, fabricated qualification, legal approval, or submission |
+| `thesis-tutor` and academic-writing cluster | up to 13,806 / 90 | Large bundled code/knowledge base without verified license | Build lightweight `academic-writing-coach` around argument, evidence, citations, institutional rules, and student authorship |
+| Skill vetting and scan cluster | multiple IT-security leaders | No verified license; some checklists use overly broad automatic rejection rules | Build `agent-skill-security-review` with full-package coverage, contextual permission analysis, and read-only pre-installation review |
+| `wxa-skills-generate` and Mini Program development cluster | up to 15,728 / 141 | No license file; platform-specific assets and separate validator dependency | Build `wechat-miniprogram-delivery` using current official documentation, existing-source patterns, privacy gates, and explicit release authorization |
+| Citation-checking services | 5,711 / 22 and broader literature demand | Requires email registration, credentials, quotas, proprietary gateway, and no verified license | Hold as a separate package; existing research and academic coaching retain citation verification without binding user identity to a third party |
+| Investment, legal, tax, patent, browser automation, watermark removal | strong category rankings | High-impact advice, account automation, rights, credential, or platform-abuse risks | Hold or reject pending dedicated governance and qualified review |
+
+All six added packages are `xopc-original`. SkillHub files were inspected only for capability, dependency, and risk evidence; no instructions, examples, templates, scripts, assets, service claims, or brands are redistributed.

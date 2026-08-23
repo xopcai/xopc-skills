@@ -50,6 +50,12 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 | Reading life | `skills/reading-life` | Reading intent or supplied notes become a sustainable practice and grounded synthesis | `reading-companion` | Copyright circumvention, invented quotations, publishing, purchases |
 | Public services | `skills/public-services` | A China social-security question becomes dated, location-specific official guidance | `china-social-security-guidance` | Benefit guarantees, legal conclusions, applications, account mutation |
 | Home living | `skills/home-living` | Renovation scope, quote, or evidence becomes a comparable review and risk checklist | `home-renovation-review` | Structural certification, legal approval, payment, purchasing, contractor control |
+| Chinese content editing | `skills/chinese-content-editing` | Supplied Chinese prose becomes natural expression faithful to facts and authorial intent | `chinese-natural-style-editing` | Detector guarantees, invented experience, plagiarism concealment, publishing |
+| Visual diagrams | `skills/visual-diagrams` | Complex supplied relationships become an accurate, editable, accessible diagram | `diagram-communication` | Invented architecture, engineering certification, dashboards, presentation decks |
+| Tender operations | `skills/tender-operations` | Tender requirements and response evidence become a traceable compliance matrix | `tender-response-compliance-review` | Fabricated qualifications, legal approval, pricing, signing, submission |
+| Academic writing | `skills/academic-writing` | Research intent and evidence become an integrity-preserving manuscript revision plan | `academic-writing-coach` | Fabricated sources/data, prohibited ghostwriting, submission |
+| Agent Skill security | `skills/skill-security` | An untrusted Skill package becomes a read-only pre-installation risk decision | `agent-skill-security-review` | Installation, execution, absolute certification, general application review |
+| WeChat Mini Program | `skills/wechat-miniprogram` | Supplied requirements and source become a verified platform-aware Mini Program change | `wechat-miniprogram-delivery` | Reverse engineering, secret collection, review bypass, unconfirmed upload or publication |
 
 ## Composition
 

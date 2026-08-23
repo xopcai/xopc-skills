@@ -1,26 +1,28 @@
 # Store category taxonomy
 
-Store categories are broad user-facing discovery routes. They are intentionally separate from the repository's finer scenario directories, which continue to own trigger boundaries, workflows, evaluations, and maintenance.
+Store categories follow the 12 functional level-one categories exposed by the SkillHub China public category API. `Pay Skill` is excluded because it describes a commercial attribute rather than a user capability. Fine-grained scenario directories continue to own triggers, workflows, evaluations, and maintenance.
 
 | Category ID | English | 简体中文 | Skills |
 |---|---|---|---:|
-| `engineering-technology` | Engineering & Technology | 工程与技术 | 19 |
-| `office-productivity` | Office Productivity | 办公效率 | 15 |
-| `data-research` | Data Analysis & Research | 数据分析与研究 | 10 |
-| `product-design` | Product, Design & Media | 产品、设计与多媒体 | 5 |
-| `project-collaboration` | Projects & Collaboration | 项目与协作 | 5 |
-| `marketing-sales` | Marketing & Sales | 营销与销售 | 3 |
-| `business-operations` | Business Operations | 商业运营 | 5 |
-| `education-career` | Education & Career | 教育与职业发展 | 4 |
-| `personal-life` | Personal Life & Services | 个人生活与公共服务 | 6 |
-| `safety-privacy` | Safety & Privacy | 安全与隐私 | 2 |
+| `office-efficiency` | Office Efficiency | 办公效率 | 13 |
+| `content-creation` | Content Creation | 内容创作 | 3 |
+| `dev-programming` | Development | 开发编程 | 13 |
+| `data-analysis` | Data Analysis | 数据分析 | 7 |
+| `design-media` | Design & Media | 设计多媒体 | 6 |
+| `ai-agent` | AI Agent | AI Agent | 3 |
+| `knowledge-management` | Knowledge Management | 知识管理 | 2 |
+| `business-ops` | Business Operations | 商业运营 | 10 |
+| `education` | Education | 教育学习 | 5 |
+| `professional` | Professional | 行业专业 | 5 |
+| `it-ops-security` | IT Ops & Security | IT 运维与安全 | 6 |
+| `life-service` | Life Service | 生活服务 | 7 |
 
 ## Classification rules
 
-- Choose the category by the user's primary desired outcome, not by the tool or file type used internally.
-- Keep exactly one display category per Skill and one category per scenario.
-- Add or split a category only when users need a distinct browsing entry, not whenever a new scenario is introduced.
-- Keep no more than 10 active categories and 20 Skills in any category.
-- Remove empty categories from releases.
+- Use the category IDs and localized labels from SkillHub's public level-one taxonomy.
+- Exclude `pay-skill`; paid/free state belongs in package commerce metadata, not the capability taxonomy.
+- Choose the category by the user's primary desired outcome, not by an internal tool or file type.
+- Keep exactly one functional category per Skill and per scenario, at most 20 Skills per category, and remove empty categories.
+- A marketplace listing is discovery evidence only. Redistribution requires a verified license; otherwise XOPC builds an independent implementation.
 
-The machine-readable source of truth is [`registry/categories.json`](../registry/categories.json). The Store release manifest carries the category independently from `skills/<scenario>/<skill-name>`, so scenario organization can evolve without fragmenting the Store taxonomy.
+The machine-readable source of truth is [`registry/categories.json`](../registry/categories.json). Release manifest schema v3 carries `category` independently from `skills/<scenario>/<skill-name>`.
