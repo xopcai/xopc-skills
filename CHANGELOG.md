@@ -1,6 +1,12 @@
 # Changelog
 
-## 0.3.0 - Unreleased
+## 0.4.0 - 2026-08-23
+
+- Relaxed Experimental intake from near-stable proof to clear scenario value, permissive redistribution, non-overlap and baseline evaluation.
+- Added seven Skills covering MCP servers, internal communications, agent-friendly CLIs, deep module design, TDD, GitHub review comments and secure code review.
+- Added three scenario groups, seven briefs, 140 positive/negative trigger cases and 35 task fixtures.
+
+## 0.3.0 - 2026-08-23
 
 - Audited eight requested upstream repositories at pinned commits, including per-Skill license and overlap review.
 - Added six experimental Skills for frontend design, code review, systematic debugging, threat modeling, reproducible notebooks and GitHub Actions recovery.

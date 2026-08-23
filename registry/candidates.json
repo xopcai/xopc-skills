@@ -292,6 +292,76 @@
       "gaps": ["入口名称与目录不一致且范围包含聊天和搜索", "强依赖 MiniMax API、额度和持久凭证", "缺少无需真实付费调用的确定性评测"]
     },
     {
+      "id": "anthropic-mcp-builder-adaptation",
+      "scenarioId": "build-production-mcp-server",
+      "upstreamId": "anthropic-skills",
+      "skillPath": "skills/mcp-builder",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["Anthropic 一手 MCP 工具设计方法", "包含服务实现与 Agent 任务评估", "Skill 目录 Apache-2.0"],
+      "gaps": ["原实现包含较大框架教程", "需保持 SDK 版本信息动态更新", "需补多客户端任务成功率"]
+    },
+    {
+      "id": "anthropic-internal-comms-adaptation",
+      "scenarioId": "draft-internal-communication",
+      "upstreamId": "anthropic-skills",
+      "skillPath": "skills/internal-comms",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["高频企业沟通场景", "按沟通类型路由简洁", "Skill 目录 Apache-2.0"],
+      "gaps": ["原模板带公司特定偏好", "需增加事实和隐私边界", "需内部沟通负责人盲评"]
+    },
+    {
+      "id": "openai-cli-creator-adaptation",
+      "scenarioId": "build-agent-friendly-cli",
+      "upstreamId": "openai-skills-deprecated",
+      "skillPath": "skills/.curated/cli-creator",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["Agent 友好的命令契约完整", "JSON、doctor、resolve 和 preview 可评测", "Skill 目录 Apache-2.0"],
+      "gaps": ["上游仓库已弃用", "原实现绑定 Codex 路径", "需跨语言构建 fixture"]
+    },
+    {
+      "id": "mattpocock-module-design-adaptation",
+      "scenarioId": "design-deep-software-module",
+      "upstreamId": "mattpocock-skills",
+      "skillPath": "skills/engineering/codebase-design",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["深模块、seam 和 deletion test 模型清晰", "与普通代码审查边界不同", "MIT 许可证"],
+      "gaps": ["原实现强制专用词汇", "需验证跨语言可迁移性", "需量化接口深度改善"]
+    },
+    {
+      "id": "obra-tdd-adaptation",
+      "scenarioId": "implement-change-with-tdd",
+      "upstreamId": "obra-superpowers",
+      "skillPath": "skills/test-driven-development",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["红绿重构证据闭环明确", "社区采用量高", "MIT 许可证"],
+      "gaps": ["原实现自动触发且语言绝对化", "包含删除既有代码的破坏性规则", "需验证 legacy 场景"]
+    },
+    {
+      "id": "openai-github-review-comments-adaptation",
+      "scenarioId": "address-github-review-comments",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/github/skills/gh-address-comments",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["来自当前 OpenAI Plugin 仓库", "PR 发现和编号选择流程明确", "Skill 目录 Apache-2.0"],
+      "gaps": ["需区分编辑、回复和解决线程权限", "需处理 stale 和错误评论", "需适配 GitHub 字段漂移"]
+    },
+    {
+      "id": "openai-secure-code-review-adaptation",
+      "scenarioId": "review-code-security",
+      "upstreamId": "openai-skills-deprecated",
+      "skillPath": "skills/.curated/security-best-practices",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["显式安全触发边界精确", "覆盖 Python、JavaScript/TypeScript 和 Go", "Skill 目录 Apache-2.0"],
+      "gaps": ["冻结参考文档维护成本高", "原实现隐式写报告文件", "需专业安全准确率评测"]
+    },
+    {
       "id": "marswave-podcast-production",
       "scenarioId": "create-multiformat-media-content",
       "upstreamId": "marswave-skills",

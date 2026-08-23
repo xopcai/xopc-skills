@@ -7,7 +7,7 @@ XOPC 官方 Skill 仓库。这里维护的是经过场景定义、来源审查�
 1. **场景先于 Skill**：先证明用户任务真实、重复且值得产品化，再决定是否创建 Skill。
 2. **证据先于推荐**：没有来源、许可证、评测和维护责任的 Skill 不进入稳定目录。
 3. **适配而非搬运**：第三方 Skill 必须记录来源、固定 commit、许可证和 XOPC 差异。
-4. **少而完整**：一个 Skill 应覆盖一个可组合的完整任务，而不是宽泛知识集合。
+4. **价值优先**：场景价值明确且能改善交付质量的 Skill 可以先进入 Experimental，通过真实使用继续收敛。
 5. **可验证交付**：能用脚本验证的结果，不只依赖模型自评。
 
 ## 仓库结构
@@ -22,7 +22,7 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.3 experimental`。Experimental 表示结构、来源、安全边界、评测资产和确定性脚本已通过仓库门禁，允许受控试用；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.4 experimental`。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## v0.3 场景 Skill
 
@@ -30,6 +30,7 @@ tooling/              仓库校验与后续评测工具
 |---|---|---|---|
 | `api-integration` | `xopc-model-gateway` | 将 OpenAI-compatible 应用迁移到 XOPC 并验证请求/流式 | XOPC Original |
 | `api-integration` | `xopc-connector-builder` | 为远程或审核后的本地 MCP 制作最小权限 Connector | XOPC Original |
+| `api-integration` | `mcp-server-builder` | 为外部服务构建可发现、可评估且权限清晰的 MCP Server | Anthropic Apache-2.0 Adapted |
 | `software-delivery` | `playwright-webapp-testing` | 为现有 Web 应用建立可靠的 Playwright E2E | TestMu MIT Adapted |
 | `software-delivery` | `supabase-postgres-best-practices` | 审查生产 PostgreSQL 性能、RLS、schema 和锁风险 | Supabase MIT Adapted |
 | `software-delivery` | `react-native-best-practices` | 用测量证据诊断 React Native 性能 | CallStack MIT Adapted |
@@ -46,8 +47,14 @@ tooling/              仓库校验与后续评测工具
 | `software-security` | `security-threat-model` | 形成仓库证据驱动的攻击路径和缓解方案 | OpenAI Apache-2.0 Adapted |
 | `data-notebooks` | `jupyter-notebook` | 创建或重构可从头运行的实验和教程 Notebook | OpenAI Apache-2.0 Adapted |
 | `software-delivery` | `github-actions-ci-fix` | 从 GitHub Actions 日志定位并经批准修复 CI | OpenAI Apache-2.0 Adapted |
+| `software-delivery` | `test-driven-development` | 通过真实红绿重构证据实现行为变更 | obra MIT Adapted |
+| `software-delivery` | `github-review-comments` | 筛选、修复、验证并闭环 GitHub PR 评论 | OpenAI Apache-2.0 Adapted |
+| `software-security` | `secure-code-review` | 对 Python、JavaScript/TypeScript、Go 应用做证据化安全审查 | OpenAI Apache-2.0 Adapted |
+| `internal-communications` | `internal-communications` | 从经营事实起草适配受众的内部更新 | Anthropic Apache-2.0 Adapted |
+| `developer-tools` | `agent-cli-builder` | 构建具备稳定 JSON 和安全写操作的 Agent 友好 CLI | OpenAI Apache-2.0 Adapted |
+| `software-architecture` | `module-design` | 设计接口精简、复杂度内聚且可测试的深模块 | Matt Pocock MIT Adapted |
 
-11 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由、能力边界和未采用候选。本轮 8 个指定上游的完整审计见 [`docs/upstream-audit-2026-08.md`](docs/upstream-audit-2026-08.md)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
+14 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由和能力边界。本轮 8 个指定上游的完整审计与扩展批次见 [`docs/upstream-audit-2026-08.md`](docs/upstream-audit-2026-08.md)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含 `SOURCE.json`。
 

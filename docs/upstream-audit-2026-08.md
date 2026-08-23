@@ -63,3 +63,19 @@ The repository's four principles are useful global agent guidance, not a user-tr
 3. Exercise deterministic notebook and CI scripts in CI fixtures.
 4. Revisit media production only after provider choice, credential model, cost approval, and mocked evaluation are defined.
 5. Recheck pinned upstream diffs quarterly; a repository update never bypasses license and behavioral review.
+
+## Experimental expansion in v0.4
+
+The v0.4 intake intentionally accepts useful Skills before stable-level outcome evidence when redistribution is permitted, the user scenario is clear, the trigger does not overlap an existing Skill, and baseline evaluations exist.
+
+| XOPC Skill | Source | Distinct primary outcome |
+|---|---|---|
+| `mcp-server-builder` | Anthropic | Implement and evaluate an MCP server; unlike `xopc-connector-builder`, it does not package an existing endpoint |
+| `internal-communications` | Anthropic | Produce an evidence-grounded internal update without publishing it |
+| `agent-cli-builder` | OpenAI | Build a durable agent-friendly CLI rather than a one-off script or MCP server |
+| `module-design` | Matt Pocock | Design a bounded deep module and migration, not review a diff |
+| `test-driven-development` | obra | Implement explicitly selected behavior through observed red-green evidence |
+| `github-review-comments` | OpenAI Plugins | Close feedback on an existing PR; unlike `code-review`, it does not generate the initial review |
+| `secure-code-review` | OpenAI | Find concrete code-level vulnerabilities; unlike threat modeling, it does not own architecture-wide abuse paths |
+
+Broad provider suites, unlicensed sources, hidden external writes, native binaries, and overlapping catchall development Skills remain outside distribution.

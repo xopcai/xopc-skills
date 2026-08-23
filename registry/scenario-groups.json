@@ -34,15 +34,15 @@
       "id": "api-integration",
       "title": "API 到可用集成",
       "directory": "skills/api-integration",
-      "scenarioIds": ["connect-ai-app-to-xopc-models", "build-trusted-xopc-connector", "publish-local-service-with-xopc-tunnel"],
-      "skills": ["xopc-model-gateway", "xopc-connector-builder"]
+      "scenarioIds": ["connect-ai-app-to-xopc-models", "build-trusted-xopc-connector", "publish-local-service-with-xopc-tunnel", "build-production-mcp-server"],
+      "skills": ["xopc-model-gateway", "xopc-connector-builder", "mcp-server-builder"]
     },
     {
       "id": "software-delivery",
       "title": "软件发布交付闭环",
       "directory": "skills/software-delivery",
-      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions"],
-      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix"]
+      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions", "implement-change-with-tdd", "address-github-review-comments"],
+      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix", "test-driven-development", "github-review-comments"]
     },
     {
       "id": "document-compliance",
@@ -67,10 +67,10 @@
     },
     {
       "id": "software-security",
-      "title": "软件安全威胁建模",
+      "title": "软件安全分析与加固",
       "directory": "skills/software-security",
-      "scenarioIds": ["threat-model-software-system"],
-      "skills": ["security-threat-model"]
+      "scenarioIds": ["threat-model-software-system", "review-code-security"],
+      "skills": ["security-threat-model", "secure-code-review"]
     },
     {
       "id": "data-notebooks",
@@ -78,6 +78,27 @@
       "directory": "skills/data-notebooks",
       "scenarioIds": ["build-reproducible-notebook"],
       "skills": ["jupyter-notebook"]
+    },
+    {
+      "id": "internal-communications",
+      "title": "内部沟通与经营更新",
+      "directory": "skills/internal-communications",
+      "scenarioIds": ["draft-internal-communication"],
+      "skills": ["internal-communications"]
+    },
+    {
+      "id": "developer-tools",
+      "title": "Agent 友好开发工具",
+      "directory": "skills/developer-tools",
+      "scenarioIds": ["build-agent-friendly-cli"],
+      "skills": ["agent-cli-builder"]
+    },
+    {
+      "id": "software-architecture",
+      "title": "软件模块架构设计",
+      "directory": "skills/software-architecture",
+      "scenarioIds": ["design-deep-software-module"],
+      "skills": ["module-design"]
     }
   ]
 }

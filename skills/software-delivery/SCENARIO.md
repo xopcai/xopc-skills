@@ -13,10 +13,12 @@ Use domain-specific engineering evidence to reduce release risk and communicate 
 - `code-review` — adapted from [Matt Pocock's Skills](https://github.com/mattpocock/skills); reviews a bounded diff independently against requirements and repository standards.
 - `systematic-debugging` — adapted from [obra/superpowers](https://github.com/obra/superpowers); uses reproduction, causal tracing, and minimal hypothesis tests before a fix.
 - `github-actions-ci-fix` — adapted from the current [OpenAI GitHub plugin](https://github.com/openai/plugins); deterministically inspects failing Actions checks and requires approval before editing.
+- `test-driven-development` — adapted from [obra/superpowers](https://github.com/obra/superpowers); owns explicitly selected red-green-refactor implementation evidence.
+- `github-review-comments` — adapted from [OpenAI Plugins](https://github.com/openai/plugins); owns triage and closure of feedback on an existing pull request.
 
 ## Boundary and overlap
 
-Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, release communication, bounded code review, defect diagnosis, or GitHub Actions recovery. None can claim successful deployment or repair without fresh evidence.
+Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, release communication, bounded code review, defect diagnosis, CI recovery, explicitly requested TDD implementation, or existing PR feedback closure. None can claim successful deployment or repair without fresh evidence.
 
 ## Evaluated alternatives
 

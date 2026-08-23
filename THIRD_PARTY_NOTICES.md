@@ -18,6 +18,8 @@ The following XOPC Adapted Skills include or derive from third-party work. Their
 | `weekly-planning-review` | `alirezarezvani/claude-skills` | Copyright (c) 2025 Alireza Rezvani |
 | `code-review` | `mattpocock/skills` | Copyright (c) 2026 Matt Pocock |
 | `systematic-debugging` | `obra/superpowers` | Copyright (c) 2025 Jesse Vincent |
+| `test-driven-development` | `obra/superpowers` | Copyright (c) 2025 Jesse Vincent |
+| `module-design` | `mattpocock/skills` | Copyright (c) 2026 Matt Pocock |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -45,5 +47,10 @@ SOFTWARE.
 | `security-threat-model` | `openai/skills` | OpenAI |
 | `jupyter-notebook` | `openai/skills` | OpenAI |
 | `github-actions-ci-fix` | `openai/plugins` | OpenAI |
+| `mcp-server-builder` | `anthropics/skills` | Anthropic, PBC |
+| `internal-communications` | `anthropics/skills` | Anthropic, PBC |
+| `agent-cli-builder` | `openai/skills` | OpenAI |
+| `github-review-comments` | `openai/plugins` | OpenAI |
+| `secure-code-review` | `openai/skills` | OpenAI |
 
 Each Apache-derived distributed Skill contains its upstream `LICENSE.txt`. XOPC modifications are identified in `SOURCE.json`; no upstream trademark endorsement is implied.

@@ -198,6 +198,76 @@
       "briefPath": "briefs/fix-failing-github-actions.md",
       "targetOutcome": "形成失败证据、根因、经批准的最小修复和最新检查状态",
       "priority": 16
+    },
+    {
+      "id": "build-production-mcp-server",
+      "title": "为外部服务构建可被 Agent 可靠使用的 MCP Server",
+      "domain": "agent-integration",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/build-production-mcp-server.md",
+      "targetOutcome": "交付工具可发现、权限清晰、错误可恢复并通过真实任务评估的 MCP Server",
+      "priority": 18
+    },
+    {
+      "id": "draft-internal-communication",
+      "title": "从经营事实起草面向明确受众的内部沟通",
+      "domain": "business-operations",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/draft-internal-communication.md",
+      "targetOutcome": "交付事实准确、风险透明、行动明确且适合目标受众的内部沟通稿",
+      "priority": 15
+    },
+    {
+      "id": "build-agent-friendly-cli",
+      "title": "为重复工作流构建 Agent 友好的可靠 CLI",
+      "domain": "developer-productivity",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/build-agent-friendly-cli.md",
+      "targetOutcome": "交付具备稳定 JSON、发现与解析、可预览写操作及诊断能力的可安装 CLI",
+      "priority": 16
+    },
+    {
+      "id": "design-deep-software-module",
+      "title": "设计接口精简且复杂度内聚的软件模块",
+      "domain": "software-architecture",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/design-deep-software-module.md",
+      "targetOutcome": "形成边界、接口、适配器、迁移与测试策略完整的深模块设计",
+      "priority": 16
+    },
+    {
+      "id": "implement-change-with-tdd",
+      "title": "通过可观察的红绿重构循环实现行为变更",
+      "domain": "software-engineering",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/implement-change-with-tdd.md",
+      "targetOutcome": "每个行为均有真实失败证据、最小实现和相关回归验证",
+      "priority": 16
+    },
+    {
+      "id": "address-github-review-comments",
+      "title": "筛选并闭环 GitHub Pull Request 审查意见",
+      "domain": "software-engineering",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/address-github-review-comments.md",
+      "targetOutcome": "选定评论被证据化处理、验证并在授权后回复或解决线程",
+      "priority": 15
+    },
+    {
+      "id": "review-code-security",
+      "title": "对应用代码执行证据驱动的安全审查",
+      "domain": "application-security",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/review-code-security.md",
+      "targetOutcome": "形成可复现、严重度合理并兼顾兼容性的安全发现与修复方向",
+      "priority": 17
     }
   ]
 }
