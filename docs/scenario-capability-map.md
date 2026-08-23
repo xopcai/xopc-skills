@@ -1,8 +1,8 @@
 # Scenario capability map
 
-The official repository organizes Skills around user outcomes. A Skill has exactly one primary scenario group; adjacent Skills must exchange artifacts instead of competing for the same request.
+The official repository organizes Skills around user outcomes. A Skill has exactly one specific scenario directory and one broader Store display category; adjacent Skills must exchange artifacts instead of competing for the same request.
 
-| Scenario group | Directory | User outcome | Current Skills | Exclusions |
+| Scenario area | Directory | User outcome | Current Skills | Exclusions |
 |---|---|---|---|---|
 | Decision research | `skills/decision-research` | Current evidence becomes a decision brief | `evidence-based-research` | Prospect lists, single-source summaries |
 | Meeting execution | `skills/meeting-execution` | Existing notes become decisions and owned actions | `meeting-to-actions` | Scheduling, live transcription, general summaries |

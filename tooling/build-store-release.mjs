@@ -148,17 +148,24 @@ function sha256(data) {
 
 const options = parseArgs(process.argv)
 const packageJson = JSON.parse(readFileSync(join(root, "package.json"), "utf8"))
-const scenarioGroups = JSON.parse(readFileSync(join(root, "registry/scenario-groups.json"), "utf8"))
-if (scenarioGroups.schemaVersion !== 2 || !Array.isArray(scenarioGroups.groups)) {
-  throw new Error("registry/scenario-groups.json has an unsupported shape")
+const categoryRegistry = JSON.parse(readFileSync(join(root, "registry/categories.json"), "utf8"))
+if (categoryRegistry.schemaVersion !== 1 || !Array.isArray(categoryRegistry.categories)) {
+  throw new Error("registry/categories.json has an unsupported shape")
 }
-const categories = scenarioGroups.groups.map((group) => {
-  if (typeof group.id !== "string" || typeof group.labels?.en !== "string" || typeof group.labels?.["zh-CN"] !== "string") {
+const categories = categoryRegistry.categories.map((category) => {
+  if (typeof category.id !== "string" || typeof category.labels?.en !== "string" || typeof category.labels?.["zh-CN"] !== "string") {
     throw new Error("Every scenario category requires id, labels.en and labels.zh-CN")
   }
-  return { id: group.id, labels: { en: group.labels.en, "zh-CN": group.labels["zh-CN"] } }
+  return { id: category.id, labels: { en: category.labels.en, "zh-CN": category.labels["zh-CN"] } }
 })
 const categoryIds = new Set(categories.map((category) => category.id))
+const categoryBySkill = new Map()
+for (const category of categoryRegistry.categories) {
+  for (const skill of category.skills ?? []) {
+    if (categoryBySkill.has(skill)) throw new Error(`Skill belongs to multiple categories: ${skill}`)
+    categoryBySkill.set(skill, category.id)
+  }
+}
 const commit = options.commit ?? gitCommit()
 if (!/^[a-f0-9]{40}$/.test(commit)) throw new Error("--commit must be a full lowercase Git SHA")
 const output = resolve(root, options.out ?? `dist/xopc-skills-${packageJson.version}.zip`)
@@ -178,8 +185,9 @@ for (const catalogFile of catalogFiles) {
     throw new Error(`Invalid registry path for ${catalog.name}: ${catalog.path}`)
   }
   const parts = catalog.path.split("/")
-  if (parts.length !== 3 || parts[2] !== catalog.name) throw new Error(`Skill path must be skills/<group>/<name>: ${catalog.path}`)
-  if (!categoryIds.has(parts[1])) throw new Error(`Unknown scenario category for ${catalog.name}: ${parts[1]}`)
+  if (parts.length !== 3 || parts[2] !== catalog.name) throw new Error(`Skill path must be skills/<scenario>/<name>: ${catalog.path}`)
+  const category = categoryBySkill.get(catalog.name)
+  if (!category || !categoryIds.has(category)) throw new Error(`Missing display category for ${catalog.name}`)
   const artifactPath = `packages/${catalog.name}.zip`
   const artifact = createZip(listFiles(source).map((name) => ({ name, data: readFileSync(join(source, name)) })))
   bundleEntries.push({ name: artifactPath, data: artifact })
@@ -187,7 +195,7 @@ for (const catalogFile of catalogFiles) {
     name: catalog.name,
     path: catalog.path,
     version: catalog.version,
-    scenarioGroup: parts[1],
+    category,
     scenarioId: catalog.scenarioId,
     artifactPath,
     artifactSha256: sha256(artifact),
@@ -206,11 +214,11 @@ visitSkills(join(root, "skills"))
 if (discovered.length !== skills.length) throw new Error(`Registry has ${skills.length} Skills but filesystem has ${discovered.length}`)
 
 const manifest = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   catalogVersion: packageJson.version,
   repository: "https://github.com/xopcai/xopc-skills",
   commit,
-  categories: categories.filter((category) => skills.some((skill) => skill.scenarioGroup === category.id)),
+  categories: categories.filter((category) => skills.some((skill) => skill.category === category.id)),
   skills,
 }
 bundleEntries.push({ name: "release-manifest.json", data: `${JSON.stringify(manifest, null, 2)}\n` })

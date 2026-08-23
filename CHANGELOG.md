@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.12.0 - 2026-08-23
+
+- Consolidated 46 implementation-level scenario groups into 10 user-facing bilingual Store categories while preserving all 74 Skills and 76 scenarios.
+- Decoupled scenario-organized source paths from Store display categories through release manifest schema v3.
+- Added repository gates limiting the catalog to 10 non-empty categories and 20 Skills per category, with unique scenario and Skill ownership.
+- Removed the legacy scenario-group registry and replaced it with an explicit display-category registry and schema.
+
 ## 0.11.0 - 2026-08-23
 
 - Added six non-overlapping life-service Skills from a focused SkillHub China category review.

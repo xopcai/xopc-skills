@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "maxSkillsPerCategory": 20,
+  "categories": [
+    {
+      "id": "engineering-technology",
+      "labels": { "en": "Engineering & Technology", "zh-CN": "工程与技术" },
+      "scenarioIds": ["connect-ai-app-to-xopc-models", "build-trusted-xopc-connector", "publish-local-service-with-xopc-tunnel", "build-production-mcp-server", "build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions", "implement-change-with-tdd", "address-github-review-comments", "resolve-git-conflicts", "coordinate-production-incident", "threat-model-software-system", "review-code-security", "analyze-security-ownership", "build-agent-friendly-cli", "design-deep-software-module"],
+      "skills": ["xopc-model-gateway", "xopc-connector-builder", "mcp-server-builder", "playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix", "test-driven-development", "github-review-comments", "merge-conflict-resolution", "incident-response-coordination", "security-threat-model", "secure-code-review", "security-ownership-analysis", "agent-cli-builder", "module-design"]
+    },
+    {
+      "id": "office-productivity",
+      "labels": { "en": "Office Productivity", "zh-CN": "办公效率" },
+      "scenarioIds": ["turn-meeting-into-actions", "review-document-requirements", "author-professional-document", "work-with-pdf", "create-presentation-deck", "triage-email-inbox", "draft-email-reply", "build-daily-agenda", "prepare-for-meeting", "schedule-group-meeting", "draft-internal-communication", "review-translation-localization", "organize-files-safely", "build-form-or-survey", "draft-chinese-official-document"],
+      "skills": ["meeting-to-actions", "document-requirements-review", "document-authoring", "pdf-workbench", "presentation-deck", "inbox-triage", "email-reply-drafting", "daily-agenda-brief", "meeting-preparation", "group-scheduling", "internal-communications", "translation-localization-review", "safe-file-organization", "form-survey-builder", "chinese-official-document-drafting"]
+    },
+    {
+      "id": "data-research",
+      "labels": { "en": "Data Analysis & Research", "zh-CN": "数据分析与研究" },
+      "scenarioIds": ["create-decision-research-brief", "build-reproducible-notebook", "work-with-spreadsheet", "create-data-visualization-report", "synthesize-workspace-knowledge", "curate-knowledge-base", "analyze-financial-statements", "diagnose-ecommerce-performance", "synthesize-user-research", "build-competitive-intelligence"],
+      "skills": ["evidence-based-research", "jupyter-notebook", "spreadsheet-workbench", "data-visualization-report", "workspace-knowledge-synthesis", "knowledge-base-curation", "financial-statement-analysis", "ecommerce-performance-diagnosis", "user-research-synthesis", "competitive-intelligence"]
+    },
+    {
+      "id": "product-design",
+      "labels": { "en": "Product, Design & Media", "zh-CN": "产品、设计与多媒体" },
+      "scenarioIds": ["design-distinctive-web-interface", "prototype-product-decision", "transcribe-audio-accurately", "produce-explainer-video", "apply-brand-style-to-artifact"],
+      "skills": ["frontend-design", "decision-prototype", "audio-transcription", "explainer-video-production", "brand-style-application"]
+    },
+    {
+      "id": "project-collaboration",
+      "labels": { "en": "Projects & Collaboration", "zh-CN": "项目与协作" },
+      "scenarioIds": ["run-weekly-planning-review", "capture-cross-source-commitments", "synthesize-project-status", "digest-team-workstream", "decompose-spec-into-work-items"],
+      "skills": ["weekly-planning-review", "commitment-task-capture", "project-status-synthesis", "workstream-digest", "spec-to-work-items"]
+    },
+    {
+      "id": "marketing-sales",
+      "labels": { "en": "Marketing & Sales", "zh-CN": "营销与销售" },
+      "scenarioIds": ["create-content-campaign-pack", "create-multiformat-media-content", "research-qualified-prospects", "adapt-china-social-content"],
+      "skills": ["content-campaign-pack", "prospect-research", "china-social-content-adaptation"]
+    },
+    {
+      "id": "business-operations",
+      "labels": { "en": "Business Operations", "zh-CN": "商业运营" },
+      "scenarioIds": ["triage-customer-support-ticket", "reconcile-invoices-and-receipts", "author-standard-operating-procedure", "evaluate-vendor", "review-recruiting-pipeline"],
+      "skills": ["customer-support-ticket-triage", "invoice-receipt-reconciliation", "sop-authoring", "vendor-evaluation", "recruiting-pipeline-review"]
+    },
+    {
+      "id": "education-career",
+      "labels": { "en": "Education & Career", "zh-CN": "教育与职业发展" },
+      "scenarioIds": ["design-teaching-plan", "analyze-learning-assessment", "tailor-resume-to-role", "build-reading-practice"],
+      "skills": ["teaching-plan-design", "learning-assessment-analysis", "resume-tailoring", "reading-companion"]
+    },
+    {
+      "id": "personal-life",
+      "labels": { "en": "Personal Life & Services", "zh-CN": "个人生活与公共服务" },
+      "scenarioIds": ["plan-travel-itinerary", "review-personal-budget", "enjoy-cultural-divination", "plan-focus-session", "understand-china-social-security", "review-home-renovation"],
+      "skills": ["travel-itinerary-planning", "personal-budget-review", "cultural-divination", "focus-session-planning", "china-social-security-guidance", "home-renovation-review"]
+    },
+    {
+      "id": "safety-privacy",
+      "labels": { "en": "Safety & Privacy", "zh-CN": "安全与隐私" },
+      "scenarioIds": ["redact-sensitive-data", "triage-suspected-scam"],
+      "skills": ["privacy-redaction", "scam-message-triage"]
+    }
+  ]
+}

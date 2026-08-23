@@ -106,31 +106,38 @@ if (opportunities) {
   }
 }
 
-const scenarioGroups = readJson("registry/scenario-groups.json")
-if (scenarioGroups) {
-  if (scenarioGroups.schemaVersion !== 2 || !Array.isArray(scenarioGroups.groups)) {
-    errors.push("registry/scenario-groups.json: unsupported shape")
+const categoryRegistry = readJson("registry/categories.json")
+if (categoryRegistry) {
+  if (categoryRegistry.schemaVersion !== 1 || !Array.isArray(categoryRegistry.categories)) {
+    errors.push("registry/categories.json: unsupported shape")
   } else {
-    if (!Number.isInteger(scenarioGroups.maxSkillsPerGroup) || scenarioGroups.maxSkillsPerGroup < 1 || scenarioGroups.maxSkillsPerGroup > 20) {
-      errors.push("registry/scenario-groups.json: maxSkillsPerGroup must be 1..20")
+    if (!Number.isInteger(categoryRegistry.maxSkillsPerCategory) || categoryRegistry.maxSkillsPerCategory < 1 || categoryRegistry.maxSkillsPerCategory > 20) {
+      errors.push("registry/categories.json: maxSkillsPerCategory must be 1..20")
     }
-    checkUnique(scenarioGroups.groups, "id", "registry/scenario-groups.json")
+    if (categoryRegistry.categories.length > 10) errors.push("registry/categories.json: no more than 10 display categories are allowed")
+    checkUnique(categoryRegistry.categories, "id", "registry/categories.json")
     const scenarioIds = new Set(scenarios?.scenarios?.map((item) => item.id) ?? [])
     const groupedSkills = new Set()
-    for (const group of scenarioGroups.groups) {
-      requireString(group.id, "scenarioGroup.id")
-      requireString(group.labels?.en, `${group.id}.labels.en`)
-      requireString(group.labels?.["zh-CN"], `${group.id}.labels.zh-CN`)
-      if (!Array.isArray(group.scenarioIds) || group.scenarioIds.length === 0) errors.push(`${group.id}: scenarioIds are required`)
-      if (!Array.isArray(group.skills) || group.skills.length === 0) errors.push(`${group.id}: unused category must be removed`)
-      if ((group.skills?.length ?? 0) > scenarioGroups.maxSkillsPerGroup) errors.push(`${group.id}: exceeds ${scenarioGroups.maxSkillsPerGroup} Skills`)
-      for (const scenarioId of group.scenarioIds ?? []) {
-        if (!scenarioIds.has(scenarioId)) errors.push(`${group.id}: unknown scenarioId '${scenarioId}'`)
+    const groupedScenarios = new Set()
+    for (const category of categoryRegistry.categories) {
+      requireString(category.id, "category.id")
+      requireString(category.labels?.en, `${category.id}.labels.en`)
+      requireString(category.labels?.["zh-CN"], `${category.id}.labels.zh-CN`)
+      if (!Array.isArray(category.scenarioIds) || category.scenarioIds.length === 0) errors.push(`${category.id}: scenarioIds are required`)
+      if (!Array.isArray(category.skills) || category.skills.length === 0) errors.push(`${category.id}: unused category must be removed`)
+      if ((category.skills?.length ?? 0) > categoryRegistry.maxSkillsPerCategory) errors.push(`${category.id}: exceeds ${categoryRegistry.maxSkillsPerCategory} Skills`)
+      for (const scenarioId of category.scenarioIds ?? []) {
+        if (!scenarioIds.has(scenarioId)) errors.push(`${category.id}: unknown scenarioId '${scenarioId}'`)
+        if (groupedScenarios.has(scenarioId)) errors.push(`${scenarioId}: assigned to more than one display category`)
+        groupedScenarios.add(scenarioId)
       }
-      for (const skill of group.skills ?? []) {
-        if (groupedSkills.has(skill)) errors.push(`${skill}: assigned to more than one scenario group`)
+      for (const skill of category.skills ?? []) {
+        if (groupedSkills.has(skill)) errors.push(`${skill}: assigned to more than one display category`)
         groupedSkills.add(skill)
       }
+    }
+    for (const scenarioId of scenarioIds) {
+      if (!groupedScenarios.has(scenarioId)) errors.push(`${scenarioId}: missing display-category assignment`)
     }
   }
 }
@@ -220,29 +227,23 @@ for (const skillDir of skillDirs) {
   skillDirsByName.set(name, skillDir)
 }
 
-if (scenarioGroups?.groups) {
-  const groupedSkills = new Set(scenarioGroups.groups.flatMap((group) => group.skills ?? []))
+if (categoryRegistry?.categories) {
+  const groupedSkills = new Set(categoryRegistry.categories.flatMap((category) => category.skills ?? []))
   for (const skillDir of skillDirs) {
     const name = basename(skillDir)
-    if (!groupedSkills.has(name)) errors.push(`${name}: missing primary scenario-group assignment`)
+    if (!groupedSkills.has(name)) errors.push(`${name}: missing display-category assignment`)
+    const scenarioDir = dirname(skillDir)
+    if (!existsSync(join(scenarioDir, "SCENARIO.md"))) errors.push(`${name}: parent scenario directory is missing SCENARIO.md`)
   }
   for (const name of groupedSkills) {
-    if (!skillDirsByName.has(name)) errors.push(`registry/scenario-groups.json: unknown distributed Skill '${name}'`)
+    if (!skillDirsByName.has(name)) errors.push(`registry/categories.json: unknown distributed Skill '${name}'`)
   }
-  for (const group of scenarioGroups.groups) {
-    requireString(group.directory, `${group.id}.directory`)
-    const groupDir = group.directory ? join(root, group.directory) : null
-    if (groupDir && !existsSync(groupDir)) errors.push(`${group.id}: missing scenario directory '${group.directory}'`)
-    if (groupDir && existsSync(join(groupDir, "SKILL.md"))) errors.push(`${group.id}: scenario directory must not contain a root SKILL.md`)
-    if (groupDir && !existsSync(join(groupDir, "SCENARIO.md"))) errors.push(`${group.id}: missing SCENARIO.md`)
-    const allowedScenarios = new Set(group.scenarioIds ?? [])
-    for (const name of group.skills ?? []) {
+  for (const category of categoryRegistry.categories) {
+    const allowedScenarios = new Set(category.scenarioIds ?? [])
+    for (const name of category.skills ?? []) {
       const catalog = readJson(`registry/skills/${name}.json`)
       if (catalog && !allowedScenarios.has(catalog.scenarioId)) {
-        errors.push(`${name}: catalog scenarioId '${catalog.scenarioId}' is outside primary group '${group.id}'`)
-      }
-      if (catalog && catalog.path && dirname(catalog.path) !== group.directory) {
-        errors.push(`${name}: catalog path '${catalog.path}' is outside scenario directory '${group.directory}'`)
+        errors.push(`${name}: catalog scenarioId '${catalog.scenarioId}' is outside display category '${category.id}'`)
       }
     }
   }
@@ -393,4 +394,4 @@ if (errors.length > 0) {
   process.exit(1)
 }
 
-console.log(`Validation passed: ${scenarios?.scenarios?.length ?? 0} scenarios, ${scenarioGroups?.groups?.length ?? 0} scenario groups, ${opportunities?.opportunities?.length ?? 0} opportunities, ${upstreams?.upstreams?.length ?? 0} upstreams, ${candidates?.candidates?.length ?? 0} candidates, ${shortlist?.shortlist?.length ?? 0} VoltAgent selections, ${skillDirs.length} skills.`)
+console.log(`Validation passed: ${scenarios?.scenarios?.length ?? 0} scenarios, ${categoryRegistry?.categories?.length ?? 0} display categories, ${opportunities?.opportunities?.length ?? 0} opportunities, ${upstreams?.upstreams?.length ?? 0} upstreams, ${candidates?.candidates?.length ?? 0} candidates, ${shortlist?.shortlist?.length ?? 0} VoltAgent selections, ${skillDirs.length} skills.`)

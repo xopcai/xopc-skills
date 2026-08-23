@@ -31,7 +31,7 @@ The market states that content can originate from public channels, enterprises, 
 | IT 运维与安全 | Software security and delivery exist; infrastructure operations remain a future evidence-backed opportunity |
 | 生活服务 | Added travel planning; health and regulated life advice remain out of scope pending governance |
 
-XOPC retains scenario-specific category names with `en` and `zh-CN` labels. This produces clearer Store routing than mirroring a broad marketplace taxonomy, while every released Skill still belongs to exactly one non-empty category.
+XOPC preserves scenario-specific directories for quality ownership, while Store discovery uses 10 broader categories with `en` and `zh-CN` labels. This avoids exposing implementation-level fragmentation to users while every released Skill still belongs to exactly one non-empty display category.
 
 ## Audited shortlist
 
@@ -108,4 +108,4 @@ On 2026-08-23, XOPC reviewed the score-ranked `life-service` results from the pu
 | Fitness, nutrition, CBT, and disease-probability assistants | multiple top-60 listings | Hold | Medical and mental-health governance, qualified review, crisis routing, and harmful-error baselines are prerequisites |
 | Lottery and wealth prediction | multiple listings | Reject | Encourages unsupported financial claims and gambling harm; it is not an acceptable extension of cultural entertainment |
 
-This intake adds six mutually exclusive, XOPC-original packages: `scam-message-triage`, `cultural-divination`, `focus-session-planning`, `reading-companion`, `china-social-security-guidance`, and `home-renovation-review`. No SkillHub instructions, code, templates, assets, or brand claims are copied. Travel, job search, and personal budgeting remain in their existing scenario groups instead of receiving duplicate Skills.
+This intake adds six mutually exclusive, XOPC-original packages: `scam-message-triage`, `cultural-divination`, `focus-session-planning`, `reading-companion`, `china-social-security-guidance`, and `home-renovation-review`. No SkillHub instructions, code, templates, assets, or brand claims are copied. Travel, job search, and personal budgeting remain in their existing scenarios instead of receiving duplicate Skills.

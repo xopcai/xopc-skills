@@ -14,7 +14,7 @@ XOPC 官方 Skill 仓库。这里维护的是经过场景定义、来源审查�
 
 ```text
 docs/                 产品策略、场景方法、质量标准和上游适配规则
-registry/             场景、候选来源和已发布 Skill 的机器可读目录
+registry/             展示分类、场景、候选来源和已发布 Skill 的机器可读目录
 schemas/              registry 数据契约
 skills/<scenario>/<skill-name>/  按用户场景组织的官方 Skill
 evals/<skill-name>/   不进入安装包的触发与任务评测
@@ -22,13 +22,13 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.11 experimental`，包含 46 个场景组、76 个场景和 74 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.12 experimental`，包含 10 个中英双语展示分类、46 个细粒度场景目录、76 个场景和 74 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
-机器可读的完整能力清单以 [场景组 registry](registry/scenario-groups.json) 和 [Skill registry](registry/skills/) 为唯一事实来源；面向维护者的简表见 [场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。每个场景目录的 `SCENARIO.md` 记录用户结果和相邻边界。
+机器可读的展示分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 46 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
 
-v0.11 延续 [SkillHub 中国市场场景审计](docs/skillhub-cn-intake.md)，新增防骗处置、趣味文化占卜、专注启动、阅读陪伴、中国社保信息和装修审查六项 XOPC 原创生活服务能力。每项能力都有 10+10 触发样例、5 个任务 fixture，并保持专业意见、个人信息、支付、外部写入和人身安全的显式边界；算命类能力只作文化娱乐和自我反思，不输出确定性预言或替用户做高影响决策。
+v0.12 将此前按细粒度场景生成的 46 个 Store 分类聚合为 10 个稳定大类，并从发布协议中解耦技能目录与展示分类。新增场景仍可拥有独立目录和边界，但只有出现真正新的用户心智入口时才增加展示分类。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含固定 commit 的 `SOURCE.json`。
 
