@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "code-review",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Review this branch against main and the linked specification."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "审查当前工作区变更，只报告问题，不要修改代码。"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "Review PR #42 for spec compliance and repository standards."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "检查 HEAD~3 以来的 diff，找出真正会出错的地方并标严重度。"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Do a code review of this commit range and cite changed lines."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "对照 docs/spec.md 审查这个功能分支是否漏了需求。"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "Review the staged changes; include test gaps and scope creep."
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "请评审这个 PR，区分需求正确性和代码规范问题。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "Review since tag v1.4.0 and report only actionable findings."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "检查这个补丁是否引入兼容性问题，不要顺手修复。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "修复这个分支里的所有问题。"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "解释一下整个仓库架构。"
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "帮我写一个新功能。"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Threat model this repository."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "诊断为什么测试偶尔失败。"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "生成 release notes。"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "只运行 lint 并格式化代码。"
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "审查这份投标文档是否满足要求。"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "创建 Playwright 端到端测试。"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "总结最近五个 commit。"
+    }
+  ]
+}

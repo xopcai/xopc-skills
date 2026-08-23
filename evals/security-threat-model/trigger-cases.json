@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "security-threat-model",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Threat model this multi-tenant API repository."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "为上传服务做安全威胁建模，列出信任边界和攻击路径。"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "Enumerate realistic abuse paths for this auth service and prioritize mitigations."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "对这个代码目录做 AppSec threat model，不要跑攻击。"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Build a repository-grounded threat model for the worker and queue flow."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "识别这个系统的资产、入口、攻击者能力和残余风险。"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "Threat model our CLI distribution and update mechanism."
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "根据仓库证据分析跨租户访问和凭证泄露风险。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "为新架构评审准备一份带证据的威胁模型。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "Map trust boundaries and rank threats for this internet-facing service."
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Summarize this repository architecture."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Review this PR for ordinary bugs."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "Run a penetration test against production."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "证明这个系统符合 ISO 27001。"
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "修复这个 SQL injection。"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "扫描依赖漏洞。"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "写一份隐私政策。"
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "诊断登录接口为什么 500。"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "为数据库做性能审查。"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "解释什么是 STRIDE。"
+    }
+  ]
+}

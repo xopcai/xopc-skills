@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.2.0 - Unreleased
+## 0.3.0 - Unreleased
+
+- Audited eight requested upstream repositories at pinned commits, including per-Skill license and overlap review.
+- Added six experimental Skills for frontend design, code review, systematic debugging, threat modeling, reproducible notebooks and GitHub Actions recovery.
+- Added three scenario groups, six scenario briefs, 120 trigger cases, 30 task fixtures and deterministic notebook/CI helper tests.
+- Added Apache-2.0 package notices, fixed-source records, deprecated-upstream handling and four new VoltAgent Official Skills selections.
+
+## 0.2.0 - 2026-08-23
 
 - Added six non-overlapping scenario Skills for decision research, meeting execution, content campaigns, prospect research, document requirement reviews and capacity-feasible weekly planning.
 - Added an eight-group capability map with a hard maximum of 20 Skills per group and unique Skill ownership across groups.

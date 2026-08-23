@@ -182,6 +182,8 @@ function parseFrontmatter(raw, relativePath) {
     const match = /^([a-zA-Z0-9_-]+):\s*["']?(.*?)["']?$/.exec(line)
     if (match) fields[match[1]] = match[2]
   }
+  const metadataVersion = /^metadata:\s*$[\s\S]*?^  version:\s*["']?([^"'\n]+)["']?\s*$/m.exec(raw.slice(4, end))
+  if (metadataVersion) fields.metadata_version = metadataVersion[1]
   return fields
 }
 
@@ -292,6 +294,15 @@ for (const skillDir of skillDirs) {
       if (catalog.origin === "xopc-adapted") {
         requireString(catalog.source, `${name}.source`)
         if (catalog.source && !existsSync(join(root, catalog.source))) errors.push(`${name}: missing source record '${catalog.source}'`)
+        if (catalog.source && existsSync(join(root, catalog.source))) {
+          const source = readJson(catalog.source)
+          requireString(source?.repository, `${name}.source.repository`)
+          requireString(source?.path, `${name}.source.path`)
+          requireString(source?.license, `${name}.source.license`)
+          if (!/^[0-9a-f]{40}$/.test(source?.commit ?? "")) errors.push(`${name}: source commit must be a full 40-character SHA`)
+          if (source?.license !== catalog.license) errors.push(`${name}: source and catalog licenses differ`)
+          if (catalog.license === "Apache-2.0" && !existsSync(join(skillDir, "LICENSE.txt"))) errors.push(`${name}: Apache-2.0 package must include LICENSE.txt`)
+        }
       }
       const versionInSkill = fields.metadata_version ?? fields.version
       if (versionInSkill && versionInSkill !== catalog.version) errors.push(`${name}: SKILL.md version differs from catalog`)
@@ -346,7 +357,7 @@ for (const skillDir of skillDirs) {
     if ([".env", "id_rsa", "id_dsa", "credentials.json"].includes(fileName) || [".exe", ".dll", ".dylib", ".so", ".node", ".pem", ".pfx", ".key"].some((suffix) => lower.endsWith(suffix))) {
       errors.push(`${relativeFile}: blocked sensitive, native, or executable artifact`)
     }
-    const textExtensions = new Set([".md", ".txt", ".json", ".yaml", ".yml", ".js", ".mjs", ".ts", ".py", ".sh"])
+    const textExtensions = new Set([".md", ".txt", ".json", ".ipynb", ".yaml", ".yml", ".js", ".mjs", ".ts", ".py", ".sh"])
     const extension = file.slice(file.lastIndexOf("."))
     if (!textExtensions.has(extension)) continue
     const content = readFileSync(file, "utf8")

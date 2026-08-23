@@ -22,9 +22,9 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.2 experimental`。Experimental 表示结构、来源、安全边界、评测资产和确定性脚本已通过仓库门禁，允许受控试用；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.3 experimental`。Experimental 表示结构、来源、安全边界、评测资产和确定性脚本已通过仓库门禁，允许受控试用；它不等于已获得真实用户 baseline 的 stable 推荐。
 
-## v0.2 场景 Skill
+## v0.3 场景 Skill
 
 | 场景目录 | Skill | 用户结果 | 来源 |
 |---|---|---|---|
@@ -40,8 +40,14 @@ tooling/              仓库校验与后续评测工具
 | `sales-account-research` | `prospect-research` | 按 ICP、时机信号和来源验证高质量潜客 | Corey Haines MIT Adapted |
 | `document-compliance` | `document-requirements-review` | 按显式要求形成专业文档逐条证据矩阵 | Mohit Aggarwal MIT Adapted |
 | `weekly-planning` | `weekly-planning-review` | 关闭开放循环并生成容量可行的下周计划 | Alireza Rezvani MIT Adapted |
+| `product-interface-design` | `frontend-design` | 设计并渲染验证有辨识度、响应式且可访问的 Web 界面 | Anthropic Apache-2.0 Adapted |
+| `software-delivery` | `code-review` | 按需求和仓库标准形成证据化代码审查 | Matt Pocock MIT Adapted |
+| `software-delivery` | `systematic-debugging` | 通过复现、假设和最小实验定位软件根因 | obra MIT Adapted |
+| `software-security` | `security-threat-model` | 形成仓库证据驱动的攻击路径和缓解方案 | OpenAI Apache-2.0 Adapted |
+| `data-notebooks` | `jupyter-notebook` | 创建或重构可从头运行的实验和教程 Notebook | OpenAI Apache-2.0 Adapted |
+| `software-delivery` | `github-actions-ci-fix` | 从 GitHub Actions 日志定位并经批准修复 CI | OpenAI Apache-2.0 Adapted |
 
-8 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由、能力边界和未采用候选。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
+11 个用户场景组及其唯一 Skill 归属见 [`skills/README.md`](skills/README.md) 和 [`registry/scenario-groups.json`](registry/scenario-groups.json)。每个场景目录的 `SCENARIO.md` 记录选择理由、能力边界和未采用候选。本轮 8 个指定上游的完整审计见 [`docs/upstream-audit-2026-08.md`](docs/upstream-audit-2026-08.md)。仓库门禁限制每个场景组最多 20 个 Skill，并禁止同一个 Skill 重复归属多个组。
 
 完整来源和版权见 [第三方声明](THIRD_PARTY_NOTICES.md)，每个适配 Skill 还包含 `SOURCE.json`。
 
@@ -54,6 +60,8 @@ npx skills add https://github.com/xopcai/xopc-skills --skill xopc-model-gateway
 npx skills add https://github.com/xopcai/xopc-skills --skill playwright-webapp-testing
 npx skills add https://github.com/xopcai/xopc-skills --skill evidence-based-research
 npx skills add https://github.com/xopcai/xopc-skills --skill meeting-to-actions
+npx skills add https://github.com/xopcai/xopc-skills --skill frontend-design
+npx skills add https://github.com/xopcai/xopc-skills --skill systematic-debugging
 ```
 
 也可以 clone 后从本地路径安装，适合评审固定 commit：
@@ -82,4 +90,4 @@ npm run test:scripts
 npm run check:voltagent
 ```
 
-校验器检查 registry 数据、Skill 基础规范、引用文件、每个 Skill 的 10+10 触发集和至少 5 个任务 fixture。脚本测试使用本地 mock 验证客户端发现、Connector 拒绝危险端点，以及 Model Gateway 的模型发现、普通请求、流式终止和凭证不泄漏。它们不替代真实任务 baseline。
+校验器检查 registry 数据、场景目录、来源与许可证、Skill 基础规范、引用文件、每个 Skill 的 10+10 触发集和至少 5 个任务 fixture。脚本测试使用本地 mock 验证 Model Gateway、Connector 安全、Notebook 模板与覆盖保护，以及 GitHub Actions 日志解析。它们不替代真实任务 baseline。

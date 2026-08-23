@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "name": "frontend-design",
+  "path": "skills/product-interface-design/frontend-design",
+  "version": "0.3.0",
+  "stage": "experimental",
+  "scenarioId": "design-distinctive-web-interface",
+  "origin": "xopc-adapted",
+  "license": "Apache-2.0",
+  "owner": "XOPC Skills Team",
+  "source": "skills/product-interface-design/frontend-design/SOURCE.json",
+  "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Existing frontend project runtime", "Browser or screenshot tooling recommended"], "os": ["macOS", "Linux", "Windows"] },
+  "qualityGates": { "Q0": "market-and-repo-evidence", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
+  "stableBlockers": ["Blind-review rendered output across three frameworks", "Measure responsive and accessibility defect rate", "Compare distinctiveness against no-Skill baseline"]
+}

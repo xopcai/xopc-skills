@@ -1,6 +1,8 @@
 # Third-party notices
 
-The following XOPC Adapted Skills include or derive from MIT-licensed work. Their source commits and XOPC changes are recorded in each Skill's `SOURCE.json`.
+The following XOPC Adapted Skills include or derive from third-party work. Their source commits, licenses, and XOPC changes are recorded in each Skill's `SOURCE.json`.
+
+## MIT-licensed work
 
 | Distributed Skill | Upstream | Copyright |
 |---|---|---|
@@ -14,6 +16,8 @@ The following XOPC Adapted Skills include or derive from MIT-licensed work. Thei
 | `prospect-research` | `coreyhaines31/marketingskills` | Copyright (c) 2025 Corey Haines |
 | `document-requirements-review` | `mohitagw15856/pm-claude-skills` | Copyright (c) 2026 Mohit Aggarwal |
 | `weekly-planning-review` | `alirezarezvani/claude-skills` | Copyright (c) 2025 Alireza Rezvani |
+| `code-review` | `mattpocock/skills` | Copyright (c) 2026 Matt Pocock |
+| `systematic-debugging` | `obra/superpowers` | Copyright (c) 2025 Jesse Vincent |
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -32,3 +36,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Apache-2.0-licensed work
+
+| Distributed Skill | Upstream | Licensor |
+|---|---|---|
+| `frontend-design` | `anthropics/skills` | Anthropic, PBC |
+| `security-threat-model` | `openai/skills` | OpenAI |
+| `jupyter-notebook` | `openai/skills` | OpenAI |
+| `github-actions-ci-fix` | `openai/plugins` | OpenAI |
+
+Each Apache-derived distributed Skill contains its upstream `LICENSE.txt`. XOPC modifications are identified in `SOURCE.json`; no upstream trademark endorsement is implied.

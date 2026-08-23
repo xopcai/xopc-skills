@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "name": "github-actions-ci-fix",
+  "path": "skills/software-delivery/github-actions-ci-fix",
+  "version": "0.3.0",
+  "stage": "experimental",
+  "scenarioId": "fix-failing-github-actions",
+  "origin": "xopc-adapted",
+  "license": "Apache-2.0",
+  "owner": "XOPC Skills Team",
+  "source": "skills/software-delivery/github-actions-ci-fix/SOURCE.json",
+  "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Python 3.10+", "Git", "authenticated GitHub CLI"], "os": ["macOS", "Linux", "Windows"] },
+  "qualityGates": { "Q0": "official-current-source", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "script-tested", "Q6": "declared", "Q7": "experimental-release" },
+  "stableBlockers": ["Exercise script against failed, pending, and external checks", "Measure root-cause precision on real CI failures", "Validate GitHub CLI field drift in CI"]
+}

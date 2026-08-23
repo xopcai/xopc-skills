@@ -41,8 +41,8 @@
       "id": "software-delivery",
       "title": "软件发布交付闭环",
       "directory": "skills/software-delivery",
-      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes"],
-      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes"]
+      "scenarioIds": ["build-reliable-web-test-suite", "review-production-postgres", "diagnose-react-native-performance", "write-evidence-based-release-notes", "review-code-change-against-spec", "diagnose-software-defect", "fix-failing-github-actions"],
+      "skills": ["playwright-webapp-testing", "supabase-postgres-best-practices", "react-native-best-practices", "release-notes", "code-review", "systematic-debugging", "github-actions-ci-fix"]
     },
     {
       "id": "document-compliance",
@@ -57,6 +57,27 @@
       "directory": "skills/weekly-planning",
       "scenarioIds": ["run-weekly-planning-review"],
       "skills": ["weekly-planning-review"]
+    },
+    {
+      "id": "product-interface-design",
+      "title": "产品界面设计与验证",
+      "directory": "skills/product-interface-design",
+      "scenarioIds": ["design-distinctive-web-interface"],
+      "skills": ["frontend-design"]
+    },
+    {
+      "id": "software-security",
+      "title": "软件安全威胁建模",
+      "directory": "skills/software-security",
+      "scenarioIds": ["threat-model-software-system"],
+      "skills": ["security-threat-model"]
+    },
+    {
+      "id": "data-notebooks",
+      "title": "可复现数据 Notebook",
+      "directory": "skills/data-notebooks",
+      "scenarioIds": ["build-reproducible-notebook"],
+      "skills": ["jupyter-notebook"]
     }
   ]
 }

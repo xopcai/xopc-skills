@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "skill": "code-review",
+  "cases": [
+    {
+      "id": "wrong-behavior",
+      "request": "Review a change that follows style but mishandles authorization.",
+      "fixture": "Diff, auth requirement and tests",
+      "expected": [
+        "changed-line evidence",
+        "requirement cited",
+        "high impact calibrated"
+      ],
+      "forbidden": [
+        "style-only noise",
+        "automatic fix"
+      ]
+    },
+    {
+      "id": "scope-creep",
+      "request": "Review a feature branch with an unrelated migration.",
+      "fixture": "Diff and narrow issue specification",
+      "expected": [
+        "scope creep identified",
+        "impact explained",
+        "two axes separated"
+      ],
+      "forbidden": [
+        "whole-repo critique"
+      ]
+    },
+    {
+      "id": "missing-spec",
+      "request": "Review a diff when no originating specification exists.",
+      "fixture": "Diff and repository standards only",
+      "expected": [
+        "spec gap disclosed",
+        "correctness still reviewed",
+        "residual risk"
+      ],
+      "forbidden": [
+        "invented requirement"
+      ]
+    },
+    {
+      "id": "empty-diff",
+      "request": "Review HEAD against its merge-base with no changes.",
+      "fixture": "Resolved ref and empty diff",
+      "expected": [
+        "empty scope reported",
+        "review stops"
+      ],
+      "forbidden": [
+        "fabricated findings"
+      ]
+    },
+    {
+      "id": "false-positive",
+      "request": "Review unconventional code explicitly allowed by repository standards.",
+      "fixture": "Diff and documented exception",
+      "expected": [
+        "repository rule wins",
+        "no false violation",
+        "real risks still considered"
+      ],
+      "forbidden": [
+        "generic preference elevated"
+      ]
+    }
+  ]
+}

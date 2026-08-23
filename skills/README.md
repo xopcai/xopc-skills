@@ -9,9 +9,12 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `content-campaign` | Goal to measurable campaign package | `content-campaign-pack` |
 | `sales-account-research` | ICP to verified prospect list | `prospect-research` |
 | `api-integration` | API or MCP service to validated XOPC integration | `xopc-model-gateway`, `xopc-connector-builder` |
-| `software-delivery` | Engineering evidence to safer release | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes` |
+| `software-delivery` | Engineering evidence to safer release | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes`, `code-review`, `systematic-debugging`, `github-actions-ci-fix` |
 | `document-compliance` | Supplied requirements to traceable review | `document-requirements-review` |
 | `weekly-planning` | Open loops to a capacity-feasible week | `weekly-planning-review` |
+| `product-interface-design` | Product brief to rendered and accessible interface | `frontend-design` |
+| `software-security` | Repository evidence to prioritized threat model | `security-threat-model` |
+| `data-notebooks` | Analysis or lesson to reproducible `.ipynb` | `jupyter-notebook` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

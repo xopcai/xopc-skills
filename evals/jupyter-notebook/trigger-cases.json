@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "jupyter-notebook",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Create a reproducible Jupyter notebook for this experiment."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "把这段探索代码整理成可从头运行的 ipynb。"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "Build a tutorial notebook for embeddings with exercises."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "重构这个 Notebook，去掉隐藏状态并保留结论。"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Scaffold an experiment notebook comparing three models."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "创建一个面向新人的 pandas 教程 Notebook。"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "Clean the huge outputs and make this notebook rerunnable."
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "将这些研究步骤变成带假设、指标和结论的 Jupyter Notebook。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "Edit this ipynb without breaking its cell order and metadata."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "Generate a clean tutorial notebook and validate its JSON."
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Write a plain Python CLI."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "创建一个 Excel 财务模型。"
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "总结这份研究报告。"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Build a production Airflow pipeline."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "只解释什么是 Jupyter。"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "分析数据库慢查询。"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "制作一份 PowerPoint。"
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "Create a Markdown tutorial, no notebook."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "运行这个现有脚本并告诉我结果。"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "设计一个 Web dashboard。"
+    }
+  ]
+}

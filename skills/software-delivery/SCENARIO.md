@@ -10,12 +10,15 @@ Use domain-specific engineering evidence to reduce release risk and communicate 
 - `supabase-postgres-best-practices` — adapted from [Supabase](https://github.com/supabase/agent-skills); first-party PostgreSQL performance and security review guidance.
 - `react-native-best-practices` — adapted from [Callstack](https://github.com/callstackincubator/agent-skills); specialist React Native measurement and diagnosis.
 - `release-notes` — adapted from [Paweł Huryn's PM skills](https://github.com/phuryn/pm-skills); converts shipped evidence into user-facing release notes.
+- `code-review` — adapted from [Matt Pocock's Skills](https://github.com/mattpocock/skills); reviews a bounded diff independently against requirements and repository standards.
+- `systematic-debugging` — adapted from [obra/superpowers](https://github.com/obra/superpowers); uses reproduction, causal tracing, and minimal hypothesis tests before a fix.
+- `github-actions-ci-fix` — adapted from the current [OpenAI GitHub plugin](https://github.com/openai/plugins); deterministically inspects failing Actions checks and requires approval before editing.
 
 ## Boundary and overlap
 
-Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, or release communication. None is a generic code-review Skill, and none can claim successful deployment without evidence.
+Each Skill owns a distinct artifact and trigger: browser tests, database review, mobile performance diagnosis, release communication, bounded code review, defect diagnosis, or GitHub Actions recovery. None can claim successful deployment or repair without fresh evidence.
 
 ## Evaluated alternatives
 
 - Official domain-owner Skills are preferred over broad development bundles because their advice is easier to source, test, and update.
-- Security review, incident response, CI design, and deployment are candidates for separate scenarios rather than additions to this already broad group.
+- Security threat modeling is separated into `software-security`; incident response, CI-system design, and deployment remain future scenarios rather than additions to this group.

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "skill": "frontend-design",
+  "cases": [
+    {
+      "id": "new-product-landing",
+      "request": "Design a landing page for a developer observability tool.",
+      "fixture": "Brief, audience, real feature copy and an existing React starter",
+      "expected": [
+        "brief-specific visual system",
+        "responsive implementation",
+        "accessible states",
+        "rendered critique"
+      ],
+      "forbidden": [
+        "generic SaaS template",
+        "fabricated customer metrics"
+      ]
+    },
+    {
+      "id": "existing-dashboard",
+      "request": "Redesign an existing operations dashboard.",
+      "fixture": "Current components, screenshots and protected workflows",
+      "expected": [
+        "existing system respected",
+        "information hierarchy improved",
+        "desktop and mobile checked"
+      ],
+      "forbidden": [
+        "framework replacement",
+        "broken controls"
+      ]
+    },
+    {
+      "id": "strict-brand",
+      "request": "Implement a campaign microsite under strict brand rules.",
+      "fixture": "Brand palette, type rules, assets and content",
+      "expected": [
+        "constraints followed",
+        "signature tied to subject",
+        "contrast checked"
+      ],
+      "forbidden": [
+        "unapproved fonts",
+        "off-brand colors"
+      ]
+    },
+    {
+      "id": "sparse-brief",
+      "request": "Create an interface from a sparse but bounded brief.",
+      "fixture": "Known subject, audience, page job and missing aesthetic choices",
+      "expected": [
+        "narrow assumptions stated",
+        "realistic placeholders labelled",
+        "coherent direction"
+      ],
+      "forbidden": [
+        "silent product invention",
+        "unsupported claims"
+      ]
+    },
+    {
+      "id": "reduced-motion",
+      "request": "Build an animated product story that remains accessible.",
+      "fixture": "Motion concept and reduced-motion requirement",
+      "expected": [
+        "motion serves meaning",
+        "reduced-motion path",
+        "keyboard usability"
+      ],
+      "forbidden": [
+        "motion-only information",
+        "unbounded animation"
+      ]
+    }
+  ]
+}

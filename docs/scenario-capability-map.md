@@ -9,9 +9,12 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 | Content campaign | `skills/content-campaign` | One goal becomes a coherent multi-asset campaign | `content-campaign-pack` | Single-asset writing, ad buying, publishing |
 | Sales account research | `skills/sales-account-research` | An ICP becomes a verified prospect list | `prospect-research` | Outreach copy, messaging, CRM writes |
 | API integration | `skills/api-integration` | A service becomes a validated XOPC integration | `xopc-model-gateway`, `xopc-connector-builder` | Business workflow design |
-| Software delivery | `skills/software-delivery` | A code change becomes safer to ship | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes` | General research or project planning |
+| Software delivery | `skills/software-delivery` | A code change or failure becomes safer to ship | `playwright-webapp-testing`, `supabase-postgres-best-practices`, `react-native-best-practices`, `release-notes`, `code-review`, `systematic-debugging`, `github-actions-ci-fix` | General research, threat modeling, or project planning |
 | Document compliance | `skills/document-compliance` | A document is traced to supplied requirements | `document-requirements-review` | Legal advice, certification, requirement invention |
 | Weekly planning | `skills/weekly-planning` | Open loops become a capacity-feasible week | `weekly-planning-review` | Daily execution, team retrospectives |
+| Product interface design | `skills/product-interface-design` | A product brief becomes a rendered, distinctive interface | `frontend-design` | Tiny style fixes, image generation, backend work |
+| Software security | `skills/software-security` | Repository evidence becomes a prioritized threat model | `security-threat-model` | Pen testing, compliance certification, ordinary review |
+| Data notebooks | `skills/data-notebooks` | An experiment or lesson becomes a reproducible notebook | `jupyter-notebook` | Spreadsheets, pipelines, plain scripts |
 
 ## Composition
 

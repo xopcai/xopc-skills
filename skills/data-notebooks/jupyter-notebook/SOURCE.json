@@ -1,0 +1,14 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/openai/skills",
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "path": "skills/.curated/jupyter-notebook",
+  "license": "Apache-2.0",
+  "copyright": "Copyright OpenAI",
+  "xopcChanges": [
+    "Preserved deterministic experiment and tutorial templates with the standard-library scaffolder",
+    "Changed default output resolution to the caller working directory and kept explicit overwrite refusal",
+    "Removed Codex-home assumptions and added data, secret, dependency, and execution-cost boundaries",
+    "Recorded that the source repository is deprecated and requires manual maintenance review"
+  ]
+}

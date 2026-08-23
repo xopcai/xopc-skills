@@ -103,6 +103,38 @@
       "priority": 2,
       "use": "adapt-evaluate",
       "reason": "高频产品运营交付场景，入口简洁，适合加入证据和已发布状态检查后适配。"
+    },
+    {
+      "label": "anthropics/frontend-design",
+      "sourceRepository": "https://github.com/anthropics/skills",
+      "scenarioId": "design-distinctive-web-interface",
+      "priority": 1,
+      "use": "adapt-evaluate",
+      "reason": "VoltAgent 官方团队分区的原始 Apache 来源，市场采用量领先且具备视觉计划、实现和渲染检查闭环。"
+    },
+    {
+      "label": "openai/security-threat-model",
+      "sourceRepository": "https://github.com/openai/skills",
+      "scenarioId": "threat-model-software-system",
+      "priority": 1,
+      "use": "pinned-adapt-evaluate",
+      "reason": "VoltAgent 官方团队分区中边界最清晰的仓库证据驱动威胁模型；逐 Skill Apache 许可，固定 deprecated 上游 commit。"
+    },
+    {
+      "label": "openai/jupyter-notebook",
+      "sourceRepository": "https://github.com/openai/skills",
+      "scenarioId": "build-reproducible-notebook",
+      "priority": 2,
+      "use": "pinned-adapt-evaluate",
+      "reason": "VoltAgent 官方团队分区的可复现 Notebook 工作流，包含确定性模板和脚本；逐 Skill Apache 许可。"
+    },
+    {
+      "label": "openai/gh-fix-ci",
+      "sourceRepository": "https://github.com/openai/plugins",
+      "scenarioId": "fix-failing-github-actions",
+      "priority": 2,
+      "use": "adapt-evaluate-current-successor",
+      "reason": "由 VoltAgent 官方 OpenAI 条目发现，并回溯到当前 Plugins successor；日志提取脚本和权限边界可验证。"
     }
   ]
 }

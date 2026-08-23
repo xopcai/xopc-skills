@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/openai/plugins",
+  "commit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+  "path": "plugins/github/skills/gh-fix-ci",
+  "license": "Apache-2.0",
+  "copyright": "Copyright OpenAI",
+  "xopcChanges": [
+    "Removed the bundled GitHub app dependency to keep the Skill portable across supported agents",
+    "Retained the deterministic gh inspection script and GitHub CLI field-drift fallback",
+    "Clarified authentication, write, rerun, push, external-provider, and success-claim boundaries"
+  ]
+}

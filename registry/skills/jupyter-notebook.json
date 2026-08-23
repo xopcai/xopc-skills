@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "name": "jupyter-notebook",
+  "path": "skills/data-notebooks/jupyter-notebook",
+  "version": "0.3.0",
+  "stage": "experimental",
+  "scenarioId": "build-reproducible-notebook",
+  "origin": "xopc-adapted",
+  "license": "Apache-2.0",
+  "owner": "XOPC Skills Team",
+  "source": "skills/data-notebooks/jupyter-notebook/SOURCE.json",
+  "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Python 3.10+ scaffolder", "Jupyter runtime optional for execution"], "os": ["macOS", "Linux", "Windows"] },
+  "qualityGates": { "Q0": "market-and-repo-evidence", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "script-tested", "Q6": "declared", "Q7": "experimental-release" },
+  "stableBlockers": ["Execute and review notebooks across three data stacks", "Measure hidden-state and oversized-output defects", "Validate safe refactoring of real existing notebooks"]
+}

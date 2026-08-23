@@ -14,6 +14,17 @@
   "disclaimer": "VoltAgent is a prioritized discovery index, not a security, license, or quality approval. Follow every item to its original repository before adoption.",
   "shortlist": [
     {
+      "label": "anthropics/frontend-design",
+      "scenarioId": "design-distinctive-web-interface",
+      "priority": 1,
+      "use": "adapt-evaluate",
+      "reason": "VoltAgent 官方团队分区的原始 Apache 来源，市场采用量领先且具备视觉计划、实现和渲染检查闭环。",
+      "indexUrl": "https://officialskills.sh/anthropics/skills/frontend-design",
+      "description": "Frontend design and UI/UX development tools",
+      "section": "Official Claude Skills",
+      "originalRepository": "https://github.com/anthropics/skills"
+    },
+    {
       "label": "anthropics/mcp-builder",
       "scenarioId": "build-trusted-xopc-connector",
       "priority": 1,
@@ -58,6 +69,17 @@
       "originalRepository": "https://github.com/netlify/context-and-tools"
     },
     {
+      "label": "openai/security-threat-model",
+      "scenarioId": "threat-model-software-system",
+      "priority": 1,
+      "use": "pinned-adapt-evaluate",
+      "reason": "VoltAgent 官方团队分区中边界最清晰的仓库证据驱动威胁模型；逐 Skill Apache 许可，固定 deprecated 上游 commit。",
+      "indexUrl": "https://officialskills.sh/openai/skills/security-threat-model",
+      "description": "Generate repo-specific threat models identifying trust boundaries",
+      "section": "Skills by OpenAI",
+      "originalRepository": "https://github.com/openai/skills"
+    },
+    {
       "label": "remotion-dev/remotion",
       "scenarioId": "create-multiformat-media-content",
       "priority": 1,
@@ -89,6 +111,28 @@
       "description": "React Native upgrade workflow: templates, dependencies, and common pitfalls",
       "section": "Skills by CallStack",
       "originalRepository": "https://github.com/callstackincubator/agent-skills"
+    },
+    {
+      "label": "openai/gh-fix-ci",
+      "scenarioId": "fix-failing-github-actions",
+      "priority": 2,
+      "use": "adapt-evaluate-current-successor",
+      "reason": "由 VoltAgent 官方 OpenAI 条目发现，并回溯到当前 Plugins successor；日志提取脚本和权限边界可验证。",
+      "indexUrl": "https://officialskills.sh/openai/skills/gh-fix-ci",
+      "description": "Debug and fix failing GitHub Actions PR checks using log inspection",
+      "section": "Skills by OpenAI",
+      "originalRepository": "https://github.com/openai/plugins"
+    },
+    {
+      "label": "openai/jupyter-notebook",
+      "scenarioId": "build-reproducible-notebook",
+      "priority": 2,
+      "use": "pinned-adapt-evaluate",
+      "reason": "VoltAgent 官方团队分区的可复现 Notebook 工作流，包含确定性模板和脚本；逐 Skill Apache 许可。",
+      "indexUrl": "https://officialskills.sh/openai/skills/jupyter-notebook",
+      "description": "Create clean, reproducible Jupyter notebooks for experiments and tutorials",
+      "section": "Skills by OpenAI",
+      "originalRepository": "https://github.com/openai/skills"
     },
     {
       "label": "phuryn/release-notes",

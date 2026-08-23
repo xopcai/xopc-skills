@@ -220,6 +220,96 @@
       "status": "implemented-experimental",
       "strengths": ["清理、更新和前瞻三阶段完整", "完成门禁清晰", "MIT 许可证"],
       "gaps": ["原实现绑定本地 Python 脚本", "需要增加容量和受保护约束", "需验证日历/任务写回"]
+    },
+    {
+      "id": "anthropic-frontend-design-adaptation",
+      "scenarioId": "design-distinctive-web-interface",
+      "upstreamId": "anthropic-skills",
+      "skillPath": "skills/frontend-design",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["官方原始来源且 Apache-2.0", "同类市场采用量显著领先", "视觉方向、实现和截图自评闭环完整"],
+      "gaps": ["原实现包含 persona 和隐式记忆假设", "需要加强范围、真实性和可访问性边界", "仍需真实渲染盲评"]
+    },
+    {
+      "id": "mattpocock-code-review-adaptation",
+      "scenarioId": "review-code-change-against-spec",
+      "upstreamId": "mattpocock-skills",
+      "skillPath": "skills/engineering/code-review",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["同类市场采用量领先", "需求与仓库标准两个轴互不遮蔽", "MIT 许可证且入口紧凑"],
+      "gaps": ["原实现依赖仓库 setup 和特定 issue tracker", "强制多代理不适合所有客户端", "需要补充严重度和只读边界"]
+    },
+    {
+      "id": "obra-systematic-debugging-adaptation",
+      "scenarioId": "diagnose-software-defect",
+      "upstreamId": "obra-superpowers",
+      "skillPath": "skills/systematic-debugging",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["同类市场采用量远高于其他候选", "复现、模式、假设和修复四阶段清晰", "MIT 许可证和丰富诊断模式"],
+      "gaps": ["绝对化流程语言可能压制简单任务判断", "跨 Skill 强依赖影响可移植性", "需增加诊断与修复授权边界"]
+    },
+    {
+      "id": "openai-security-threat-model-adaptation",
+      "scenarioId": "threat-model-software-system",
+      "upstreamId": "openai-skills-deprecated",
+      "skillPath": "skills/.curated/security-threat-model",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["细分市场采用量领先", "仓库证据、攻击路径和风险理由完整", "Skill 目录 Apache-2.0"],
+      "gaps": ["上游分发仓库已弃用", "原实现强制写文件超出纯分析授权", "需要合格 AppSec 人工评测"]
+    },
+    {
+      "id": "openai-jupyter-notebook-adaptation",
+      "scenarioId": "build-reproducible-notebook",
+      "upstreamId": "openai-skills-deprecated",
+      "skillPath": "skills/.curated/jupyter-notebook",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["细分市场采用量领先", "实验与教程模板加确定性脚本", "Skill 目录 Apache-2.0"],
+      "gaps": ["上游分发仓库已弃用", "原默认路径绑定 Codex 安装布局", "需要真实 Notebook 执行与重构评测"]
+    },
+    {
+      "id": "openai-github-actions-ci-fix-adaptation",
+      "scenarioId": "fix-failing-github-actions",
+      "upstreamId": "openai-plugins",
+      "skillPath": "plugins/github/skills/gh-fix-ci",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": ["来自当前 OpenAI Plugin 仓库", "确定性日志提取脚本处理 gh 字段漂移", "Skill 目录 Apache-2.0"],
+      "gaps": ["原入口依赖同 Plugin 的 GitHub app", "必须明确认证和写操作授权", "需要真实失败、pending 和外部 check 验证"]
+    },
+    {
+      "id": "minimax-multimodal-toolkit",
+      "scenarioId": "create-multiformat-media-content",
+      "upstreamId": "minimax-ai-skills",
+      "skillPath": "skills/minimax-multimodal-toolkit",
+      "decision": "research",
+      "status": "watchlist-provider-coupled",
+      "strengths": ["MiniMax 官方维护且 MIT", "图像、视频、语音和音乐命令完整", "非交互和 JSON 输出契约适合 Agent"],
+      "gaps": ["入口名称与目录不一致且范围包含聊天和搜索", "强依赖 MiniMax API、额度和持久凭证", "缺少无需真实付费调用的确定性评测"]
+    },
+    {
+      "id": "marswave-podcast-production",
+      "scenarioId": "create-multiformat-media-content",
+      "upstreamId": "marswave-skills",
+      "skillPath": "podcast",
+      "decision": "research",
+      "status": "watchlist-provider-coupled",
+      "strengths": ["完整的主题、模式、语言、speaker 和产物流程", "MIT 许可证", "对中文和英文场景友好"],
+      "gaps": ["强依赖 ListenHub CLI、账户和积分", "共享引用超出单 Skill 包", "市场采用和任务评测证据仍弱"]
+    },
+    {
+      "id": "karpathy-guidelines-reference",
+      "scenarioId": null,
+      "upstreamId": "karpathy-inspired-skills",
+      "skillPath": "skills/karpathy-guidelines",
+      "decision": "reference-only",
+      "status": "rejected-for-distribution",
+      "strengths": ["简洁总结假设、简单性、手术式修改和目标验证", "社区关注度高"],
+      "gaps": ["不是独立用户任务而是全局行为偏好", "与基础 Agent 行为和多数工程 Skill 重叠", "未发现明确可再分发许可证"]
     }
   ]
 }

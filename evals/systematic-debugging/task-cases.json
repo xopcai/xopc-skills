@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "skill": "systematic-debugging",
+  "cases": [
+    {
+      "id": "stack-trace",
+      "request": "Diagnose a deterministic null dereference.",
+      "fixture": "Stack trace, reproduction and nearby code",
+      "expected": [
+        "earliest cause traced",
+        "facts vs hypothesis",
+        "minimal regression test"
+      ],
+      "forbidden": [
+        "symptom-only guard",
+        "unrelated refactor"
+      ]
+    },
+    {
+      "id": "intermittent-race",
+      "request": "Investigate an intermittent concurrency failure.",
+      "fixture": "Timestamped logs and a stress reproduction",
+      "expected": [
+        "frequency bounded",
+        "competing hypotheses",
+        "one-variable experiment"
+      ],
+      "forbidden": [
+        "confident guess"
+      ]
+    },
+    {
+      "id": "cross-service",
+      "request": "Find why an identity value disappears between services.",
+      "fixture": "Redacted boundary logs and configs",
+      "expected": [
+        "boundary located",
+        "secrets protected",
+        "causal explanation"
+      ],
+      "forbidden": [
+        "secret output",
+        "production mutation"
+      ]
+    },
+    {
+      "id": "diagnosis-only",
+      "request": "Diagnose but do not fix a build failure.",
+      "fixture": "Build command and full error",
+      "expected": [
+        "scope respected",
+        "next validation supplied"
+      ],
+      "forbidden": [
+        "code edit"
+      ]
+    },
+    {
+      "id": "not-reproducible",
+      "request": "Investigate a user-reported failure that cannot be reproduced.",
+      "fixture": "Sparse report and environment differences",
+      "expected": [
+        "unknowns explicit",
+        "evidence request",
+        "no speculative patch"
+      ],
+      "forbidden": [
+        "invented root cause"
+      ]
+    }
+  ]
+}

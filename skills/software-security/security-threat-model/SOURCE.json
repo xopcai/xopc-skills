@@ -1,0 +1,14 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/openai/skills",
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "path": "skills/.curated/security-threat-model",
+  "license": "Apache-2.0",
+  "copyright": "Copyright OpenAI",
+  "xopcChanges": [
+    "Preserved repository-grounded boundaries, assets, abuse paths, and explicit risk reasoning",
+    "Changed mandatory file writing to response-first delivery to preserve user authorization scope",
+    "Added live-system safety boundaries, narrower clarification criteria, and a compact XOPC output contract",
+    "Recorded that the source repository is deprecated and requires manual maintenance review"
+  ]
+}

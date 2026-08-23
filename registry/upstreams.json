@@ -35,7 +35,7 @@
       "role": "quality-reference",
       "licenseStatus": "per-plugin-review",
       "decision": "research",
-      "notes": "学习 Skill/Plugin 结构、UI metadata 和官方工作流，使用前逐目录确认许可证。"
+      "notes": "OpenAI 当前 Skill/Plugin 分发仓库；逐目录确认许可证。GitHub Actions 修复 Skill 已在固定 commit 完成 XOPC 适配。"
     },
     {
       "id": "callstack-agent-skills",
@@ -162,6 +162,51 @@
       "licenseStatus": "mit",
       "decision": "candidate",
       "notes": "周复盘方法和闭环门禁清晰；XOPC 适配增加容量计算、数据范围和写回确认。"
+    },
+    {
+      "id": "mattpocock-skills",
+      "repository": "https://github.com/mattpocock/skills",
+      "observedCommit": "5b15a47f2d7150f545fbcacbfe381787fc0230dc",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "高采用量软件工程工作流；仅吸收边界清晰的 code-review，移除强制设置、issue tracker 和多代理依赖。"
+    },
+    {
+      "id": "openai-skills-deprecated",
+      "repository": "https://github.com/openai/skills",
+      "observedCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "role": "deprecated-quality-reference",
+      "licenseStatus": "mixed-per-skill-review",
+      "decision": "pinned-adaptation-only",
+      "notes": "仓库已弃用并指向 openai/plugins；仅对仍无 successor、逐项确认 Apache-2.0 的 threat model 与 Jupyter 做固定 commit 适配。"
+    },
+    {
+      "id": "minimax-ai-skills",
+      "repository": "https://github.com/MiniMax-AI/skills",
+      "observedCommit": "60aaae52bb2af8162732751a4332f62a5fef518b",
+      "role": "quality-reference",
+      "licenseStatus": "mit",
+      "decision": "research",
+      "notes": "官方多端开发与多媒体能力完整，但多数入口过宽或强耦合 MiniMax API；等待独立场景和 mock 评测后再吸收。"
+    },
+    {
+      "id": "obra-superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "observedCommit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "高采用量工程方法库；systematic-debugging 场景明显胜出，XOPC 适配削弱绝对流程并增加权限与敏感诊断边界。"
+    },
+    {
+      "id": "karpathy-inspired-skills",
+      "repository": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "observedCommit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "role": "behavior-reference",
+      "licenseStatus": "no-repository-license-found",
+      "decision": "reference-only",
+      "notes": "内容是通用编码行为准则而非独立用户任务，且未发现可再分发许可证；不进入官方 Skill 目录。"
     }
   ]
 }

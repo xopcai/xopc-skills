@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "systematic-debugging",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "诊断这个测试为什么只在 CI 失败，先找根因再改。"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Debug this intermittent race and show the evidence for the cause."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "这个 API 偶尔返回空数据，帮我做系统化排查。"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "Find the root cause of this performance regression before proposing a patch."
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "构建失败了，错误日志在这里，请复现并定位最早的失败边界。"
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "Diagnose why config reaches the gateway but not the worker."
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "这个 bug 已经试了三个修复都没用，请重新建立假设。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "Investigate this memory leak with a minimal reproducible experiment."
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "只需要诊断这个生产问题，不要修改代码。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "修复这个可复现缺陷，并用原始失败路径验证。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "实现新的搜索功能。"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Review this PR against the spec."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "为这个函数补单元测试。"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "解释这段代码做什么。"
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Threat model the upload service."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "优化整个代码库架构。"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "把依赖升级到最新版。"
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "生成 GitHub Actions workflow。"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "修复所有 lint 警告。"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "写发布说明。"
+    }
+  ]
+}

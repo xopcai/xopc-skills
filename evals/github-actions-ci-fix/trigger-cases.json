@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "github-actions-ci-fix",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Fix the failing GitHub Actions checks on PR #42."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "诊断当前分支 PR 的 Actions 为什么失败，先给计划。"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "Use gh to inspect this failed GitHub workflow and propose a fix."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "修复这个 PR 中失败的单元测试 check，日志在 Actions。"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Analyze GitHub Actions run 123 and patch only after I approve."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "这个 pull request 的 CI 红了，找根因并验证。"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "Inspect pending and failed checks for this GitHub PR."
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "帮我区分这个 PR 的 Actions 失败和外部 Buildkite 失败。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "Fetch the failing job logs and summarize the smallest repair."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "Recheck whether the targeted GitHub Actions check passed after the fix."
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Create a new GitHub Actions workflow."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Fix a failing GitLab pipeline."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "诊断本地 pytest 为什么失败。"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Review the PR code without inspecting CI."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Push this branch to GitHub."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Rerun every workflow in the organization."
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "Configure repository secrets."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "Explain GitHub Actions syntax."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "修复 Buildkite 的失败任务。"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "生成 release notes。"
+    }
+  ]
+}

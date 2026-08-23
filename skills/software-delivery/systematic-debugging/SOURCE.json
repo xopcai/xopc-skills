@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/obra/superpowers",
+  "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+  "path": "skills/systematic-debugging",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2025 Jesse Vincent",
+  "xopcChanges": [
+    "Reframed absolute process language as an evidence and falsifiability contract",
+    "Separated diagnosis-only requests from authorization to implement fixes",
+    "Added sensitive diagnostic handling, safe stopping conditions, and cross-boundary evidence guidance"
+  ]
+}

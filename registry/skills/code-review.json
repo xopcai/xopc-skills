@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "name": "code-review",
+  "path": "skills/software-delivery/code-review",
+  "version": "0.3.0",
+  "stage": "experimental",
+  "scenarioId": "review-code-change-against-spec",
+  "origin": "xopc-adapted",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "source": "skills/software-delivery/code-review/SOURCE.json",
+  "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Git repository and project-selected inspection tools"], "os": ["macOS", "Linux", "Windows"] },
+  "qualityGates": { "Q0": "market-and-repo-evidence", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
+  "stableBlockers": ["Measure finding precision and recall on seeded diffs", "Calibrate severity across three language stacks", "Compare single-context and independent-axis review"]
+}

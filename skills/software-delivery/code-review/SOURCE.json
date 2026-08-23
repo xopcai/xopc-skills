@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "5b15a47f2d7150f545fbcacbfe381787fc0230dc",
+  "path": "skills/engineering/code-review",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Matt Pocock",
+  "xopcChanges": [
+    "Removed mandatory setup files, issue tracker, and subagent orchestration",
+    "Preserved independent specification and standards axes while adding evidence-linked severity",
+    "Added read-only review boundaries, safe fixed-point inference, residual-risk reporting, and no-findings behavior"
+  ]
+}

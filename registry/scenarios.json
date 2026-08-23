@@ -138,6 +138,66 @@
       "briefPath": "briefs/run-weekly-planning-review.md",
       "targetOutcome": "关闭开放循环、处理逾期承诺并产出不超过真实容量的周计划",
       "priority": 13
+    },
+    {
+      "id": "design-distinctive-web-interface",
+      "title": "从真实产品简报设计并验证有辨识度的 Web 界面",
+      "domain": "product-design",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/design-distinctive-web-interface.md",
+      "targetOutcome": "交付符合品牌与框架约束、响应式且经过渲染检查的产品界面",
+      "priority": 18
+    },
+    {
+      "id": "review-code-change-against-spec",
+      "title": "按需求和仓库标准审查代码变更",
+      "domain": "software-engineering",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/review-code-change-against-spec.md",
+      "targetOutcome": "形成定位准确、证据充分且严重度合理的只读代码审查",
+      "priority": 18
+    },
+    {
+      "id": "diagnose-software-defect",
+      "title": "以证据和最小实验诊断软件缺陷",
+      "domain": "software-engineering",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/diagnose-software-defect.md",
+      "targetOutcome": "形成可复现或明确受限、能区分假设并解释症状的根因结论",
+      "priority": 18
+    },
+    {
+      "id": "threat-model-software-system",
+      "title": "为软件系统建立仓库证据驱动的安全威胁模型",
+      "domain": "application-security",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/threat-model-software-system.md",
+      "targetOutcome": "交付包含边界、资产、现实攻击路径、风险排序和可验证缓解措施的威胁模型",
+      "priority": 17
+    },
+    {
+      "id": "build-reproducible-notebook",
+      "title": "创建或重构可复现的 Jupyter Notebook",
+      "domain": "data-analysis",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/build-reproducible-notebook.md",
+      "targetOutcome": "交付结构清晰、无隐藏状态并可从头执行的实验或教程 Notebook",
+      "priority": 16
+    },
+    {
+      "id": "fix-failing-github-actions",
+      "title": "基于日志诊断并修复失败的 GitHub Actions",
+      "domain": "software-engineering",
+      "stage": "experimental",
+      "strategy": "adapt",
+      "briefPath": "briefs/fix-failing-github-actions.md",
+      "targetOutcome": "形成失败证据、根因、经批准的最小修复和最新检查状态",
+      "priority": 16
     }
   ]
 }

@@ -85,7 +85,33 @@ try {
   }
   await new Promise((resolveClose) => server.close(resolveClose))
 
-  console.log("Skill script tests passed: client detection, connector safety, model discovery, completion, and streaming.")
+  const notebookScript = "skills/data-notebooks/jupyter-notebook/scripts/new_notebook.py"
+  for (const kind of ["experiment", "tutorial"]) {
+    const notebookPath = join(temp, `${kind}.ipynb`)
+    const scaffold = await run("python3", [notebookScript, "--kind", kind, "--title", `${kind} title`, "--out", notebookPath])
+    assert(scaffold.code === 0, `notebook scaffold failed: ${scaffold.stderr}`)
+    const notebook = JSON.parse(readFileSync(notebookPath, "utf8"))
+    assert(notebook.nbformat === 4, `${kind} notebook has invalid nbformat`)
+    assert(notebook.cells[0].source[0] === `# ${kind === "experiment" ? "Experiment" : "Tutorial"}: ${kind} title\n`, `${kind} notebook title was not updated`)
+    const overwrite = await run("python3", [notebookScript, "--kind", kind, "--title", "replacement", "--out", notebookPath])
+    assert(overwrite.code !== 0, `${kind} notebook was overwritten without --force`)
+  }
+
+  const ciScript = "skills/software-delivery/github-actions-ci-fix/scripts/inspect_pr_checks.py"
+  const ciHelp = await run("python3", [ciScript, "--help"])
+  assert(ciHelp.code === 0, `CI inspector help failed: ${ciHelp.stderr}`)
+  const ciUnit = await run("python3", ["-c", [
+    "import importlib.util, sys",
+    "spec = importlib.util.spec_from_file_location('ci', sys.argv[1])",
+    "module = importlib.util.module_from_spec(spec)",
+    "spec.loader.exec_module(module)",
+    "assert module.extract_run_id('https://github.com/a/b/actions/runs/123/job/456') == '123'",
+    "assert module.extract_job_id('https://github.com/a/b/actions/runs/123/job/456') == '456'",
+    "assert 'ERROR' in module.extract_failure_snippet('ok\\nERROR boom\\ntail', 10, 1)"
+  ].join("; "), ciScript])
+  assert(ciUnit.code === 0, `CI inspector deterministic checks failed: ${ciUnit.stderr}`)
+
+  console.log("Skill script tests passed: gateway, connector, notebook scaffolding, overwrite refusal, and CI log parsing.")
 } finally {
   rmSync(temp, { recursive: true, force: true })
 }

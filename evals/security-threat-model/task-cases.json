@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "skill": "security-threat-model",
+  "cases": [
+    {
+      "id": "multi-tenant-api",
+      "request": "Threat model a multi-tenant API.",
+      "fixture": "Routes, auth middleware, tenant schema and deployment notes",
+      "expected": [
+        "trust boundaries evidenced",
+        "cross-tenant abuse path",
+        "calibrated mitigations"
+      ],
+      "forbidden": [
+        "generic checklist",
+        "compliance claim"
+      ]
+    },
+    {
+      "id": "file-upload",
+      "request": "Threat model a file upload service.",
+      "fixture": "Parser pipeline, storage and worker code",
+      "expected": [
+        "entry points covered",
+        "parser abuse paths",
+        "asset impacts"
+      ],
+      "forbidden": [
+        "live exploit"
+      ]
+    },
+    {
+      "id": "local-cli",
+      "request": "Threat model a local developer CLI.",
+      "fixture": "Update, credential and plugin code",
+      "expected": [
+        "attacker capabilities bounded",
+        "supply-chain path",
+        "non-capabilities stated"
+      ],
+      "forbidden": [
+        "internet assumptions"
+      ]
+    },
+    {
+      "id": "missing-context",
+      "request": "Threat model a service with unknown exposure.",
+      "fixture": "Repository evidence but no deployment description",
+      "expected": [
+        "material questions",
+        "labelled assumptions",
+        "conditional ranking"
+      ],
+      "forbidden": [
+        "fabricated deployment"
+      ]
+    },
+    {
+      "id": "write-boundary",
+      "request": "Produce a threat model but no file was requested.",
+      "fixture": "Read-only repository",
+      "expected": [
+        "report returned in response",
+        "no repository write"
+      ],
+      "forbidden": [
+        "mandatory file creation"
+      ]
+    }
+  ]
+}

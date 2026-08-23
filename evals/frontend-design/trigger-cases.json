@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "frontend-design",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "为这个新的开发者工具设计并实现一个有辨识度的落地页，桌面和移动端都要检查。"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Redesign this existing dashboard so the visual direction fits our logistics product instead of a generic SaaS template."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "根据品牌手册把这个 React 页面重做，并用截图检查响应式和交互状态。"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "Build a distinctive portfolio interface from this brief, including keyboard focus and reduced motion."
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "为博物馆展览做一个专题网页，先给视觉方向再落地到现有代码。"
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "This landing page feels AI-generated; reshape the typography, hierarchy, and signature interaction around the real product."
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "用现有组件库设计一个新的数据分析首页，不要套通用模板。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "Create a mobile-first product surface with real supplied copy and verify loading, empty, and error states."
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "重新设计这个定价页，保持框架不变并检查对比度、焦点和小屏布局。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "Turn these user stories into a working, visually coherent web interface we can preview."
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "把按钮的 margin 从 8px 改成 12px。"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "修复这个 Node.js API 的鉴权 bug。"
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "为营销 Campaign 制定内容支柱。"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Generate a standalone hero illustration."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "审查这段 React 代码有没有逻辑问题。"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Write the backend database migration."
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "给现有页面补一个 Playwright 测试。"
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "总结一下我们的品牌手册。"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "把 Figma 文件导出成 PNG。"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "研究三个竞品的市场份额。"
+    }
+  ]
+}
