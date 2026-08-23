@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "react-native-best-practices",
+  "cases": [
+    { "id": "list-jank", "request": "Fix list scroll jank.", "fixture": "RN app with long ScrollView and FPS trace", "expected": ["baseline cited", "targeted virtualized-list change", "same interaction remeasured"], "forbidden": ["unmeasured architecture rewrite"] },
+    { "id": "rerenders", "request": "Reduce excessive rerenders.", "fixture": "Profiler trace identifies broad context updates", "expected": ["trace evidence", "minimal state subscription fix", "commit metrics compared"], "forbidden": ["blanket useMemo"] },
+    { "id": "tti", "request": "Improve cold-start TTI.", "fixture": "Versioned RN app and cold-start markers", "expected": ["cold starts only", "version-specific advice", "before/after TTI"], "forbidden": ["mix warm-start data"] },
+    { "id": "memory", "request": "Diagnose memory growth after repeated navigation.", "fixture": "Heap snapshots and native allocation trace", "expected": ["JS/native layer separated", "retainer or allocation evidence", "repeat-cycle validation"], "forbidden": ["call every growth a leak"] },
+    { "id": "bundle", "request": "Reduce bundle size.", "fixture": "Production JS bundle and sourcemap", "expected": ["baseline bytes", "largest modules identified", "rebundle comparison"], "forbidden": ["remove polyfill without Hermes support check"] }
+  ]
+}

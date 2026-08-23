@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "release-notes",
+  "version": "0.1.0",
+  "stage": "experimental",
+  "scenarioId": "write-evidence-based-release-notes",
+  "origin": "xopc-adapted",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "source": "skills/release-notes/SOURCE.json",
+  "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["No helper runtime required"], "os": ["macOS", "Linux", "Windows"] },
+  "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
+  "stableBlockers": ["Blind-review notes from three real releases", "Measure unsupported-claim rate", "Validate security disclosure workflow"]
+}

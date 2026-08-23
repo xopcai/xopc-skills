@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "release-notes",
+  "cases": [
+    { "id": "positive-01", "shouldTrigger": true, "prompt": "根据这些已上线 PR 生成面向用户的 release notes。" },
+    { "id": "positive-02", "shouldTrigger": true, "prompt": "Turn this changelog into concise customer-facing release notes." },
+    { "id": "positive-03", "shouldTrigger": true, "prompt": "从 Linear tickets 写本周发布说明，排除还没部署的项目。" },
+    { "id": "positive-04", "shouldTrigger": true, "prompt": "为 API v2 发布写 breaking changes 和迁移行动。" },
+    { "id": "positive-05", "shouldTrigger": true, "prompt": "检查这份更新公告有没有无证据的性能数字。" },
+    { "id": "positive-06", "shouldTrigger": true, "prompt": "把工程 changelog 改写成 B2B 用户能理解的产品更新。" },
+    { "id": "positive-07", "shouldTrigger": true, "prompt": "Write security-conscious release notes without exposing exploit details." },
+    { "id": "positive-08", "shouldTrigger": true, "prompt": "生成版本发布说明，并把证据不足的条目放到编辑附录。" },
+    { "id": "positive-09", "shouldTrigger": true, "prompt": "Summarize shipped fixes and tell affected users whether they need to act." },
+    { "id": "positive-10", "shouldTrigger": true, "prompt": "为开发者 API 和普通管理员分别调整同一版本的发布说明语气。" },
+    { "id": "negative-01", "shouldTrigger": false, "prompt": "给下季度 roadmap 写一份公告。" },
+    { "id": "negative-02", "shouldTrigger": false, "prompt": "总结这次会议。" },
+    { "id": "negative-03", "shouldTrigger": false, "prompt": "为产品写一篇营销博客。" },
+    { "id": "negative-04", "shouldTrigger": false, "prompt": "生成 Git commit message。" },
+    { "id": "negative-05", "shouldTrigger": false, "prompt": "分析为什么 CI 发布失败。" },
+    { "id": "negative-06", "shouldTrigger": false, "prompt": "为未开发的功能写产品需求文档。" },
+    { "id": "negative-07", "shouldTrigger": false, "prompt": "给安全漏洞写详细复现步骤。" },
+    { "id": "negative-08", "shouldTrigger": false, "prompt": "创建 GitHub Release 并上传二进制。" },
+    { "id": "negative-09", "shouldTrigger": false, "prompt": "把英文文档翻译成中文。" },
+    { "id": "negative-10", "shouldTrigger": false, "prompt": "列出仓库最近十个 commit。" }
+  ]
+}

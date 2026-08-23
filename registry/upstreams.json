@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "upstreams": [
+    {
+      "id": "agent-skills-spec",
+      "repository": "https://github.com/agentskills/agentskills",
+      "observedCommit": "69ef37e9424c0a7ea9dd2293b559e43ec8176379",
+      "role": "specification",
+      "licenseStatus": "reviewed",
+      "decision": "reference",
+      "notes": "用于结构兼容和基础校验，不代表 XOPC 质量标准。"
+    },
+    {
+      "id": "voltagent-awesome-agent-skills",
+      "repository": "https://github.com/VoltAgent/awesome-agent-skills",
+      "observedCommit": "90566136ede9a20351f452c5f99e9e593e961a84",
+      "role": "discovery-index",
+      "licenseStatus": "not-applicable",
+      "decision": "reference",
+      "notes": "XOPC 的首要候选发现入口；优先处理其 Official Skills 分区，但目录本身不等于安全或质量审计，必须回溯原仓库。"
+    },
+    {
+      "id": "anthropic-skills",
+      "repository": "https://github.com/anthropics/skills",
+      "observedCommit": "3b3fad96af16a10759d930941b4520ba0c40edae",
+      "role": "quality-reference",
+      "licenseStatus": "mixed-per-skill-review",
+      "decision": "reference",
+      "notes": "文档类 PDF/DOCX/PPTX/XLSX 禁止复制和派生；其他目录逐项审查。"
+    },
+    {
+      "id": "openai-plugins",
+      "repository": "https://github.com/openai/plugins",
+      "observedCommit": "11c74d6ba24d3a6d48f54a194cd00ef3beea18f9",
+      "role": "quality-reference",
+      "licenseStatus": "per-plugin-review",
+      "decision": "research",
+      "notes": "学习 Skill/Plugin 结构、UI metadata 和官方工作流，使用前逐目录确认许可证。"
+    },
+    {
+      "id": "callstack-agent-skills",
+      "repository": "https://github.com/callstackincubator/agent-skills",
+      "observedCommit": "2766baa46ca0fe7c16cc5ab4d0077ccec2e95fb9",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "React Native 性能与升级场景的一手领域实现，进入深度评估。"
+    },
+    {
+      "id": "marswave-skills",
+      "repository": "https://github.com/marswaveai/skills",
+      "observedCommit": "25971a4cb8d261b1cded34de7c10a5512a27f6f6",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "参考场景路由和媒体工作流；改造前审查 ListenHub 等服务依赖。"
+    },
+    {
+      "id": "vercel-agent-skills",
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "observedCommit": "dd089a8c752c966dee8bf0f27cb625ba193ffd9e",
+      "role": "quality-reference",
+      "licenseStatus": "per-skill-review",
+      "decision": "research",
+      "notes": "React/Next.js 规则组织和 Vercel 结果型工作流值得研究；仓库未声明统一 SPDX 许可证，禁止直接复制直到逐项确认。"
+    },
+    {
+      "id": "supabase-agent-skills",
+      "repository": "https://github.com/supabase/agent-skills",
+      "observedCommit": "8331f910845103c08d51f6ca1d86ebb7d1f745e3",
+      "role": "quality-reference",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "一手产品知识、关键安全规则内联、动态查官方文档和反馈闭环，适合指导 XOPC 产品型 Skill。"
+    },
+    {
+      "id": "cloudflare-skills",
+      "repository": "https://github.com/cloudflare/skills",
+      "observedCommit": "f96bff754e428838818017f75817f0f9428acd48",
+      "role": "quality-reference",
+      "licenseStatus": "apache-2.0",
+      "decision": "candidate",
+      "notes": "官方 SDK 场景和渐进式 references 适合作为 XOPC 平台 Skill 的结构参考。"
+    },
+    {
+      "id": "netlify-context-and-tools",
+      "repository": "https://github.com/netlify/context-and-tools",
+      "observedCommit": "32a261b6b2437464aca7e51bf9b48bcac1e2835c",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "由 VoltAgent 官方分区发现；AI Gateway 与 XOPC Model Gateway 场景高度相似，优先研究入口结构、客户端改造和验证闭环。"
+    },
+    {
+      "id": "remotion-skills",
+      "repository": "https://github.com/remotion-dev/skills",
+      "observedCommit": "baf0b919ff90bc980e8d2b73eb65a124cd262a64",
+      "role": "quality-reference",
+      "licenseStatus": "no-repository-license-found",
+      "decision": "reference",
+      "notes": "由 VoltAgent 官方分区发现；场景拆分和预览/渲染闭环值得研究，但未确认可派生许可证前不得复制。"
+    },
+    {
+      "id": "testmu-agent-skills",
+      "repository": "https://github.com/LambdaTest/agent-skills",
+      "observedCommit": "0491a3a29aa18558d2c3c64ff09367adb976c56f",
+      "role": "scenario-opportunity",
+      "licenseStatus": "mit",
+      "decision": "research",
+      "notes": "由 VoltAgent 官方分区发现；测试框架覆盖广，但包含 TestMu 云服务耦合，需要先验证本地优先的用户场景。"
+    },
+    {
+      "id": "vercel-next-skills",
+      "repository": "https://github.com/vercel-labs/next-skills",
+      "observedCommit": "b76d687cf3e026eac3b1032f610f06b47a56377c",
+      "role": "scenario-opportunity",
+      "licenseStatus": "no-repository-license-found",
+      "decision": "reference",
+      "notes": "由 VoltAgent 官方分区发现；适合验证 Next.js 生产质量场景，未确认可派生许可证前只学习结构与公开事实。"
+    },
+    {
+      "id": "phuryn-pm-skills",
+      "repository": "https://github.com/phuryn/pm-skills",
+      "observedCommit": "18468a95b427e70e258b51389796367c6f684e7d",
+      "role": "adaptation-candidate",
+      "licenseStatus": "mit",
+      "decision": "candidate",
+      "notes": "由 VoltAgent 产品管理官方分区发现；release-notes 场景简洁实用，XOPC 适配增加发布状态、证据和安全披露门槛。"
+    }
+  ]
+}

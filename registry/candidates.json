@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-23",
+  "candidates": [
+    {
+      "id": "callstack-react-native-best-practices",
+      "scenarioId": "diagnose-react-native-performance",
+      "upstreamId": "callstack-agent-skills",
+      "skillPath": "skills/react-native-best-practices",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "由 React Native 专业团队维护",
+        "按 FPS、TTI、内存、重渲染和包体拆分具体诊断知识",
+        "MIT 许可证允许评估派生"
+      ],
+      "gaps": [
+        "需要补充 XOPC 支持环境和工具探测",
+        "需要建立无 Skill baseline、失败恢复和报告验收",
+        "需要确认场景是否有足够 XOPC 用户证据"
+      ]
+    },
+    {
+      "id": "marswave-creator",
+      "scenarioId": "create-multiformat-media-content",
+      "upstreamId": "marswave-skills",
+      "skillPath": "creator",
+      "decision": "research",
+      "status": "longlist",
+      "strengths": [
+        "以用户最终内容包而不是单一生成接口组织工作流",
+        "包含平台模板、创作方法和共享基础设施",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "依赖 ListenHub 服务和认证体系",
+        "仓库中未发现显式任务评测集",
+        "需要拆分可迁移方法与产品专用调用"
+      ]
+    },
+    {
+      "id": "supabase-product-skill-pattern",
+      "scenarioId": "review-production-postgres",
+      "upstreamId": "supabase-agent-skills",
+      "skillPath": "skills/supabase-postgres-best-practices",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "由数据库产品官方团队维护",
+        "按影响排列查询、连接、RLS、schema、锁和数据访问规则",
+        "MIT 许可证允许固定版本适配"
+      ],
+      "gaps": [
+        "原始触发范围过宽，需要收窄为生产审查",
+        "需要补充只读默认、生产授权和回滚门槛",
+        "需要建立带真实 EXPLAIN/schema 的任务评测"
+      ]
+    },
+    {
+      "id": "cloudflare-agents-sdk-pattern",
+      "scenarioId": "build-trusted-xopc-connector",
+      "upstreamId": "cloudflare-skills",
+      "skillPath": "skills/agents-sdk",
+      "decision": "pattern-reference",
+      "status": "pattern-absorbed",
+      "strengths": [
+        "官方 SDK 一手知识和场景路由",
+        "主入口与按需 reference 分离",
+        "Apache-2.0 许可证"
+      ],
+      "gaps": [
+        "运行时和 Connector 契约与 XOPC 不同",
+        "需要围绕权限、安装计划和远程 MCP 安全重新设计"
+      ]
+    },
+    {
+      "id": "anthropic-document-skills",
+      "scenarioId": null,
+      "upstreamId": "anthropic-skills",
+      "skillPath": "skills/pdf, skills/docx, skills/pptx, skills/xlsx",
+      "decision": "reference-only",
+      "status": "blocked-for-derivative",
+      "strengths": [
+        "大量确定性脚本、渲染和验证闭环",
+        "代表生产级复杂文件 Skill 的结构上限"
+      ],
+      "gaps": [
+        "许可证禁止复制、派生和再分发",
+        "只能学习质量模式，不能进入 XOPC 适配实现"
+      ]
+    },
+    {
+      "id": "netlify-ai-gateway-pattern",
+      "scenarioId": "connect-ai-app-to-xopc-models",
+      "upstreamId": "netlify-context-and-tools",
+      "skillPath": "skills/netlify-ai-gateway",
+      "decision": "reimplement",
+      "status": "pattern-absorbed",
+      "strengths": [
+        "由网关产品官方团队维护",
+        "与 XOPC 多模型统一入口的用户路径高度相似",
+        "MIT 许可证且入口控制在 500 行内，深层内容按需加载"
+      ],
+      "gaps": [
+        "Netlify 认证和部署环境与 XOPC 不同",
+        "不能沿用零配置凭证假设，需要重建 XOPC 错误诊断",
+        "需要使用真实 XOPC SDK 完成端到端任务评测"
+      ]
+    },
+    {
+      "id": "remotion-programmatic-video-pattern",
+      "scenarioId": "create-multiformat-media-content",
+      "upstreamId": "remotion-skills",
+      "skillPath": "skills/remotion",
+      "decision": "reference-only",
+      "status": "shortlist",
+      "strengths": [
+        "由 Remotion 官方维护并覆盖创建、预览、渲染和升级闭环",
+        "把宽泛视频任务拆成可组合的子场景",
+        "输出可通过实际渲染而非模型自评验证"
+      ],
+      "gaps": [
+        "原仓库未发现明确许可证，当前不得复制或派生",
+        "只覆盖程序化视频，不能代表全部多格式媒体场景",
+        "需要与 MarsWave 的多平台内容工作流做任务级对照"
+      ]
+    },
+    {
+      "id": "testmu-playwright-adaptation",
+      "scenarioId": "build-reliable-web-test-suite",
+      "upstreamId": "testmu-agent-skills",
+      "skillPath": "playwright-skill",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "Playwright 语言、selector、assertion、调试和验证流程完整",
+        "由测试平台团队维护并使用 MIT 许可证",
+        "通过 VoltAgent 官方团队分区发现"
+      ],
+      "gaps": [
+        "原 Skill 强耦合 TestMu 云端服务",
+        "XOPC 版本改为本地优先并增加生产数据和测试 artifact 安全边界",
+        "仍需多种真实应用启动与认证 fixture"
+      ]
+    },
+    {
+      "id": "phuryn-release-notes-adaptation",
+      "scenarioId": "write-evidence-based-release-notes",
+      "upstreamId": "phuryn-pm-skills",
+      "skillPath": "pm-execution/skills/release-notes",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "场景高频、边界清晰且入口精简",
+        "按用户价值组织 feature、improvement、fix 和 breaking change",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原 Skill 缺少 shipped 状态和逐项证据",
+        "缺少安全披露和敏感信息边界",
+        "需要对混合状态 ticket 做真实性评测"
+      ]
+    }
+  ]
+}

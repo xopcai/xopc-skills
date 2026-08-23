@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "XOPC Skill trigger cases",
+  "type": "object",
+  "required": ["schemaVersion", "skill", "cases"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "skill": { "type": "string" },
+    "cases": {
+      "type": "array",
+      "minItems": 20,
+      "items": {
+        "type": "object",
+        "required": ["id", "shouldTrigger", "prompt"],
+        "properties": {
+          "id": { "type": "string" },
+          "shouldTrigger": { "type": "boolean" },
+          "prompt": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

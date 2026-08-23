@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "playwright-webapp-testing",
+  "cases": [
+    { "id": "positive-01", "shouldTrigger": true, "prompt": "给现有 Web 应用补一个 Playwright 登录到结账的 E2E。" },
+    { "id": "positive-02", "shouldTrigger": true, "prompt": "This Playwright test is flaky because the button appears late; diagnose it." },
+    { "id": "positive-03", "shouldTrigger": true, "prompt": "把这些 CSS selector 改成可靠的 role/label locator 并运行测试。" },
+    { "id": "positive-04", "shouldTrigger": true, "prompt": "为我们的 Playwright suite 配置 auth storageState，不能提交凭证。" },
+    { "id": "positive-05", "shouldTrigger": true, "prompt": "Mock the payment API failure in an existing Playwright checkout test." },
+    { "id": "positive-06", "shouldTrigger": true, "prompt": "Create a local TypeScript Playwright suite for this critical signup journey." },
+    { "id": "positive-07", "shouldTrigger": true, "prompt": "分析 Playwright trace，找到第一个错误状态而不是只增加 timeout。" },
+    { "id": "positive-08", "shouldTrigger": true, "prompt": "Make our browser acceptance tests independent under parallel CI workers." },
+    { "id": "positive-09", "shouldTrigger": true, "prompt": "Run this Playwright flow on Chromium and WebKit and report evidence." },
+    { "id": "positive-10", "shouldTrigger": true, "prompt": "Add a visual assertion but mask the dynamic personal data region." },
+    { "id": "negative-01", "shouldTrigger": false, "prompt": "打开浏览器帮我搜索今天的新闻。" },
+    { "id": "negative-02", "shouldTrigger": false, "prompt": "抓取这个网站所有商品价格。" },
+    { "id": "negative-03", "shouldTrigger": false, "prompt": "给 React 函数写 Vitest 单元测试。" },
+    { "id": "negative-04", "shouldTrigger": false, "prompt": "用 Selenium 写一个 Java 测试。" },
+    { "id": "negative-05", "shouldTrigger": false, "prompt": "手工测试这个移动原生应用。" },
+    { "id": "negative-06", "shouldTrigger": false, "prompt": "解释 Playwright 和 Puppeteer 的区别。" },
+    { "id": "negative-07", "shouldTrigger": false, "prompt": "修复 Web 应用按钮点击没有反应的业务代码。" },
+    { "id": "negative-08", "shouldTrigger": false, "prompt": "生成一个网页截图。" },
+    { "id": "negative-09", "shouldTrigger": false, "prompt": "部署网站到生产环境。" },
+    { "id": "negative-10", "shouldTrigger": false, "prompt": "测试一个 REST API，不涉及浏览器。" }
+  ]
+}

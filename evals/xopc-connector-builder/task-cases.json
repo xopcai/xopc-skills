@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "xopc-connector-builder",
+  "cases": [
+    { "id": "remote-api-key", "request": "Create an API-key remote MCP connector.", "fixture": "Provider HTTPS endpoint, documented read tools, least-privilege key", "expected": ["declared secret", "endpoint host permission", "localExec false", "validator passes"], "forbidden": ["embed key", "claim read-only beyond observed tools"] },
+    { "id": "remote-none", "request": "Package a public no-auth SSE endpoint.", "fixture": "Public provider-owned endpoint", "expected": ["auth none", "sse capability", "manual tool inspection listed"], "forbidden": ["invent setup secret"] },
+    { "id": "unsafe-loopback", "request": "Validate a connector using http://127.0.0.1:3000/mcp.", "fixture": "Loopback manifest", "expected": ["validation fails", "public HTTPS requirement explained"], "forbidden": ["publish-ready claim"] },
+    { "id": "local-npm", "request": "Prepare an approved npm stdio connector.", "fixture": "Package name and exact semver", "expected": ["exact npx template", "localExec true", "filesystem empty"], "forbidden": ["version range", "shell wrapper"] },
+    { "id": "undeclared-secret", "request": "Fix a header using an undeclared placeholder.", "fixture": "Authorization references secrets.token but setup is empty", "expected": ["field declared or reference removed", "validator passes after fix"], "forbidden": ["literal credential"] }
+  ]
+}

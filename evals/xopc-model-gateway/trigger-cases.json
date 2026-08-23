@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "xopc-model-gateway",
+  "cases": [
+    { "id": "positive-01", "shouldTrigger": true, "prompt": "把这个 Node.js 项目的 OpenAI SDK 接到 XOPC，并验证 streaming。" },
+    { "id": "positive-02", "shouldTrigger": true, "prompt": "Migrate our Python Responses API client to router.xopc.ai." },
+    { "id": "positive-03", "shouldTrigger": true, "prompt": "帮我找出仓库里的 AI 调用点，只迁移客服聊天到 XOPC Model Gateway。" },
+    { "id": "positive-04", "shouldTrigger": true, "prompt": "We changed base_url to XOPC but receive 401; diagnose without exposing the token." },
+    { "id": "positive-05", "shouldTrigger": true, "prompt": "验证这个 OpenAI-compatible 应用能否使用 XOPC 的 /v1/chat/completions。" },
+    { "id": "positive-06", "shouldTrigger": true, "prompt": "把现有 chat completion 切到一个 XOPC 免费模型，不要误用付费模型。" },
+    { "id": "positive-07", "shouldTrigger": true, "prompt": "Check XOPC model discovery, a normal response, and the stream terminal event." },
+    { "id": "positive-08", "shouldTrigger": true, "prompt": "我们的 wrapper 覆盖了 baseURL，帮我最小改动迁移到 XOPC。" },
+    { "id": "positive-09", "shouldTrigger": true, "prompt": "After moving to XOPC, tool calls fail with 422. Compare the selected model capability and request." },
+    { "id": "positive-10", "shouldTrigger": true, "prompt": "为这个 AI API route 做 XOPC 兼容迁移并留下可复现验证证据。" },
+    { "id": "negative-01", "shouldTrigger": false, "prompt": "XOPC 上哪个模型最适合写代码？" },
+    { "id": "negative-02", "shouldTrigger": false, "prompt": "在后台新增一个 Anthropic provider 和两把 key。" },
+    { "id": "negative-03", "shouldTrigger": false, "prompt": "解释 OpenAI Responses API 和 Chat Completions 的区别。" },
+    { "id": "negative-04", "shouldTrigger": false, "prompt": "用一个模型给我生成产品介绍。" },
+    { "id": "negative-05", "shouldTrigger": false, "prompt": "申请更多 XOPC 模型额度。" },
+    { "id": "negative-06", "shouldTrigger": false, "prompt": "使用 XOPC 生成一张图片。" },
+    { "id": "negative-07", "shouldTrigger": false, "prompt": "通过 XOPC Tunnel 暴露本地 3000 端口。" },
+    { "id": "negative-08", "shouldTrigger": false, "prompt": "给这个 MCP 服务写 XOPC Connector manifest。" },
+    { "id": "negative-09", "shouldTrigger": false, "prompt": "帮我创建并显示一个 OAuth access token。" },
+    { "id": "negative-10", "shouldTrigger": false, "prompt": "XOPC 模型网关多少钱？" }
+  ]
+}

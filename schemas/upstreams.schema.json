@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "XOPC upstream skill sources",
+  "type": "object",
+  "required": ["schemaVersion", "upstreams"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "upstreams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "repository", "role", "licenseStatus", "decision", "notes"]
+      }
+    }
+  },
+  "additionalProperties": false
+}

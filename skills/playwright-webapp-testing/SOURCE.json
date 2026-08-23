@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/LambdaTest/agent-skills",
+  "commit": "0491a3a29aa18558d2c3c64ff09367adb976c56f",
+  "path": "playwright-skill",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2025 TestMu AI / LambdaTest",
+  "xopcChanges": ["Renamed and narrowed to existing web-app E2E testing", "Local execution is the default", "Removed TestMu-specific templates and mandatory cloud reporting", "Added production-data and artifact-sensitivity boundaries"]
+}

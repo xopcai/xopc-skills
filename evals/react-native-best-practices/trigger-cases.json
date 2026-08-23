@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "react-native-best-practices",
+  "cases": [
+    { "id": "positive-01", "shouldTrigger": true, "prompt": "React Native 列表滚动掉帧，帮我先测量再定位。" },
+    { "id": "positive-02", "shouldTrigger": true, "prompt": "Our RN cold-start TTI regressed after the last release." },
+    { "id": "positive-03", "shouldTrigger": true, "prompt": "分析这个 React Native 页面为什么发生大量 re-render。" },
+    { "id": "positive-04", "shouldTrigger": true, "prompt": "Hermes heap keeps growing after opening and closing the screen." },
+    { "id": "positive-05", "shouldTrigger": true, "prompt": "把 React Native JS bundle 从 4MB 降下来并给前后证据。" },
+    { "id": "positive-06", "shouldTrigger": true, "prompt": "Reanimated animation blocks the JS thread and drops frames." },
+    { "id": "positive-07", "shouldTrigger": true, "prompt": "Profile whether our native Turbo Module sync method causes jank." },
+    { "id": "positive-08", "shouldTrigger": true, "prompt": "Android release 包太大，审查 R8 和 native assets。" },
+    { "id": "positive-09", "shouldTrigger": true, "prompt": "TextInput 每次输入都卡顿，检查受控组件更新。" },
+    { "id": "positive-10", "shouldTrigger": true, "prompt": "Review this Expo/React Native app for measured FPS and startup bottlenecks." },
+    { "id": "negative-01", "shouldTrigger": false, "prompt": "创建一个 React Native 登录页。" },
+    { "id": "negative-02", "shouldTrigger": false, "prompt": "把 React Native 升级到最新版本。" },
+    { "id": "negative-03", "shouldTrigger": false, "prompt": "写一个 React Web 的 useMemo 示例。" },
+    { "id": "negative-04", "shouldTrigger": false, "prompt": "解释 Android 16KB page size 是什么。" },
+    { "id": "negative-05", "shouldTrigger": false, "prompt": "给 Expo 配置 EAS deployment。" },
+    { "id": "negative-06", "shouldTrigger": false, "prompt": "写 Detox E2E 测试。" },
+    { "id": "negative-07", "shouldTrigger": false, "prompt": "应用崩溃了，日志显示空指针。" },
+    { "id": "negative-08", "shouldTrigger": false, "prompt": "推荐一个跨平台移动框架。" },
+    { "id": "negative-09", "shouldTrigger": false, "prompt": "设计一个移动端首页 UI。" },
+    { "id": "negative-10", "shouldTrigger": false, "prompt": "React Native 的 FlatList API 有哪些 props？" }
+  ]
+}

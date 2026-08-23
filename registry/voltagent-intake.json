@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "upstreamId": "voltagent-awesome-agent-skills",
+    "commit": "90566136ede9a20351f452c5f99e9e593e961a84",
+    "readmeUrl": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/90566136ede9a20351f452c5f99e9e593e961a84/README.md",
+    "scope": "official-sections-only"
+  },
+  "selections": [
+    {
+      "label": "netlify/netlify-ai-gateway",
+      "sourceRepository": "https://github.com/netlify/context-and-tools",
+      "scenarioId": "connect-ai-app-to-xopc-models",
+      "priority": 1,
+      "use": "pattern-reference",
+      "reason": "与统一模型网关接入、认证和多供应商切换场景最接近。"
+    },
+    {
+      "label": "cloudflare/agents-sdk",
+      "sourceRepository": "https://github.com/cloudflare/skills",
+      "scenarioId": "build-trusted-xopc-connector",
+      "priority": 1,
+      "use": "adapt-pattern",
+      "reason": "官方 Agent SDK Skill，适合研究状态、工具、MCP 和人类确认的场景路由。"
+    },
+    {
+      "label": "anthropics/mcp-builder",
+      "sourceRepository": "https://github.com/anthropics/skills",
+      "scenarioId": "build-trusted-xopc-connector",
+      "priority": 1,
+      "use": "reference-only",
+      "reason": "生产级 MCP 构建流程参考；须以具体 Skill 许可证为准。"
+    },
+    {
+      "label": "callstackincubator/react-native-best-practices",
+      "sourceRepository": "https://github.com/callstackincubator/agent-skills",
+      "scenarioId": "diagnose-react-native-performance",
+      "priority": 1,
+      "use": "adapt-evaluate",
+      "reason": "一手 React Native 性能知识，已有明确 XOPC 候选场景。"
+    },
+    {
+      "label": "callstackincubator/upgrading-react-native",
+      "sourceRepository": "https://github.com/callstackincubator/agent-skills",
+      "scenarioId": "diagnose-react-native-performance",
+      "priority": 2,
+      "use": "pattern-reference",
+      "reason": "用于比较诊断 Skill 与版本迁移 Skill 的边界，避免形成过宽入口。"
+    },
+    {
+      "label": "remotion-dev/remotion",
+      "sourceRepository": "https://github.com/remotion-dev/skills",
+      "scenarioId": "create-multiformat-media-content",
+      "priority": 1,
+      "use": "reference-only",
+      "reason": "代表可预览、可渲染、可验证的程序化视频工作流。"
+    },
+    {
+      "label": "replicate/replicate",
+      "sourceRepository": "https://github.com/replicate/skills",
+      "scenarioId": "create-multiformat-media-content",
+      "priority": 2,
+      "use": "pattern-reference",
+      "reason": "适合研究模型发现、选择、执行和结果检查的媒体生成流程。"
+    },
+    {
+      "label": "supabase/postgres-best-practices",
+      "sourceRepository": "https://github.com/supabase/agent-skills",
+      "scenarioId": "review-production-postgres",
+      "priority": 2,
+      "use": "adapt-evaluate",
+      "reason": "展示了按影响排序、错误/正确示例和可测量证据的规则型 Skill。"
+    },
+    {
+      "label": "testmu-ai/playwright-skill",
+      "sourceRepository": "https://github.com/LambdaTest/agent-skills",
+      "scenarioId": "build-reliable-web-test-suite",
+      "priority": 2,
+      "use": "adapt-evaluate",
+      "reason": "覆盖完整 Playwright 交付，但需拆除不必要的云服务耦合。"
+    },
+    {
+      "label": "anthropics/webapp-testing",
+      "sourceRepository": "https://github.com/anthropics/skills",
+      "scenarioId": "build-reliable-web-test-suite",
+      "priority": 2,
+      "use": "reference-only",
+      "reason": "用于对照本地服务探测、浏览器执行和证据输出模式。"
+    },
+    {
+      "label": "vercel-labs/next-best-practices",
+      "sourceRepository": "https://github.com/vercel-labs/next-skills",
+      "opportunityId": "optimize-nextjs-production-app",
+      "priority": 2,
+      "use": "reference-only",
+      "reason": "由框架团队维护，适合验证生产级 Next.js 编写与审查场景。"
+    },
+    {
+      "label": "phuryn/release-notes",
+      "sourceRepository": "https://github.com/phuryn/pm-skills",
+      "scenarioId": "write-evidence-based-release-notes",
+      "priority": 2,
+      "use": "adapt-evaluate",
+      "reason": "高频产品运营交付场景，入口简洁，适合加入证据和已发布状态检查后适配。"
+    }
+  ]
+}

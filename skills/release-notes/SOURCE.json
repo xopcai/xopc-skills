@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/phuryn/pm-skills",
+  "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+  "path": "pm-execution/skills/release-notes",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Pawel Huryn",
+  "xopcChanges": ["Added shipped-state and claim evidence table", "Added breaking-action and security disclosure checks", "Added editor-only exclusions and uncertainty appendix"]
+}

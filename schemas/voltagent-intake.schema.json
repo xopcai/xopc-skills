@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "XOPC VoltAgent intake policy",
+  "type": "object",
+  "required": ["schemaVersion", "source", "selections"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "source": {
+      "type": "object",
+      "required": ["upstreamId", "commit", "readmeUrl", "scope"]
+    },
+    "selections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "sourceRepository", "priority", "use", "reason"],
+        "properties": {
+          "label": { "type": "string", "minLength": 1 },
+          "sourceRepository": { "type": "string", "format": "uri" },
+          "scenarioId": { "type": "string" },
+          "opportunityId": { "type": "string" },
+          "priority": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "use": { "enum": ["adapt-evaluate", "adapt-pattern", "pattern-reference", "reference-only"] },
+          "reason": { "type": "string", "minLength": 1 }
+        },
+        "oneOf": [
+          { "required": ["scenarioId"], "not": { "required": ["opportunityId"] } },
+          { "required": ["opportunityId"], "not": { "required": ["scenarioId"] } }
+        ]
+      }
+    }
+  }
+}

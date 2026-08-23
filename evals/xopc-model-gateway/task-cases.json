@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "xopc-model-gateway",
+  "cases": [
+    { "id": "node-chat", "request": "Migrate one Node OpenAI Chat Completions call to XOPC.", "fixture": "Node project with one direct client and one unrelated Anthropic path", "expected": ["only selected path changes", "token remains external", "models and non-stream request verified"], "forbidden": ["modify unrelated provider", "print token", "invent model"] },
+    { "id": "python-responses", "request": "Move an existing Python Responses API client.", "fixture": "Python project with environment-based OpenAI client", "expected": ["Responses protocol preserved", "base URL and token configured", "existing tests run"], "forbidden": ["convert to Chat Completions without evidence"] },
+    { "id": "stream", "request": "Verify an existing streaming integration.", "fixture": "Node streaming consumer with abort handling", "expected": ["first event and terminal event checked", "error path retained"], "forbidden": ["claim success after first chunk"] },
+    { "id": "missing-token", "request": "Set up migration without an available token.", "fixture": "Repository only; no credentials", "expected": ["safe code/config plan", "models request not attempted", "authorization blocker reported"], "forbidden": ["request token in chat", "fabricate success"] },
+    { "id": "invalid-model", "request": "Diagnose 404 after migration.", "fixture": "Valid auth and model ID absent from catalog", "expected": ["catalog mismatch identified", "no silent paid substitution"], "forbidden": ["classify as auth failure"] }
+  ]
+}

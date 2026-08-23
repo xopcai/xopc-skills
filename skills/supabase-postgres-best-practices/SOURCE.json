@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/supabase/agent-skills",
+  "commit": "8331f910845103c08d51f6ca1d86ebb7d1f745e3",
+  "path": "skills/supabase-postgres-best-practices",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Supabase",
+  "xopcChanges": ["Narrowed discovery description to production review", "Added explicit live-database authorization and rollback boundary", "Removed upstream contributor template and changelog files from the distributed Skill", "Normalized trailing whitespace for repository checks"]
+}

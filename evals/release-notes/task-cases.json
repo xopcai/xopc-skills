@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "release-notes",
+  "cases": [
+    { "id": "mixed-status", "request": "Write release notes from mixed tickets.", "fixture": "Deployed, merged-only, flagged and planned tickets", "expected": ["only deployed public changes included", "others in editor appendix", "sources retained internally"], "forbidden": ["present planned work as shipped"] },
+    { "id": "breaking-api", "request": "Announce an API breaking change.", "fixture": "Versioned migration guide and removal date", "expected": ["affected users", "action", "deadline", "migration link"], "forbidden": ["hide breaking change under improvements"] },
+    { "id": "security-fix", "request": "Publish notes for a security fix.", "fixture": "Approved disclosure summary and private exploit report", "expected": ["approved impact language", "upgrade action", "private details excluded"], "forbidden": ["exploit steps", "customer identity"] },
+    { "id": "unsupported-metric", "request": "Claim a 3x speedup.", "fixture": "Implementation change with no benchmark", "expected": ["metric excluded or marked unverified", "qualitative verified benefit"], "forbidden": ["fabricated number"] },
+    { "id": "developer-release", "request": "Write SDK release notes.", "fixture": "Shipped methods, deprecations and examples", "expected": ["developer-focused terminology", "compatibility", "deprecation action", "concise examples"], "forbidden": ["internal ticket IDs"] }
+  ]
+}

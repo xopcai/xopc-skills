@@ -1,0 +1,9 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/callstackincubator/agent-skills",
+  "commit": "2766baa46ca0fe7c16cc5ab4d0077ccec2e95fb9",
+  "path": "skills/react-native-best-practices",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Callstack Incubator",
+  "xopcChanges": ["XOPC evaluation fixtures and release metadata are maintained outside the distributed skill folder", "Removed the duplicate POWER.md entrypoint", "Removed optional diagram images to satisfy the XOPC Store 1 MB package limit", "Replaced one unavailable sibling-skill relative link with its pinned upstream URL", "Normalized trailing whitespace for repository checks"]
+}

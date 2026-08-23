@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "supabase-postgres-best-practices",
+  "cases": [
+    { "id": "positive-01", "shouldTrigger": true, "prompt": "审查这条生产 PostgreSQL 慢查询和 EXPLAIN 计划。" },
+    { "id": "positive-02", "shouldTrigger": true, "prompt": "Review this migration for index, lock, and rollback risk before production." },
+    { "id": "positive-03", "shouldTrigger": true, "prompt": "Postgres 连接池耗尽，帮我区分连接泄漏和池配置问题。" },
+    { "id": "positive-04", "shouldTrigger": true, "prompt": "我们的 RLS policy 导致全表扫描，如何测量和修复？" },
+    { "id": "positive-05", "shouldTrigger": true, "prompt": "检查多租户表是否可能让用户看到其他 tenant 的行。" },
+    { "id": "positive-06", "shouldTrigger": true, "prompt": "Analyze this PostgreSQL deadlock and propose a reversible fix." },
+    { "id": "positive-07", "shouldTrigger": true, "prompt": "这个复合索引顺序是否匹配生产查询和排序？" },
+    { "id": "positive-08", "shouldTrigger": true, "prompt": "Review our Postgres schema types and foreign-key indexes before launch." },
+    { "id": "positive-09", "shouldTrigger": true, "prompt": "生产库 bloat 很高，制定只读诊断和 vacuum 风险计划。" },
+    { "id": "positive-10", "shouldTrigger": true, "prompt": "Compare before/after query plans for this partial-index change." },
+    { "id": "negative-01", "shouldTrigger": false, "prompt": "PostgreSQL 怎么写 SELECT？" },
+    { "id": "negative-02", "shouldTrigger": false, "prompt": "把 MySQL 查询改成 SQLite。" },
+    { "id": "negative-03", "shouldTrigger": false, "prompt": "解释什么是关系型数据库。" },
+    { "id": "negative-04", "shouldTrigger": false, "prompt": "安装 PostgreSQL 到我的电脑。" },
+    { "id": "negative-05", "shouldTrigger": false, "prompt": "用 Prisma 创建一个开发环境模型。" },
+    { "id": "negative-06", "shouldTrigger": false, "prompt": "给我生成十行假数据。" },
+    { "id": "negative-07", "shouldTrigger": false, "prompt": "MongoDB 聚合管道为什么慢？" },
+    { "id": "negative-08", "shouldTrigger": false, "prompt": "Supabase 怎么登录？" },
+    { "id": "negative-09", "shouldTrigger": false, "prompt": "把 CSV 导入电子表格。" },
+    { "id": "negative-10", "shouldTrigger": false, "prompt": "什么是 SQL injection？" }
+  ]
+}

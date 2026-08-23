@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "skill": "xopc-connector-builder",
+  "cases": [
+    { "id": "positive-01", "shouldTrigger": true, "prompt": "把我们的远程 MCP 服务包装成可审核的 XOPC Connector。" },
+    { "id": "positive-02", "shouldTrigger": true, "prompt": "Validate this xopc.connector.json before submitting it to the catalog." },
+    { "id": "positive-03", "shouldTrigger": true, "prompt": "为 mcp.example.com 做一个最小权限 API-key Connector manifest。" },
+    { "id": "positive-04", "shouldTrigger": true, "prompt": "检查 Connector 声明的 networkDomains 是否覆盖 MCP endpoint。" },
+    { "id": "positive-05", "shouldTrigger": true, "prompt": "Package this provider-owned SSE MCP endpoint for XOPC." },
+    { "id": "positive-06", "shouldTrigger": true, "prompt": "我们要上架一个本地 npm MCP，确认版本固定和 npx 模板安全。" },
+    { "id": "positive-07", "shouldTrigger": true, "prompt": "Connector 的 secret placeholder 校验失败，帮我修 manifest。" },
+    { "id": "positive-08", "shouldTrigger": true, "prompt": "为无认证的只读 MCP 服务生成 XOPC Connector，并核对工具权限。" },
+    { "id": "positive-09", "shouldTrigger": true, "prompt": "准备 Connector 发布包，但先只做验证和权限报告。" },
+    { "id": "positive-10", "shouldTrigger": true, "prompt": "Review whether this remote MCP connector requests more data access than its tools need." },
+    { "id": "negative-01", "shouldTrigger": false, "prompt": "用 TypeScript 实现一个 MCP server。" },
+    { "id": "negative-02", "shouldTrigger": false, "prompt": "安装 Store 里已有的 GitHub Connector。" },
+    { "id": "negative-03", "shouldTrigger": false, "prompt": "给我创建一个普通 Agent Skill。" },
+    { "id": "negative-04", "shouldTrigger": false, "prompt": "开发一个 XOPC Extension UI。" },
+    { "id": "negative-05", "shouldTrigger": false, "prompt": "检查这个随便的 JSON 文件语法。" },
+    { "id": "negative-06", "shouldTrigger": false, "prompt": "审计这个 REST API 的 OAuth 实现。" },
+    { "id": "negative-07", "shouldTrigger": false, "prompt": "列出 MCP 协议有哪些 transport。" },
+    { "id": "negative-08", "shouldTrigger": false, "prompt": "撤回 Store 中已经发布的包。" },
+    { "id": "negative-09", "shouldTrigger": false, "prompt": "搜索有哪些第三方 Connector 可以安装。" },
+    { "id": "negative-10", "shouldTrigger": false, "prompt": "帮我把本地服务暴露到公网。" }
+  ]
+}

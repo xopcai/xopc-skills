@@ -1,0 +1,33 @@
+{
+  "id": "example-connector",
+  "displayName": "Example Connector",
+  "description": "Connects XOPC to the Example provider's remote MCP service.",
+  "category": "custom",
+  "capabilities": ["tools", "auth.apiKey", "runtime.mcp.streamableHttp"],
+  "auth": { "mode": "apiKey" },
+  "setup": {
+    "secrets": [
+      {
+        "key": "apiKey",
+        "label": "API key",
+        "description": "Create a least-privileged key in the provider console.",
+        "required": true
+      }
+    ]
+  },
+  "permissions": {
+    "data": ["Describe the exact provider data exposed through MCP tools"],
+    "networkDomains": ["mcp.example.com"],
+    "localExec": false,
+    "filesystem": []
+  },
+  "runtime": {
+    "type": "mcp",
+    "serverId": "example_connector",
+    "serverTemplate": {
+      "url": "https://mcp.example.com/mcp",
+      "transport": "streamable-http",
+      "headers": { "Authorization": "{{secrets.apiKey}}" }
+    }
+  }
+}

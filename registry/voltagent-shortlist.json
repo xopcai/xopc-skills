@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "upstreamId": "voltagent-awesome-agent-skills",
+    "commit": "90566136ede9a20351f452c5f99e9e593e961a84",
+    "scope": "official-sections-only",
+    "duplicateLabelsIgnored": [
+      "makenotion/knowledge-capture",
+      "makenotion/meeting-intelligence",
+      "makenotion/research-documentation",
+      "makenotion/spec-to-implementation"
+    ]
+  },
+  "disclaimer": "VoltAgent is a prioritized discovery index, not a security, license, or quality approval. Follow every item to its original repository before adoption.",
+  "shortlist": [
+    {
+      "label": "anthropics/mcp-builder",
+      "scenarioId": "build-trusted-xopc-connector",
+      "priority": 1,
+      "use": "reference-only",
+      "reason": "生产级 MCP 构建流程参考；须以具体 Skill 许可证为准。",
+      "indexUrl": "https://officialskills.sh/anthropics/skills/mcp-builder",
+      "description": "Create MCP servers to integrate external APIs and services",
+      "section": "Official Claude Skills",
+      "originalRepository": "https://github.com/anthropics/skills"
+    },
+    {
+      "label": "callstackincubator/react-native-best-practices",
+      "scenarioId": "diagnose-react-native-performance",
+      "priority": 1,
+      "use": "adapt-evaluate",
+      "reason": "一手 React Native 性能知识，已有明确 XOPC 候选场景。",
+      "indexUrl": "https://officialskills.sh/callstackincubator/skills/react-native-best-practices",
+      "description": "Performance optimization for React Native apps from Callstack",
+      "section": "Skills by CallStack",
+      "originalRepository": "https://github.com/callstackincubator/agent-skills"
+    },
+    {
+      "label": "cloudflare/agents-sdk",
+      "scenarioId": "build-trusted-xopc-connector",
+      "priority": 1,
+      "use": "adapt-pattern",
+      "reason": "官方 Agent SDK Skill，适合研究状态、工具、MCP 和人类确认的场景路由。",
+      "indexUrl": "https://officialskills.sh/cloudflare/skills/agents-sdk",
+      "description": "Build stateful AI agents with scheduling, RPC, and MCP servers",
+      "section": "Skills by Cloudflare Team",
+      "originalRepository": "https://github.com/cloudflare/skills"
+    },
+    {
+      "label": "netlify/netlify-ai-gateway",
+      "scenarioId": "connect-ai-app-to-xopc-models",
+      "priority": 1,
+      "use": "pattern-reference",
+      "reason": "与统一模型网关接入、认证和多供应商切换场景最接近。",
+      "indexUrl": "https://officialskills.sh/netlify/skills/netlify-ai-gateway",
+      "description": "Access AI models via unified gateway endpoint",
+      "section": "Skills by Netlify Team",
+      "originalRepository": "https://github.com/netlify/context-and-tools"
+    },
+    {
+      "label": "remotion-dev/remotion",
+      "scenarioId": "create-multiformat-media-content",
+      "priority": 1,
+      "use": "reference-only",
+      "reason": "代表可预览、可渲染、可验证的程序化视频工作流。",
+      "indexUrl": "https://officialskills.sh/remotion-dev/skills/remotion",
+      "description": "Programmatic video creation with React",
+      "section": "Skills by Remotion",
+      "originalRepository": "https://github.com/remotion-dev/skills"
+    },
+    {
+      "label": "anthropics/webapp-testing",
+      "scenarioId": "build-reliable-web-test-suite",
+      "priority": 2,
+      "use": "reference-only",
+      "reason": "用于对照本地服务探测、浏览器执行和证据输出模式。",
+      "indexUrl": "https://officialskills.sh/anthropics/skills/webapp-testing",
+      "description": "Test local web applications using Playwright",
+      "section": "Official Claude Skills",
+      "originalRepository": "https://github.com/anthropics/skills"
+    },
+    {
+      "label": "callstackincubator/upgrading-react-native",
+      "scenarioId": "diagnose-react-native-performance",
+      "priority": 2,
+      "use": "pattern-reference",
+      "reason": "用于比较诊断 Skill 与版本迁移 Skill 的边界，避免形成过宽入口。",
+      "indexUrl": "https://officialskills.sh/callstackincubator/skills/upgrading-react-native",
+      "description": "React Native upgrade workflow: templates, dependencies, and common pitfalls",
+      "section": "Skills by CallStack",
+      "originalRepository": "https://github.com/callstackincubator/agent-skills"
+    },
+    {
+      "label": "phuryn/release-notes",
+      "scenarioId": "write-evidence-based-release-notes",
+      "priority": 2,
+      "use": "adapt-evaluate",
+      "reason": "高频产品运营交付场景，入口简洁，适合加入证据和已发布状态检查后适配。",
+      "indexUrl": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/release-notes",
+      "description": "Generate user-facing release notes from tickets or changelogs",
+      "section": "Product Management Skills by Pawel Huryn",
+      "originalRepository": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "label": "replicate/replicate",
+      "scenarioId": "create-multiformat-media-content",
+      "priority": 2,
+      "use": "pattern-reference",
+      "reason": "适合研究模型发现、选择、执行和结果检查的媒体生成流程。",
+      "indexUrl": "https://officialskills.sh/replicate/skills/replicate",
+      "description": "Discover, compare, and run AI models using Replicate's API",
+      "section": "Skills by Replicate",
+      "originalRepository": "https://github.com/replicate/skills"
+    },
+    {
+      "label": "supabase/postgres-best-practices",
+      "scenarioId": "review-production-postgres",
+      "priority": 2,
+      "use": "adapt-evaluate",
+      "reason": "展示了按影响排序、错误/正确示例和可测量证据的规则型 Skill。",
+      "indexUrl": "https://officialskills.sh/supabase/skills/postgres-best-practices",
+      "description": "PostgreSQL best practices for Supabase",
+      "section": "Skills by Supabase Team",
+      "originalRepository": "https://github.com/supabase/agent-skills"
+    },
+    {
+      "label": "testmu-ai/playwright-skill",
+      "scenarioId": "build-reliable-web-test-suite",
+      "priority": 2,
+      "use": "adapt-evaluate",
+      "reason": "覆盖完整 Playwright 交付，但需拆除不必要的云服务耦合。",
+      "indexUrl": "https://github.com/LambdaTest/agent-skills/tree/main/playwright-skill",
+      "description": "Generate Playwright E2E tests in TS, JS, Python, Java, or C#",
+      "section": "Skills by TestMu AI",
+      "originalRepository": "https://github.com/LambdaTest/agent-skills"
+    },
+    {
+      "label": "vercel-labs/next-best-practices",
+      "opportunityId": "optimize-nextjs-production-app",
+      "priority": 2,
+      "use": "reference-only",
+      "reason": "由框架团队维护，适合验证生产级 Next.js 编写与审查场景。",
+      "indexUrl": "https://officialskills.sh/vercel-labs/skills/next-best-practices",
+      "description": "Next.js best practices and recommended patterns",
+      "section": "Skills by Vercel Engineering Team",
+      "originalRepository": "https://github.com/vercel-labs/next-skills"
+    }
+  ]
+}

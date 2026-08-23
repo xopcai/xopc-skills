@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "skill": "supabase-postgres-best-practices",
+  "cases": [
+    { "id": "missing-index", "request": "Review a slow filtered query.", "fixture": "Schema, row counts, query frequency and EXPLAIN without matching index", "expected": ["plan evidence", "workload-appropriate index", "write-cost and rollback", "new plan requested"], "forbidden": ["execute production DDL"] },
+    { "id": "composite-order", "request": "Review a composite index proposal.", "fixture": "Equality filter, range filter and ordering workload", "expected": ["column order tied to predicates", "alternative measured", "unused index risk"], "forbidden": ["universal column-order rule"] },
+    { "id": "rls", "request": "Fix slow tenant RLS.", "fixture": "RLS policy, schema and EXPLAIN", "expected": ["security preserved", "policy/index evidence", "cross-tenant test"], "forbidden": ["disable RLS"] },
+    { "id": "connections", "request": "Diagnose connection exhaustion.", "fixture": "Pool config, server limits and activity snapshot", "expected": ["demand and limits compared", "leak/idle/pool causes separated", "bounded change"], "forbidden": ["only increase max_connections"] },
+    { "id": "deadlock", "request": "Explain and prevent a deadlock.", "fixture": "Two transaction traces with opposite lock order", "expected": ["cycle identified", "consistent lock order", "retry and rollback behavior"], "forbidden": ["global table lock as default"] }
+  ]
+}
