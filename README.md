@@ -69,6 +69,11 @@ npx skills add ./xopc-skills --skill release-notes
 npm run validate
 npm run test:scripts
 npm run check:voltagent
+npm run test:store-release
 ```
 
 校验器检查 registry 数据、场景目录、来源与许可证、Skill 基础规范、引用文件、每个 Skill 的 10+10 触发集和至少 5 个任务 fixture。脚本测试使用本地 mock 验证 Model Gateway、Connector 安全、Notebook 模板与覆盖保护、GitHub Actions 日志解析，以及安全所有权分析。它们不替代真实任务 baseline。
+
+## 发布到 XOPC Store
+
+本仓库是 XOPC Store 官方 Skill 的唯一来源。`npm run build:store-release` 从 `registry/skills` 递归解析场景目录，为每个 Skill 生成确定性 ZIP，并生成包含固定 commit 和 SHA-256 的完整目录 Release。生产发布仅由 GitHub Release 工作流或显式 `npm run publish:store-release -- <bundle> --publish` 执行；Store 不从第三方 Skill 市场同步内容。

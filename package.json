@@ -10,7 +10,10 @@
     "validate": "node tooling/validate-repo.mjs",
     "test:scripts": "node tooling/test-skill-scripts.mjs",
     "sync:voltagent": "node tooling/sync-voltagent-shortlist.mjs",
-    "check:voltagent": "node tooling/sync-voltagent-shortlist.mjs --check"
+    "check:voltagent": "node tooling/sync-voltagent-shortlist.mjs --check",
+    "build:store-release": "node tooling/build-store-release.mjs",
+    "test:store-release": "node tooling/test-store-release.mjs",
+    "publish:store-release": "node tooling/publish-store-release.mjs"
   },
   "engines": {
     "node": ">=22"
