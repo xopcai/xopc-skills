@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.15.0 - 2026-09-13
+
+- Added twelve original experimental Skills from WorkBuddy live marketplace and QwenWork public workflow evidence.
+- Added eleven scenario directories, twelve scenario briefs, 241 trigger fixtures and 60 task fixtures.
+- Documented existing coverage, runtime/connector dependencies, deferred specialist workflows, and UI access limits in the competitor intake audit.
+- Kept behavioural baselines, independent domain review and target-runtime verification as explicit Stable blockers. No marketplace packages or proprietary assets are redistributed.
+
 ## 0.14.0 - 2026-08-24
 
 - Recovered ten historical XOPC OPC lifecycle intents from application commit history into a dedicated bilingual `one-person-company` Store category.

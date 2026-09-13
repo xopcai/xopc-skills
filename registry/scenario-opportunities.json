@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-08-23",
+  "reviewedAt": "2026-09-13",
   "opportunities": [
     {
       "id": "optimize-nextjs-production-app",
@@ -10,6 +10,99 @@
       "upstreamSignals": [
         "vercel-labs/next-best-practices",
         "cloudflare/web-perf"
+      ]
+    },
+    {
+      "id": "connect-china-workplace-services",
+      "title": "中国办公服务接入",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "核验企业微信、飞书、钉钉、WPS、腾讯会议、微云、邮箱及公众号的官方接口、许可、账号范围、消息发送/发布授权和写后回读；先选真实用户最常用服务。",
+      "upstreamSignals": [
+        "WorkBuddy live: 企业微信套件 / 飞书套件 / 钉钉套件 / 腾讯会议 / Wechat Publisher"
+      ]
+    },
+    {
+      "id": "connect-licensed-financial-data",
+      "title": "授权金融数据与行情接入",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "确认服务商数据再分发许可、订阅费用、字段口径、延迟和历史覆盖；区分只读行情与交易执行。",
+      "upstreamSignals": [
+        "WorkBuddy live: NeoData / Wind Alice / iFinD / 东方财富妙想 / 富途"
+      ]
+    },
+    {
+      "id": "produce-standalone-visual-assets",
+      "title": "独立图片与视觉资产制作",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "确认 XOPC 可用图像工具、编辑引用能力、素材与字体授权，收集海报、电商图和信息图任务并做视觉验收。",
+      "upstreamSignals": [
+        "WorkBuddy live: Nano Banana Pro 图片生成与编辑 / canvas-design"
+      ]
+    },
+    {
+      "id": "support-classroom-and-family-workflows",
+      "title": "班级活动与家校支持",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "收集真实活动、家长会和差异化学习支持材料，邀请教师审查隐私、安全、非诊断边界及与现有教案技能的分工。",
+      "upstreamSignals": [
+        "WorkBuddy live: 班级活动方案 / 家长会发言稿 / 特殊学生支持"
+      ]
+    },
+    {
+      "id": "author-research-funding-proposal",
+      "title": "科研课题申报材料",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "收集真实申报指南、模板、评审标准和已脱敏样本，验证与论文辅导、给定规则审查的区别。",
+      "upstreamSignals": [
+        "WorkBuddy live: 课题申报书"
+      ]
+    },
+    {
+      "id": "review-legal-and-patent-material",
+      "title": "法律分析与专利交底支持",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "明确法域、有效规则来源、用户身份及专业复核流程，验证公开检索覆盖；不得保证法律结论或新颖性。",
+      "upstreamSignals": [
+        "WorkBuddy live: Legal Logic Analysis / 专利交底书智能生成助手",
+        "QwenWork public: 律师专属技能套件"
+      ]
+    },
+    {
+      "id": "measure-ai-search-brand-visibility",
+      "title": "品牌在AI搜索中的可见性评测",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "获得可重复查询、多引擎真实结果、抽样时间和基准集，验证指标稳定性；禁止把模拟推理写成观测分数。",
+      "upstreamSignals": [
+        "WorkBuddy live: GEO诊断报告"
+      ]
+    },
+    {
+      "id": "plan-cloud-resource-migration",
+      "title": "云资源迁移规划",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "明确平台与资源清单、成本单价来源、扫描权限和迁移/回滚验收；以脱敏真实样本验证 TCO。",
+      "upstreamSignals": [
+        "WorkBuddy live: MigraQ"
+      ]
+    },
+    {
+      "id": "publish-generated-sites",
+      "title": "生成网站的可验证托管交付",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "确认宿主已有部署 API、账号和费用边界、隐私访问级别、数据存储、预览验收与回滚；不将技能文件等同于托管服务。",
+      "upstreamSignals": [
+        "WorkBuddy live: 腾讯云CloudBase / HTML Deploy",
+        "QwenWork public: 网页交付"
+      ]
+    },
+    {
+      "id": "validate-specialist-analysis-workflows",
+      "title": "专项投研、广告和鉴定分析",
+      "status": "upstream-signal-only",
+      "evidenceNeeded": "分别收集目标用户任务、数据和领域审阅者；投研需模型/数据验证，广告需适用规则，鉴定需证据标准，不能以岗位名称直接上线。",
+      "upstreamSignals": [
+        "WorkBuddy live: 股票分析专家 / 足球贝叶斯分析 / 报告审核",
+        "QwenWork public: 广告人 / 分析师 / 鉴定师套件"
       ]
     }
   ]

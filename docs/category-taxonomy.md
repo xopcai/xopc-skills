@@ -4,16 +4,16 @@ Store categories retain the 12 functional level-one categories exposed by the Sk
 
 | Category ID | English | 简体中文 | Skills |
 |---|---|---|---:|
-| `office-efficiency` | Office Efficiency | 办公效率 | 13 |
-| `content-creation` | Content Creation | 内容创作 | 3 |
+| `office-efficiency` | Office Efficiency | 办公效率 | 14 |
+| `content-creation` | Content Creation | 内容创作 | 5 |
 | `dev-programming` | Development | 开发编程 | 13 |
 | `data-analysis` | Data Analysis | 数据分析 | 7 |
 | `design-media` | Design & Media | 设计多媒体 | 6 |
-| `ai-agent` | AI Agent | AI Agent | 3 |
-| `knowledge-management` | Knowledge Management | 知识管理 | 2 |
-| `business-ops` | Business Operations | 商业运营 | 10 |
+| `ai-agent` | AI Agent | AI Agent | 5 |
+| `knowledge-management` | Knowledge Management | 知识管理 | 4 |
+| `business-ops` | Business Operations | 商业运营 | 12 |
 | `education` | Education | 教育学习 | 5 |
-| `professional` | Professional | 行业专业 | 5 |
+| `professional` | Professional | 行业专业 | 8 |
 | `it-ops-security` | IT Ops & Security | IT 运维与安全 | 6 |
 | `life-service` | Life Service | 生活服务 | 7 |
 | `one-person-company` | One-Person Company | 一人公司（OPC） | 10 |

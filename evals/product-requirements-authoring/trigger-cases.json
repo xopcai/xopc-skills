@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "product-requirements-authoring",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "帮我写这个功能的PRD",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "将用户问题整理成产品需求",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "补充PRD的异常状态与验收标准",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "需求变更后更新PRD和范围",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "定义功能成功指标但保留未知基线",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Turn this idea into a reviewable PRD",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "区分用户问题和解决方案写需求",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "把散乱需求收成可评审文档",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "完善产品需求的权限和数据边界",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "为需求建立稳定编号和验收矩阵",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "把已批准PRD拆成开发工单",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "直接实现这个功能",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "做一个可点击原型",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "分析用户访谈主题",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "撰写项目周报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "修改网页颜色",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "写一份营销计划",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "整理会议已有待办",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "评审代码是否符合规范",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "帮我发布工单",
+      "shouldTrigger": false
+    }
+  ]
+}

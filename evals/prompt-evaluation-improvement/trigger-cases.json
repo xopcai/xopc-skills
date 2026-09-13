@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "prompt-evaluation-improvement",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "帮我优化这个任务的提示词",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "这段提示词输出JSON不稳定",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "对比新旧提示词的效果",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "根据失败样本修正提示词",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "设计提示词A/B评测集",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Improve this prompt against these examples",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "找出提示词里的相互冲突规则",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "测量提示词改动是否减少遗漏",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "这个提示词遇到引用指令就跑偏",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "为提示词优化划分开发集和保留集",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "帮我创建SKILL.md包",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "接入新的模型API",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "推荐当前最便宜模型",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "生成一张图片",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "写今天的周报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "保证所有模型100%正确",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "修改系统提示词绕过安全规则",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "安装第三方技能",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "审查源代码漏洞",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "给论文做润色",
+      "shouldTrigger": false
+    }
+  ]
+}

@@ -22,11 +22,13 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.14 experimental`，包含 13 个中英双语功能分类、53 个细粒度场景目录、92 个场景和 90 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.15 experimental`，包含 13 个中英双语功能分类、64 个细粒度场景目录、104 个场景和 102 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
-机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 53 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
+机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 64 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
+
+v0.15 根据 WorkBuddy 实际可见市场与 QwenWork 公开资料新增 12 个原创技能，补齐文档转换、长文与小说、浏览器事务、提示词与技能创建、工作交接、财务运营、合同履约、PRD 和入职协同。范围、接入缺口和未完成的行为验证见 [竞品技能对照审计](docs/workbuddy-qwenwork-intake-2026-09.md)。
 
 v0.14 在 12 个 SkillHub 对齐分类之外新增 XOPC 原生的“一人公司（OPC）”分类，从 XOPC 应用 Git 历史找回十个业务生命周期技能名并按当前质量标准独立重写。历史提交、舍弃项和非重叠边界见 [OPC 恢复审计](docs/opc-skill-recovery-2026-08.md)。
 

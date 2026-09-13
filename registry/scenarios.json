@@ -504,6 +504,126 @@
     {"id":"review-tender-response","title":"逐条审查招标要求与投标响应合规性","domain":"professional","stage":"experimental","strategy":"build","briefPath":"briefs/review-tender-response.md","targetOutcome":"交付要求到证据可追溯、废标风险和缺口明确且不虚构资质的审查矩阵","priority":18},
     {"id":"coach-academic-writing","title":"辅导形成证据可靠且符合学术诚信的论文稿","domain":"education","stage":"experimental","strategy":"build","briefPath":"briefs/coach-academic-writing.md","targetOutcome":"交付研究问题、论证、结构、证据和引用可复核的修改方案并保留学生作者责任","priority":17},
     {"id":"review-agent-skill-security","title":"安装前审查 Agent Skill 的代码、权限与供应链风险","domain":"it-ops-security","stage":"experimental","strategy":"build","briefPath":"briefs/review-agent-skill-security.md","targetOutcome":"交付覆盖全部文件、外部端点、权限和危险行为的证据化安装建议","priority":18},
-    {"id":"deliver-wechat-miniprogram","title":"基于官方约束开发并验证微信小程序功能","domain":"dev-programming","stage":"experimental","strategy":"build","briefPath":"briefs/deliver-wechat-miniprogram.md","targetOutcome":"交付权限与隐私边界清楚、可在开发者工具验证且未经确认不发布的小程序变更","priority":17}
+    {"id":"deliver-wechat-miniprogram","title":"基于官方约束开发并验证微信小程序功能","domain":"dev-programming","stage":"experimental","strategy":"build","briefPath":"briefs/deliver-wechat-miniprogram.md","targetOutcome":"交付权限与隐私边界清楚、可在开发者工具验证且未经确认不发布的小程序变更","priority":17},
+    {
+      "id": "convert-documents-to-markdown",
+      "title": "文档转 Markdown",
+      "domain": "document-conversion",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/convert-documents-to-markdown.md",
+      "targetOutcome": "将多格式资料转换为保留来源定位、结构和丢失说明的 Markdown 文件集",
+      "priority": 16
+    },
+    {
+      "id": "author-long-form-content",
+      "title": "长文与手册写作",
+      "domain": "long-form-content",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/author-long-form-content.md",
+      "targetOutcome": "把资料、论点和读者目标转化为跨章节一致、来源可追溯的长篇稿件",
+      "priority": 16
+    },
+    {
+      "id": "author-reusable-skill",
+      "title": "创建可复用技能",
+      "domain": "skill-development",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/author-reusable-skill.md",
+      "targetOutcome": "将已明确的重复工作流程转化为可安装、触发清晰且可评测的 Skill 包",
+      "priority": 16
+    },
+    {
+      "id": "execute-browser-workflow",
+      "title": "浏览器事务执行",
+      "domain": "browser-operations",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/execute-browser-workflow.md",
+      "targetOutcome": "通过可用浏览器工具完成有明确范围的网页事务并逐项验证结果",
+      "priority": 16
+    },
+    {
+      "id": "analyze-business-budget-variance",
+      "title": "企业预算差异分析",
+      "domain": "financial-operations",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/analyze-business-budget-variance.md",
+      "targetOutcome": "将可比预算和实际数据转化为可复算的差异、驱动因素与行动建议",
+      "priority": 16
+    },
+    {
+      "id": "review-month-end-close",
+      "title": "月结证据与异常检查",
+      "domain": "financial-operations",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/review-month-end-close.md",
+      "targetOutcome": "把月结清单和勾稽证据整理为可追溯的未结项、负责人和关账就绪状态",
+      "priority": 16
+    },
+    {
+      "id": "track-contract-obligations",
+      "title": "合同履约台账",
+      "domain": "contract-operations",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/track-contract-obligations.md",
+      "targetOutcome": "从指定合同版本提取有条款定位的履约义务、日期条件和待确认事项",
+      "priority": 16
+    },
+    {
+      "id": "author-product-requirements",
+      "title": "产品需求文档",
+      "domain": "product-requirements",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/author-product-requirements.md",
+      "targetOutcome": "把用户问题与业务约束转化为范围明确、可验证并可供评审的 PRD",
+      "priority": 16
+    },
+    {
+      "id": "plan-employee-onboarding",
+      "title": "员工入职协同",
+      "domain": "employee-operations",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/plan-employee-onboarding.md",
+      "targetOutcome": "根据已确定岗位和公司材料生成有依赖、负责人和验收证据的入职计划",
+      "priority": 16
+    },
+    {
+      "id": "write-fiction-with-continuity",
+      "title": "小说创作与连续性管理",
+      "domain": "fiction-writing",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/write-fiction-with-continuity.md",
+      "targetOutcome": "将原创故事设定和已写章节转化为人物、时间线和伏笔一致的后续正文",
+      "priority": 16
+    },
+    {
+      "id": "prepare-work-context-handoff",
+      "title": "工作上下文交接",
+      "domain": "work-handoff",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/prepare-work-context-handoff.md",
+      "targetOutcome": "将当前任务证据压缩为保留目标、状态、约束和可继续步骤的交接材料",
+      "priority": 16
+    },
+    {
+      "id": "evaluate-and-improve-prompt",
+      "title": "提示词评测与优化",
+      "domain": "prompt-quality",
+      "stage": "experimental",
+      "strategy": "build",
+      "briefPath": "briefs/evaluate-and-improve-prompt.md",
+      "targetOutcome": "将具体任务的提示词失败案例转化为可对比、可复现的提示词修订与评测结论",
+      "priority": 16
+    }
   ]
 }

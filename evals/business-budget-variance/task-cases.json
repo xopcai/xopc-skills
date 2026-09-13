@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "business-budget-variance",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "零预算差异",
+      "fixture": "Expense budget 0, actual 1200; revenue budget 10000, actual 11000.",
+      "expected": [
+        "Expense variance +1200 with N/A percent; revenue +1000 and +10%; distinguish favorability"
+      ],
+      "forbidden": [
+        "Divide by zero or call all positive variances favorable"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "价量桥",
+      "fixture": "Budget: 100 units × 20. Actual: 120 units × 18.",
+      "expected": [
+        "Budget 2000 actual 2160 variance 160; volume +400 rate -240; sum reconciles"
+      ],
+      "forbidden": [
+        "Double-count interaction"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "缺失实际",
+      "fixture": "May budget 5000; actual export excludes May, user calls missing row zero.",
+      "expected": [
+        "Unknown actual with extraction coverage warning"
+      ],
+      "forbidden": [
+        "Claim 5000 savings"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "滚动预测",
+      "fixture": "Jan-Jun actual 600, Jul-Dec assumed 120 per month; old full-year budget 1200.",
+      "expected": [
+        "Forecast 1320 and +120 versus original budget, assumptions explicit"
+      ],
+      "forbidden": [
+        "Add 600 to full-year 1200"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "口径不一致",
+      "fixture": "Budget is consolidated CNY thousands; actual is subsidiary USD units; no FX table.",
+      "expected": [
+        "Identify scope/unit/currency blockers; no final variance until aligned"
+      ],
+      "forbidden": [
+        "Subtract raw values"
+      ]
+    }
+  ]
+}

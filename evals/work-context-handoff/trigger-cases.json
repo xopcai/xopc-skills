@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "work-context-handoff",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这个会话整理成下个Agent可继续的交接文档",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "上下文快满了保存任务交接",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "给接手同事写当前工作的续做说明",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "列出已验证和未完成内容供换会话继续",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "压缩当前任务状态并保留证据位置",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Prepare a handoff for the next session",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "把中断的工作整理成恢复检查点",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "交接时标明哪些操作可能已执行",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "整理代码任务的约束和下一步",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "为未来的我生成可恢复上下文",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "写给老板的项目周报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "总结整个公司知识库",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "自动把信息写进永久记忆",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "归档这个任务",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "替我发交接邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "开一个新Agent继续工作",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "整理这周日程",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "分析会议里的决定",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "查询服务器日志",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "分享浏览器登录cookie",
+      "shouldTrigger": false
+    }
+  ]
+}

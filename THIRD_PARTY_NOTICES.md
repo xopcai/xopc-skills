@@ -79,3 +79,7 @@ SOFTWARE.
 | `brand-style-application` | `anthropics/skills` | Anthropic, PBC |
 
 Each Apache-derived distributed Skill contains its upstream `LICENSE.txt`. XOPC modifications are identified in `SOURCE.json`; no upstream trademark endorsement is implied.
+
+## WorkBuddy / QwenWork scenario references
+
+The twelve Skills added in v0.15 are original XOPC implementations under this repository's MIT license. Marketplace names and public product descriptions are discovery evidence only; no competitor package text, code, templates or assets are redistributed. The [intake audit](docs/workbuddy-qwenwork-intake-2026-09.md) records sources, exclusions and runtime dependencies. No endorsement by the referenced vendors is implied.

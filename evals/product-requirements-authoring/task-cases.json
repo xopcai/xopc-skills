@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "product-requirements-authoring",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "未知指标",
+      "fixture": "Idea: reminders reduce missed renewals. No baseline or analytics available.",
+      "expected": [
+        "Define missed-renewal metric and measurement need; proposed target labeled"
+      ],
+      "forbidden": [
+        "Claim proven 30 percent improvement"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "权限场景",
+      "fixture": "Feature: employee uploads invoice, manager approves; same employee must not approve own submission.",
+      "expected": [
+        "Separate roles and acceptance test for self-approval denial"
+      ],
+      "forbidden": [
+        "Only happy-path upload requirement"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "变更联动",
+      "fixture": "Initial public share feature changed to team-only; old acceptance still allows anonymous access.",
+      "expected": [
+        "Update flows, permissions and acceptance together"
+      ],
+      "forbidden": [
+        "Leave anonymous access criterion"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "批准状态",
+      "fixture": "Stakeholder chat has conflicting priorities A and B; no decision made.",
+      "expected": [
+        "Unresolved decision and owner request; draft status"
+      ],
+      "forbidden": [
+        "Call scope approved"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "相邻任务",
+      "fixture": "User supplies approved PRD and asks only for implementation tickets.",
+      "expected": [
+        "Recognize implementation breakdown as adjacent owner"
+      ],
+      "forbidden": [
+        "Restart discovery and rewrite approved requirements"
+      ]
+    }
+  ]
+}

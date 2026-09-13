@@ -57,6 +57,17 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 | `academic-writing` | Research intent and evidence to an integrity-preserving manuscript revision | `academic-writing-coach` |
 | `skill-security` | An untrusted Skill package to a pre-installation risk decision | `agent-skill-security-review` |
 | `wechat-miniprogram` | Mini Program requirements and source to a verified platform-aware change | `wechat-miniprogram-delivery` |
+| `document-conversion` | 将多格式资料转换为保留来源定位、结构和丢失说明的 Markdown 文件集 | `document-to-markdown` |
+| `long-form-content` | 把资料、论点和读者目标转化为跨章节一致、来源可追溯的长篇稿件 | `long-form-authoring` |
+| `skill-development` | 将已明确的重复工作流程转化为可安装、触发清晰且可评测的 Skill 包 | `reusable-skill-authoring` |
+| `browser-operations` | 通过可用浏览器工具完成有明确范围的网页事务并逐项验证结果 | `browser-workflow-execution` |
+| `financial-operations` | 将可比预算和实际数据转化为可复算的差异、驱动因素与行动建议；把月结清单和勾稽证据整理为可追溯的未结项、负责人和关账就绪状态 | `business-budget-variance`, `month-end-close-review` |
+| `contract-operations` | 从指定合同版本提取有条款定位的履约义务、日期条件和待确认事项 | `contract-obligation-tracking` |
+| `product-requirements` | 把用户问题与业务约束转化为范围明确、可验证并可供评审的 PRD | `product-requirements-authoring` |
+| `employee-operations` | 根据已确定岗位和公司材料生成有依赖、负责人和验收证据的入职计划 | `employee-onboarding-planning` |
+| `fiction-writing` | 将原创故事设定和已写章节转化为人物、时间线和伏笔一致的后续正文 | `fiction-continuity-writing` |
+| `work-handoff` | 将当前任务证据压缩为保留目标、状态、约束和可继续步骤的交接材料 | `work-context-handoff` |
+| `prompt-quality` | 将具体任务的提示词失败案例转化为可对比、可复现的提示词修订与评测结论 | `prompt-evaluation-improvement` |
 
 Each `SCENARIO.md` explains the user boundary, why the current Skills were selected, rejected overlaps, and candidates worth watching. A watchlist entry is research evidence, not approval to distribute it.
 

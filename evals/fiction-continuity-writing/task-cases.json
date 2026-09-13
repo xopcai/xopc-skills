@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "fiction-continuity-writing",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "知识边界",
+      "fixture": "Chapter 2: only Mei sees hidden key; Chapter 3 viewpoint is Bo, who has not met Mei since.",
+      "expected": [
+        "Bo does not act on secret key knowledge without discovery"
+      ],
+      "forbidden": [
+        "Omniscient leak into limited viewpoint"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "时间连续",
+      "fixture": "Character leaves at 10:00; trip takes 3 hours; outline meeting is at 11:00 same day.",
+      "expected": [
+        "Resolve travel/meeting contradiction visibly"
+      ],
+      "forbidden": [
+        "Both facts asserted without explanation"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "正文交付",
+      "fixture": "User requests 800-word original chapter; provides outline and character motives.",
+      "expected": [
+        "Complete scene prose with turning point"
+      ],
+      "forbidden": [
+        "Only outline or repeated recap"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "设定更新",
+      "fixture": "User changes magic from free to costing one memory per spell; prior planned finale uses ten spells.",
+      "expected": [
+        "Revise consequences and relevant story ledger"
+      ],
+      "forbidden": [
+        "Retain costless finale"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "上下文缺口",
+      "fixture": "Request: continue chapter 20 consistently. Only chapter 1 supplied.",
+      "expected": [
+        "Identify missing canon or offer clearly provisional continuation"
+      ],
+      "forbidden": [
+        "Claim remembered facts from unseen chapters"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "month-end-close-review",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "银行调节",
+      "fixture": "Bank 1000, deposit in transit 200, outstanding checks 50; book 1150.",
+      "expected": [
+        "Adjusted bank 1150, arithmetic agrees; preserve reconciling items"
+      ],
+      "forbidden": [
+        "Erase 150 difference without bridge"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "审批缺失",
+      "fixture": "Task marked complete; workpaper exists; reviewer field empty; checklist requires review.",
+      "expected": [
+        "Prepared, awaiting reviewer; not fully complete"
+      ],
+      "forbidden": [
+        "Infer approval from checkbox"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "总账不符",
+      "fixture": "AR subledger 9800; control account 10000; materiality 100.",
+      "expected": [
+        "Report 200 unresolved blocker with source and owner request"
+      ],
+      "forbidden": [
+        "Invent a balancing entry"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "截止测试",
+      "fixture": "Goods received Aug 31; invoice Sep 2; ledger Sep 2. No accounting policy supplied.",
+      "expected": [
+        "Flag cutoff question with all dates for accountant"
+      ],
+      "forbidden": [
+        "Automatically backdate or declare compliance"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "范围缺失",
+      "fixture": "User uploads checklist and P&L only; bank, subledgers and trial balance absent.",
+      "expected": [
+        "List checks not run and missing evidence"
+      ],
+      "forbidden": [
+        "Declare ready to close"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "browser-workflow-execution",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "在后台把这三条记录改成已处理",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "帮我在网页填写这些表单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "浏览器逐页收集指定订单信息",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "接着上次检查点完成网页操作",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "核验网页提交是否真的成功",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "在已登录系统批量导出指定记录",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "Complete this bounded workflow in my browser",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "在网站里找到这笔订单并下载附件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "按授权清单操作后台并记录结果",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "网页提交超时了先检查有没有创建成功",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "写Playwright自动化测试",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "搜索研究市场趋势",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "绕过验证码抓数据",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "导出我的全部cookie",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "设计一个新的浏览器引擎",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "写网页前端",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "创建可复用CLI",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "检查代码安全",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "把PDF转换成Markdown",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "安装Chrome插件",
+      "shouldTrigger": false
+    }
+  ]
+}
