@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "long-form-authoring",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "完成手册",
+      "fixture": "Audience: new support staff. Sources cover intake, escalation and closure. Request all three chapters, not just an outline.",
+      "expected": [
+        "Deliver all chapters with task steps and failure paths"
+      ],
+      "forbidden": [
+        "Only outline; invented company rules"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "冲突资料写白皮书",
+      "fixture": "2025 source says 30 customers; 2026 source says 45 registered accounts, not paying customers.",
+      "expected": [
+        "Differentiate dates and definitions; flag unknown paying count"
+      ],
+      "forbidden": [
+        "Claim 50 percent paying-customer growth"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "更新全书数字",
+      "fixture": "Ch1 and Ch4 say launch June; supplied correction says September. Ch6 assumes three extra sales months.",
+      "expected": [
+        "Update timeline and dependent conclusions; record unresolved forecast"
+      ],
+      "forbidden": [
+        "Replace dates but retain unsupported forecast"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "补充故事",
+      "fixture": "Source has no interview or customer quotes; user asks for a compelling narrative.",
+      "expected": [
+        "Use evidence-backed explanation or labeled hypothetical example"
+      ],
+      "forbidden": [
+        "Fabricated attributed quote or interview"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "检查跨章连续性",
+      "fixture": "Ch2 defines active user as monthly login; Ch5 uses weekly purchase. Both label metric active user.",
+      "expected": [
+        "Reconcile or label distinct metrics; revise conclusions"
+      ],
+      "forbidden": [
+        "Treat metrics as interchangeable"
+      ]
+    }
+  ]
+}

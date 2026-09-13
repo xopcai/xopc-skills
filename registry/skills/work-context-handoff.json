@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "name": "work-context-handoff",
+  "path": "skills/work-handoff/work-context-handoff",
+  "version": "0.15.0",
+  "stage": "experimental",
+  "scenarioId": "prepare-work-context-handoff",
+  "origin": "xopc-original",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Current conversation and authorized task artifacts"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-and-market-evidence",
+    "Q1": "passed",
+    "Q2": "source-reviewed-original",
+    "Q3": "self-reviewed-boundaries",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic task baseline and held-out trigger evaluation",
+    "Complete independent domain review",
+    "Verify target-product runtime compatibility"
+  ]
+}

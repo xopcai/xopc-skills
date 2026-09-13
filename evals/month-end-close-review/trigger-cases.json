@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "month-end-close-review",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "检查这个月是否具备关账条件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "整理月结未结事项和负责人",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "核对总账与明细账差异",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "做月结证据清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "检查关账任务有没有缺审批",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Review month-end close readiness",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "检查银行余额调节表是否勾稽",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "把月结异常整理成移交清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "核验账表勾稽和结转依据",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "按公司清单检查本期关账准备",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "计算企业ROE",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "匹配这些发票和收据",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "帮我提交增值税申报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "自动记账调平差额",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "锁定本月会计期间",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "给出审计无保留意见",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "做个人预算",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "分析公司股票估值",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "编写通用SOP",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "做一个Excel图表",
+      "shouldTrigger": false
+    }
+  ]
+}

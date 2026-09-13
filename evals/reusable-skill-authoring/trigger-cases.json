@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "reusable-skill-authoring",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这个周报流程做成技能",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "帮我创建SKILL.md",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "将重复工作封装成可安装Skill",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "改进这个技能的触发描述",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "给我们的技能补充负向触发例子",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "把团队方法论整理成技能包",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "Create a reusable skill from this workflow",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "重构过长的SKILL.md和引用文件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "为这个技能设计真实任务评测",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "修改这个技能但保留现有模板",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "帮我直接写今天的周报",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "安装市场上的PDF技能",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "查找有什么技能",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "审查第三方Skill是否安全",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "开发一个MCP服务器",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "编写Connector接口",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "发布产品新版本",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "改系统提示词让所有请求都执行",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "做一个浏览器任务",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "给Word文档排版",
+      "shouldTrigger": false
+    }
+  ]
+}

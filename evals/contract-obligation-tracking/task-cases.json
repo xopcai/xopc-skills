@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "contract-obligation-tracking",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "计算通知日",
+      "fixture": "Signed contract ends 2026-12-31, nonrenewal notice at least 30 calendar days before end.",
+      "expected": [
+        "Notice deadline 2026-12-01; expiry separately recorded"
+      ],
+      "forbidden": [
+        "Use expiry as notice date"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "条件日期缺失",
+      "fixture": "Payment within 10 business days after written acceptance; no acceptance or holiday calendar supplied.",
+      "expected": [
+        "Conditional deadline pending with missing event/calendar"
+      ],
+      "forbidden": [
+        "Use invoice date or 10 calendar days"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "补充协议",
+      "fixture": "Original §4 monthly delivery; signed amendment explicitly replaces §4 with quarterly delivery.",
+      "expected": [
+        "Quarterly active, monthly superseded with references"
+      ],
+      "forbidden": [
+        "Track both as current duties"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "状态证据",
+      "fixture": "Contract requires acceptance certificate; supplied email only confirms receipt.",
+      "expected": [
+        "Receipt known; acceptance unverified"
+      ],
+      "forbidden": [
+        "Mark contractual acceptance complete"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "义务和选择权",
+      "fixture": "Buyer may renew for one year by notice; seller must provide support monthly.",
+      "expected": [
+        "Separate option from duty; party-specific rows"
+      ],
+      "forbidden": [
+        "Treat renewal as mandatory"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "fiction-continuity-writing",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "续写我的原创小说下一章",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "检查小说人物知道的信息是否穿帮",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "帮我做网文大纲和伏笔表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "按人物设定写完整章节",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "修正小说时间线矛盾",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Draft the next chapter of my original story",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "维护长篇小说角色和世界观",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "改设定后同步后续剧情",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "检查伏笔是否有回收",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "按这个原创故事梗概写正文",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "写企业白皮书",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "润色这段中文但不改剧情",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "复述一本畅销书全文",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "生成用户访谈报告",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "给学术论文写文献综述",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "编造真实客户证言",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "制作PPT",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "把小说翻译英文",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "总结这封邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "出版平台自动投稿",
+      "shouldTrigger": false
+    }
+  ]
+}

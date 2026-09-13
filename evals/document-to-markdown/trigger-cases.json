@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "document-to-markdown",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把这些PDF和Word转成Markdown",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "批量把资料整理成Markdown入库文件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "把这个网页转成保留来源的笔记",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "用MarkItDown转换这些文件",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "将PPT内容导出为带页码的Markdown",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "把多份文件转换成md并列出失败项",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "Convert these documents to source-linked Markdown",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "将Excel各工作表转成Markdown资料",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "把扫描文档OCR结果整理成Markdown",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "将HTML文件转成保留图片引用的md",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "合并这两份PDF",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "帮我填写PDF表单",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "分析Excel销售趋势",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "转录这段录音",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "把这篇文章总结成三句话",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "整理知识库重复页面",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "写一篇白皮书",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "创建Word报告",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "把所有文件重命名",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "绕过网站付费墙下载文章",
+      "shouldTrigger": false
+    }
+  ]
+}

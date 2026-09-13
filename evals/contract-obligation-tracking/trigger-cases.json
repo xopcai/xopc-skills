@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "contract-obligation-tracking",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把合同整理成履约台账",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "列出这些合同的续约通知期限",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "提取付款前提和验收义务",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "检查补充协议对履约清单的影响",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "跟踪合同交付证据和未完成项",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Extract contract obligations with clause references",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "把合同到期日和通知日分开列出",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "找出合同里双方分别要做什么",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "计算已知验收日后的付款期限",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "合同缺少起算日期帮我标出来",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "审查合同是否合法有效",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "替我签这份合同",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "直接给供应商发违约函",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "起草诉讼状",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "帮我谈判合同价格",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "按投标要求核对响应文件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "自动支付合同款项",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "写一份新合同",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "查询公司工商信息",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "把PDF合同转成Word",
+      "shouldTrigger": false
+    }
+  ]
+}

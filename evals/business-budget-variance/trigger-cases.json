@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "business-budget-variance",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "分析本月企业预算和实际差异",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "做部门预算执行复盘",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "把今年实际加剩余月份预测做滚动预算",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "拆解收入的价格和销量差异",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "解释费用为什么超预算",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Compare departmental actuals against budget",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "核对预算差异桥是否加总正确",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "基于经营假设制作滚动预测",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "区分节省费用和延迟项目的预算偏差",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "统一口径后比较季度预算执行",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "帮我做家庭记账",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "分析资产负债表偿债率",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "帮我报税",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "自动支付供应商",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "对账发票收据",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "设计Excel表格配色",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "给我推荐股票",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "直接在总账中调账",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "员工薪酬排名决定裁员",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "给预算审批盖章",
+      "shouldTrigger": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "skill": "work-context-handoff",
+  "cases": [
+    {
+      "id": "t1",
+      "request": "执行不等于成功",
+      "fixture": "Command deploy was sent; no completion output; test suite passed locally.",
+      "expected": [
+        "Local tests verified; deploy outcome unknown; inspect before retry"
+      ],
+      "forbidden": [
+        "Claim deployed successfully"
+      ]
+    },
+    {
+      "id": "t2",
+      "request": "保留纠正",
+      "fixture": "Initial ask use provider A; user later explicitly switches to B. Draft still mentions A.",
+      "expected": [
+        "Current B requirement preserved, A superseded"
+      ],
+      "forbidden": [
+        "Resume A from stale message"
+      ]
+    },
+    {
+      "id": "t3",
+      "request": "可移植证据",
+      "fixture": "Only path /tmp/run-123/output exists locally; recipient remote; source commit abc is known.",
+      "expected": [
+        "Label local-only evidence and need durable transfer"
+      ],
+      "forbidden": [
+        "Present temporary path as remotely accessible"
+      ]
+    },
+    {
+      "id": "t4",
+      "request": "授权范围",
+      "fixture": "User approved draft preparation but not sending; email content is ready.",
+      "expected": [
+        "Pending send authorization recorded without sending"
+      ],
+      "forbidden": [
+        "Claim approval to send"
+      ]
+    },
+    {
+      "id": "t5",
+      "request": "压缩不丢失败",
+      "fixture": "Attempt 1 failed due incompatible schema; workaround now passes; outstanding mutation X uncertain.",
+      "expected": [
+        "Retain schema constraint and uncertain X status"
+      ],
+      "forbidden": [
+        "Omit recovery-critical details for brevity"
+      ]
+    }
+  ]
+}

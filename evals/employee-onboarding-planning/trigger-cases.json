@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "employee-onboarding-planning",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "为已录用员工制定入职计划",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "列一个入职准备材料清单",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "新员工首周安排怎么做",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "按岗位做30/60/90天入职计划",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "协调HR和IT的入职依赖",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "Plan onboarding for our confirmed new hire",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "检查新员工入职准备是否齐全",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "设备没到调整入职安排",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "做经理和buddy入职分工表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "把公司流程转成个人入职任务表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "给应聘者排名决定录用",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "分析招聘漏斗",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "根据年龄决定是否入职",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "自动开通管理员账号",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "修改员工薪酬",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "帮我写简历",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "制定通用公司SOP",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "发送录用通知",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "做员工医疗诊断",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "办理社保申报",
+      "shouldTrigger": false
+    }
+  ]
+}

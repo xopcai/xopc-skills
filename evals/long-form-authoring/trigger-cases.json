@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "skill": "long-form-authoring",
+  "cases": [
+    {
+      "id": "p1",
+      "prompt": "把资料写成完整白皮书",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p2",
+      "prompt": "帮我完成一本手册的全部章节",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p3",
+      "prompt": "写一本面向新用户的操作指南",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p4",
+      "prompt": "把访谈和材料组织成长篇报告",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p5",
+      "prompt": "检查书稿不同章节是否矛盾",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p6",
+      "prompt": "扩写这份大纲为多章长文",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p7",
+      "prompt": "Draft a multi-chapter handbook from these sources",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p8",
+      "prompt": "把新数据同步到白皮书所有章节",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p9",
+      "prompt": "给长篇稿建立术语与论点一致性表",
+      "shouldTrigger": true
+    },
+    {
+      "id": "p10",
+      "prompt": "把分散章节合成一本连贯的书稿",
+      "shouldTrigger": true
+    },
+    {
+      "id": "n1",
+      "prompt": "把这句话改自然",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n2",
+      "prompt": "写一条小红书文案",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n3",
+      "prompt": "制作营销活动素材包",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n4",
+      "prompt": "排版这个Word文件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n5",
+      "prompt": "给学术论文修改建议",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n6",
+      "prompt": "给这份合同出法律意见",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n7",
+      "prompt": "翻译这篇文章",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n8",
+      "prompt": "把PDF转成Markdown",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n9",
+      "prompt": "做一个PPT",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n10",
+      "prompt": "三句话总结邮件",
+      "shouldTrigger": false
+    },
+    {
+      "id": "n11",
+      "prompt": "把岗位操作步骤写成SOP",
+      "shouldTrigger": false
+    }
+  ]
+}

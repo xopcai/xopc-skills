@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "name": "document-to-markdown",
+  "path": "skills/document-conversion/document-to-markdown",
+  "version": "0.15.0",
+  "stage": "experimental",
+  "scenarioId": "convert-documents-to-markdown",
+  "origin": "xopc-original",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "Local document converters; OCR or authorized browser access only when needed"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "scenario-and-market-evidence",
+    "Q1": "passed",
+    "Q2": "source-reviewed-original",
+    "Q3": "self-reviewed-boundaries",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run realistic task baseline and held-out trigger evaluation",
+    "Complete independent domain review",
+    "Verify target-product runtime compatibility"
+  ]
+}
