@@ -23,7 +23,7 @@ Store categories retain the 12 functional level-one categories exposed by the Sk
 - Use SkillHub's public level-one taxonomy for general capabilities and reserve `one-person-company` for the coherent XOPC founder lifecycle.
 - Exclude `pay-skill`; paid/free state belongs in package commerce metadata, not the capability taxonomy.
 - Choose the category by the user's primary desired outcome, not by an internal tool or file type.
-- Keep exactly one functional category per Skill and per scenario, at most 20 Skills per category, no more than 13 categories, and remove empty categories.
+- Keep exactly one functional category per Skill and per scenario, at most 50 Skills per category, no more than 13 categories, and remove empty categories.
 - A marketplace listing is discovery evidence only. Redistribution requires a verified license; otherwise XOPC builds an independent implementation.
 
 The machine-readable source of truth is [`registry/categories.json`](../registry/categories.json). Release manifest schema v3 carries `category` independently from `skills/<scenario>/<skill-name>`.

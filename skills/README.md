@@ -4,6 +4,12 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 
 | Scenario directory | Primary outcome | Selected Skills |
 |---|---|---|
+| `obsidian-authoring` | 把知识结构转化为可验证的 Obsidian Markdown、Canvas 或 Bases 文件 | `obsidian-markdown`, `json-canvas`, `obsidian-bases` |
+| `contract-risk-review` | 基于指定合同版本和审查立场生成有条款定位的风险、理由与修改建议 | `contract-risk-review` |
+| `four-color-evidence-analysis` | 把来源材料分成事实、解释、风险和行动，并保留跨卡片证据链 | `four-color-evidence-analysis` |
+| `agent-run-provenance` | 把 Agent 工具调用和产物组织为可查询、可脱敏、可回放的运行记录 | `agent-run-provenance` |
+| `content-intake-security` | 在文件或 URL 进入解析、RAG 或知识库前形成可解释的允许、隔离或拒绝判定 | `content-intake-security` |
+| `x-article-publishing` | 把本地 Markdown 和图片转换为可核验的 X Articles 草稿，并在明确授权后发布 | `x-article-publisher` |
 | `marketing-experimentation` | 把增长假设转化为有样本量、指标和停止规则的实验计划 | `ab-testing` |
 | `marketing-analytics` | 把业务问题和事件数据转化为可审计的测量、分析与归因方案 | `analytics`, `attribution` |
 | `search-visibility` | 基于可验证证据诊断传统搜索和 AI 答案中的可见性问题 | `ai-seo`, `seo-audit` |
@@ -105,6 +111,6 @@ Each `SCENARIO.md` explains the user boundary, why the current Skills were selec
 3. Prefer first-party domain expertise, permissive licensing, maintained source, narrow triggers, reusable artifacts, and verifiable outcomes.
 4. Adapt only after pinning the source commit and recording XOPC changes in `SOURCE.json`.
 5. Reject duplicates: one Skill owns one primary intent; adjacent Skills compose through artifacts.
-6. Assign every Skill to exactly one Store category: one of the 12 SkillHub-aligned general categories or XOPC's `one-person-company` category, with at most 20 Skills per category. Experimental Skills may enter when the specific scenario and boundary are clear, then graduate using real usage evidence.
+6. Assign every Skill to exactly one Store category: one of the 12 SkillHub-aligned general categories or XOPC's `one-person-company` category, with at most 50 Skills per category. Experimental Skills may enter when the specific scenario and boundary are clear, then graduate using real usage evidence.
 
 Scenario directories intentionally do not contain a root `SKILL.md`. This preserves recursive discovery of every child Skill in common Agent Skills installers.

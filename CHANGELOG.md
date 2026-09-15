@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.17.0 - 2026-09-15
+
+- Audited 84 Skill entry files from `anbeime/skill` at fixed commit `afaf2ce2de5b678bf741242229c34dd7b3968900` and added eight licensed, non-overlapping Experimental Skills.
+- Added Obsidian Markdown, JSON Canvas and Bases authoring from the traced MIT primary source, plus contract risk comments, four-color evidence analysis, Agent run provenance, untrusted content intake review, and draft-first X Articles publishing.
+- Excluded duplicate document, presentation, frontend, resume, transcription, research, marketing and media workflows, as well as unclear-license or tightly coupled packages.
+- Increased the Store display-category capacity from 20 to 50 across the registry, schema, validator, quality standard and documentation.
+- Added 160 trigger fixtures, 40 task fixtures, fixed source records, license files, adaptation records, and authorization/privacy/failure-recovery boundaries.
+
 ## 0.16.0 - 2026-09-15
 
 - Added 46 MIT-licensed marketing Skills adapted from `coreyhaines31/marketingskills` v2.11.1 at fixed commit `5b2c0007766c6a1cf1d53fd8fc73e979e0821022`.

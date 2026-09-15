@@ -7,6 +7,10 @@ The following XOPC Adapted Skills include or derive from third-party work. Their
 | Distributed Skill | Upstream | Copyright |
 |---|---|---|
 | `react-native-best-practices` | `callstackincubator/agent-skills` | Copyright (c) 2026 Callstack Incubator |
+| `obsidian-markdown` | `kepano/obsidian-skills` | Copyright (c) 2026 Steph Ango (@kepano) |
+| `json-canvas` | `kepano/obsidian-skills` | Copyright (c) 2026 Steph Ango (@kepano) |
+| `obsidian-bases` | `kepano/obsidian-skills` | Copyright (c) 2026 Steph Ango (@kepano) |
+| `x-article-publisher` | `anbeime/skill` | Copyright (c) 2026 Qiaomu (乔木) |
 | `supabase-postgres-best-practices` | `supabase/agent-skills` | Copyright (c) 2026 Supabase |
 | `playwright-webapp-testing` | `LambdaTest/agent-skills` | Copyright (c) 2025 TestMu AI / LambdaTest |
 | `release-notes` | `phuryn/pm-skills` | Copyright (c) 2026 Pawel Huryn |
@@ -105,6 +109,10 @@ SOFTWARE.
 | Distributed Skill | Upstream | Licensor |
 |---|---|---|
 | `frontend-design` | `anthropics/skills` | Anthropic, PBC |
+| `contract-risk-review` | `anbeime/skill` | No separate copyright notice supplied |
+| `four-color-evidence-analysis` | `anbeime/skill` | Copyright 2026 深圳市安贝信息技术有限公司 (anbeime) |
+| `agent-run-provenance` | `anbeime/skill` | Copyright 2026 深圳市安贝信息技术有限公司 (anbeime) |
+| `content-intake-security` | `anbeime/skill` | Copyright 2026 深圳市安贝信息技术有限公司 (anbeime) |
 | `security-threat-model` | `openai/skills` | OpenAI |
 | `jupyter-notebook` | `openai/skills` | OpenAI |
 | `github-actions-ci-fix` | `openai/plugins` | OpenAI |

@@ -79,7 +79,7 @@ Composition is explicit and artifact-based. For example, `evidence-based-researc
 
 ## Limits
 
-- No scenario group may contain more than 20 distributed Skills.
+- No Store display category may contain more than 50 distributed Skills.
 - A distributed Skill cannot appear in more than one group.
 - New Skills require near-miss trigger tests against every adjacent group.
 - Prefer extending a Skill when the user intent and output remain the same; split only when trigger, workflow, permission boundary or acceptance criteria materially differ.

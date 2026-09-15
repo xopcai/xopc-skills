@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "name": "contract-risk-review",
+  "path": "skills/contract-risk-review/contract-risk-review",
+  "version": "0.17.0",
+  "stage": "experimental",
+  "scenarioId": "contract-risk-review",
+  "origin": "xopc-adapted",
+  "license": "Apache-2.0",
+  "owner": "XOPC Skills Team",
+  "source": "skills/contract-risk-review/contract-risk-review/SOURCE.json",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "No bundled credentials or service runtime; task-specific document, browser, file, or validation tools optional"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "provisional",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Blind-review three representative real tasks",
+    "Measure routing, unsupported-claim, and validation-failure rates",
+    "Verify target-runtime behavior and recovery paths"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "obsidian-markdown",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown并给出验收检查。"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown，先核对现有结构。"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown并保留来源定位。"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown，遇到缺失信息要明确标注。"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown并输出可供团队评审的结果。"
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown，不要覆盖未知字段。"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown并说明失败恢复方式。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown，同时列出风险和限制。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown并验证最终文件或外部状态。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "创建或编辑包含 wikilink、属性、嵌入和 callout 的 Obsidian Markdown，请区分事实、推断和建议。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "把这份合同的付款义务和截止日期整理成台账。"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "把一个普通 Markdown 文件转换成标准 PDF。"
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "为系统架构画一张可导出的 SVG 图。"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "审查这个 Agent Skill 安装包是否含恶意脚本。"
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "把访谈资料综合成产品研究结论。"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "写一篇产品发布营销文案。"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "在 X 上发布一条 200 字短帖。"
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "整理我的普通文件夹并删除重复文件。"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "诊断这个 React Native 应用为什么掉帧。"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "从发票里提取金额并完成对账。"
+    }
+  ]
+}
