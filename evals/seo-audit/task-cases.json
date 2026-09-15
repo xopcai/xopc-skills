@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "seo-audit",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Can you do an SEO audit of our SaaS website? We're getting about 2,000 organic visits/month but feel like we should be getting more. URL: https://example.com",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Asks clarifying questions about keywords, Search Console, recent changes",
+        "Follows audit priority order: crawlability first, then technical, on-page, content, authority",
+        "Checks robots.txt and XML sitemap",
+        "Evaluates title tags, meta descriptions, heading structure",
+        "Does NOT claim 'no schema found' based on web_fetch alone",
+        "Notes schema markup detection limitation",
+        "Output has Executive Summary"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Why am I not ranking for 'project management software'? We have a page targeting that keyword but it's stuck on page 3.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual 'why am I not ranking' phrasing",
+        "Checks title tag, H1, URL alignment with target keyword",
+        "Evaluates content depth vs competitors",
+        "Checks for keyword cannibalization",
+        "Checks indexation status and canonical tags",
+        "Assesses E-E-A-T signals",
+        "Mentions competitive analysis against top-ranking pages",
+        "Provides actionable fixes organized by priority"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "We just migrated from WordPress to Next.js and our organic traffic dropped 40% in the last month. Help!",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Treats as urgent migration diagnostic",
+        "Checks redirect mapping (301s)",
+        "Checks canonical tags on new pages",
+        "Checks robots.txt not blocking crawlers",
+        "Checks XML sitemap updated and submitted",
+        "Checks for redirect chains or loops",
+        "Checks for soft 404s",
+        "References Search Console coverage report"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Review the technical SEO of our e-commerce site. We have about 50,000 products and use faceted navigation.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Addresses faceted navigation duplicate content",
+        "Addresses crawl budget for large catalog",
+        "Checks for parameterized URL issues",
+        "Mentions product schema with detection limitation caveat",
+        "Checks for thin category pages",
+        "Checks for duplicate product descriptions",
+        "Addresses out-of-stock page handling",
+        "Addresses pagination and infinite scroll"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Can you check our blog posts for on-page SEO issues? We publish 4 posts per week but traffic has been flat for 6 months.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies Content/Blog Sites framework",
+        "Checks for outdated content",
+        "Checks for keyword cannibalization",
+        "Checks for topical clustering",
+        "Checks for internal linking quality",
+        "Checks for author pages and E-E-A-T signals",
+        "Audits title tags, meta descriptions, heading structure",
+        "Assesses whether content answers search intent"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

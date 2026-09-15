@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "skill": "marketing-loops",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "I want to set up a recurring loop that watches our SEO and tells me what to do each week. We're a B2B SaaS with a content-heavy site.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Selects appropriate SEO loop(s) from the catalog",
+        "Presents the loop with the nine-part anatomy",
+        "Includes state/idempotency (last-run marker or dedupe)",
+        "Includes an explicit stop/bail-out condition",
+        "Sets a weekly cadence and justifies it via the cadence rule",
+        "References seo-audit or related skills for execution"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "I want to automate my marketing so it basically runs itself. Where do I start?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Asks about the target outcome / funnel stage before recommending",
+        "Avoids banned autopilot vocabulary",
+        "Recommends starting with one loop, not many",
+        "Frames loops as systems with checkpoints, not magic",
+        "Emphasizes human checkpoints for spend/publish actions",
+        "May suggest the weekly-marketing-review loop as a starting point"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Set up a newsjacking loop that finds trending stories and automatically posts our take to X and pitches journalists.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Builds the newsjacking loop with the nine-part anatomy",
+        "Includes an explicit veto list for sensitive story types",
+        "Requires human approval before pitching or posting",
+        "Does not enable fully autonomous posting",
+        "Includes dedupe/state so stories aren't re-pitched",
+        "References the public-relations skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "How do I actually schedule these loops so they run on their own?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Explains scheduling is environment-dependent",
+        "Covers Claude Code native options and plain cron",
+        "Includes manual cadence as a valid option",
+        "Gives cron vs dynamic-pacing default guidance",
+        "Treats loopify as optional, not a required dependency"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Can you make me a loop that continuously improves our brand positioning and comes up with our big campaign ideas?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies this as a 'when NOT to loop' case",
+        "Explains loops optimize/maintain rather than set strategy or creative",
+        "Redirects strategy/creative to the appropriate non-loop work",
+        "Suggests adjacent operational loops that genuinely fit",
+        "Does not force an ill-fitting positioning/campaign-ideation loop"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

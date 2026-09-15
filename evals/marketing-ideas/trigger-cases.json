@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "marketing-ideas",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "I need marketing ideas for my SaaS product. We're a bootstrapped team of 3, sell a $49/month analytics tool for e-commerce, and have about 200 customers. Budget is tight — maybe $500/month for marketing."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "What's the fastest way to get more leads? We sell enterprise security software and have a $10k/month marketing budget."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "how do we grow without spending money on ads? we're a PLG (product-led growth) company with a freemium model"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "We want to build authority and thought leadership in the HR tech space. We're a newer company and nobody knows who we are yet."
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Give me 20 marketing ideas. We sell project management software."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "We sell a $30k/year data platform and can't get marketing VPs at target accounts to reply to email or take calls. We have budget for something creative. What guerrilla tactics could break through?"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "请帮我筛选营销策略与创意，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料筛选营销策略与创意。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 筛选营销策略与创意 with metrics and acceptance criteria."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "基于这份产品背景和用户数据，筛选营销策略与创意并标注假设。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Help me plan a paid advertising strategy. We're a B2B SaaS tool for HR teams, selling at $99/month per seat. We have $15k/month to spend on ads and want to generate demo requests. Where should we advertise?"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Generate ad creative for our Meta (Facebook/Instagram) campaign. We sell an AI writing assistant for content marketers. Main value prop: write blog posts 5x faster. Target audience: content marketing managers at B2B SaaS companies. Budget: $5k/month."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "We're a B2B SaaS about to cut our price 40% to compete with a cheaper rival. Have the council review this."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "I'm starting a fractional CMO engagement with a Series A B2B SaaS doing $2M ARR, 12-person team with 1 marketer, $20K/month marketing budget. They want a marketing plan we can share with the team and the board. Build it."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Our B2B SaaS trial-to-paid conversion is stuck. Our plan is to run a 50% off first 3 months coupon to push more people to convert. It's a $99/month email-tool competitor and the biggest thing prospects say is they're scared to migrate their list and automations off their current provider. Is the discount the right move?"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Help me figure out pricing for our new SaaS product. It's a customer support platform for e-commerce stores. We're not sure whether to charge per agent, per ticket, or flat rate. Currently thinking $49-199/month range."
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "I want to set up my product marketing context. We're a B2B SaaS company that sells a customer feedback platform to product teams."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "How can I use psychology to increase conversions on our pricing page? We sell a B2B SaaS tool with three tiers ($29, $79, $199/month)."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    }
+  ]
+}

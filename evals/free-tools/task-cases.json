@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "skill": "free-tools",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We want to build a free tool to drive leads for our SEO software. We're thinking about an SEO audit tool or a keyword research tool. Which would be better and how should we approach it?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies evaluation scorecard to compare options",
+        "References tool types from the skill",
+        "Recommends one option with clear rationale",
+        "Discusses lead capture gating strategy",
+        "Addresses MVP scope",
+        "Provides implementation recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "I want to build a free ROI calculator for our HR software. Users input their company size and current processes, and it shows how much time and money they'd save.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as calculator tool type",
+        "Applies ideation framework to validate",
+        "Discusses lead capture gating strategy",
+        "Addresses build vs buy decision",
+        "Recommends MVP scope (inputs, outputs, formula)",
+        "Discusses SEO considerations",
+        "References evaluation scorecard"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "give me some ideas for free tools we could build. we sell email marketing software for e-commerce brands.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies ideation framework",
+        "Generates ideas across multiple tool types",
+        "Ideas are relevant to email marketing + e-commerce",
+        "Provides 5-8 ideas",
+        "Briefly evaluates each idea",
+        "Recommends top 2-3 to pursue"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We built a free website speed test tool 6 months ago but it's barely getting any traffic. What went wrong and how do we fix it?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Diagnoses potential traffic issues",
+        "Investigates SEO strategy for the tool",
+        "Assesses competitive landscape",
+        "Questions unique value proposition",
+        "Applies engineering as marketing principles",
+        "Recommends recovery plan with specific actions"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Should we gate our free tool behind an email capture or make it completely free? We want leads but don't want to kill usage.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies lead capture gating strategy",
+        "Presents gating spectrum (ungated to fully gated)",
+        "Recommends partial gating approach",
+        "Discusses tradeoffs of each approach",
+        "Provides specific gating recommendations",
+        "Addresses SEO impact of gating decisions"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

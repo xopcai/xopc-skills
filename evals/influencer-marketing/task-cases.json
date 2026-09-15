@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "skill": "influencer-marketing",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We want to sponsor a big YouTuber with 1M subs. Should we just pay their flat rate?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends hybrid compensation model over a bare flat fee",
+        "Highlights securing content usage rights / whitelisting",
+        "Warns about macro-influencer conversion rates and suggests micro/nano portfolio",
+        "Requires clear FTC disclosure"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "How do we make sure we can track ROI from podcast sponsorships?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends unique promo codes",
+        "Recommends vanity URLs / dedicated landing pages and UTMs",
+        "Recommends a post-purchase survey for the attribution blind spot",
+        "Judges ROI on cost per qualified outcome, not reach/EMV"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "We're just gifting free product to creators — no payment — so we don't need them to say #ad, right?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "States gifting still requires disclosure (not a loophole)",
+        "Describes clear-and-conspicuous placement (not buried in hashtags; spoken in video)",
+        "Notes brand liability for creator non-disclosure",
+        "Recommends putting disclosure in the brief/agreement and verifying it"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "I want to build a long-term brand ambassador program for our DTC skincare brand, not just one-off posts.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies structured ambassador-program design (ask, benefits ladder, recruit, equip, activate, track)",
+        "Recruits from existing advocates with a personal ask, not a mass form",
+        "Sets up per-ambassador attribution and iterates on top performers",
+        "Cross-references referrals (payout) and/or community-marketing (community advocacy)"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "This creator has 500k followers but I'm worried some are fake. How do I vet them before we pay?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Prioritizes engagement quality + audience fit over follower count",
+        "Flags fake-follower / engagement-pod signals to check",
+        "Checks sponsored-content track record and brand safety",
+        "Suggests audience-intelligence tooling / inspecting real recent posts"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

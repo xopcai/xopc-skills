@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "skill": "ab-testing",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Uses the hypothesis framework with observation, belief, outcome, and metric",
+        "Identifies as A/B test type",
+        "Addresses sample size calculation based on traffic and baseline rate",
+        "Defines primary metric (signup rate)",
+        "Defines secondary and guardrail metrics",
+        "Warns about the peeking problem",
+        "Provides structured test plan output"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "we want to test like 4 different CTA button colors on our pricing page. is that a good idea?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Identifies as A/B/n test (multiple variants)",
+        "Cautions about increased traffic needs for 4 variants",
+        "References sample size requirements",
+        "Questions whether button color alone is high-impact",
+        "Suggests alternative higher-impact elements to test",
+        "Provides hypothesis framework"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Our test has been running for 3 days and Variant B is winning with 95% confidence. Should we call it?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Addresses the peeking problem directly",
+        "Explains why early significance is misleading",
+        "Recommends running for full pre-calculated duration",
+        "Mentions day-of-week effects or audience mix shifts",
+        "Explains false positive rate inflation from peeking",
+        "Mentions sequential testing as alternative approach"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Help me set up a multivariate test on our landing page. I want to test the headline, hero image, and CTA button simultaneously.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as multivariate test (MVT)",
+        "Explains MVT tests combinations of elements",
+        "Addresses dramatically higher traffic requirements",
+        "Calculates number of combinations",
+        "Suggests sequential A/B tests as alternative if traffic insufficient",
+        "Builds hypotheses for each element",
+        "Provides structured test plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "What metrics should I track for an A/B test on our trial signup page? We're testing a longer form (adds company size and role fields) against the current short form.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies three-tier metric framework (primary, secondary, guardrail)",
+        "Identifies form completion rate as primary metric",
+        "Identifies lead quality as secondary metric",
+        "Defines guardrail metrics to protect against negative outcomes",
+        "Explains quantity vs quality tradeoff",
+        "Notes need for longer observation window for downstream metrics"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

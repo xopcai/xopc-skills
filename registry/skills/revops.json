@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "name": "revops",
+  "path": "skills/revenue-operations/revops",
+  "version": "0.16.0",
+  "stage": "experimental",
+  "scenarioId": "market-revenue-operations",
+  "origin": "xopc-adapted",
+  "license": "MIT",
+  "owner": "XOPC Skills Team",
+  "source": "skills/revenue-operations/revops/SOURCE.json",
+  "compatibility": {
+    "agents": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "Gemini CLI"
+    ],
+    "runtime": [
+      "No helper runtime required; web, analytics, media, or account tools are optional and task-dependent"
+    ],
+    "os": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ]
+  },
+  "qualityGates": {
+    "Q0": "provisional",
+    "Q1": "passed",
+    "Q2": "passed",
+    "Q3": "passed",
+    "Q4": "fixtures-ready",
+    "Q5": "fixtures-ready",
+    "Q6": "declared",
+    "Q7": "experimental-release"
+  },
+  "stableBlockers": [
+    "Run blind review on three representative real tasks",
+    "Measure unsupported-claim and routing-error rates",
+    "Validate platform-specific guidance and external-action recovery"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "skill": "schema",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Add schema markup to our SaaS product's homepage. We're a project management tool called TaskFlow. We need Organization schema and any other relevant types.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Implements Organization schema in JSON-LD",
+        "Includes required and recommended properties",
+        "Recommends additional relevant schema types",
+        "Uses @graph for multiple types",
+        "Provides complete JSON-LD code",
+        "Recommends validation tools"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We have a FAQ page with 20 questions about our product. How do I add FAQ schema to get the rich results in Google?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Implements FAQPage schema in JSON-LD",
+        "Shows correct nested structure (FAQPage > Question > Answer)",
+        "Provides complete code example",
+        "Explains rich result benefits",
+        "Notes Google's FAQ schema guidelines",
+        "Recommends validation"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "add schema to our blog posts. we publish articles about marketing tips.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Implements Article or BlogPosting schema",
+        "Includes author, datePublished, image, publisher",
+        "Recommends BreadcrumbList alongside",
+        "Provides reusable template code",
+        "Addresses CMS integration for dynamic fields"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We're an e-commerce site selling physical products. What schema markup do we need for our product pages?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Implements Product schema with full properties",
+        "Includes Offer with price, availability",
+        "Recommends AggregateRating and Review schema",
+        "Includes BreadcrumbList",
+        "Provides complete JSON-LD code",
+        "Notes rich result benefits for products"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We added schema markup to our site but it's not showing rich results in Google. Can you help debug?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends validation tools for debugging",
+        "Checks for common schema errors",
+        "Explains valid schema doesn't guarantee rich results",
+        "Recommends Search Console structured data reports",
+        "Addresses warnings vs errors distinction",
+        "Provides systematic debugging approach"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

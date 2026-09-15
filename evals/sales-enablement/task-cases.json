@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "skill": "sales-enablement",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me create a sales deck for our B2B SaaS product. We sell an employee engagement platform to HR directors at companies with 500-5000 employees. Our main differentiator is real-time pulse surveys with AI-powered insights.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies 10-12 slide framework",
+        "Includes Problem, Solution, Proof, Pricing, Next Steps slides",
+        "Tailors to HR director audience",
+        "Incorporates stated differentiator",
+        "Provides slide-by-slide content",
+        "Includes speaker notes or talking points"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Our sales team keeps getting the same objections. The top ones are: 'we already use SurveyMonkey,' 'we don't have budget right now,' and 'our team is too small to need this.' Help me create an objection handling doc.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies objection handling framework",
+        "Categorizes the three objections",
+        "Provides structured response for each (acknowledge, reframe, evidence, bridge)",
+        "Provides 2-3 response variations per objection",
+        "Organizes for quick reference during calls",
+        "Categorizes objections using the skill's framework (competitor, budget, need/timing)"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "i need a one-pager we can leave behind after sales meetings. something that summarizes our product and key benefits.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies one-pager/leave-behind framework",
+        "Includes headline, benefits, social proof, how it works, CTA",
+        "Keeps to one page format",
+        "Recommends scannable design",
+        "Provides specific content for each section"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Create a demo script for our analytics dashboard product. Typical demo is 30 minutes with a VP of Marketing.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies 5-part demo script structure",
+        "Includes opening with discovery questions",
+        "Includes problem validation",
+        "Includes solution walkthrough",
+        "Includes proof points",
+        "Includes close with next steps",
+        "Time-boxes for 30 minutes",
+        "Notes customization based on prospect responses"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Help me build an ROI calculator we can use during sales calls. We need to show prospects how much money they'll save by switching to our product.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies ROI calculator framework",
+        "Defines required inputs",
+        "Provides calculation methodology",
+        "Recommends conservative assumptions",
+        "Includes ROI timeline and payback period",
+        "Suggests validating assumptions during calls",
+        "Provides calculator structure"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

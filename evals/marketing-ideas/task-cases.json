@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "skill": "marketing-ideas",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "I need marketing ideas for my SaaS product. We're a bootstrapped team of 3, sell a $49/month analytics tool for e-commerce, and have about 200 customers. Budget is tight — maybe $500/month for marketing.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Filters ideas by low budget constraint",
+        "Provides ideas from the 139 marketing ideas catalog",
+        "Ideas are appropriate for bootstrapped SaaS stage",
+        "Output follows structured format per idea",
+        "Includes why it fits, how to start, expected outcome",
+        "Prioritizes by likely impact",
+        "Includes resources needed per idea"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "What's the fastest way to get more leads? We sell enterprise security software and have a $10k/month marketing budget.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies 'leads fast' use case filter",
+        "Recommends paid channels appropriate for enterprise",
+        "Recommends outbound tactics",
+        "Filters for enterprise-appropriate tactics",
+        "Provides structured output per idea",
+        "Notes that fast leads means paid or outbound",
+        "Includes timeline expectations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "how do we grow without spending money on ads? we're a PLG (product-led growth) company with a freemium model",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies PLG use case filter",
+        "Recommends PLG-specific tactics",
+        "Avoids ad-dependent ideas",
+        "Includes virality and referral tactics",
+        "Provides structured output with implementation guidance"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We want to build authority and thought leadership in the HR tech space. We're a newer company and nobody knows who we are yet.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies 'authority building' use case filter",
+        "Recommends thought leadership tactics",
+        "Includes original research and content",
+        "Includes community and media appearances",
+        "Notes authority building is longer-term",
+        "Provides structured output with timelines"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Give me 20 marketing ideas. We sell project management software.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Provides approximately 20 ideas",
+        "Ideas span multiple categories",
+        "Organizes by category or effort/impact",
+        "Provides brief implementation context per idea",
+        "Output follows structured format",
+        "Ideas are relevant to project management software"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

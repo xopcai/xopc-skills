@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "skill": "analytics",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies 'track for decisions' principle",
+        "Uses object_action naming convention",
+        "Defines essential SaaS events (signup, feature usage, upgrade)",
+        "Provides GA4 implementation details",
+        "Includes GTM data layer examples",
+        "Output follows tracking plan format"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "What UTM parameters should we use? We run ads on Google, Meta, and LinkedIn, plus send a weekly newsletter and post on LinkedIn organically.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies UTM parameter strategy",
+        "Defines source, medium, and campaign conventions",
+        "Provides specific UTM examples for each channel",
+        "Uses consistent naming conventions (lowercase)",
+        "Warns about common UTM mistakes",
+        "Recommends tracking documentation"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "our tracking seems broken — we're seeing duplicate events and our conversion numbers in GA4 don't match what our database shows. help?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies debugging and validation framework",
+        "Checks for duplicate tag firing",
+        "Provides specific debugging tools (GA4 DebugView, GTM Preview)",
+        "Addresses GA4 vs database discrepancy",
+        "Lists common causes of data mismatches",
+        "Provides systematic troubleshooting steps"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We're launching an e-commerce store and need to set up tracking from scratch. What events do we absolutely need?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "References essential events for e-commerce site type",
+        "Defines full e-commerce event taxonomy",
+        "Includes enhanced e-commerce parameters",
+        "Follows object_action naming convention",
+        "Organizes by priority (must-have vs nice-to-have)",
+        "Provides tracking plan format output"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We need to make sure our tracking is GDPR compliant. We have European users and we're using GA4, Hotjar, and Facebook Pixel.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies privacy and compliance framework",
+        "Addresses GDPR requirements specifically",
+        "Recommends consent management platform",
+        "Covers GA4 consent mode configuration",
+        "Addresses conditional loading for each tool",
+        "Provides consent hierarchy",
+        "Mentions data retention settings"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

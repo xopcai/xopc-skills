@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "skill": "ads",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me plan a paid advertising strategy. We're a B2B SaaS tool for HR teams, selling at $99/month per seat. We have $15k/month to spend on ads and want to generate demo requests. Where should we advertise?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies platform selection guide",
+        "Recommends platforms appropriate for B2B HR audience",
+        "Recommends campaign structure with naming conventions",
+        "Defines audience targeting per platform",
+        "Sets budget allocation across platforms",
+        "Defines success metrics",
+        "Recommends starting structure and scaling plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Our Google Ads CPC is $12 and our cost per lead is $180. Is that good? We're getting about 80 leads/month from a $15k budget.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Evaluates metrics in context",
+        "Compares CPL against LTV considerations",
+        "Applies campaign optimization framework",
+        "Recommends specific optimization levers",
+        "Asks about downstream conversion rates",
+        "Provides industry context for benchmarking"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "we want to run retargeting ads for people who visited our site but didn't convert. how should we set this up?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies funnel-based retargeting approach",
+        "Recommends audience segments by intent level",
+        "Recommends different messaging per segment",
+        "Addresses frequency capping",
+        "Recommends retargeting platforms",
+        "Includes audience duration windows"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Should we advertise on TikTok? We sell accounting software to small businesses. Our current ads are on Google and Meta.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies platform selection guide for TikTok",
+        "Evaluates fit for accounting + small business audience",
+        "Provides honest assessment of likely weaker fit",
+        "Discusses when TikTok can work for B2B",
+        "Suggests small test budget if proceeding",
+        "Compares to their existing Google/Meta performance"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "How do we structure our Google Ads campaigns? We have 50+ keywords we want to target for our CRM product.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies campaign structure framework",
+        "Organizes campaigns by theme/intent",
+        "Recommends tight ad group structure",
+        "Defines naming conventions",
+        "Recommends match types strategy",
+        "Includes negative keyword lists",
+        "Provides sample campaign structure"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

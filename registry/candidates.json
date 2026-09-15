@@ -168,8 +168,16 @@
       "skillPath": "research/skills/research",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["Microsoft 官方维护", "多线程研究、交叉验证和冲突处理完整", "MIT 许可证"],
-      "gaps": ["原实现强制特定子代理", "缺少显式决策标准和停止条件", "需要验证单代理/少工具降级"]
+      "strengths": [
+        "Microsoft 官方维护",
+        "多线程研究、交叉验证和冲突处理完整",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原实现强制特定子代理",
+        "缺少显式决策标准和停止条件",
+        "需要验证单代理/少工具降级"
+      ]
     },
     {
       "id": "coreyhaines-content-campaign-adaptation",
@@ -178,8 +186,16 @@
       "skillPath": "skills/content-strategy",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["成熟的受众与内容支柱方法", "搜索需求和分享需求区分清晰", "MIT 许可证且社区采用度高"],
-      "gaps": ["原 Skill 主要停留在内容规划", "需要补充资产 brief、渠道一致性和声明证据", "需要真实 Campaign 盲评"]
+      "strengths": [
+        "成熟的受众与内容支柱方法",
+        "搜索需求和分享需求区分清晰",
+        "MIT 许可证且社区采用度高"
+      ],
+      "gaps": [
+        "原 Skill 主要停留在内容规划",
+        "需要补充资产 brief、渠道一致性和声明证据",
+        "需要真实 Campaign 盲评"
+      ]
     },
     {
       "id": "coreyhaines-prospect-research-adaptation",
@@ -188,8 +204,16 @@
       "skillPath": "skills/prospecting",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["按销售 motion 分支", "ICP、时机信号、来源和合规方法完整", "MIT 许可证"],
-      "gaps": ["原 Skill 包含较多第三方工具耦合", "需严格隔离外联与 CRM 写回", "需测量身份和时机信号准确率"]
+      "strengths": [
+        "按销售 motion 分支",
+        "ICP、时机信号、来源和合规方法完整",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原 Skill 包含较多第三方工具耦合",
+        "需严格隔离外联与 CRM 写回",
+        "需测量身份和时机信号准确率"
+      ]
     },
     {
       "id": "mohit-meeting-actions-adaptation",
@@ -198,8 +222,16 @@
       "skillPath": "plugins/pm-essentials/skills/meeting-notes; plugins/pm-essentials/skills/meeting-action-extractor",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["决策、承诺和讨论边界清晰", "owner、due date 和 orphan 规则可评测", "MIT 许可证"],
-      "gaps": ["需要合并两个重叠入口", "需处理转写错误和相对日期", "需验证外部写回部分失败"]
+      "strengths": [
+        "决策、承诺和讨论边界清晰",
+        "owner、due date 和 orphan 规则可评测",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "需要合并两个重叠入口",
+        "需处理转写错误和相对日期",
+        "需验证外部写回部分失败"
+      ]
     },
     {
       "id": "mohit-document-review-adaptation",
@@ -208,8 +240,16 @@
       "skillPath": "plugins/pm-legal/skills/compliance-checklist",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["强调证据、优先级和缺口", "包含专业意见边界", "MIT 许可证"],
-      "gaps": ["原 Skill 会生成法规控制，越权风险较高", "XOPC 改为只对照用户提供的要求", "需验证大文档逐条召回"]
+      "strengths": [
+        "强调证据、优先级和缺口",
+        "包含专业意见边界",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原 Skill 会生成法规控制，越权风险较高",
+        "XOPC 改为只对照用户提供的要求",
+        "需验证大文档逐条召回"
+      ]
     },
     {
       "id": "alirezarezvani-weekly-review-adaptation",
@@ -218,8 +258,16 @@
       "skillPath": "productivity/weekly-review/skills/weekly-review",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["清理、更新和前瞻三阶段完整", "完成门禁清晰", "MIT 许可证"],
-      "gaps": ["原实现绑定本地 Python 脚本", "需要增加容量和受保护约束", "需验证日历/任务写回"]
+      "strengths": [
+        "清理、更新和前瞻三阶段完整",
+        "完成门禁清晰",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原实现绑定本地 Python 脚本",
+        "需要增加容量和受保护约束",
+        "需验证日历/任务写回"
+      ]
     },
     {
       "id": "anthropic-frontend-design-adaptation",
@@ -228,8 +276,16 @@
       "skillPath": "skills/frontend-design",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["官方原始来源且 Apache-2.0", "同类市场采用量显著领先", "视觉方向、实现和截图自评闭环完整"],
-      "gaps": ["原实现包含 persona 和隐式记忆假设", "需要加强范围、真实性和可访问性边界", "仍需真实渲染盲评"]
+      "strengths": [
+        "官方原始来源且 Apache-2.0",
+        "同类市场采用量显著领先",
+        "视觉方向、实现和截图自评闭环完整"
+      ],
+      "gaps": [
+        "原实现包含 persona 和隐式记忆假设",
+        "需要加强范围、真实性和可访问性边界",
+        "仍需真实渲染盲评"
+      ]
     },
     {
       "id": "mattpocock-code-review-adaptation",
@@ -238,8 +294,16 @@
       "skillPath": "skills/engineering/code-review",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["同类市场采用量领先", "需求与仓库标准两个轴互不遮蔽", "MIT 许可证且入口紧凑"],
-      "gaps": ["原实现依赖仓库 setup 和特定 issue tracker", "强制多代理不适合所有客户端", "需要补充严重度和只读边界"]
+      "strengths": [
+        "同类市场采用量领先",
+        "需求与仓库标准两个轴互不遮蔽",
+        "MIT 许可证且入口紧凑"
+      ],
+      "gaps": [
+        "原实现依赖仓库 setup 和特定 issue tracker",
+        "强制多代理不适合所有客户端",
+        "需要补充严重度和只读边界"
+      ]
     },
     {
       "id": "obra-systematic-debugging-adaptation",
@@ -248,8 +312,16 @@
       "skillPath": "skills/systematic-debugging",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["同类市场采用量远高于其他候选", "复现、模式、假设和修复四阶段清晰", "MIT 许可证和丰富诊断模式"],
-      "gaps": ["绝对化流程语言可能压制简单任务判断", "跨 Skill 强依赖影响可移植性", "需增加诊断与修复授权边界"]
+      "strengths": [
+        "同类市场采用量远高于其他候选",
+        "复现、模式、假设和修复四阶段清晰",
+        "MIT 许可证和丰富诊断模式"
+      ],
+      "gaps": [
+        "绝对化流程语言可能压制简单任务判断",
+        "跨 Skill 强依赖影响可移植性",
+        "需增加诊断与修复授权边界"
+      ]
     },
     {
       "id": "openai-security-threat-model-adaptation",
@@ -258,8 +330,16 @@
       "skillPath": "skills/.curated/security-threat-model",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["细分市场采用量领先", "仓库证据、攻击路径和风险理由完整", "Skill 目录 Apache-2.0"],
-      "gaps": ["上游分发仓库已弃用", "原实现强制写文件超出纯分析授权", "需要合格 AppSec 人工评测"]
+      "strengths": [
+        "细分市场采用量领先",
+        "仓库证据、攻击路径和风险理由完整",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "上游分发仓库已弃用",
+        "原实现强制写文件超出纯分析授权",
+        "需要合格 AppSec 人工评测"
+      ]
     },
     {
       "id": "openai-jupyter-notebook-adaptation",
@@ -268,8 +348,16 @@
       "skillPath": "skills/.curated/jupyter-notebook",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["细分市场采用量领先", "实验与教程模板加确定性脚本", "Skill 目录 Apache-2.0"],
-      "gaps": ["上游分发仓库已弃用", "原默认路径绑定 Codex 安装布局", "需要真实 Notebook 执行与重构评测"]
+      "strengths": [
+        "细分市场采用量领先",
+        "实验与教程模板加确定性脚本",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "上游分发仓库已弃用",
+        "原默认路径绑定 Codex 安装布局",
+        "需要真实 Notebook 执行与重构评测"
+      ]
     },
     {
       "id": "openai-github-actions-ci-fix-adaptation",
@@ -278,8 +366,16 @@
       "skillPath": "plugins/github/skills/gh-fix-ci",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["来自当前 OpenAI Plugin 仓库", "确定性日志提取脚本处理 gh 字段漂移", "Skill 目录 Apache-2.0"],
-      "gaps": ["原入口依赖同 Plugin 的 GitHub app", "必须明确认证和写操作授权", "需要真实失败、pending 和外部 check 验证"]
+      "strengths": [
+        "来自当前 OpenAI Plugin 仓库",
+        "确定性日志提取脚本处理 gh 字段漂移",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "原入口依赖同 Plugin 的 GitHub app",
+        "必须明确认证和写操作授权",
+        "需要真实失败、pending 和外部 check 验证"
+      ]
     },
     {
       "id": "minimax-multimodal-toolkit",
@@ -288,8 +384,16 @@
       "skillPath": "skills/minimax-multimodal-toolkit",
       "decision": "research",
       "status": "watchlist-provider-coupled",
-      "strengths": ["MiniMax 官方维护且 MIT", "图像、视频、语音和音乐命令完整", "非交互和 JSON 输出契约适合 Agent"],
-      "gaps": ["入口名称与目录不一致且范围包含聊天和搜索", "强依赖 MiniMax API、额度和持久凭证", "缺少无需真实付费调用的确定性评测"]
+      "strengths": [
+        "MiniMax 官方维护且 MIT",
+        "图像、视频、语音和音乐命令完整",
+        "非交互和 JSON 输出契约适合 Agent"
+      ],
+      "gaps": [
+        "入口名称与目录不一致且范围包含聊天和搜索",
+        "强依赖 MiniMax API、额度和持久凭证",
+        "缺少无需真实付费调用的确定性评测"
+      ]
     },
     {
       "id": "anthropic-mcp-builder-adaptation",
@@ -298,8 +402,16 @@
       "skillPath": "skills/mcp-builder",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["Anthropic 一手 MCP 工具设计方法", "包含服务实现与 Agent 任务评估", "Skill 目录 Apache-2.0"],
-      "gaps": ["原实现包含较大框架教程", "需保持 SDK 版本信息动态更新", "需补多客户端任务成功率"]
+      "strengths": [
+        "Anthropic 一手 MCP 工具设计方法",
+        "包含服务实现与 Agent 任务评估",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "原实现包含较大框架教程",
+        "需保持 SDK 版本信息动态更新",
+        "需补多客户端任务成功率"
+      ]
     },
     {
       "id": "anthropic-internal-comms-adaptation",
@@ -308,8 +420,16 @@
       "skillPath": "skills/internal-comms",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["高频企业沟通场景", "按沟通类型路由简洁", "Skill 目录 Apache-2.0"],
-      "gaps": ["原模板带公司特定偏好", "需增加事实和隐私边界", "需内部沟通负责人盲评"]
+      "strengths": [
+        "高频企业沟通场景",
+        "按沟通类型路由简洁",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "原模板带公司特定偏好",
+        "需增加事实和隐私边界",
+        "需内部沟通负责人盲评"
+      ]
     },
     {
       "id": "openai-cli-creator-adaptation",
@@ -318,8 +438,16 @@
       "skillPath": "skills/.curated/cli-creator",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["Agent 友好的命令契约完整", "JSON、doctor、resolve 和 preview 可评测", "Skill 目录 Apache-2.0"],
-      "gaps": ["上游仓库已弃用", "原实现绑定 Codex 路径", "需跨语言构建 fixture"]
+      "strengths": [
+        "Agent 友好的命令契约完整",
+        "JSON、doctor、resolve 和 preview 可评测",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "上游仓库已弃用",
+        "原实现绑定 Codex 路径",
+        "需跨语言构建 fixture"
+      ]
     },
     {
       "id": "mattpocock-module-design-adaptation",
@@ -328,8 +456,16 @@
       "skillPath": "skills/engineering/codebase-design",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["深模块、seam 和 deletion test 模型清晰", "与普通代码审查边界不同", "MIT 许可证"],
-      "gaps": ["原实现强制专用词汇", "需验证跨语言可迁移性", "需量化接口深度改善"]
+      "strengths": [
+        "深模块、seam 和 deletion test 模型清晰",
+        "与普通代码审查边界不同",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原实现强制专用词汇",
+        "需验证跨语言可迁移性",
+        "需量化接口深度改善"
+      ]
     },
     {
       "id": "obra-tdd-adaptation",
@@ -338,8 +474,16 @@
       "skillPath": "skills/test-driven-development",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["红绿重构证据闭环明确", "社区采用量高", "MIT 许可证"],
-      "gaps": ["原实现自动触发且语言绝对化", "包含删除既有代码的破坏性规则", "需验证 legacy 场景"]
+      "strengths": [
+        "红绿重构证据闭环明确",
+        "社区采用量高",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原实现自动触发且语言绝对化",
+        "包含删除既有代码的破坏性规则",
+        "需验证 legacy 场景"
+      ]
     },
     {
       "id": "openai-github-review-comments-adaptation",
@@ -348,8 +492,16 @@
       "skillPath": "plugins/github/skills/gh-address-comments",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["来自当前 OpenAI Plugin 仓库", "PR 发现和编号选择流程明确", "Skill 目录 Apache-2.0"],
-      "gaps": ["需区分编辑、回复和解决线程权限", "需处理 stale 和错误评论", "需适配 GitHub 字段漂移"]
+      "strengths": [
+        "来自当前 OpenAI Plugin 仓库",
+        "PR 发现和编号选择流程明确",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "需区分编辑、回复和解决线程权限",
+        "需处理 stale 和错误评论",
+        "需适配 GitHub 字段漂移"
+      ]
     },
     {
       "id": "openai-secure-code-review-adaptation",
@@ -358,8 +510,16 @@
       "skillPath": "skills/.curated/security-best-practices",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["显式安全触发边界精确", "覆盖 Python、JavaScript/TypeScript 和 Go", "Skill 目录 Apache-2.0"],
-      "gaps": ["冻结参考文档维护成本高", "原实现隐式写报告文件", "需专业安全准确率评测"]
+      "strengths": [
+        "显式安全触发边界精确",
+        "覆盖 Python、JavaScript/TypeScript 和 Go",
+        "Skill 目录 Apache-2.0"
+      ],
+      "gaps": [
+        "冻结参考文档维护成本高",
+        "原实现隐式写报告文件",
+        "需专业安全准确率评测"
+      ]
     },
     {
       "id": "marswave-podcast-production",
@@ -368,8 +528,16 @@
       "skillPath": "podcast",
       "decision": "research",
       "status": "watchlist-provider-coupled",
-      "strengths": ["完整的主题、模式、语言、speaker 和产物流程", "MIT 许可证", "对中文和英文场景友好"],
-      "gaps": ["强依赖 ListenHub CLI、账户和积分", "共享引用超出单 Skill 包", "市场采用和任务评测证据仍弱"]
+      "strengths": [
+        "完整的主题、模式、语言、speaker 和产物流程",
+        "MIT 许可证",
+        "对中文和英文场景友好"
+      ],
+      "gaps": [
+        "强依赖 ListenHub CLI、账户和积分",
+        "共享引用超出单 Skill 包",
+        "市场采用和任务评测证据仍弱"
+      ]
     },
     {
       "id": "karpathy-guidelines-reference",
@@ -378,8 +546,15 @@
       "skillPath": "skills/karpathy-guidelines",
       "decision": "reference-only",
       "status": "rejected-for-distribution",
-      "strengths": ["简洁总结假设、简单性、手术式修改和目标验证", "社区关注度高"],
-      "gaps": ["不是独立用户任务而是全局行为偏好", "与基础 Agent 行为和多数工程 Skill 重叠", "未发现明确可再分发许可证"]
+      "strengths": [
+        "简洁总结假设、简单性、手术式修改和目标验证",
+        "社区关注度高"
+      ],
+      "gaps": [
+        "不是独立用户任务而是全局行为偏好",
+        "与基础 Agent 行为和多数工程 Skill 重叠",
+        "未发现明确可再分发许可证"
+      ]
     },
     {
       "id": "minimax-document-authoring-adaptation",
@@ -388,8 +563,16 @@
       "skillPath": "skills/minimax-docx",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["创建、编辑、模板三条路径完整", "强调结构与视觉验证", "MiniMax 官方 MIT"],
-      "gaps": ["原实现强制 .NET 工具链", "触发范围过宽", "需跨 Office 套件验证"]
+      "strengths": [
+        "创建、编辑、模板三条路径完整",
+        "强调结构与视觉验证",
+        "MiniMax 官方 MIT"
+      ],
+      "gaps": [
+        "原实现强制 .NET 工具链",
+        "触发范围过宽",
+        "需跨 Office 套件验证"
+      ]
     },
     {
       "id": "minimax-pdf-workbench-adaptation",
@@ -398,8 +581,16 @@
       "skillPath": "skills/minimax-pdf",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["固定布局与视觉设计方法完整", "创建、表单和重排路径清晰", "MiniMax 官方 MIT"],
-      "gaps": ["原实现绑定脚本流水线", "需扩充 OCR 与页面操作", "需多查看器表单验证"]
+      "strengths": [
+        "固定布局与视觉设计方法完整",
+        "创建、表单和重排路径清晰",
+        "MiniMax 官方 MIT"
+      ],
+      "gaps": [
+        "原实现绑定脚本流水线",
+        "需扩充 OCR 与页面操作",
+        "需多查看器表单验证"
+      ]
     },
     {
       "id": "minimax-spreadsheet-workbench-adaptation",
@@ -408,8 +599,16 @@
       "skillPath": "skills/minimax-xlsx",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["分析、创建、编辑、修复、验证完整", "工作簿完整性规则具体", "MiniMax 官方 MIT"],
-      "gaps": ["原实现偏好 XML-only", "需验证宏、pivot 和外链", "需兼容多公式引擎"]
+      "strengths": [
+        "分析、创建、编辑、修复、验证完整",
+        "工作簿完整性规则具体",
+        "MiniMax 官方 MIT"
+      ],
+      "gaps": [
+        "原实现偏好 XML-only",
+        "需验证宏、pivot 和外链",
+        "需兼容多公式引擎"
+      ]
     },
     {
       "id": "minimax-presentation-deck-adaptation",
@@ -418,8 +617,16 @@
       "skillPath": "skills/pptx-generator",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["创建、模板编辑、内容读取完整", "设计系统和逐页 QA 明确", "MiniMax 官方 MIT"],
-      "gaps": ["原实现绑定 PptxGenJS", "包含强制子代理", "需跨套件渲染验证"]
+      "strengths": [
+        "创建、模板编辑、内容读取完整",
+        "设计系统和逐页 QA 明确",
+        "MiniMax 官方 MIT"
+      ],
+      "gaps": [
+        "原实现绑定 PptxGenJS",
+        "包含强制子代理",
+        "需跨套件渲染验证"
+      ]
     },
     {
       "id": "openai-inbox-triage-adaptation",
@@ -428,8 +635,16 @@
       "skillPath": "plugins/outlook-email/skills/outlook-email-inbox-triage",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["shortlist-first 读取成本低", "注意力分桶和下一步明确", "OpenAI Plugin MIT"],
-      "gaps": ["原实现绑定 Outlook", "reply-needed 是推断", "需高容量邮箱评测"]
+      "strengths": [
+        "shortlist-first 读取成本低",
+        "注意力分桶和下一步明确",
+        "OpenAI Plugin MIT"
+      ],
+      "gaps": [
+        "原实现绑定 Outlook",
+        "reply-needed 是推断",
+        "需高容量邮箱评测"
+      ]
     },
     {
       "id": "openai-email-reply-drafting-adaptation",
@@ -438,8 +653,16 @@
       "skillPath": "plugins/outlook-email/skills/outlook-email-reply-drafting",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["线程上下文和 reply-all 判断清晰", "默认草稿并保留事实承诺", "OpenAI Plugin MIT"],
-      "gaps": ["原实现绑定 Outlook", "需加强附件与敏感收件人检查", "需跨语言语气评测"]
+      "strengths": [
+        "线程上下文和 reply-all 判断清晰",
+        "默认草稿并保留事实承诺",
+        "OpenAI Plugin MIT"
+      ],
+      "gaps": [
+        "原实现绑定 Outlook",
+        "需加强附件与敏感收件人检查",
+        "需跨语言语气评测"
+      ]
     },
     {
       "id": "openai-daily-agenda-adaptation",
@@ -448,8 +671,16 @@
       "skillPath": "plugins/outlook-calendar/skills/outlook-calendar-daily-brief",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["明确一天时间窗和状态语义", "强调工作日形态而非事件堆砌", "OpenAI Plugin MIT"],
-      "gaps": ["原实现绑定 Outlook", "固定输出格式过重", "需 DST 和多日历评测"]
+      "strengths": [
+        "明确一天时间窗和状态语义",
+        "强调工作日形态而非事件堆砌",
+        "OpenAI Plugin MIT"
+      ],
+      "gaps": [
+        "原实现绑定 Outlook",
+        "固定输出格式过重",
+        "需 DST 和多日历评测"
+      ]
     },
     {
       "id": "openai-meeting-preparation-adaptation",
@@ -458,8 +689,16 @@
       "skillPath": "plugins/outlook-calendar/skills/outlook-calendar-meeting-prep",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["事件优先和关联上下文扩展合理", "确认信息与推断分离", "OpenAI Plugin MIT"],
-      "gaps": ["原实现绑定 Microsoft 数据源", "需处理材料时效性", "需量化准备简报价值"]
+      "strengths": [
+        "事件优先和关联上下文扩展合理",
+        "确认信息与推断分离",
+        "OpenAI Plugin MIT"
+      ],
+      "gaps": [
+        "原实现绑定 Microsoft 数据源",
+        "需处理材料时效性",
+        "需量化准备简报价值"
+      ]
     },
     {
       "id": "openai-group-scheduling-adaptation",
@@ -468,8 +707,16 @@
       "skillPath": "plugins/outlook-calendar/skills/outlook-calendar-group-scheduler",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["候选排序而非枚举", "参会人、时区、地点和状态权衡完整", "OpenAI Plugin MIT"],
-      "gaps": ["原实现绑定 Outlook", "需加入 focus cost 和复发会议", "需验证公平性"]
+      "strengths": [
+        "候选排序而非枚举",
+        "参会人、时区、地点和状态权衡完整",
+        "OpenAI Plugin MIT"
+      ],
+      "gaps": [
+        "原实现绑定 Outlook",
+        "需加入 focus cost 和复发会议",
+        "需验证公平性"
+      ]
     },
     {
       "id": "anthropic-workspace-knowledge-synthesis",
@@ -478,8 +725,15 @@
       "skillPath": "enterprise-search/skills/knowledge-synthesis",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["跨来源去重、权威性、时效和冲突处理完整", "官方 Apache-2.0"],
-      "gaps": ["原实现含连接器占位符", "固定来源等级需按查询类型调整", "需跨系统遗漏率评测"]
+      "strengths": [
+        "跨来源去重、权威性、时效和冲突处理完整",
+        "官方 Apache-2.0"
+      ],
+      "gaps": [
+        "原实现含连接器占位符",
+        "固定来源等级需按查询类型调整",
+        "需跨系统遗漏率评测"
+      ]
     },
     {
       "id": "openai-cross-source-commitment-capture",
@@ -488,8 +742,15 @@
       "skillPath": "plugins/outlook-email/skills/outlook-email-task-extraction",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["责任人、期限、状态和证据边界清晰", "OpenAI Plugin MIT"],
-      "gaps": ["原实现仅覆盖 Outlook 邮件", "需跨来源去重", "需写回确认协议"]
+      "strengths": [
+        "责任人、期限、状态和证据边界清晰",
+        "OpenAI Plugin MIT"
+      ],
+      "gaps": [
+        "原实现仅覆盖 Outlook 邮件",
+        "需跨来源去重",
+        "需写回确认协议"
+      ]
     },
     {
       "id": "anthropic-project-status-synthesis",
@@ -498,8 +759,15 @@
       "skillPath": "operations/skills/status-report",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["指标、风险、决策和下期优先级结构完整", "官方 Apache-2.0"],
-      "gaps": ["原实现缺少逐项证据要求", "红黄绿定义需组织化", "需处理缺失数据"]
+      "strengths": [
+        "指标、风险、决策和下期优先级结构完整",
+        "官方 Apache-2.0"
+      ],
+      "gaps": [
+        "原实现缺少逐项证据要求",
+        "红黄绿定义需组织化",
+        "需处理缺失数据"
+      ]
     },
     {
       "id": "openai-workstream-digest",
@@ -508,8 +776,16 @@
       "skillPath": "plugins/slack/skills/slack-daily-digest",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["先限定频道主题和时间范围", "决策、阻塞和请求信号明确", "OpenAI Plugin MIT"],
-      "gaps": ["原实现绑定 Slack 和单日窗口", "需跨协作工具", "需明确覆盖缺口"]
+      "strengths": [
+        "先限定频道主题和时间范围",
+        "决策、阻塞和请求信号明确",
+        "OpenAI Plugin MIT"
+      ],
+      "gaps": [
+        "原实现绑定 Slack 和单日窗口",
+        "需跨协作工具",
+        "需明确覆盖缺口"
+      ]
     },
     {
       "id": "anthropic-customer-support-triage",
@@ -518,8 +794,15 @@
       "skillPath": "customer-support/skills/ticket-triage",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["分类、优先级、重复、路由和回复闭环完整", "官方 Apache-2.0"],
-      "gaps": ["固定 SLA 不适合通用分发", "需防止情绪和客户身份影响优先级", "需隔离内部信息"]
+      "strengths": [
+        "分类、优先级、重复、路由和回复闭环完整",
+        "官方 Apache-2.0"
+      ],
+      "gaps": [
+        "固定 SLA 不适合通用分发",
+        "需防止情绪和客户身份影响优先级",
+        "需隔离内部信息"
+      ]
     },
     {
       "id": "google-feedback-form-adaptation",
@@ -528,8 +811,15 @@
       "skillPath": "skills/recipe-create-feedback-form",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["官方 Forms 工作流和发布路径清晰", "Apache-2.0"],
-      "gaps": ["原实现过度绑定 Google 命令", "问题设计和隐私门禁不足", "需全分支预览评测"]
+      "strengths": [
+        "官方 Forms 工作流和发布路径清晰",
+        "Apache-2.0"
+      ],
+      "gaps": [
+        "原实现过度绑定 Google 命令",
+        "问题设计和隐私门禁不足",
+        "需全分支预览评测"
+      ]
     },
     {
       "id": "anthropic-data-visualization-report",
@@ -538,8 +828,15 @@
       "skillPath": "data/skills/create-viz",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["图表选择、设计和渲染流程完整", "官方 Apache-2.0"],
-      "gaps": ["原实现固定 Python 偏好", "需加强数据验证和因果边界", "需与 spreadsheet 触发互斥"]
+      "strengths": [
+        "图表选择、设计和渲染流程完整",
+        "官方 Apache-2.0"
+      ],
+      "gaps": [
+        "原实现固定 Python 偏好",
+        "需加强数据验证和因果边界",
+        "需与 spreadsheet 触发互斥"
+      ]
     },
     {
       "id": "anthropic-vendor-evaluation",
@@ -548,8 +845,15 @@
       "skillPath": "operations/skills/vendor-review",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["TCO、风险、性能和谈判框架完整", "官方 Apache-2.0"],
-      "gaps": ["需区分供应商声明和独立证据", "需权重敏感性分析", "需专业审批边界"]
+      "strengths": [
+        "TCO、风险、性能和谈判框架完整",
+        "官方 Apache-2.0"
+      ],
+      "gaps": [
+        "需区分供应商声明和独立证据",
+        "需权重敏感性分析",
+        "需专业审批边界"
+      ]
     },
     {
       "id": "anthropic-recruiting-pipeline-review",
@@ -558,8 +862,15 @@
       "skillPath": "human-resources/skills/recruiting-pipeline",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["招聘阶段和核心运营指标明确", "官方 Apache-2.0"],
-      "gaps": ["原实现隐私和公平边界不足", "需统一阶段分母", "需将 ATS 写入与审查分离"]
+      "strengths": [
+        "招聘阶段和核心运营指标明确",
+        "官方 Apache-2.0"
+      ],
+      "gaps": [
+        "原实现隐私和公平边界不足",
+        "需统一阶段分母",
+        "需将 ATS 写入与审查分离"
+      ]
     },
     {
       "id": "mattpocock-merge-conflict-resolution",
@@ -568,8 +879,16 @@
       "skillPath": "skills/engineering/resolving-merge-conflicts",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["市场采用信号强", "强调理解双方意图和验证", "MIT 许可证"],
-      "gaps": ["原实现禁止中止过于绝对", "缺少安全暂停条件", "需覆盖 merge、rebase 和 cherry-pick"]
+      "strengths": [
+        "市场采用信号强",
+        "强调理解双方意图和验证",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原实现禁止中止过于绝对",
+        "缺少安全暂停条件",
+        "需覆盖 merge、rebase 和 cherry-pick"
+      ]
     },
     {
       "id": "mattpocock-spec-to-work-items",
@@ -578,8 +897,16 @@
       "skillPath": "skills/engineering/to-tickets",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["纵向切片方法清晰", "显式依赖和扩展迁移模式", "MIT 许可证"],
-      "gaps": ["原实现绑定具体工单系统", "需增加写入确认", "需防止把未知内容伪装成验收条件"]
+      "strengths": [
+        "纵向切片方法清晰",
+        "显式依赖和扩展迁移模式",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原实现绑定具体工单系统",
+        "需增加写入确认",
+        "需防止把未知内容伪装成验收条件"
+      ]
     },
     {
       "id": "mattpocock-decision-prototype",
@@ -588,8 +915,16 @@
       "skillPath": "skills/engineering/prototype",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["围绕单一决策问题", "逻辑模拟与 UI 变体路径明确", "MIT 许可证"],
-      "gaps": ["需与正式实现强隔离", "需限制真实外部写入", "需记录证据和否证条件"]
+      "strengths": [
+        "围绕单一决策问题",
+        "逻辑模拟与 UI 变体路径明确",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "需与正式实现强隔离",
+        "需限制真实外部写入",
+        "需记录证据和否证条件"
+      ]
     },
     {
       "id": "openai-security-ownership-analysis",
@@ -598,8 +933,16 @@
       "skillPath": "skills/.curated/security-ownership-map",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["安全所有权风险场景边界明确", "包含可复现历史分析", "Apache-2.0 许可证"],
-      "gaps": ["原脚本依赖和输出较重", "Git 触达不能代表责任关系", "需保护个人身份数据并校验 CODEOWNERS"]
+      "strengths": [
+        "安全所有权风险场景边界明确",
+        "包含可复现历史分析",
+        "Apache-2.0 许可证"
+      ],
+      "gaps": [
+        "原脚本依赖和输出较重",
+        "Git 触达不能代表责任关系",
+        "需保护个人身份数据并校验 CODEOWNERS"
+      ]
     },
     {
       "id": "openai-audio-transcription",
@@ -608,8 +951,16 @@
       "skillPath": "skills/.curated/transcribe",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["转录交付边界明确", "包含时间戳和说话人需求", "Apache-2.0 许可证"],
-      "gaps": ["原实现绑定 OpenAI API", "需增加隐私和付费调用门禁", "需覆盖长音频和不确定片段"]
+      "strengths": [
+        "转录交付边界明确",
+        "包含时间戳和说话人需求",
+        "Apache-2.0 许可证"
+      ],
+      "gaps": [
+        "原实现绑定 OpenAI API",
+        "需增加隐私和付费调用门禁",
+        "需覆盖长音频和不确定片段"
+      ]
     },
     {
       "id": "marswave-explainer-video-production",
@@ -618,8 +969,16 @@
       "skillPath": "explainer",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["从主题到成片的完整用户旅程", "脚本、旁白和视觉阶段清晰", "MIT 许可证"],
-      "gaps": ["原实现绑定 ListenHub", "需加强事实和素材权利门槛", "需支持无渲染工具的制作包交付"]
+      "strengths": [
+        "从主题到成片的完整用户旅程",
+        "脚本、旁白和视觉阶段清晰",
+        "MIT 许可证"
+      ],
+      "gaps": [
+        "原实现绑定 ListenHub",
+        "需加强事实和素材权利门槛",
+        "需支持无渲染工具的制作包交付"
+      ]
     },
     {
       "id": "anthropic-brand-style-application",
@@ -628,8 +987,844 @@
       "skillPath": "skills/theme-factory; skills/brand-guidelines",
       "decision": "adapt-evaluate",
       "status": "implemented-experimental",
-      "strengths": ["主题 token 和品牌应用规则互补", "跨产物视觉一致性路径清晰", "Apache-2.0 许可证"],
-      "gaps": ["上游品牌指南含 Anthropic 专属值", "需只使用用户授权品牌来源", "需增加可访问性和字体回退检查"]
+      "strengths": [
+        "主题 token 和品牌应用规则互补",
+        "跨产物视觉一致性路径清晰",
+        "Apache-2.0 许可证"
+      ],
+      "gaps": [
+        "上游品牌指南含 Anthropic 专属值",
+        "需只使用用户授权品牌来源",
+        "需增加可访问性和字体回退检查"
+      ]
+    },
+    {
+      "id": "coreyhaines-ab-testing-adaptation",
+      "scenarioId": "market-marketing-experimentation",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/ab-testing",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-analytics-adaptation",
+      "scenarioId": "market-marketing-analytics",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/analytics",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-attribution-adaptation",
+      "scenarioId": "market-marketing-analytics",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/attribution",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-ai-seo-adaptation",
+      "scenarioId": "market-search-visibility",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/ai-seo",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-seo-audit-adaptation",
+      "scenarioId": "market-search-visibility",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/seo-audit",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-aso-adaptation",
+      "scenarioId": "market-app-store-growth",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/aso",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-ads-adaptation",
+      "scenarioId": "market-paid-advertising",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/ads",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-ad-creative-adaptation",
+      "scenarioId": "market-paid-advertising",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/ad-creative",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-cro-adaptation",
+      "scenarioId": "market-conversion-optimization",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/cro",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-onboarding-adaptation",
+      "scenarioId": "market-conversion-optimization",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/onboarding",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-paywalls-adaptation",
+      "scenarioId": "market-conversion-optimization",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/paywalls",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-popups-adaptation",
+      "scenarioId": "market-conversion-optimization",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/popups",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-signup-adaptation",
+      "scenarioId": "market-conversion-optimization",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/signup",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-image-adaptation",
+      "scenarioId": "market-marketing-media-production",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/image",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-video-adaptation",
+      "scenarioId": "market-marketing-media-production",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/video",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-programmatic-seo-adaptation",
+      "scenarioId": "market-website-search-foundations",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/programmatic-seo",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-schema-adaptation",
+      "scenarioId": "market-website-search-foundations",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/schema",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-site-architecture-adaptation",
+      "scenarioId": "market-website-search-foundations",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/site-architecture",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-emails-adaptation",
+      "scenarioId": "market-lifecycle-messaging",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/emails",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-sms-adaptation",
+      "scenarioId": "market-lifecycle-messaging",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/sms",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-social-adaptation",
+      "scenarioId": "market-social-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/social",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-copywriting-adaptation",
+      "scenarioId": "market-marketing-copy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/copywriting",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-copy-editing-adaptation",
+      "scenarioId": "market-marketing-copy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/copy-editing",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-cold-email-adaptation",
+      "scenarioId": "market-cold-outreach",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/cold-email",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-public-relations-adaptation",
+      "scenarioId": "market-earned-media",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/public-relations",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-co-marketing-adaptation",
+      "scenarioId": "market-partner-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/co-marketing",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-influencer-marketing-adaptation",
+      "scenarioId": "market-partner-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/influencer-marketing",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-community-marketing-adaptation",
+      "scenarioId": "market-community-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/community-marketing",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-churn-prevention-adaptation",
+      "scenarioId": "market-retention-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/churn-prevention",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-referrals-adaptation",
+      "scenarioId": "market-referral-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/referrals",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-events-adaptation",
+      "scenarioId": "market-launch-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/events",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-launch-adaptation",
+      "scenarioId": "market-launch-marketing",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/launch",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-lead-magnets-adaptation",
+      "scenarioId": "market-lead-magnets",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/lead-magnets",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-free-tools-adaptation",
+      "scenarioId": "market-marketing-free-tools",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/free-tools",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-directory-submissions-adaptation",
+      "scenarioId": "market-growth-distribution",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/directory-submissions",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-marketing-loops-adaptation",
+      "scenarioId": "market-growth-distribution",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/marketing-loops",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-competitors-adaptation",
+      "scenarioId": "market-comparison-pages",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/competitors",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-sales-enablement-adaptation",
+      "scenarioId": "market-sales-enablement",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/sales-enablement",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-marketing-council-adaptation",
+      "scenarioId": "market-marketing-strategy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/marketing-council",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-marketing-ideas-adaptation",
+      "scenarioId": "market-marketing-strategy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/marketing-ideas",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-company-marketing-plan-adaptation",
+      "scenarioId": "market-marketing-strategy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/marketing-plan",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-offers-adaptation",
+      "scenarioId": "market-product-marketing-strategy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/offers",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-product-pricing-adaptation",
+      "scenarioId": "market-product-marketing-strategy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/pricing",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-product-marketing-adaptation",
+      "scenarioId": "market-product-marketing-strategy",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/product-marketing",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-marketing-psychology-adaptation",
+      "scenarioId": "market-marketing-psychology",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/marketing-psychology",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
+    },
+    {
+      "id": "coreyhaines-revops-adaptation",
+      "scenarioId": "market-revenue-operations",
+      "upstreamId": "coreyhaines-marketing-skills",
+      "skillPath": "skills/revops",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "任务触发和工作流边界明确",
+        "包含可复用的营销方法与参考资料",
+        "MIT 许可证并固定到 v2.11.1 commit"
+      ],
+      "gaps": [
+        "上游测试未覆盖 XOPC 全部工具环境",
+        "需要真实任务盲评和长期效果基线",
+        "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
+      ]
     }
   ]
 }

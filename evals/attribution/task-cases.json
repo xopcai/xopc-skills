@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "skill": "attribution",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Google Ads says we got 50 conversions last month, Meta says 40, GA4 says 60, and our CRM shows 35 closed deals. Which one is right? I need to know our real numbers before I set next quarter's budget.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "States that no single source is objectively right",
+        "Explicitly warns against summing conversions across platforms (overlapping claims)",
+        "Picks one source of truth for the conversion count (CRM/backend)",
+        "Explains the systematic bias of at least three sources",
+        "Recommends reading directional trends over absolute matching",
+        "Mentions the attribution gap as expected and to be explained, not eliminated",
+        "Does not fabricate a single reconciled number as if it were truth"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Should we use first-touch or last-touch attribution? We're a B2B SaaS with a sales cycle that runs about two months and multiple people involved in each deal.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Does not recommend a single model in isolation",
+        "Recommends showing first-touch and last-touch together",
+        "Explains what first-touch and last-touch each distort",
+        "Recommends position-based as a strong B2B primary",
+        "Emphasizes self-reported attribution for long/offline B2B cycles",
+        "References pipeline/CRM as the revenue source of truth (revops boundary)"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Our biggest conversion is a sales call people book through SavvyCal, but that happens on savvycal.com so PostHog loses the whole journey. How do we connect a booking back to where the visitor originally came from? We control the marketing site.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies the metadata-passthrough + webhook stitch pattern",
+        "Describes appending the anonymous distinct_id at click time via a capture-phase listener",
+        "Describes the webhook $identify merge (anon id + email) plus conversion event",
+        "Emphasizes the fail-closed anonymity guard (never smuggle identified/PII ids)",
+        "Includes webhook hardening (signature, timeout, non-fatal, no email logging)",
+        "Recommends auditing existing identify() coverage before building",
+        "References first-party-tracking.md"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Meta says our retargeting campaign has a 6x ROAS so we keep scaling it, but revenue isn't really going up. What's going on?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Explains platform ROAS is inflated / not incremental",
+        "Distinguishes reported conversions from incremental conversions",
+        "Recommends an incrementality test (holdout/geo/on-off) to measure true lift",
+        "Explains high reported ROAS + flat revenue indicates low incrementality (esp. retargeting)",
+        "Frames incremental CPA/ROAS as the number that should drive budget"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Half of our conversions show up as 'direct' in analytics and a big chunk of the rest is branded search. Does that mean direct traffic is our best channel?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "States direct is not a real channel (junk-drawer / measurement gap)",
+        "Explains branded search reflects demand created by other channels",
+        "Warns that crediting these defunds top-of-funnel",
+        "Recommends segmenting branded vs non-branded search",
+        "Recommends self-reported attribution to reveal dark social",
+        "Mentions AI traffic as part of the blind spot and points to ai-seo"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

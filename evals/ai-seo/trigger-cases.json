@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "ai-seo",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "How do I make sure our SaaS product shows up in AI search results? We're a project management tool and we keep getting left out of ChatGPT and Perplexity recommendations when people ask about project management software."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Should we block AI crawlers like GPTBot and PerplexityBot in our robots.txt? We're worried about content theft."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "What kind of content gets cited most by AI systems? We want to create content specifically optimized for AI search."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "we noticed our competitors are showing up in google AI overviews but we're not. what do we need to change?"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Can you audit our website for AI search readiness? We want to know how visible we are across ChatGPT, Perplexity, Google AI Overviews, and other AI platforms."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "We're a seed-stage data-quality startup (barely anyone knows us yet). Plan: publish 20 'best data quality tools' style listicles ranking ourselves #1 so ChatGPT and AI Overviews recommend us. Good idea?"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "We publish YouTube tutorials for our category's biggest how-to queries but never get cited in AI answers, while a competitor's uglier videos show up in Google AI Overviews and ChatGPT constantly. The videos themselves are well produced. What are we missing?"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "Our content is well-written and we have schema markup, but AI assistants never seem to use our site. Someone said our site might not be 'agent-ready.' We also put most of our AI-visibility effort into Reddit this year since that's where ChatGPT cites from. What should we do?"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "We're a B2B SaaS planning our 2026 content roadmap. The plan is 40 comparison pages ('us vs competitor') and 20 'best tools' listicles, mainly to win ChatGPT citations. Also, how do I know if it's working — I checked ChatGPT once last week and we weren't mentioned."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "请帮我优化 AI 搜索可见性，先列出需要的证据和约束。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "Google Ads says we got 50 conversions last month, Meta says 40, GA4 says 60, and our CRM shows 35 closed deals. Which one is right? I need to know our real numbers before I set next quarter's budget."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Can you do an SEO audit of our SaaS website? We're getting about 2,000 organic visits/month but feel like we should be getting more. URL: https://example.com"
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Here's our app on the App Store: https://apps.apple.com/us/app/example/id123456789. Can you audit our listing and tell me what to fix?"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Help me plan a paid advertising strategy. We're a B2B SaaS tool for HR teams, selling at $99/month per seat. We have $15k/month to spend on ads and want to generate demo requests. Where should we advertise?"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "Generate ad creative for our Meta (Facebook/Instagram) campaign. We sell an AI writing assistant for content marketers. Main value prop: write blog posts 5x faster. Target audience: content marketing managers at B2B SaaS companies. Budget: $5k/month."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "Here's my SaaS landing page: https://example.com/product. We get about 5,000 visitors/month from Google Ads but only 1.2% convert to free trial signups. Can you help me figure out what's wrong?"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "Help me optimize our onboarding flow. We have a project management tool and only 30% of trial users create their first project within the first week. We need to get them to value faster."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Help me design the upgrade paywall for our project management tool. Free users can have 3 projects, and we want to show an upgrade screen when they try to create a 4th project."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "skill": "cro",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Here's my SaaS landing page: https://example.com/product. We get about 5,000 visitors/month from Google Ads but only 1.2% convert to free trial signups. Can you help me figure out what's wrong?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Identifies page type as landing page",
+        "Identifies conversion goal as free trial signup",
+        "Analyzes value proposition clarity",
+        "Analyzes CTA placement and copy",
+        "Notes message match between ads and landing page",
+        "Output has Quick Wins section",
+        "Output has High-Impact Changes section"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Our pricing page has three tiers but nobody picks the middle one. 60% choose the cheapest plan and 30% bounce entirely. What should we change?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies Pricing Page CRO framework",
+        "Addresses recommended plan indication",
+        "Addresses 'which plan is right for me' anxiety",
+        "Analyzes middle tier differentiation",
+        "Suggests specific experiments",
+        "Output has Quick Wins section",
+        "Output has High-Impact Changes section",
+        "Output has Test Ideas section"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "this page isn't converting. can you take a look? it's our homepage for a B2B project management tool",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Identifies as Homepage CRO",
+        "Asks about current conversion rate",
+        "Asks about traffic sources",
+        "Applies CRO Analysis Framework",
+        "Addresses serving multiple audiences",
+        "Addresses clear paths for different visitor intents",
+        "Output has structured sections"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We have a blog that gets 20k organic visits/month but almost nobody clicks through to our product. How do we get more conversions from blog readers?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies Blog Post CRO framework",
+        "Recommends contextual CTAs matching content",
+        "Recommends inline CTAs at natural stopping points",
+        "Suggests specific CTA placements",
+        "Suggests testing different CTA formats",
+        "Cross-references copywriting or related skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We redesigned our landing page and conversions dropped from 4.2% to 2.8%. Here's the new page. What went wrong?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Approaches as diagnostic audit",
+        "Checks for lost trust signals",
+        "Checks for weakened value proposition",
+        "Checks for CTA hierarchy changes",
+        "Checks for added friction",
+        "Checks for broken message match with traffic sources",
+        "Provides fixes organized by impact",
+        "Recommends reverting high-risk changes"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

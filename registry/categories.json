@@ -2,18 +2,427 @@
   "schemaVersion": 1,
   "maxSkillsPerCategory": 20,
   "categories": [
-    {"id":"office-efficiency","labels":{"en":"Office Efficiency","zh-CN":"办公效率"},"scenarioIds":["turn-meeting-into-actions","author-professional-document","work-with-pdf","create-presentation-deck","triage-email-inbox","draft-email-reply","build-daily-agenda","prepare-for-meeting","schedule-group-meeting","draft-internal-communication","review-translation-localization","organize-files-safely","build-form-or-survey","execute-browser-workflow"],"skills":["meeting-to-actions","document-authoring","pdf-workbench","presentation-deck","inbox-triage","email-reply-drafting","daily-agenda-brief","meeting-preparation","group-scheduling","internal-communications","translation-localization-review","safe-file-organization","form-survey-builder","browser-workflow-execution"]},
-    {"id":"content-creation","labels":{"en":"Content Creation","zh-CN":"内容创作"},"scenarioIds":["create-content-campaign-pack","create-multiformat-media-content","adapt-china-social-content","edit-chinese-natural-style","author-long-form-content","write-fiction-with-continuity"],"skills":["content-campaign-pack","china-social-content-adaptation","chinese-natural-style-editing","long-form-authoring","fiction-continuity-writing"]},
-    {"id":"dev-programming","labels":{"en":"Development","zh-CN":"开发编程"},"scenarioIds":["build-reliable-web-test-suite","review-production-postgres","diagnose-react-native-performance","write-evidence-based-release-notes","review-code-change-against-spec","diagnose-software-defect","fix-failing-github-actions","implement-change-with-tdd","address-github-review-comments","resolve-git-conflicts","build-agent-friendly-cli","design-deep-software-module","deliver-wechat-miniprogram"],"skills":["playwright-webapp-testing","supabase-postgres-best-practices","react-native-best-practices","release-notes","code-review","systematic-debugging","github-actions-ci-fix","test-driven-development","github-review-comments","merge-conflict-resolution","agent-cli-builder","module-design","wechat-miniprogram-delivery"]},
-    {"id":"data-analysis","labels":{"en":"Data Analysis","zh-CN":"数据分析"},"scenarioIds":["create-decision-research-brief","build-reproducible-notebook","work-with-spreadsheet","create-data-visualization-report","diagnose-ecommerce-performance","synthesize-user-research","build-competitive-intelligence"],"skills":["evidence-based-research","jupyter-notebook","spreadsheet-workbench","data-visualization-report","ecommerce-performance-diagnosis","user-research-synthesis","competitive-intelligence"]},
-    {"id":"design-media","labels":{"en":"Design & Media","zh-CN":"设计多媒体"},"scenarioIds":["design-distinctive-web-interface","prototype-product-decision","transcribe-audio-accurately","produce-explainer-video","apply-brand-style-to-artifact","create-decision-diagram"],"skills":["frontend-design","decision-prototype","audio-transcription","explainer-video-production","brand-style-application","diagram-communication"]},
-    {"id":"ai-agent","labels":{"en":"AI Agent","zh-CN":"AI Agent"},"scenarioIds":["connect-ai-app-to-xopc-models","build-trusted-xopc-connector","publish-local-service-with-xopc-tunnel","build-production-mcp-server","author-reusable-skill","evaluate-and-improve-prompt"],"skills":["xopc-model-gateway","xopc-connector-builder","mcp-server-builder","reusable-skill-authoring","prompt-evaluation-improvement"]},
-    {"id":"knowledge-management","labels":{"en":"Knowledge Management","zh-CN":"知识管理"},"scenarioIds":["synthesize-workspace-knowledge","curate-knowledge-base","convert-documents-to-markdown","prepare-work-context-handoff"],"skills":["workspace-knowledge-synthesis","knowledge-base-curation","document-to-markdown","work-context-handoff"]},
-    {"id":"business-ops","labels":{"en":"Business Operations","zh-CN":"商业运营"},"scenarioIds":["run-weekly-planning-review","capture-cross-source-commitments","synthesize-project-status","digest-team-workstream","decompose-spec-into-work-items","triage-customer-support-ticket","reconcile-invoices-and-receipts","author-standard-operating-procedure","review-recruiting-pipeline","research-qualified-prospects","author-product-requirements","plan-employee-onboarding"],"skills":["weekly-planning-review","commitment-task-capture","project-status-synthesis","workstream-digest","spec-to-work-items","customer-support-ticket-triage","invoice-receipt-reconciliation","sop-authoring","recruiting-pipeline-review","prospect-research","product-requirements-authoring","employee-onboarding-planning"]},
-    {"id":"education","labels":{"en":"Education","zh-CN":"教育学习"},"scenarioIds":["design-teaching-plan","analyze-learning-assessment","tailor-resume-to-role","build-reading-practice","coach-academic-writing"],"skills":["teaching-plan-design","learning-assessment-analysis","resume-tailoring","reading-companion","academic-writing-coach"]},
-    {"id":"professional","labels":{"en":"Professional","zh-CN":"行业专业"},"scenarioIds":["review-document-requirements","draft-chinese-official-document","evaluate-vendor","analyze-financial-statements","review-tender-response","analyze-business-budget-variance","review-month-end-close","track-contract-obligations"],"skills":["document-requirements-review","chinese-official-document-drafting","vendor-evaluation","financial-statement-analysis","tender-response-compliance-review","business-budget-variance","month-end-close-review","contract-obligation-tracking"]},
-    {"id":"it-ops-security","labels":{"en":"IT Ops & Security","zh-CN":"IT 运维与安全"},"scenarioIds":["threat-model-software-system","review-code-security","analyze-security-ownership","coordinate-production-incident","redact-sensitive-data","review-agent-skill-security"],"skills":["security-threat-model","secure-code-review","security-ownership-analysis","incident-response-coordination","privacy-redaction","agent-skill-security-review"]},
-    {"id":"life-service","labels":{"en":"Life Service","zh-CN":"生活服务"},"scenarioIds":["plan-travel-itinerary","review-personal-budget","enjoy-cultural-divination","plan-focus-session","understand-china-social-security","review-home-renovation","triage-suspected-scam"],"skills":["travel-itinerary-planning","personal-budget-review","cultural-divination","focus-session-planning","china-social-security-guidance","home-renovation-review","scam-message-triage"]},
-    {"id":"one-person-company","labels":{"en":"One-Person Company","zh-CN":"一人公司（OPC）"},"scenarioIds":["find-opc-community","validate-opc-idea","processize-opc-offer","scope-opc-mvp","price-opc-offer","win-first-opc-customers","plan-opc-marketing","grow-opc-sustainably","review-opc-business","define-opc-principles"],"skills":["find-community","validate-idea","processize","mvp","pricing","first-customers","marketing-plan","grow-sustainably","minimalist-review","company-values"]}
+    {
+      "id": "office-efficiency",
+      "labels": {
+        "en": "Office Efficiency",
+        "zh-CN": "办公效率"
+      },
+      "scenarioIds": [
+        "turn-meeting-into-actions",
+        "author-professional-document",
+        "work-with-pdf",
+        "create-presentation-deck",
+        "triage-email-inbox",
+        "draft-email-reply",
+        "build-daily-agenda",
+        "prepare-for-meeting",
+        "schedule-group-meeting",
+        "draft-internal-communication",
+        "review-translation-localization",
+        "organize-files-safely",
+        "build-form-or-survey",
+        "execute-browser-workflow"
+      ],
+      "skills": [
+        "meeting-to-actions",
+        "document-authoring",
+        "pdf-workbench",
+        "presentation-deck",
+        "inbox-triage",
+        "email-reply-drafting",
+        "daily-agenda-brief",
+        "meeting-preparation",
+        "group-scheduling",
+        "internal-communications",
+        "translation-localization-review",
+        "safe-file-organization",
+        "form-survey-builder",
+        "browser-workflow-execution"
+      ]
+    },
+    {
+      "id": "content-creation",
+      "labels": {
+        "en": "Content Creation",
+        "zh-CN": "内容创作"
+      },
+      "scenarioIds": [
+        "create-content-campaign-pack",
+        "create-multiformat-media-content",
+        "adapt-china-social-content",
+        "edit-chinese-natural-style",
+        "author-long-form-content",
+        "write-fiction-with-continuity",
+        "market-lifecycle-messaging",
+        "market-social-marketing",
+        "market-marketing-copy",
+        "market-cold-outreach",
+        "market-earned-media",
+        "market-launch-marketing",
+        "market-lead-magnets",
+        "market-comparison-pages",
+        "market-sales-enablement"
+      ],
+      "skills": [
+        "content-campaign-pack",
+        "china-social-content-adaptation",
+        "chinese-natural-style-editing",
+        "long-form-authoring",
+        "fiction-continuity-writing",
+        "emails",
+        "sms",
+        "social",
+        "copywriting",
+        "copy-editing",
+        "cold-email",
+        "public-relations",
+        "events",
+        "launch",
+        "lead-magnets",
+        "competitors",
+        "sales-enablement"
+      ]
+    },
+    {
+      "id": "dev-programming",
+      "labels": {
+        "en": "Development",
+        "zh-CN": "开发编程"
+      },
+      "scenarioIds": [
+        "build-reliable-web-test-suite",
+        "review-production-postgres",
+        "diagnose-react-native-performance",
+        "write-evidence-based-release-notes",
+        "review-code-change-against-spec",
+        "diagnose-software-defect",
+        "fix-failing-github-actions",
+        "implement-change-with-tdd",
+        "address-github-review-comments",
+        "resolve-git-conflicts",
+        "build-agent-friendly-cli",
+        "design-deep-software-module",
+        "deliver-wechat-miniprogram",
+        "market-website-search-foundations",
+        "market-marketing-free-tools"
+      ],
+      "skills": [
+        "playwright-webapp-testing",
+        "supabase-postgres-best-practices",
+        "react-native-best-practices",
+        "release-notes",
+        "code-review",
+        "systematic-debugging",
+        "github-actions-ci-fix",
+        "test-driven-development",
+        "github-review-comments",
+        "merge-conflict-resolution",
+        "agent-cli-builder",
+        "module-design",
+        "wechat-miniprogram-delivery",
+        "programmatic-seo",
+        "schema",
+        "site-architecture",
+        "free-tools"
+      ]
+    },
+    {
+      "id": "data-analysis",
+      "labels": {
+        "en": "Data Analysis",
+        "zh-CN": "数据分析"
+      },
+      "scenarioIds": [
+        "create-decision-research-brief",
+        "build-reproducible-notebook",
+        "work-with-spreadsheet",
+        "create-data-visualization-report",
+        "diagnose-ecommerce-performance",
+        "synthesize-user-research",
+        "build-competitive-intelligence",
+        "market-marketing-experimentation",
+        "market-marketing-analytics",
+        "market-search-visibility",
+        "market-app-store-growth"
+      ],
+      "skills": [
+        "evidence-based-research",
+        "jupyter-notebook",
+        "spreadsheet-workbench",
+        "data-visualization-report",
+        "ecommerce-performance-diagnosis",
+        "user-research-synthesis",
+        "competitive-intelligence",
+        "ab-testing",
+        "analytics",
+        "attribution",
+        "ai-seo",
+        "seo-audit",
+        "aso"
+      ]
+    },
+    {
+      "id": "design-media",
+      "labels": {
+        "en": "Design & Media",
+        "zh-CN": "设计多媒体"
+      },
+      "scenarioIds": [
+        "design-distinctive-web-interface",
+        "prototype-product-decision",
+        "transcribe-audio-accurately",
+        "produce-explainer-video",
+        "apply-brand-style-to-artifact",
+        "create-decision-diagram",
+        "market-conversion-optimization",
+        "market-marketing-media-production"
+      ],
+      "skills": [
+        "frontend-design",
+        "decision-prototype",
+        "audio-transcription",
+        "explainer-video-production",
+        "brand-style-application",
+        "diagram-communication",
+        "cro",
+        "onboarding",
+        "paywalls",
+        "popups",
+        "signup",
+        "image",
+        "video"
+      ]
+    },
+    {
+      "id": "ai-agent",
+      "labels": {
+        "en": "AI Agent",
+        "zh-CN": "AI Agent"
+      },
+      "scenarioIds": [
+        "connect-ai-app-to-xopc-models",
+        "build-trusted-xopc-connector",
+        "publish-local-service-with-xopc-tunnel",
+        "build-production-mcp-server",
+        "author-reusable-skill",
+        "evaluate-and-improve-prompt"
+      ],
+      "skills": [
+        "xopc-model-gateway",
+        "xopc-connector-builder",
+        "mcp-server-builder",
+        "reusable-skill-authoring",
+        "prompt-evaluation-improvement"
+      ]
+    },
+    {
+      "id": "knowledge-management",
+      "labels": {
+        "en": "Knowledge Management",
+        "zh-CN": "知识管理"
+      },
+      "scenarioIds": [
+        "synthesize-workspace-knowledge",
+        "curate-knowledge-base",
+        "convert-documents-to-markdown",
+        "prepare-work-context-handoff"
+      ],
+      "skills": [
+        "workspace-knowledge-synthesis",
+        "knowledge-base-curation",
+        "document-to-markdown",
+        "work-context-handoff"
+      ]
+    },
+    {
+      "id": "business-ops",
+      "labels": {
+        "en": "Business Operations",
+        "zh-CN": "商业运营"
+      },
+      "scenarioIds": [
+        "run-weekly-planning-review",
+        "capture-cross-source-commitments",
+        "synthesize-project-status",
+        "digest-team-workstream",
+        "decompose-spec-into-work-items",
+        "triage-customer-support-ticket",
+        "reconcile-invoices-and-receipts",
+        "author-standard-operating-procedure",
+        "review-recruiting-pipeline",
+        "research-qualified-prospects",
+        "author-product-requirements",
+        "plan-employee-onboarding",
+        "market-partner-marketing",
+        "market-community-marketing",
+        "market-retention-marketing",
+        "market-referral-marketing",
+        "market-growth-distribution",
+        "market-revenue-operations"
+      ],
+      "skills": [
+        "weekly-planning-review",
+        "commitment-task-capture",
+        "project-status-synthesis",
+        "workstream-digest",
+        "spec-to-work-items",
+        "customer-support-ticket-triage",
+        "invoice-receipt-reconciliation",
+        "sop-authoring",
+        "recruiting-pipeline-review",
+        "prospect-research",
+        "product-requirements-authoring",
+        "employee-onboarding-planning",
+        "co-marketing",
+        "influencer-marketing",
+        "community-marketing",
+        "churn-prevention",
+        "referrals",
+        "directory-submissions",
+        "marketing-loops",
+        "revops"
+      ]
+    },
+    {
+      "id": "education",
+      "labels": {
+        "en": "Education",
+        "zh-CN": "教育学习"
+      },
+      "scenarioIds": [
+        "design-teaching-plan",
+        "analyze-learning-assessment",
+        "tailor-resume-to-role",
+        "build-reading-practice",
+        "coach-academic-writing"
+      ],
+      "skills": [
+        "teaching-plan-design",
+        "learning-assessment-analysis",
+        "resume-tailoring",
+        "reading-companion",
+        "academic-writing-coach"
+      ]
+    },
+    {
+      "id": "professional",
+      "labels": {
+        "en": "Professional",
+        "zh-CN": "行业专业"
+      },
+      "scenarioIds": [
+        "review-document-requirements",
+        "draft-chinese-official-document",
+        "evaluate-vendor",
+        "analyze-financial-statements",
+        "review-tender-response",
+        "analyze-business-budget-variance",
+        "review-month-end-close",
+        "track-contract-obligations",
+        "market-paid-advertising",
+        "market-marketing-strategy",
+        "market-product-marketing-strategy",
+        "market-marketing-psychology"
+      ],
+      "skills": [
+        "document-requirements-review",
+        "chinese-official-document-drafting",
+        "vendor-evaluation",
+        "financial-statement-analysis",
+        "tender-response-compliance-review",
+        "business-budget-variance",
+        "month-end-close-review",
+        "contract-obligation-tracking",
+        "ads",
+        "ad-creative",
+        "marketing-council",
+        "marketing-ideas",
+        "company-marketing-plan",
+        "offers",
+        "product-pricing",
+        "product-marketing",
+        "marketing-psychology"
+      ]
+    },
+    {
+      "id": "it-ops-security",
+      "labels": {
+        "en": "IT Ops & Security",
+        "zh-CN": "IT 运维与安全"
+      },
+      "scenarioIds": [
+        "threat-model-software-system",
+        "review-code-security",
+        "analyze-security-ownership",
+        "coordinate-production-incident",
+        "redact-sensitive-data",
+        "review-agent-skill-security"
+      ],
+      "skills": [
+        "security-threat-model",
+        "secure-code-review",
+        "security-ownership-analysis",
+        "incident-response-coordination",
+        "privacy-redaction",
+        "agent-skill-security-review"
+      ]
+    },
+    {
+      "id": "life-service",
+      "labels": {
+        "en": "Life Service",
+        "zh-CN": "生活服务"
+      },
+      "scenarioIds": [
+        "plan-travel-itinerary",
+        "review-personal-budget",
+        "enjoy-cultural-divination",
+        "plan-focus-session",
+        "understand-china-social-security",
+        "review-home-renovation",
+        "triage-suspected-scam"
+      ],
+      "skills": [
+        "travel-itinerary-planning",
+        "personal-budget-review",
+        "cultural-divination",
+        "focus-session-planning",
+        "china-social-security-guidance",
+        "home-renovation-review",
+        "scam-message-triage"
+      ]
+    },
+    {
+      "id": "one-person-company",
+      "labels": {
+        "en": "One-Person Company",
+        "zh-CN": "一人公司（OPC）"
+      },
+      "scenarioIds": [
+        "find-opc-community",
+        "validate-opc-idea",
+        "processize-opc-offer",
+        "scope-opc-mvp",
+        "price-opc-offer",
+        "win-first-opc-customers",
+        "plan-opc-marketing",
+        "grow-opc-sustainably",
+        "review-opc-business",
+        "define-opc-principles"
+      ],
+      "skills": [
+        "find-community",
+        "validate-idea",
+        "processize",
+        "mvp",
+        "pricing",
+        "first-customers",
+        "marketing-plan",
+        "grow-sustainably",
+        "minimalist-review",
+        "company-values"
+      ]
+    }
   ]
 }

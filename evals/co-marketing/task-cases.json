@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "skill": "co-marketing",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We make a project management tool for design agencies. Who should we look for as co-marketing partners?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Identifies same persona / different problem characteristic",
+        "Suggests specific partner categories in workflow",
+        "Mentions Crossbeam or account overlap data",
+        "Lists multiple sources to find partners",
+        "Applies scoring criteria"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We're partnering with a competitor — wait, not a competitor, a complementary CRM company. Help us brainstorm 5 campaign ideas we could run together.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies brainstorming framework",
+        "Proposes campaigns across multiple types (content, events, integration, community)",
+        "Suggests specific actionable ideas",
+        "Mentions integration or 'better together' angle",
+        "Uses brainstorming prompts"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Draft a cold outreach email to a potential co-marketing partner. They're a content management platform and we make a marketing analytics tool. Both serve B2B marketing teams.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Includes subject with both company names",
+        "Specific observation about audience overlap",
+        "Includes one concrete campaign idea",
+        "Includes clear ask for a call",
+        "Keeps it short and personal",
+        "Mentions what to prepare for the call"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We've identified 5 potential partners but only have time for one campaign this quarter. How should we pick?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies partner scoring criteria",
+        "Includes all 6 scoring dimensions",
+        "Weights by goal",
+        "Considers ease of execution / partnership history",
+        "Recommends starting with low-effort format"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Our partnership webinar with another SaaS company got 200 signups. How do we split the leads?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Explains lead split options",
+        "Recommends documenting in agreement",
+        "Lists agreement components",
+        "Mentions measuring lead quality not just volume",
+        "Recommends post-campaign debrief"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

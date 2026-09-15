@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "skill": "events",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We're a B2B SaaS with a $30k opportunity to sponsor our industry's biggest annual conference (5,000 attendees). Marketing wants to do it for brand awareness. Should we?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Does not accept 'brand awareness' as sufficient justification; requires a qualified-conversations or meetings target with an owner",
+        "Computes or requests the inputs for cost per qualified meeting and compares against alternative channels",
+        "Asks about audience-ICP overlap in absolute numbers rather than accepting total attendance",
+        "Mentions the side-event (curated dinner/breakfast) play as an alternative or complement",
+        "If sponsoring, recommends negotiating for a speaking slot and/or side-event rights over booth size"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Plan our first webinar. We sell an expense-management tool for startup CFOs and want it to generate demo requests.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Starts with topic and offer selection (problem-aware topic, one offer decided upfront), not logistics",
+        "Includes a show-up system: calendar add, escalating reminders including a T-5-minute join link, and gap management",
+        "Structures the live arc with an upfront-named pitch, scripted transition, and single offer",
+        "Segments post-webinar follow-up by behavior including a no-show replay sequence",
+        "Presents benchmark numbers as directional ranges, not targets"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "I got accepted to speak at SaaStr next quarter — 25-minute slot. Help me make the most of it.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Separates outline (audience, Monday takeaway, blocks with proof) from emotional storyboarding (beats with energy/feel/hit)",
+        "Treats the recording as the durable asset: confirm rights, speak key numbers and positioning aloud, quotable line on a peak beat",
+        "Connects the transcript to AI-citation compounding",
+        "Includes post-talk motions: publish recording and written version, follow up with question-askers in the 24-48h window",
+        "Recommends speaker-to-speaker networking and a single clear closing pointer"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "A partner wants to do a joint webinar with us — they'd bring their list, we'd bring ours. How do we structure the partnership and who gets the leads?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Routes partnership structure and lead-sharing terms to co-marketing rather than answering them as event logistics",
+        "Flags explicit registrant consent as required for sharing registration data between both parties",
+        "Retains and offers the webinar-execution layer (funnel, promotion by both speakers, follow-up) from this skill",
+        "Does not invent specific legal or contractual terms"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We just got back from a trade show with 412 badge scans. Marketing is calling it a huge success and wants to load them all into our sales cadence tomorrow. Thoughts?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Rejects badge-scan count as a success metric, distinguishing vanity from real and decisive metrics",
+        "Advises against loading all scans into a sales cadence, citing domain/brand risk and no-context outreach",
+        "Provides the tiered follow-up model (hot/warm/scan-only) with the 24-48h window for the top tiers",
+        "Recommends measuring the show on cost per qualified meeting and pipeline influenced with source tagging"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "product-marketing",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "I want to set up my product marketing context. We're a B2B SaaS company that sells a customer feedback platform to product teams."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Update our product marketing context. We just added a new enterprise tier and our target audience has expanded to include VP of Engineering, not just Product Managers."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "create a product context doc for my app. it's a mobile app that helps people find hiking trails. we're just getting started."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "Can you auto-draft our product marketing context from our existing codebase and marketing materials?"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Do we have a product marketing context set up? I want to make sure the other marketing skills have context about our product."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "We just repositioned — we're no longer an 'email tool,' we're a 'deliverability platform,' and our ICP now includes RevOps teams. Update our product marketing context."
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "请帮我建立产品定位与信息体系，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料建立产品定位与信息体系。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 建立产品定位与信息体系 with metrics and acceptance criteria."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "基于这份产品背景和用户数据，建立产品定位与信息体系并标注假设。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Help me plan a paid advertising strategy. We're a B2B SaaS tool for HR teams, selling at $99/month per seat. We have $15k/month to spend on ads and want to generate demo requests. Where should we advertise?"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Generate ad creative for our Meta (Facebook/Instagram) campaign. We sell an AI writing assistant for content marketers. Main value prop: write blog posts 5x faster. Target audience: content marketing managers at B2B SaaS companies. Budget: $5k/month."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "We're a B2B SaaS about to cut our price 40% to compete with a cheaper rival. Have the council review this."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "I need marketing ideas for my SaaS product. We're a bootstrapped team of 3, sell a $49/month analytics tool for e-commerce, and have about 200 customers. Budget is tight — maybe $500/month for marketing."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "I'm starting a fractional CMO engagement with a Series A B2B SaaS doing $2M ARR, 12-person team with 1 marketer, $20K/month marketing budget. They want a marketing plan we can share with the team and the board. Build it."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Our B2B SaaS trial-to-paid conversion is stuck. Our plan is to run a 50% off first 3 months coupon to push more people to convert. It's a $99/month email-tool competitor and the biggest thing prospects say is they're scared to migrate their list and automations off their current provider. Is the discount the right move?"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "Help me figure out pricing for our new SaaS product. It's a customer support platform for e-commerce stores. We're not sure whether to charge per agent, per ticket, or flat rate. Currently thinking $49-199/month range."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "How can I use psychology to increase conversions on our pricing page? We sell a B2B SaaS tool with three tiers ($29, $79, $199/month)."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    }
+  ]
+}

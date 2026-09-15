@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "skill": "ad-creative",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Generate ad creative for our Meta (Facebook/Instagram) campaign. We sell an AI writing assistant for content marketers. Main value prop: write blog posts 5x faster. Target audience: content marketing managers at B2B SaaS companies. Budget: $5k/month.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Uses angle-based generation approach",
+        "Identifies multiple angles (3-5)",
+        "Respects Meta character limits (125/40/30)",
+        "Generates multiple variations per angle",
+        "Suggests image or visual direction",
+        "Includes hook, body, and CTA for each",
+        "Recommends which angles to test first"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "I need Google Ads copy for our CRM product. We're targeting the keyword 'best CRM for small business'. Need responsive search ads.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Respects Google RSA character limits (30 char headlines, 90 char descriptions)",
+        "Generates 10-15 headline variations",
+        "Generates 4+ description variations",
+        "Includes target keyword in headlines",
+        "Notes pinning should be used sparingly per skill guidance",
+        "Suggests ad extensions",
+        "Uses angle-based variation approach"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Here's our ad performance data: Ad A (pain point angle) - CTR 2.1%, CPC $3.20, Conv rate 4.5%. Ad B (social proof angle) - CTR 1.4%, CPC $4.10, Conv rate 6.2%. Ad C (feature angle) - CTR 0.8%, CPC $5.50, Conv rate 2.1%. Help me iterate on these.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Activates iteration mode based on performance data",
+        "Analyzes CTR, CPC, and conversion rate for each ad",
+        "Identifies winning angles from the data",
+        "Recommends pausing or reworking underperforming creative",
+        "Generates new variations combining winning elements",
+        "Provides specific iterations on top performers"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "we need linkedin ads for our enterprise security product. audience is CISOs and IT directors.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Respects LinkedIn character limits (150/70/100)",
+        "Adapts tone for enterprise security audience",
+        "Uses risk-reduction and compliance language",
+        "Provides multiple angles relevant to security buyers",
+        "Suggests LinkedIn ad format recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "I need to generate a big batch of ad variations for a multi-platform campaign launching next week. We're a meal delivery service targeting busy professionals. Need ads for Google, Meta, and TikTok.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Activates batch generation workflow",
+        "Generates for all three platforms",
+        "Respects each platform's character limits",
+        "Identifies angles that work across platforms",
+        "Notes TikTok needs video concepts",
+        "Organizes output by platform",
+        "Generates multiple variations per angle per platform"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "skill": "marketing-psychology",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "How can I use psychology to increase conversions on our pricing page? We sell a B2B SaaS tool with three tiers ($29, $79, $199/month).",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies pricing psychology models (anchoring, charm pricing, Rule of 100)",
+        "Applies Good-Better-Best framing",
+        "Applies loss aversion to tier differentiation",
+        "Applies social proof near pricing",
+        "Provides specific recommendations for their price points",
+        "References specific mental models by name"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Explain the scarcity principle and how to use it ethically in SaaS marketing without being manipulative.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Explains scarcity principle clearly",
+        "Provides legitimate SaaS applications",
+        "Distinguishes ethical from manipulative use",
+        "Provides specific examples",
+        "References related mental models",
+        "Addresses ethical considerations directly"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "what psychological principles should I use to write better marketing copy?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Recommends copy-relevant mental models",
+        "Explains each principle briefly",
+        "Provides specific copywriting application per principle",
+        "Organizes by where each applies in copy",
+        "References multiple model categories"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "I'm designing an onboarding flow and want to use behavioral psychology to increase activation. What models should I apply?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies Goal-Gradient Effect",
+        "Applies Hick's Law",
+        "Applies IKEA Effect or Endowment Effect",
+        "Applies Zeigarnik Effect or commitment principles",
+        "Explains how each applies to onboarding",
+        "Provides actionable recommendations per model"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "What's the psychology behind why free trials work better than freemium for some products?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies loss aversion to trial context",
+        "Applies endowment effect",
+        "Applies Zero-Price Effect",
+        "Explains how models interact in trial vs freemium",
+        "Notes when each approach works best",
+        "Provides clear, educational explanation"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "skill": "sms",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We're a Shopify DTC brand doing $5M/year in skincare. We have 80K email subscribers but no SMS program yet. Where do we start?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Runs compliance/A2P 10DLC readiness check",
+        "Recommends Klaviyo SMS or Postscript with rationale",
+        "Prioritizes abandoned cart as highest-ROI flow",
+        "Mentions replenishment for skincare specifically",
+        "Warns about treating SMS like email",
+        "References compliance.md or opt-in disclosure requirements",
+        "Mentions per-send cost economics"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Write me an abandoned cart SMS sequence. We sell custom apparel, average order $80.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Outputs 3-message sequence with timing",
+        "Send 1 at 30 min, Send 2 at 4 hours, Send 3 at 24 hours",
+        "No discount on Send 1",
+        "Each message has sender ID + single CTA + short link",
+        "Character counts shown, target ~160 GSM-7",
+        "Compliance footer on first send (STOP to opt out)",
+        "Warns about discount on first send",
+        "Mentions exclusion rules"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Can I just send SMS without any opt-in if customers gave me their phone number at checkout?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Refuses the no-opt-in approach",
+        "Distinguishes marketing SMS from transactional SMS",
+        "Lists express written consent requirements",
+        "Mentions TCPA penalty exposure ($500-$1,500 per message)",
+        "Mentions class action risk",
+        "Recommends compliant opt-in flow",
+        "References compliance.md",
+        "Clarifies checkout phone capture is not marketing consent"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Our SMS list is 50K subscribers. We send 3 promotional messages per week. Opt-out rate has crept up to 4% per send. What's wrong?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Diagnoses as over-sending / audience fatigue",
+        "Cites healthy benchmark (<2% opt-out per send, <0.5% promotional)",
+        "Recommends reducing send frequency",
+        "Recommends segmentation by engagement",
+        "Suggests reactivation flow for cold subscribers",
+        "Calculates list erosion impact",
+        "Mentions 'every send must justify itself' principle"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We just submitted our A2P 10DLC registration and our sends are working. Can we start scaling to 100K+ messages per day?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Asks about phone number type (10DLC vs toll-free vs short code)",
+        "Explains throughput limits with specific msg/sec numbers",
+        "Calculates time-to-send for 100K volume",
+        "Mentions quiet hour considerations",
+        "Recommends short code for high sustained volume",
+        "Warns about carrier filtering / throttling",
+        "Mentions A2P sample text alignment requirement",
+        "References platforms.md or trust score monitoring"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

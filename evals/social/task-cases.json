@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "skill": "social",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me create a LinkedIn content strategy. I'm a SaaS founder building in public and want to grow my personal brand to drive awareness for my product. I currently have 500 followers and post maybe once a week.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Establishes 3-5 content pillars",
+        "Applies LinkedIn platform guidance",
+        "Provides hook formulas",
+        "Creates weekly content calendar",
+        "Includes engagement strategy",
+        "Addresses batching strategy for consistency",
+        "Recommends increasing from 1x to 3-5x per week"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Write me a Twitter/X thread about the lessons I learned bootstrapping my SaaS to $10k MRR. Include hooks and a CTA at the end.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies hook formulas from the skill",
+        "Uses a story hook for the first tweet",
+        "Structures thread with standalone but flowing tweets",
+        "Uses specific numbers and stories",
+        "Ends with clear CTA",
+        "Provides 8-12 tweet thread content",
+        "Includes engagement prompts"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "i have a blog post that did really well. how do i turn it into social media content for multiple platforms?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies content repurposing system",
+        "Uses Blog Post → Social Content mapping",
+        "Provides format for LinkedIn, Twitter/X, and Instagram",
+        "Follows the repurposing workflow",
+        "Extracts 3-5 key insights to repurpose",
+        "Provides platform-specific format recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "My LinkedIn posts get like 200 impressions and almost no engagement. What am I doing wrong?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies analytics and optimization guidance",
+        "Diagnoses potential engagement issues",
+        "Addresses hook quality",
+        "Addresses posting timing",
+        "Recommends daily engagement routine",
+        "Suggests trying different content formats",
+        "Provides specific before/after hook examples"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Help me reverse-engineer what's working for top creators in the DevTools space on Twitter. I want to understand their content patterns.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies reverse engineering viral content framework",
+        "Walks through the full process (find, collect, analyze, codify, apply)",
+        "Recommends identifying 10-20 accounts",
+        "Describes what patterns to analyze",
+        "Emphasizes layering authentic voice",
+        "Provides data collection guidance"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

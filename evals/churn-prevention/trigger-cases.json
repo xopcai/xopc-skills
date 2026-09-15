@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "churn-prevention",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Our SaaS product has a 7% monthly churn rate and we need to bring it down. We're a $49/month project management tool with about 2,000 paying customers. Can you help us design a churn prevention strategy?"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "We keep losing customers because their credit cards expire. About 15% of our churn is from failed payments. How do we fix this?"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "what should we show users when they click the cancel button? right now they just go straight to cancellation with no attempt to save them"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "How do we identify which customers are at risk of churning before they actually cancel? We want to be proactive."
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Our exit survey shows that 40% of cancellations say 'too expensive' as the reason. What save offers should we try?"
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "请帮我诊断并降低客户流失，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料诊断并降低客户流失。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 诊断并降低客户流失 with metrics and acceptance criteria."
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "基于这份产品背景和用户数据，诊断并降低客户流失并标注假设。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "请检查当前方案，再诊断并降低客户流失，给出优先级和下一步。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "We make a project management tool for design agencies. Who should we look for as co-marketing partners?"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "We want to sponsor a big YouTuber with 1M subs. Should we just pay their flat rate?"
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "We're a B2B SaaS that wants to start a community. Should we use Discord or Slack?"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Help me design a referral program for our SaaS product. We're a $49/month project management tool with about 1,000 customers. We want to encourage word-of-mouth growth."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "We're launching our AI SaaS in 3 weeks. Help me plan all the directories we should submit to."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "I want to set up a recurring loop that watches our SEO and tells me what to do each week. We're a B2B SaaS with a content-heavy site."
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "Help me set up our lead lifecycle stages. We're a B2B SaaS company selling to mid-market. We use HubSpot as our CRM and have marketing and sales teams that aren't aligned on lead definitions."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Google Ads says we got 50 conversions last month, Meta says 40, GA4 says 60, and our CRM shows 35 closed deals. Which one is right? I need to know our real numbers before I set next quarter's budget."
+    }
+  ]
+}

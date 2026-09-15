@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "skill": "image",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "I need a hero image for a blog post about email deliverability. Make it visually striking.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Recommends AI generation for one-off hero",
+        "Proposes visual metaphor for topic",
+        "Specifies 1200x630 dimensions",
+        "Recommends Flux, Gemini, or Ideogram",
+        "Provides structured prompt",
+        "Mentions WebP optimization"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Generate me an image of our app's dashboard.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Refuses to use AI generation for product UI",
+        "Explains models hallucinate UI",
+        "Recommends real screenshots at 2x resolution",
+        "Mentions device mockups for framing",
+        "Suggests specific screenshot tools",
+        "Notes this as a common mistake"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Need a Twitter/X header banner for our company. We just want to show our product and tagline.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Specifies 1500x500 dimensions",
+        "Warns about avatar overlap area",
+        "Recommends minimal text",
+        "Suggests Canva or Figma over AI",
+        "Mentions Ideogram for text-heavy designs",
+        "Recommends testing at display size"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "I need 5 versions of the same hero image for Twitter, LinkedIn, Instagram feed, Instagram stories, and Facebook. What's the fastest way?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends Canva Magic Resize",
+        "Lists dimensions for all 5 platforms",
+        "Notes Instagram 4:5 variant",
+        "Suggests programmatic text overlays for variants",
+        "Says start at highest resolution"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "What's the best image format for our website?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends WebP as default",
+        "Mentions JPEG/PNG fallback strategy",
+        "Lists optimization checklist items",
+        "Mentions lazy loading",
+        "Mentions explicit dimensions to prevent CLS",
+        "Provides command line tool example"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "skill": "copywriting",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Write homepage copy for a SaaS tool that automates employee onboarding. Target audience is HR directors at mid-size companies (200-2000 employees). Main differentiator is that it integrates with all major HRIS systems and cuts onboarding time from 2 weeks to 2 days.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Writes full page copy organized by section",
+        "Includes Headline, Subheadline, and CTA above the fold",
+        "Includes Social Proof, Problem/Pain, Solution/Benefits, How It Works sections",
+        "Uses the '2 weeks to 2 days' specificity in copy",
+        "CTAs are action-oriented, not generic",
+        "Provides 2-3 headline alternatives with rationale",
+        "Includes annotations explaining copy choices"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Rewrite this headline: 'An Innovative AI-Powered Platform for Streamlined Business Operations' — it's for a B2B SaaS tool that helps small businesses manage invoicing and payments.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies jargon in original headline",
+        "Identifies vagueness as a problem",
+        "Identifies company language vs customer language issue",
+        "Provides 2-3 alternative headlines",
+        "Alternatives use headline formulas from the skill",
+        "Each alternative includes rationale",
+        "Suggests a subheadline"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "i need copy for my pricing page. we have three plans: starter ($29/mo), pro ($79/mo), business ($199/mo). it's a social media scheduling tool for marketers",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies Pricing Page guidance",
+        "Addresses 'which plan is right for me' anxiety",
+        "Makes recommended plan obvious",
+        "Writes benefit-oriented feature copy, not just feature names",
+        "Includes page headline",
+        "CTAs are specific per plan",
+        "Includes FAQ or objection handling copy"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Write copy for our About page. We're a 3-person startup that built a developer tool for database migrations. Founded because we kept losing data during migrations at our last jobs. Tone should be professional but human.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies About Page guidance",
+        "Tells the story of why the company exists",
+        "Connects mission to customer benefit",
+        "Includes a CTA",
+        "Adapts tone to professional but human",
+        "Uses the founder origin story",
+        "Connects personal pain to customer pain",
+        "Uses active voice"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Can you improve this CTA? We currently have 'Learn More' on our feature page for our analytics dashboard product.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies 'Learn More' as a weak CTA",
+        "Applies the CTA formula from the skill",
+        "Provides 2-3 strong alternatives",
+        "Each alternative includes rationale",
+        "Considers CTA hierarchy (primary vs secondary)",
+        "Suggests complementary CTAs"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

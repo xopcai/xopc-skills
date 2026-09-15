@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "community-marketing",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "We're a B2B SaaS that wants to start a community. Should we use Discord or Slack?"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "We just launched our community 3 weeks ago. We have 40 members but only 2-3 people post regularly. Everyone else just lurks. What do we do?"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "Help me write community guidelines for our Discord. We're building a community for indie game developers."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "Design an ambassador program for our community. We have about 5,000 members and a few that always help others. Want to give them more recognition."
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Our community feels dead. Members joined 6 months ago but most haven't posted in months. How do I tell if it's salvageable?"
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "We use our community mainly for support. How do we reduce ticket volume without making customers feel ignored?"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "We're a technical dev-tool startup, still tiny. Our users are opinionated engineers and their feedback basically drives our roadmap. What kind of community should we build, and how will running it change as we grow?"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "请帮我建立社区营销计划，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料建立社区营销计划。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 建立社区营销计划 with metrics and acceptance criteria."
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "We make a project management tool for design agencies. Who should we look for as co-marketing partners?"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "We want to sponsor a big YouTuber with 1M subs. Should we just pay their flat rate?"
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "Our SaaS product has a 7% monthly churn rate and we need to bring it down. We're a $49/month project management tool with about 2,000 paying customers. Can you help us design a churn prevention strategy?"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Help me design a referral program for our SaaS product. We're a $49/month project management tool with about 1,000 customers. We want to encourage word-of-mouth growth."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "We're launching our AI SaaS in 3 weeks. Help me plan all the directories we should submit to."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "I want to set up a recurring loop that watches our SEO and tells me what to do each week. We're a B2B SaaS with a content-heavy site."
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "Help me set up our lead lifecycle stages. We're a B2B SaaS company selling to mid-market. We use HubSpot as our CRM and have marketing and sales teams that aren't aligned on lead definitions."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Google Ads says we got 50 conversions last month, Meta says 40, GA4 says 60, and our CRM shows 35 closed deals. Which one is right? I need to know our real numbers before I set next quarter's budget."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "skill": "onboarding",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me optimize our onboarding flow. We have a project management tool and only 30% of trial users create their first project within the first week. We need to get them to value faster.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Defines the activation/aha moment",
+        "Evaluates time-to-value",
+        "Recommends onboarding flow approach",
+        "Applies checklist pattern with 3-7 items",
+        "Addresses empty states as opportunities",
+        "Provides experiment ideas",
+        "Includes measurement metrics"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "What should our onboarding checklist include? We're a design collaboration tool. Users need to upload a design, invite a team member, and leave a comment to get full value.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies checklist pattern",
+        "Includes the 3 stated activation actions",
+        "Limits to 3-7 total items",
+        "Orders by increasing commitment",
+        "Starts with quickest win",
+        "Recommends progress indicators",
+        "Addresses skipped items",
+        "Provides UX recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "our users sign up but then never come back. like 50% don't even log in a second time. what do we do?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies stalled users framework",
+        "Identifies potential root causes for drop-off",
+        "Recommends first-session experience improvements",
+        "Suggests multi-channel onboarding",
+        "Cross-references emails for re-engagement",
+        "Provides specific re-engagement triggers"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "How do we handle the empty state when a new user first logs in? Right now they just see a blank dashboard.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies empty states as opportunities guidance",
+        "Recommends alternatives to blank dashboard",
+        "Suggests sample data or templates",
+        "Provides clear first action CTA",
+        "Addresses blank canvas paralysis",
+        "Provides specific empty state design recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Should we use tooltips, a product tour, or a setup wizard for onboarding? What works best?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Compares tooltips, product tours, and setup wizards",
+        "Explains when each works best",
+        "Notes that combination approaches often work",
+        "Provides best practices for each",
+        "Addresses tooltip fatigue and tour length",
+        "Recommends testing different approaches"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

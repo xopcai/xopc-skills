@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "skill": "launch",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We're launching a new B2B SaaS product for design teams in 6 weeks. It's a design review tool. We have a small audience (500 email subscribers, 2k Twitter followers). Help us plan the launch.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies ORB Framework (Owned, Rented, Borrowed)",
+        "Maps to user's specific channels and audience sizes",
+        "Recommends five-phase launch approach",
+        "Provides timeline mapped to 6-week window",
+        "Provides specific tactics for each phase",
+        "Recommends audience building before launch",
+        "Includes launch day checklist"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We want to launch on Product Hunt. Any tips? We've never done it before.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies Product Hunt strategy section",
+        "Covers timing (day and time selection)",
+        "Covers asset preparation",
+        "Addresses hunter network and supporter activation",
+        "Recommends preparation timeline",
+        "Mentions common mistakes to avoid",
+        "Sets realistic expectations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "we just shipped a major feature update. how should we announce it? it's not a full product launch, just a big new feature.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies ongoing launch strategy / update matrix",
+        "Identifies as major feature update",
+        "Scales tactics appropriately (not full launch)",
+        "Recommends announcement channels",
+        "Includes email, blog, social, and in-app notification",
+        "Provides feature announcement framework"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Our launch flopped. We launched 3 weeks ago and only got 50 signups. We expected at least 500. What went wrong and what can we do now?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies post-launch product marketing guidance",
+        "Diagnoses potential failure causes",
+        "Addresses pre-launch audience building gap",
+        "Recommends post-launch recovery tactics",
+        "Suggests analyzing which channels produced signups",
+        "Provides specific recovery plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "How do we leverage partnerships and borrowed audiences for our launch? We don't have a big audience of our own.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Focuses on Borrowed channel from ORB Framework",
+        "Provides specific borrowed audience tactics",
+        "Mentions partnerships, communities, guest content",
+        "Recommends how to identify and approach partners",
+        "Notes borrowed strategies take time to build",
+        "Suggests starting well before launch day"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

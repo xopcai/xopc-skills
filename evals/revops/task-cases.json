@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "skill": "revops",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me set up our lead lifecycle stages. We're a B2B SaaS company selling to mid-market. We use HubSpot as our CRM and have marketing and sales teams that aren't aligned on lead definitions.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies lead lifecycle framework with all stages",
+        "Defines criteria for each stage transition",
+        "Addresses marketing-sales alignment",
+        "Provides CRM implementation guidance for HubSpot",
+        "Includes lead scoring setup",
+        "Provides handoff process between teams"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Set up lead scoring for us. We want to prioritize which leads sales should call first. We sell enterprise software ($50k+ ACV).",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies lead scoring with explicit, implicit, and negative dimensions",
+        "Provides specific scoring criteria for enterprise",
+        "Weights firmographic signals appropriately",
+        "Includes behavioral scoring signals",
+        "Includes negative scoring signals",
+        "Defines MQL and SQL score thresholds",
+        "Recommends lead routing based on scores"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "our pipeline is a mess. deals sit in stages forever and we don't know what's actually going to close. how do we fix this?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies pipeline stage management",
+        "Defines stages with entry/exit criteria",
+        "Recommends maximum time per stage",
+        "Addresses deal hygiene and pipeline reviews",
+        "Recommends CRM automation for enforcement",
+        "Provides practical cleanup plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "What RevOps metrics should we be tracking? We want to build a dashboard for our leadership team.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies RevOps metrics dashboard",
+        "Covers full-funnel metrics",
+        "Includes conversion rates between stages",
+        "Includes pipeline velocity and coverage",
+        "Includes CAC, LTV, LTV:CAC",
+        "Organizes by audience",
+        "Recommends dashboard structure and review cadence"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Our CRM data is a disaster. Duplicate records, missing fields, inconsistent naming. How do we clean it up and keep it clean?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies data hygiene guidance",
+        "Recommends duplicate detection and merging",
+        "Recommends required field enforcement",
+        "Addresses standardized naming conventions",
+        "Covers both cleanup and prevention",
+        "Recommends CRM automation for hygiene",
+        "Provides prioritized cleanup plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}
