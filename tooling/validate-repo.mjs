@@ -111,8 +111,8 @@ if (categoryRegistry) {
   if (categoryRegistry.schemaVersion !== 1 || !Array.isArray(categoryRegistry.categories)) {
     errors.push("registry/categories.json: unsupported shape")
   } else {
-    if (!Number.isInteger(categoryRegistry.maxSkillsPerCategory) || categoryRegistry.maxSkillsPerCategory < 1 || categoryRegistry.maxSkillsPerCategory > 20) {
-      errors.push("registry/categories.json: maxSkillsPerCategory must be 1..20")
+    if (!Number.isInteger(categoryRegistry.maxSkillsPerCategory) || categoryRegistry.maxSkillsPerCategory < 1 || categoryRegistry.maxSkillsPerCategory > 50) {
+      errors.push("registry/categories.json: maxSkillsPerCategory must be 1..50")
     }
     if (categoryRegistry.categories.length > 13) errors.push("registry/categories.json: no more than 13 functional categories are allowed")
     checkUnique(categoryRegistry.categories, "id", "registry/categories.json")

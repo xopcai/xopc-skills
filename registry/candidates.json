@@ -1825,6 +1825,150 @@
         "需要真实任务盲评和长期效果基线",
         "外部发送、发布、花费和账户写入需由宿主工具执行并核验"
       ]
+    },
+    {
+      "id": "kepano-obsidian-skills-obsidian-markdown-adaptation",
+      "scenarioId": "obsidian-authoring",
+      "upstreamId": "kepano-obsidian-skills",
+      "skillPath": "skills/obsidian-markdown",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
+    },
+    {
+      "id": "kepano-obsidian-skills-json-canvas-adaptation",
+      "scenarioId": "obsidian-authoring",
+      "upstreamId": "kepano-obsidian-skills",
+      "skillPath": "skills/json-canvas",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
+    },
+    {
+      "id": "kepano-obsidian-skills-obsidian-bases-adaptation",
+      "scenarioId": "obsidian-authoring",
+      "upstreamId": "kepano-obsidian-skills",
+      "skillPath": "skills/obsidian-bases",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
+    },
+    {
+      "id": "anbeime-skill-contract-risk-review-adaptation",
+      "scenarioId": "contract-risk-review",
+      "upstreamId": "anbeime-skill",
+      "skillPath": "skills/legal-assistant-skills-main/contract-review",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
+    },
+    {
+      "id": "anbeime-skill-four-color-evidence-analysis-adaptation",
+      "scenarioId": "four-color-evidence-analysis",
+      "upstreamId": "anbeime-skill",
+      "skillPath": "skills/antinet-four-color-cards",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
+    },
+    {
+      "id": "anbeime-skill-agent-run-provenance-adaptation",
+      "scenarioId": "agent-run-provenance",
+      "upstreamId": "anbeime-skill",
+      "skillPath": "skills/antinet-provenance",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
+    },
+    {
+      "id": "anbeime-skill-content-intake-security-adaptation",
+      "scenarioId": "content-intake-security",
+      "upstreamId": "anbeime-skill",
+      "skillPath": "skills/antinet-security-scan",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
+    },
+    {
+      "id": "anbeime-skill-x-article-publisher-adaptation",
+      "scenarioId": "x-article-publishing",
+      "upstreamId": "anbeime-skill",
+      "skillPath": "skills/qiaomu-x-article-publisher",
+      "decision": "adapt-evaluate",
+      "status": "implemented-experimental",
+      "strengths": [
+        "独立用户任务与可验证交付物明确",
+        "许可证在所选包或一级来源中可确认",
+        "依赖可移除、降级或由宿主能力替代"
+      ],
+      "gaps": [
+        "需要真实任务盲评和目标运行时验证",
+        "上游描述中的绝对效果或平台假设不能继承",
+        "稳定状态仍需行为基线和长期维护证据"
+      ]
     }
   ]
 }

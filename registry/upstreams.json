@@ -234,6 +234,24 @@
       "licenseStatus": "no-repository-license-found",
       "decision": "reference-only",
       "notes": "内容是通用编码行为准则而非独立用户任务，且未发现可再分发许可证；不进入官方 Skill 目录。"
+    },
+    {
+      "id": "anbeime-skill",
+      "repository": "https://github.com/anbeime/skill",
+      "observedCommit": "afaf2ce2de5b678bf741242229c34dd7b3968900",
+      "role": "discovery-and-adaptation-source",
+      "licenseStatus": "mixed-per-skill-review",
+      "decision": "adapted-selection",
+      "notes": "Inventoried 84 SKILL.md entries. Five separately licensed, non-overlapping packages were adapted; duplicates, generated mirrors, unsafe claims, missing-license packages, and coupled media pipelines were excluded."
+    },
+    {
+      "id": "kepano-obsidian-skills",
+      "repository": "https://github.com/kepano/obsidian-skills",
+      "observedCommit": "8ccef29ae8624eccc734e77ced4a6e54baf5d83a",
+      "role": "primary-adaptation-source",
+      "licenseStatus": "mit",
+      "decision": "adapted-selection",
+      "notes": "Primary source traced from the anbeime inventory; three open-format Obsidian Skills were adapted with vault-preservation and validation boundaries."
     }
   ]
 }

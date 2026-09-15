@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/anbeime/skill",
+  "commit": "afaf2ce2de5b678bf741242229c34dd7b3968900",
+  "path": "skills/antinet-security-scan",
+  "license": "Apache-2.0",
+  "copyright": "Copyright 2026 深圳市安贝信息技术有限公司 (anbeime)",
+  "xopcChanges": [
+    "Narrowed the trigger to one Store-owned user outcome and removed host-specific orchestration",
+    "Added evidence, privacy, authorization, failure-recovery, and post-action verification boundaries",
+    "Added XOPC metadata and independent trigger/task fixtures; excluded credentials, browser state, generated outputs, and coupled demo runtime"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/kepano/obsidian-skills",
+  "commit": "8ccef29ae8624eccc734e77ced4a6e54baf5d83a",
+  "path": "skills/obsidian-bases",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Steph Ango (@kepano)",
+  "xopcChanges": [
+    "Narrowed the trigger to one Store-owned user outcome and removed host-specific orchestration",
+    "Added evidence, privacy, authorization, failure-recovery, and post-action verification boundaries",
+    "Added XOPC metadata and independent trigger/task fixtures; excluded credentials, browser state, generated outputs, and coupled demo runtime"
+  ]
+}

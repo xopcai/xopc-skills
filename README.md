@@ -22,11 +22,13 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.16 experimental`，包含 13 个中英双语功能分类、91 个细粒度场景目录、131 个场景和 148 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.17 experimental`，包含 13 个中英双语功能分类、97 个细粒度场景目录、137 个场景和 156 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
-机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 91 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
+机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 97 个场景目录维护；每个分类的容量上限为 50 个 Skill。映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
+
+v0.17 审查 `anbeime/skill` 固定 commit 的 84 个 Skill 入口，去重、许可证回溯和依赖审查后接入 8 个任务：Obsidian Markdown、Canvas、Bases，合同风险批注，四色证据分析，Agent 运行溯源，不可信内容入库安检，以及 X Articles 草稿发布。完整选择与排除理由见 [anbeime 接入审计](docs/anbeime-skill-intake-2026-09.md)。
 
 v0.16 固定审查 Corey Haines `marketingskills` v2.11.1 的 50 个 Skill：46 个非重叠任务完成 XOPC 适配并按测量、内容、开发、设计、商业运营和行业专业分类上线；4 个重复任务映射到现有主责 Skill。完整映射、命名冲突和授权边界见 [营销技能接入审计](docs/coreyhaines-marketingskills-intake-2026-09.md)。
 

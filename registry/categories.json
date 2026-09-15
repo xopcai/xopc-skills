@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "maxSkillsPerCategory": 20,
+  "maxSkillsPerCategory": 50,
   "categories": [
     {
       "id": "office-efficiency",
@@ -62,7 +62,8 @@
         "market-launch-marketing",
         "market-lead-magnets",
         "market-comparison-pages",
-        "market-sales-enablement"
+        "market-sales-enablement",
+        "x-article-publishing"
       ],
       "skills": [
         "content-campaign-pack",
@@ -81,7 +82,8 @@
         "launch",
         "lead-magnets",
         "competitors",
-        "sales-enablement"
+        "sales-enablement",
+        "x-article-publisher"
       ]
     },
     {
@@ -144,7 +146,8 @@
         "market-marketing-experimentation",
         "market-marketing-analytics",
         "market-search-visibility",
-        "market-app-store-growth"
+        "market-app-store-growth",
+        "four-color-evidence-analysis"
       ],
       "skills": [
         "evidence-based-research",
@@ -159,7 +162,8 @@
         "attribution",
         "ai-seo",
         "seo-audit",
-        "aso"
+        "aso",
+        "four-color-evidence-analysis"
       ]
     },
     {
@@ -206,14 +210,16 @@
         "publish-local-service-with-xopc-tunnel",
         "build-production-mcp-server",
         "author-reusable-skill",
-        "evaluate-and-improve-prompt"
+        "evaluate-and-improve-prompt",
+        "agent-run-provenance"
       ],
       "skills": [
         "xopc-model-gateway",
         "xopc-connector-builder",
         "mcp-server-builder",
         "reusable-skill-authoring",
-        "prompt-evaluation-improvement"
+        "prompt-evaluation-improvement",
+        "agent-run-provenance"
       ]
     },
     {
@@ -226,13 +232,17 @@
         "synthesize-workspace-knowledge",
         "curate-knowledge-base",
         "convert-documents-to-markdown",
-        "prepare-work-context-handoff"
+        "prepare-work-context-handoff",
+        "obsidian-authoring"
       ],
       "skills": [
         "workspace-knowledge-synthesis",
         "knowledge-base-curation",
         "document-to-markdown",
-        "work-context-handoff"
+        "work-context-handoff",
+        "obsidian-markdown",
+        "json-canvas",
+        "obsidian-bases"
       ]
     },
     {
@@ -323,7 +333,8 @@
         "market-paid-advertising",
         "market-marketing-strategy",
         "market-product-marketing-strategy",
-        "market-marketing-psychology"
+        "market-marketing-psychology",
+        "contract-risk-review"
       ],
       "skills": [
         "document-requirements-review",
@@ -342,7 +353,8 @@
         "offers",
         "product-pricing",
         "product-marketing",
-        "marketing-psychology"
+        "marketing-psychology",
+        "contract-risk-review"
       ]
     },
     {
@@ -357,7 +369,8 @@
         "analyze-security-ownership",
         "coordinate-production-incident",
         "redact-sensitive-data",
-        "review-agent-skill-security"
+        "review-agent-skill-security",
+        "content-intake-security"
       ],
       "skills": [
         "security-threat-model",
@@ -365,7 +378,8 @@
         "security-ownership-analysis",
         "incident-response-coordination",
         "privacy-redaction",
-        "agent-skill-security-review"
+        "agent-skill-security-review",
+        "content-intake-security"
       ]
     },
     {
