@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "skill": "paywalls",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me design the upgrade paywall for our project management tool. Free users can have 3 projects, and we want to show an upgrade screen when they try to create a 4th project.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Identifies as usage limit trigger",
+        "Applies paywall screen components framework",
+        "Includes headline, value demo, comparison, social proof, CTA",
+        "Provides specific copy recommendations",
+        "Addresses user's emotional state at the limit",
+        "Includes escape hatch option",
+        "Warns against anti-patterns"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Our free trial expires in 14 days and users see a generic 'Your trial has expired' screen. Upgrade rate from this screen is only 2%. How do we improve it?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as trial expiration trigger",
+        "Applies trial expiration paywall guidance",
+        "Recommends showing user's accomplishments during trial",
+        "Uses loss framing (what they'd lose)",
+        "Provides clear plan options",
+        "Includes social proof",
+        "Diagnoses why current 2% rate is low",
+        "Provides specific redesign recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "when should we show upgrade prompts? we don't want to be annoying but we also need to convert free users to paid.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies timing and frequency rules",
+        "Recommends specific trigger points",
+        "Addresses frequency capping",
+        "Warns against anti-patterns",
+        "Balances user experience with conversion goals",
+        "Provides specific recommendations for each trigger type"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Design a feature gate paywall. When free users click on 'Advanced Analytics' in our dashboard, we want to show them an upgrade prompt.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as feature gate trigger",
+        "Applies feature lock paywall guidance",
+        "Recommends showing preview of the feature",
+        "Explains specific benefit of the feature",
+        "Includes relevant plan comparison",
+        "Provides clear CTA and escape hatch",
+        "Provides copy recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "What are common mistakes to avoid with in-app paywalls? I don't want to be pushy or make users feel tricked.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies anti-patterns section",
+        "Covers dark patterns to avoid",
+        "Covers conversion killers",
+        "Covers frequency issues",
+        "Provides positive alternatives for each",
+        "Emphasizes helpful over pushy approach"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

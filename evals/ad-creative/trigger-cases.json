@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "ad-creative",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Generate ad creative for our Meta (Facebook/Instagram) campaign. We sell an AI writing assistant for content marketers. Main value prop: write blog posts 5x faster. Target audience: content marketing managers at B2B SaaS companies. Budget: $5k/month."
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "I need Google Ads copy for our CRM product. We're targeting the keyword 'best CRM for small business'. Need responsive search ads."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "Here's our ad performance data: Ad A (pain point angle) - CTR 2.1%, CPC $3.20, Conv rate 4.5%. Ad B (social proof angle) - CTR 1.4%, CPC $4.10, Conv rate 6.2%. Ad C (feature angle) - CTR 0.8%, CPC $5.50, Conv rate 2.1%. Help me iterate on these."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "we need linkedin ads for our enterprise security product. audience is CISOs and IT directors."
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "I need to generate a big batch of ad variations for a multi-platform campaign launching next week. We're a meal delivery service targeting busy professionals. Need ads for Google, Meta, and TikTok."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "I want to make one of those iMessage-style video ads for Meta — the ones where a fake text conversation reveals the product and a promo code. We sell a sleep tracking ring. Our promo code is RESTED."
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "We sell a menopause supplement. I saw those ads where someone asks ChatGPT a health question and the answer recommends the product — make one of those for us. Also curious about the Apple Notes version."
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "Our Meta account is stuck — we've tested 30 ads over two months and nothing beats the control. I have our reviews exported and access to our ad account data. Build me a creative plan for next month."
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "We generated four ad concepts for a client (an organic skincare brand) and need to send them something they can actually look at and approve — with the Instagram preview, the carousel frames, and the different headline options they can compare. Can you put that together?"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "I want to make one of those AirDrop-style video ads — where a phone gets an incoming AirDrop and you tap accept. We sell a limited-run sneaker drop."
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Help me plan a paid advertising strategy. We're a B2B SaaS tool for HR teams, selling at $99/month per seat. We have $15k/month to spend on ads and want to generate demo requests. Where should we advertise?"
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "We're a B2B SaaS about to cut our price 40% to compete with a cheaper rival. Have the council review this."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "I need marketing ideas for my SaaS product. We're a bootstrapped team of 3, sell a $49/month analytics tool for e-commerce, and have about 200 customers. Budget is tight — maybe $500/month for marketing."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "I'm starting a fractional CMO engagement with a Series A B2B SaaS doing $2M ARR, 12-person team with 1 marketer, $20K/month marketing budget. They want a marketing plan we can share with the team and the board. Build it."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Our B2B SaaS trial-to-paid conversion is stuck. Our plan is to run a 50% off first 3 months coupon to push more people to convert. It's a $99/month email-tool competitor and the biggest thing prospects say is they're scared to migrate their list and automations off their current provider. Is the discount the right move?"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Help me figure out pricing for our new SaaS product. It's a customer support platform for e-commerce stores. We're not sure whether to charge per agent, per ticket, or flat rate. Currently thinking $49-199/month range."
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "I want to set up my product marketing context. We're a B2B SaaS company that sells a customer feedback platform to product teams."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "How can I use psychology to increase conversions on our pricing page? We sell a B2B SaaS tool with three tiers ($29, $79, $199/month)."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "skill": "cold-email",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Write a cold email to VP of Marketing at mid-size B2B SaaS companies. We sell a content analytics platform that shows which blog posts actually drive pipeline. Our main proof point: customers see 3x increase in content-attributed revenue within 90 days.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Writes like a peer, not a vendor",
+        "Uses a structure framework from the skill",
+        "Subject line is short, lowercase, internal-looking",
+        "Every sentence earns its place (concise)",
+        "Personalization connects to prospect's problem",
+        "Uses proof point as social proof",
+        "CTA is low-friction"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Help me write a cold email to CTOs at enterprise companies. I sell cybersecurity training. My current email has a 2% open rate and 0% reply rate.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Diagnoses problems from the performance data",
+        "Identifies subject line as likely open rate issue",
+        "Applies voice calibration for CTO audience",
+        "Subject line is short, lowercase, internal-looking",
+        "Adapts tone for enterprise audience",
+        "Uses structure framework from the skill",
+        "Explains why each element works"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "write me a follow-up sequence. prospect didn't reply to my first email about our HR software. how many should I send and how far apart?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Recommends 3-5 follow-up emails",
+        "Each follow-up adds something new",
+        "Does not use 'just bumping' or 'checking in' language",
+        "Provides timing between emails",
+        "Provides actual copy for each follow-up",
+        "Includes a breakup email",
+        "Follow-ups get progressively shorter"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Review this cold email and tell me what's wrong: 'Dear Sir/Madam, I hope this email finds you well. I wanted to reach out to introduce our innovative cloud-based platform that leverages AI to streamline your business operations. We have helped over 500 companies transform their workflows. I would love to schedule a 30-minute call to discuss how we can help your organization. Best regards, John'",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies lack of personalization",
+        "Identifies filler phrases",
+        "Identifies jargon and buzzwords",
+        "Identifies vendor language vs peer language",
+        "Identifies CTA as too high-friction",
+        "Notes email is sender-focused not prospect-focused",
+        "Provides a rewritten version",
+        "Rewrite follows cold email principles"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "What are the best subject lines for cold emails? I want to maximize open rates.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies subject line guidelines (2-4 words, lowercase, internal-looking)",
+        "Provides specific examples",
+        "Explains why the format works",
+        "Warns against common bad subject line patterns",
+        "Notes distinction between open rate and reply rate"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

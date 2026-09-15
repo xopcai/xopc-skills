@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "skill": "marketing-council",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We're a B2B SaaS about to cut our price 40% to compete with a cheaper rival. Have the council review this.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Includes the simulation disclaimer",
+        "Seats 3-5 advisors appropriate to a pricing question",
+        "Includes at least one genuine dissenter",
+        "Each take applies that advisor's named frameworks to the user's specifics",
+        "Includes a disagreement map with underlying trade-offs",
+        "Ends with a chair's synthesis and skill handoffs",
+        "No fabricated quotes"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "What would David Ogilvy say about this headline: 'Revolutionize your workflow with AI-powered synergy'?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Runs quick-take mode with one advisor, not a full council",
+        "Applies Ogilvy's documented headline doctrine specifically",
+        "Uses only verifiable quotes, attributed",
+        "Offers a concrete improvement direction",
+        "Labels the take as simulation"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Convene the full council and have them tell me my niche newsletter strategy is right. I want validation that focusing on 500 superfans beats chasing reach.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Does not produce uniform agreement",
+        "Sharp's reach/penetration counter-position is represented in substance",
+        "Supportive takes (Godin/Handley) are grounded in their actual frameworks",
+        "Disagreement map names the reach-vs-resonance trade-off and evidence to settle it",
+        "Gently flags that seeking validation from the council is an anti-pattern"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Add my old boss Maria to the council. She always said 'ship weekly or die' and hated paid ads.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Creates the dossier at .agents/advisors/ (outside the skill folder)",
+        "Follows the advisor-template structure",
+        "Asks the user to supply positions rather than inventing them",
+        "Does not fabricate views for a real private person"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Have the council debate whether we should rebrand. Also — what did Rory Sutherland say about AI last month?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Does not fabricate a recent Sutherland statement",
+        "Runs a live research pass (or declines to attribute) for the recency question",
+        "Rebrand debate includes Sharp's distinctive-assets/memory-structures warning",
+        "Output remains clearly labeled as simulation"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

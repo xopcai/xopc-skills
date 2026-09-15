@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "skill": "churn-prevention",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Our SaaS product has a 7% monthly churn rate and we need to bring it down. We're a $49/month project management tool with about 2,000 paying customers. Can you help us design a churn prevention strategy?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Addresses both voluntary and involuntary churn",
+        "Designs cancel flow with proper stages",
+        "Includes exit survey with multiple categories",
+        "Maps save offers to cancellation reasons",
+        "Addresses dunning stack for payment recovery",
+        "Recommends health score model",
+        "Provides prioritized implementation plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We keep losing customers because their credit cards expire. About 15% of our churn is from failed payments. How do we fix this?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as involuntary churn / payment recovery",
+        "Applies dunning stack framework",
+        "Includes pre-dunning card expiration reminders",
+        "Includes smart retry logic",
+        "Provides dunning email sequence with escalating urgency",
+        "Recommends grace period before cancellation",
+        "Mentions card updater services or backup payment methods",
+        "Includes recovery benchmarks"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "what should we show users when they click the cancel button? right now they just go straight to cancellation with no attempt to save them",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Designs multi-step cancel flow",
+        "Includes exit survey with 7 categories",
+        "Provides dynamic save offers mapped to reasons",
+        "Includes copy recommendations",
+        "Warns against dark patterns",
+        "Includes confirmation and post-cancel steps"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "How do we identify which customers are at risk of churning before they actually cancel? We want to be proactive.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies health score model framework",
+        "Defines usage-based health signals",
+        "Defines engagement-based health signals",
+        "Defines account-based health signals",
+        "Recommends scoring methodology",
+        "Defines risk tiers with interventions",
+        "Suggests data sources and implementation"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Our exit survey shows that 40% of cancellations say 'too expensive' as the reason. What save offers should we try?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "References save offers for 'too expensive' reason",
+        "Suggests multiple offer types (discount, downgrade, pause)",
+        "Recommends testing different offers",
+        "Notes that 'too expensive' often masks other issues",
+        "Suggests deeper follow-up questions",
+        "Provides specific save offer copy or structure"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

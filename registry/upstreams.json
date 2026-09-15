@@ -166,11 +166,11 @@
     {
       "id": "coreyhaines-marketing-skills",
       "repository": "https://github.com/coreyhaines31/marketingskills",
-      "observedCommit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
-      "role": "adaptation-candidate",
+      "observedCommit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+      "role": "adaptation-source",
       "licenseStatus": "mit",
-      "decision": "candidate",
-      "notes": "高采用量 MIT 营销 Skill 库；仅吸收内容 Campaign 与潜客研究两个互斥场景。"
+      "decision": "adapted",
+      "notes": "v2.11.1 的 50 个营销 Skill 已完成固定版本审查：46 个非重叠任务进入 Experimental，4 个由 XOPC 现有主责 Skill 覆盖。"
     },
     {
       "id": "mohit-pm-claude-skills",

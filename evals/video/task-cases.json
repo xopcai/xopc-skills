@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "skill": "video",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We need a 2-minute product demo video for our SaaS homepage. What's the fastest way to produce it?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Walks through Product Demo workflow steps",
+        "Uses real screen recording, not AI generated UI",
+        "Recommends programmatic overlay tool",
+        "Mentions captions",
+        "Cross-references copywriting skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We want to make weekly product update videos. About 60 seconds each. Don't want to be on camera. Recommend a setup.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends AI avatar approach",
+        "Names HeyGen specifically",
+        "Mentions HeyGen MCP server for agents",
+        "Mentions custom avatars option",
+        "Identifies as a recurring use case",
+        "Warns about authenticity tradeoff"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "I want to generate a 10-second clip of a person typing on a laptop in a coffee shop for our landing page. Which AI tool?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Compares Veo, Runway, and Kling",
+        "Provides structured video prompt example",
+        "Follows Subject + Action + Camera + Style + Mood pattern",
+        "Warns about common prompt mistakes",
+        "Notes Sora reliability caveats"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We just did a 60-minute webinar. How do we get short clips out of it for social?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies repurposing workflow",
+        "Names Descript, Opus Clip, CapCut in sequence",
+        "Mentions captions essential",
+        "Specifies aspect ratios per platform",
+        "Mentions hooking in first 3 seconds",
+        "May cross-reference social skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We need to generate 50 personalized intro videos for sales outreach. Each one mentions a different company name and pain point.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends HeyGen + Hyperframes pipeline",
+        "Names HeyGen MCP server",
+        "Suggests template + loop approach",
+        "Recommends testing 5 manually first",
+        "Mentions reply tracking / ROI",
+        "Mentions captions"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

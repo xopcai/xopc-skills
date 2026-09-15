@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "skill": "signup",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Audit our signup flow. We have a 3-step process: Step 1 asks for email, password, and full name. Step 2 asks for company name, company size, role, and industry. Step 3 asks for use case and how they heard about us. Current completion rate is 45%.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Identifies flow type",
+        "Applies minimize required fields principle",
+        "Evaluates each field for necessity",
+        "Recommends deferring most Step 2 and all Step 3 fields",
+        "Provides findings in structured format",
+        "Includes Quick Wins, High-Impact Changes, Test Hypotheses"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Should we add Google and Microsoft SSO to our signup page? We're a B2B project management tool and currently only have email/password signup.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies social auth options guidance",
+        "Recommends Google and Microsoft for B2B",
+        "Explains conversion benefits of SSO",
+        "Recommends prominent placement",
+        "Addresses visual separation from email signup",
+        "Provides implementation recommendations"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "our signup form is just email and password but we still only get 35% of visitors to complete it. what else could be wrong?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Investigates beyond form fields",
+        "Applies trust and friction reduction",
+        "Checks for 'No credit card required' messaging",
+        "Checks error handling and password UX",
+        "Considers pre-form factors (value prop, page CRO)",
+        "Provides diagnostic checklist"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We require email verification before users can access the product. Is that hurting our conversion? Should we change it?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies verification flows guidance",
+        "Explains verification friction impact",
+        "Recommends delaying verification",
+        "Suggests letting users explore while pending",
+        "Discusses when verification is required",
+        "Provides improvements if verification is kept"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "What experiments should we run on our signup page? We want to improve our trial signup rate.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies experiment ideas section",
+        "Covers form design experiments",
+        "Covers copy and messaging experiments",
+        "Covers trial and commitment experiments",
+        "Prioritizes by likely impact",
+        "Cross-references ab-testing skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

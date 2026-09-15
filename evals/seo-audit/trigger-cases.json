@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "seo-audit",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Can you do an SEO audit of our SaaS website? We're getting about 2,000 organic visits/month but feel like we should be getting more. URL: https://example.com"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Why am I not ranking for 'project management software'? We have a page targeting that keyword but it's stuck on page 3."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "We just migrated from WordPress to Next.js and our organic traffic dropped 40% in the last month. Help!"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "Review the technical SEO of our e-commerce site. We have about 50,000 products and use faceted navigation."
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Can you check our blog posts for on-page SEO issues? We publish 4 posts per week but traffic has been flat for 6 months."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "I run a local plumbing business with 3 locations. My website barely shows up when people search for 'plumber near me' in our areas. What's wrong?"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "Our site loads really slowly, especially on mobile. Pages take 5-6 seconds to load. Is this hurting our SEO?"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "请帮我执行 SEO 审计，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料执行 SEO 审计。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 执行 SEO 审计 with metrics and acceptance criteria."
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "Google Ads says we got 50 conversions last month, Meta says 40, GA4 says 60, and our CRM shows 35 closed deals. Which one is right? I need to know our real numbers before I set next quarter's budget."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "How do I make sure our SaaS product shows up in AI search results? We're a project management tool and we keep getting left out of ChatGPT and Perplexity recommendations when people ask about project management software."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Here's our app on the App Store: https://apps.apple.com/us/app/example/id123456789. Can you audit our listing and tell me what to fix?"
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Help me plan a paid advertising strategy. We're a B2B SaaS tool for HR teams, selling at $99/month per seat. We have $15k/month to spend on ads and want to generate demo requests. Where should we advertise?"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "Generate ad creative for our Meta (Facebook/Instagram) campaign. We sell an AI writing assistant for content marketers. Main value prop: write blog posts 5x faster. Target audience: content marketing managers at B2B SaaS companies. Budget: $5k/month."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "Here's my SaaS landing page: https://example.com/product. We get about 5,000 visitors/month from Google Ads but only 1.2% convert to free trial signups. Can you help me figure out what's wrong?"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "Help me optimize our onboarding flow. We have a project management tool and only 30% of trial users create their first project within the first week. We need to get them to value faster."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Help me design the upgrade paywall for our project management tool. Free users can have 3 projects, and we want to show an upgrade screen when they try to create a 4th project."
+    }
+  ]
+}

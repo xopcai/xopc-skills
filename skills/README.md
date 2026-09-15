@@ -4,6 +4,33 @@ Distributed Skills live at `skills/<scenario>/<skill-name>`. The scenario direct
 
 | Scenario directory | Primary outcome | Selected Skills |
 |---|---|---|
+| `marketing-experimentation` | 把增长假设转化为有样本量、指标和停止规则的实验计划 | `ab-testing` |
+| `marketing-analytics` | 把业务问题和事件数据转化为可审计的测量、分析与归因方案 | `analytics`, `attribution` |
+| `search-visibility` | 基于可验证证据诊断传统搜索和 AI 答案中的可见性问题 | `ai-seo`, `seo-audit` |
+| `app-store-growth` | 用关键词、商店素材和实验数据形成可验证的应用商店增长计划 | `aso` |
+| `paid-advertising` | 形成有预算护栏、受众、创意和测量闭环的广告方案 | `ads`, `ad-creative` |
+| `conversion-optimization` | 基于用户意图和证据改进页面、注册、引导、付费墙与弹窗 | `cro`, `onboarding`, `paywalls`, `popups`, `signup` |
+| `marketing-media-production` | 把营销 brief 转化为有平台规格、品牌约束和验收标准的媒体资产 | `image`, `video` |
+| `website-search-foundations` | 形成可实施、可验证的程序化页面、结构化数据和信息架构方案 | `programmatic-seo`, `schema`, `site-architecture` |
+| `lifecycle-messaging` | 把用户阶段和行为信号转化为可测量、合规的邮件与短信序列 | `emails`, `sms` |
+| `social-marketing` | 把品牌目标和受众证据转化为平台适配的社交内容与节奏 | `social` |
+| `marketing-copy` | 形成清晰、可信、符合品牌和转化目标的营销文案 | `copywriting`, `copy-editing` |
+| `cold-outreach` | 用可验证的相关性和低风险外联边界生成冷邮件及跟进序列 | `cold-email` |
+| `earned-media` | 把可证实的新闻价值转化为媒体名单、pitch 和发布材料 | `public-relations` |
+| `partner-marketing` | 形成目标一致、权益清晰且可衡量的品牌或创作者合作方案 | `co-marketing`, `influencer-marketing` |
+| `community-marketing` | 把成员价值、运营节奏和反馈机制转化为可持续社区计划 | `community-marketing` |
+| `retention-marketing` | 用流失信号、干预方案和护栏指标形成留存改进闭环 | `churn-prevention` |
+| `referral-marketing` | 形成激励相容、可归因且防滥用的推荐计划 | `referrals` |
+| `launch-marketing` | 把发布目标转化为时间线、渠道、资产、责任人和复盘指标 | `events`, `launch` |
+| `lead-magnets` | 把用户问题转化为有明确交换价值和后续路径的获客资产 | `lead-magnets` |
+| `marketing-free-tools` | 把高意图用户问题转化为可实现、可测量的免费工具方案 | `free-tools` |
+| `growth-distribution` | 形成有渠道选择、质量门槛和归因方法的目录提交与增长循环 | `directory-submissions`, `marketing-loops` |
+| `comparison-pages` | 基于可追溯证据形成有用、公平且可维护的比较或替代页面 | `competitors` |
+| `sales-enablement` | 把买方问题和销售阶段转化为可验证、可复用的销售资产 | `sales-enablement` |
+| `marketing-strategy` | 综合目标、市场证据和真实资源形成有取舍的营销路线图 | `marketing-council`, `marketing-ideas`, `company-marketing-plan` |
+| `product-marketing-strategy` | 形成定位、Offer、包装和定价相互一致的产品营销决策 | `offers`, `product-pricing`, `product-marketing` |
+| `marketing-psychology` | 用合乎伦理的行为科学视角改进用户理解与选择 | `marketing-psychology` |
+| `revenue-operations` | 把营销、销售和客户成功数据转化为可执行的收入流程与治理 | `revops` |
 | `one-person-company` | Founder evidence and constraints to a focused, profitable operating loop | `find-community`, `validate-idea`, `processize`, `mvp`, `pricing`, `first-customers`, `marketing-plan`, `grow-sustainably`, `minimalist-review`, `company-values` |
 | `decision-research` | Evidence to decision brief | `evidence-based-research` |
 | `meeting-execution` | Meeting record to owned execution | `meeting-to-actions` |

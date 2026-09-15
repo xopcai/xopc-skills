@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "skill": "lead-magnets",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We're a B2B SaaS selling project management software to marketing agencies. What lead magnet should we create?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Asks about buyer stage and goal",
+        "Applies the 5 principles",
+        "Recommends specific format with rationale",
+        "Examples match the audience and product",
+        "Outlines all 5 output sections (recommendation, content, gating, distribution, measurement)"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We have a 50-page ebook we spent 3 months writing. Conversion on the landing page is only 4%. Should we keep iterating?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Diagnoses likely cause as length/effort mismatch",
+        "Recommends format A/B test",
+        "Suggests breaking into shorter formats",
+        "Reviews landing page structure",
+        "Asks about traffic source (cold vs warm)",
+        "Cross-references cro or ab-testing skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Our lead form asks for name, email, company, role, company size, and phone. We're not getting enough signups. Could the form be the problem?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Flags form length as likely culprit",
+        "Cites 5-10% per field rule",
+        "Recommends reducing to email or email + name",
+        "Asks what fields are actually used",
+        "Suggests progressive profiling",
+        "Cross-references cro skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We have a top-performing blog post on email subject lines. Can we use it as a lead magnet?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends content upgrade over gating the post",
+        "Cites 2-5x improvement vs generic CTAs",
+        "Suggests specific upgrade formats with rationale",
+        "Keeps blog post ungated to preserve SEO",
+        "Explains why upgrades convert better"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Our checklist gets a lot of downloads but very few of them ever sign up for a trial. Is the lead magnet broken?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Diagnoses as lead quality / buyer stage mismatch",
+        "Asks about ICP fit of leads",
+        "References Lead Quality Signals",
+        "Cross-references emails skill for nurture",
+        "Suggests a decision-stage lead magnet alternative",
+        "Mentions tracking time to conversion by source"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

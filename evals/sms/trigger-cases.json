@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "sms",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "We're a Shopify DTC brand doing $5M/year in skincare. We have 80K email subscribers but no SMS program yet. Where do we start?"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Write me an abandoned cart SMS sequence. We sell custom apparel, average order $80."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "Can I just send SMS without any opt-in if customers gave me their phone number at checkout?"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "Our SMS list is 50K subscribers. We send 3 promotional messages per week. Opt-out rate has crept up to 4% per send. What's wrong?"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "We just submitted our A2P 10DLC registration and our sends are working. Can we start scaling to 100K+ messages per day?"
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "Should we put emojis in our SMS messages? Other brands seem to use them a lot."
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "请帮我设计生命周期短信，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料设计生命周期短信。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 设计生命周期短信 with metrics and acceptance criteria."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "基于这份产品背景和用户数据，设计生命周期短信并标注假设。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Create a welcome email sequence for new users who sign up for our project management tool's free trial. The trial is 14 days. We want to get them to their aha moment (creating their first project and inviting a team member)."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Help me create a LinkedIn content strategy. I'm a SaaS founder building in public and want to grow my personal brand to drive awareness for my product. I currently have 500 followers and post maybe once a week."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "Write homepage copy for a SaaS tool that automates employee onboarding. Target audience is HR directors at mid-size companies (200-2000 employees). Main differentiator is that it integrates with all major HRIS systems and cuts onboarding time from 2 weeks to 2 days."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Edit this homepage copy for us: 'Welcome to CloudSync! We are very excited to offer you an innovative, cutting-edge platform that seamlessly integrates with your existing tools. Our powerful solution helps businesses of all sizes optimize their workflows and drive meaningful results. Get started today and experience the difference!'"
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Write a cold email to VP of Marketing at mid-size B2B SaaS companies. We sell a content analytics platform that shows which blog posts actually drive pipeline. Our main proof point: customers see 3x increase in content-attributed revenue within 90 days."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "We're a tiny 2-person SaaS competing against Notion in the docs space. We don't have any funding news or a big milestone. How do we get press coverage?"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "We're a B2B SaaS with a $30k opportunity to sponsor our industry's biggest annual conference (5,000 attendees). Marketing wants to do it for brand awareness. Should we?"
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "We're launching a new B2B SaaS product for design teams in 6 weeks. It's a design review tool. We have a small audience (500 email subscribers, 2k Twitter followers). Help us plan the launch."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "We're a B2B SaaS selling project management software to marketing agencies. What lead magnet should we create?"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Create a 'Best Asana Alternatives' page for our project management tool. We compete mainly on price (we're $8/user vs their $24/user) and simplicity (they've become bloated). Target audience is small teams (5-20 people)."
+    }
+  ]
+}

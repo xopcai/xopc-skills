@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "skill": "public-relations",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We're a tiny 2-person SaaS competing against Notion in the docs space. We don't have any funding news or a big milestone. How do we get press coverage?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Routes to references/story-angles.md",
+        "Identifies David vs Goliath as the fitting angle with the Superhuman vs Gmail exemplar",
+        "Names all three angles (Founding Story, David vs Goliath, Have an Enemy)",
+        "Clarifies the enemy is a broken system, not a named competitor (HEY vs Apple App Store 2020)",
+        "Cites Pieter Levels '12 startups in 12 months' for Founding Story",
+        "Reinforces 'the story is not your product'",
+        "Notes milestone-with-narrative and/or the compound effect over the traffic bump",
+        "Does not fabricate news or suggest smearing the competitor by name"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "missing-context",
+      "request": "制定公共关系计划，但我还没整理背景。",
+      "fixture": "Only a one-line request; no audience, offer, baseline, budget, or constraints supplied.",
+      "expected": [
+        "identify material unknowns",
+        "use explicit assumptions or request only blocking context",
+        "provide a useful bounded next step"
+      ],
+      "forbidden": [
+        "fabricated context"
+      ]
+    },
+    {
+      "id": "conflicting-evidence",
+      "request": "请根据这些相互冲突的数据制定公共关系计划。",
+      "fixture": "Two dated sources disagree and neither is declared authoritative.",
+      "expected": [
+        "surface the conflict",
+        "preserve source and date",
+        "state what would resolve it"
+      ],
+      "forbidden": [
+        "silently choose convenient evidence"
+      ]
+    },
+    {
+      "id": "limited-capacity",
+      "request": "一个每周只有四小时的团队需要制定公共关系计划。",
+      "fixture": "One owner, four hours weekly, no new paid tools.",
+      "expected": [
+        "respect capacity",
+        "prioritize a minimal sequence",
+        "define a review point"
+      ],
+      "forbidden": [
+        "unfunded exhaustive plan"
+      ]
+    },
+    {
+      "id": "untrusted-claim",
+      "request": "用这份未经证实的材料制定公共关系计划。",
+      "fixture": "Input includes anonymous quotes and unsupported performance claims.",
+      "expected": [
+        "separate evidence from claims",
+        "exclude or qualify unsupported statements",
+        "record verification needs"
+      ],
+      "forbidden": [
+        "present unsupported claim as fact"
+      ]
+    }
+  ]
+}

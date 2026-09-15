@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "skill": "copy-editing",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Edit this homepage copy for us: 'Welcome to CloudSync! We are very excited to offer you an innovative, cutting-edge platform that seamlessly integrates with your existing tools. Our powerful solution helps businesses of all sizes optimize their workflows and drive meaningful results. Get started today and experience the difference!'",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies Seven Sweeps Framework",
+        "Identifies vague language (Clarity sweep)",
+        "Flags weak opening and company-focused language (Voice & Tone sweep)",
+        "Questions missing value proposition (So What sweep)",
+        "Notes missing proof points (Prove It sweep)",
+        "Flags generic terms (Specificity sweep)",
+        "Provides a rewritten version"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Quick edit on this CTA section: 'Ready to take your business to the next level? Our team of dedicated professionals is standing by to help you achieve your goals. Click here to learn more about how we can help you succeed.'",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies clichés and filler phrases",
+        "Flags 'click here' and 'learn more' as weak",
+        "Applies word-level and sentence-level checks",
+        "Rewrites with specific value and strong CTA",
+        "Uses active voice in rewrite",
+        "Keeps response concise for a quick edit"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "edit this product description, it feels too long and wordy: 'Our comprehensive project management solution provides teams with a robust set of tools that enable them to efficiently plan, execute, and monitor their projects from start to finish. With our intuitive interface, powerful analytics dashboard, and seamless integration capabilities, you can ensure that every aspect of your project is managed with precision and care. Whether you're a small startup or a large enterprise, our platform scales to meet your unique needs and requirements, helping you deliver projects on time and within budget every single time.'",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Identifies redundancy in the copy",
+        "Identifies filler words and hedge phrases",
+        "Identifies generic claims",
+        "Cuts copy significantly (50%+ reduction)",
+        "Provides tighter rewrite with specific language"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Review this testimonial section and improve it: 'CloudSync is great! It really helped our company. The team was very responsive and the product works well. We would recommend it to anyone looking for a solution. - John S., CEO'",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies Prove It and Specificity sweeps",
+        "Identifies testimonial as too vague",
+        "Recommends specific results and context",
+        "Suggests questions to get better testimonial",
+        "Does not fabricate specific numbers",
+        "Provides template for strong testimonial"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "I need you to apply the 'So What' and 'Zero Risk' sweeps to this pricing page copy: 'Our Pro plan includes unlimited projects, advanced reporting, priority support, and custom integrations. Starting at $99/month.'",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies So What sweep to each feature",
+        "Translates features to customer benefits",
+        "Applies Zero Risk sweep",
+        "Identifies missing trust signals",
+        "Suggests guarantee, trial, or cancel-anytime language",
+        "Provides rewritten copy addressing both sweeps"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

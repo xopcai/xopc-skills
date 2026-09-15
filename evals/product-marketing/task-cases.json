@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "skill": "product-marketing",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "I want to set up my product marketing context. We're a B2B SaaS company that sells a customer feedback platform to product teams.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for existing product-marketing.md",
+        "Offers two options: auto-draft or start from scratch",
+        "Covers applicable sections",
+        "Walks through sections conversationally one at a time",
+        "Creates file at .agents/product-marketing.md"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Update our product marketing context. We just added a new enterprise tier and our target audience has expanded to include VP of Engineering, not just Product Managers.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Reads existing product-marketing.md",
+        "Identifies sections that need updating",
+        "Updates Target Audience with VP of Engineering",
+        "Adds new persona for the expanded audience",
+        "Updates Product Overview for enterprise tier",
+        "Preserves unchanged sections"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "create a product context doc for my app. it's a mobile app that helps people find hiking trails. we're just getting started.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Checks for existing context doc",
+        "Offers auto-draft or start-from-scratch options",
+        "Adapts questions for early-stage B2C mobile app",
+        "Notes some sections may be sparse early on",
+        "Skips non-applicable sections rather than forcing all 12",
+        "Creates file at .agents/product-marketing.md"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Can you auto-draft our product marketing context from our existing codebase and marketing materials?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Activates auto-draft workflow mode",
+        "Scans codebase for existing marketing materials",
+        "Drafts context from found information",
+        "Flags sections needing manual input",
+        "Presents draft for review before saving"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Do we have a product marketing context set up? I want to make sure the other marketing skills have context about our product.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks both file locations",
+        "Reports whether context doc exists",
+        "Summarizes contents if found",
+        "Offers to create if missing",
+        "Explains how other skills use it"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

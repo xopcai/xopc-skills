@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "skill": "ai-seo",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "How do I make sure our SaaS product shows up in AI search results? We're a project management tool and we keep getting left out of ChatGPT and Perplexity recommendations when people ask about project management software.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies three pillars framework (Structure, Authority, Presence)",
+        "Runs AI Visibility Audit across platforms",
+        "Checks content extractability",
+        "References Princeton GEO research findings",
+        "Checks AI bot access in robots.txt",
+        "Provides prioritized action plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Should we block AI crawlers like GPTBot and PerplexityBot in our robots.txt? We're worried about content theft.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Addresses the blocking tradeoff directly",
+        "Explains impact on AI visibility vs content protection",
+        "Lists specific AI bot user agents",
+        "Provides recommended robots.txt configuration",
+        "Gives nuanced recommendation based on business goals",
+        "Explains what each bot does"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "What kind of content gets cited most by AI systems? We want to create content specifically optimized for AI search.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "References specific content types with citation rates",
+        "Mentions comparisons as highest-cited format",
+        "Explains why these formats work for AI",
+        "Provides specific content creation recommendations",
+        "References Princeton GEO research",
+        "Mentions structured data, statistics, and clear definitions"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "we noticed our competitors are showing up in google AI overviews but we're not. what do we need to change?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Focuses on Google AI Overviews specifically",
+        "Explains how AI Overviews selects sources",
+        "Checks Structure pillar (extractability, headings, answer-first)",
+        "Checks Authority signals",
+        "Recommends specific content structure changes",
+        "Suggests monitoring approach"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Can you audit our website for AI search readiness? We want to know how visible we are across ChatGPT, Perplexity, Google AI Overviews, and other AI platforms.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Runs full AI Visibility Audit",
+        "Checks multiple AI platforms",
+        "Evaluates all three pillars (Structure, Authority, Presence)",
+        "Checks content extractability",
+        "Checks AI bot access",
+        "Provides findings organized by pillar",
+        "Provides prioritized action plan"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

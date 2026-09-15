@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "cro",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "Here's my SaaS landing page: https://example.com/product. We get about 5,000 visitors/month from Google Ads but only 1.2% convert to free trial signups. Can you help me figure out what's wrong?"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Our pricing page has three tiers but nobody picks the middle one. 60% choose the cheapest plan and 30% bounce entirely. What should we change?"
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "this page isn't converting. can you take a look? it's our homepage for a B2B project management tool"
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "We have a blog that gets 20k organic visits/month but almost nobody clicks through to our product. How do we get more conversions from blog readers?"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "We redesigned our landing page and conversions dropped from 4.2% to 2.8%. Here's the new page. What went wrong?"
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "Review this feature page for our API monitoring tool. Most traffic comes from organic search for 'API monitoring tools'. We want them to start a free trial."
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "请帮我优化营销页面转化，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料优化营销页面转化。"
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 优化营销页面转化 with metrics and acceptance criteria."
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "基于这份产品背景和用户数据，优化营销页面转化并标注假设。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Help me optimize our onboarding flow. We have a project management tool and only 30% of trial users create their first project within the first week. We need to get them to value faster."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Help me design the upgrade paywall for our project management tool. Free users can have 3 projects, and we want to show an upgrade screen when they try to create a 4th project."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "Help me create an exit-intent popup for our SaaS landing page. We want to capture emails from visitors who are about to leave without signing up. Our product is a social media scheduling tool."
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "Audit our signup flow. We have a 3-step process: Step 1 asks for email, password, and full name. Step 2 asks for company name, company size, role, and industry. Step 3 asks for use case and how they heard about us. Current completion rate is 45%."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "I need a hero image for a blog post about email deliverability. Make it visually striking."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "We need a 2-minute product demo video for our SaaS homepage. What's the fastest way to produce it?"
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "Google Ads says we got 50 conversions last month, Meta says 40, GA4 says 60, and our CRM shows 35 closed deals. Which one is right? I need to know our real numbers before I set next quarter's budget."
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "How do I make sure our SaaS product shows up in AI search results? We're a project management tool and we keep getting left out of ChatGPT and Perplexity recommendations when people ask about project management software."
+    }
+  ]
+}

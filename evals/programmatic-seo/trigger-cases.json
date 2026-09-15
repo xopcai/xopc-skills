@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "skill": "programmatic-seo",
+  "cases": [
+    {
+      "id": "positive-01",
+      "shouldTrigger": true,
+      "prompt": "We want to create programmatic SEO pages for our CRM. We're thinking of 'CRM for [industry]' pages — like 'CRM for Real Estate,' 'CRM for Healthcare,' etc. How should we approach this?"
+    },
+    {
+      "id": "positive-02",
+      "shouldTrigger": true,
+      "prompt": "Create a comparison page strategy. We want pages like 'Notion vs Asana', 'Notion vs Monday', etc. for all our competitors. We have 15 competitors."
+    },
+    {
+      "id": "positive-03",
+      "shouldTrigger": true,
+      "prompt": "we want to rank for '[tool name] integration' keywords. we integrate with 50+ tools and want a page for each. like 'Slack integration', 'Salesforce integration' etc."
+    },
+    {
+      "id": "positive-04",
+      "shouldTrigger": true,
+      "prompt": "We built 500 programmatic pages but Google isn't indexing most of them. Only 80 are in the index. What's going wrong?"
+    },
+    {
+      "id": "positive-05",
+      "shouldTrigger": true,
+      "prompt": "Help me create a glossary section for our marketing automation platform. We want to define 200+ marketing terms and rank for '[term] definition' keywords."
+    },
+    {
+      "id": "positive-06",
+      "shouldTrigger": true,
+      "prompt": "请帮我规划程序化 SEO 页面，先列出需要的证据和约束。"
+    },
+    {
+      "id": "positive-07",
+      "shouldTrigger": true,
+      "prompt": "我们正在做新产品，请根据现有材料规划程序化 SEO 页面。"
+    },
+    {
+      "id": "positive-08",
+      "shouldTrigger": true,
+      "prompt": "I need a reviewable plan to 规划程序化 SEO 页面 with metrics and acceptance criteria."
+    },
+    {
+      "id": "positive-09",
+      "shouldTrigger": true,
+      "prompt": "基于这份产品背景和用户数据，规划程序化 SEO 页面并标注假设。"
+    },
+    {
+      "id": "positive-10",
+      "shouldTrigger": true,
+      "prompt": "请检查当前方案，再规划程序化 SEO 页面，给出优先级和下一步。"
+    },
+    {
+      "id": "negative-01",
+      "shouldTrigger": false,
+      "prompt": "Add schema markup to our SaaS product's homepage. We're a project management tool called TaskFlow. We need Organization schema and any other relevant types."
+    },
+    {
+      "id": "negative-02",
+      "shouldTrigger": false,
+      "prompt": "Help me plan the site architecture for our new SaaS marketing website. We have a homepage, product page, pricing page, about page, blog, and want to add competitor comparison pages and integration pages."
+    },
+    {
+      "id": "negative-03",
+      "shouldTrigger": false,
+      "prompt": "We want to build a free tool to drive leads for our SEO software. We're thinking about an SEO audit tool or a keyword research tool. Which would be better and how should we approach it?"
+    },
+    {
+      "id": "negative-04",
+      "shouldTrigger": false,
+      "prompt": "I want to A/B test our homepage headline. We currently say 'The All-in-One Project Management Tool' and want to test something benefit-focused. We get about 15,000 visitors/month and our current signup rate is 3.2%."
+    },
+    {
+      "id": "negative-05",
+      "shouldTrigger": false,
+      "prompt": "Help me set up analytics tracking for our B2B SaaS product. We use GA4 and GTM. We need to track signups, feature usage, and upgrade events."
+    },
+    {
+      "id": "negative-06",
+      "shouldTrigger": false,
+      "prompt": "Google Ads says we got 50 conversions last month, Meta says 40, GA4 says 60, and our CRM shows 35 closed deals. Which one is right? I need to know our real numbers before I set next quarter's budget."
+    },
+    {
+      "id": "negative-07",
+      "shouldTrigger": false,
+      "prompt": "How do I make sure our SaaS product shows up in AI search results? We're a project management tool and we keep getting left out of ChatGPT and Perplexity recommendations when people ask about project management software."
+    },
+    {
+      "id": "negative-08",
+      "shouldTrigger": false,
+      "prompt": "Can you do an SEO audit of our SaaS website? We're getting about 2,000 organic visits/month but feel like we should be getting more. URL: https://example.com"
+    },
+    {
+      "id": "negative-09",
+      "shouldTrigger": false,
+      "prompt": "Here's our app on the App Store: https://apps.apple.com/us/app/example/id123456789. Can you audit our listing and tell me what to fix?"
+    },
+    {
+      "id": "negative-10",
+      "shouldTrigger": false,
+      "prompt": "Help me plan a paid advertising strategy. We're a B2B SaaS tool for HR teams, selling at $99/month per seat. We have $15k/month to spend on ads and want to generate demo requests. Where should we advertise?"
+    }
+  ]
+}

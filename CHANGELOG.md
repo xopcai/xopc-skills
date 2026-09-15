@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.16.0 - 2026-09-15
+
+- Added 46 MIT-licensed marketing Skills adapted from `coreyhaines31/marketingskills` v2.11.1 at fixed commit `5b2c0007766c6a1cf1d53fd8fc73e979e0821022`.
+- Classified the additions across measurement, content, development, design and media, business operations, and professional strategy without exceeding the 20-Skill Store category cap.
+- Mapped four overlapping upstream tasks to existing XOPC owners and renamed two Store collisions to `company-marketing-plan` and `product-pricing`.
+- Added fixed source records, attribution, 46 adaptation records, 920 trigger fixtures, 230 task fixtures, and explicit evidence, authorization, platform-volatility, and post-action verification boundaries.
+
 ## 0.15.0 - 2026-09-13
 
 - Added twelve original experimental Skills from WorkBuddy live marketplace and QwenWork public workflow evidence.

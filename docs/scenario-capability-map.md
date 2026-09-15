@@ -69,6 +69,10 @@ The official repository organizes Skills around user outcomes. A Skill has exact
 | work-handoff | `skills/work-handoff` | 将当前任务证据压缩为保留目标、状态、约束和可继续步骤的交接材料 | `work-context-handoff` | Owns task continuation context; project-status-synthesis owns stakeholder reporting, workspace-knowledge-synthesis owns cross-source answers. Does not automatically write persistent memory. |
 | prompt-quality | `skills/prompt-quality` | 将具体任务的提示词失败案例转化为可对比、可复现的提示词修订与评测结论 | `prompt-evaluation-improvement` | Owns task-prompt quality and measured comparison; reusable-skill-authoring owns installable packages. Model-specific media parameters require verified documentation and are not bundled here. |
 
+## Marketing capability intake (v0.16)
+
+The v0.16 marketing additions are routed through 27 narrow scenarios. Measurement and search audits live in Data Analysis; copy and channel assets in Content Creation; web discovery implementation in Development; conversion and media work in Design & Media; growth programs in Business Operations; paid, company, product, pricing and behavior strategy in Professional. The complete one-to-one mapping is recorded in [the intake audit](coreyhaines-marketingskills-intake-2026-09.md), while `registry/categories.json` remains the Store display source of truth.
+
 ## Composition
 
 Composition is explicit and artifact-based. For example, `evidence-based-research` may produce supported audience facts consumed by `content-campaign-pack`; it must not generate the Campaign itself. `meeting-to-actions` may propose tracker items; it must not perform the broader weekly capacity review. `prospect-research` stops at the qualified list and never sends outreach.

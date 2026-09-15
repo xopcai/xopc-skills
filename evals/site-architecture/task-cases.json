@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "skill": "site-architecture",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Help me plan the site architecture for our new SaaS marketing website. We have a homepage, product page, pricing page, about page, blog, and want to add competitor comparison pages and integration pages.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Applies 3-click rule and flat vs deep principles",
+        "Creates ASCII tree for site structure",
+        "Organizes pages logically",
+        "Recommends URL structure for each section",
+        "Provides navigation design (4-7 header items)",
+        "Includes internal linking strategy",
+        "Provides hierarchy, URL map, and nav spec"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Our website has grown organically and the navigation is a mess. We have 50+ pages and users can't find anything. Help us reorganize.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends content inventory first",
+        "Groups related pages logically",
+        "Applies 3-click rule",
+        "Redesigns navigation structure",
+        "Provides ASCII tree or visual sitemap",
+        "Addresses URL redirects for moved pages",
+        "Reduces header navigation items"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "what should our url structure look like? we keep debating between /blog/post-name vs /resources/blog/post-name and /product/feature vs /features/feature-name",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Applies URL structure patterns",
+        "Recommends shorter, cleaner paths",
+        "Provides recommendations for each section type",
+        "Addresses SEO implications",
+        "Provides URL map reference"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We're adding programmatic SEO pages — 200 integration pages and 50 comparison pages. How should these fit into our site architecture?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Recommends hub pages for each section",
+        "Applies hub-and-spoke internal linking",
+        "Keeps programmatic pages out of main nav",
+        "Provides URL structure for both sections",
+        "Addresses crawl budget for 250 pages",
+        "Cross-references programmatic-seo skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Can you create a visual sitemap for our site? We want something we can share with our design team.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Provides visual sitemap in Mermaid format",
+        "Shows hierarchical page relationships",
+        "Includes all major sections",
+        "Uses clear, readable format",
+        "Suitable for sharing with design team"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

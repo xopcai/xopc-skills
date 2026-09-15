@@ -1,0 +1,13 @@
+{
+  "mode": "adapted",
+  "repository": "https://github.com/coreyhaines31/marketingskills",
+  "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+  "path": "skills/marketing-psychology",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2025 Corey Haines",
+  "xopcChanges": [
+    "Pinned the v2.11.1 source and removed upstream evaluation fixtures from the installable package",
+    "Aligned routing names with existing XOPC ownership and added evidence, authorization, and verification boundaries",
+    "Added XOPC Store metadata plus trigger and task evaluation fixtures"
+  ]
+}

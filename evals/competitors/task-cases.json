@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "skill": "competitors",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Create a 'Best Asana Alternatives' page for our project management tool. We compete mainly on price (we're $8/user vs their $24/user) and simplicity (they've become bloated). Target audience is small teams (5-20 people).",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Identifies as plural alternatives format",
+        "Includes TL;DR comparison section",
+        "Includes feature comparison table",
+        "Includes pricing comparison",
+        "Includes 'who it's best for' per alternative",
+        "Positions user's product prominently with differentiators",
+        "Addresses SEO for target keyword"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Write a 'HubSpot vs Salesforce' comparison page. We're HubSpot and want to show why we're the better choice for SMBs.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as 'you vs competitor' format",
+        "Includes structured comparison sections",
+        "Includes feature-by-feature comparison",
+        "Includes pricing comparison",
+        "Includes TL;DR at the top",
+        "Factually accurate about competitor",
+        "Strategically positions user's product for SMBs",
+        "Includes migration path or switching section"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "we need a page targeting 'mailchimp alternative' (singular). we're an email marketing platform focused on e-commerce brands.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Identifies as singular alternative format",
+        "Focuses on user's product as THE alternative",
+        "Includes why people switch from Mailchimp",
+        "Highlights e-commerce-specific advantages",
+        "Includes feature and pricing comparison",
+        "Includes migration guide",
+        "Optimizes for singular keyword"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Can you create a comparison page for 'Notion vs Coda'? We're a third-party review site, not affiliated with either product.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as 'competitor vs competitor' format",
+        "Maintains objectivity (third-party perspective)",
+        "Includes balanced feature comparison",
+        "Includes pricing comparison",
+        "Includes use case recommendations",
+        "Addresses SEO considerations",
+        "Suggests monetization approach"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We want to build a whole competitor comparison hub. We have 5 main competitors and want to create alternative pages for each, plus head-to-head comparisons. How should we structure this?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Applies centralized competitor data architecture",
+        "Recommends hub structure with multiple page types",
+        "Suggests individual and roundup alternative pages",
+        "Addresses internal linking between comparison pages",
+        "Recommends research process for competitive data",
+        "Addresses URL structure"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

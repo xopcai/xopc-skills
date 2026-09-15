@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "skill": "programmatic-seo",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We want to create programmatic SEO pages for our CRM. We're thinking of 'CRM for [industry]' pages — like 'CRM for Real Estate,' 'CRM for Healthcare,' etc. How should we approach this?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Identifies as Personas playbook",
+        "Applies core principles (unique value, proprietary data, clean URLs)",
+        "Recommends keyword research per variation",
+        "Addresses data requirements for unique content",
+        "Provides template design guidance",
+        "Includes internal linking strategy",
+        "Warns against thin content"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "Create a comparison page strategy. We want pages like 'Notion vs Asana', 'Notion vs Monday', etc. for all our competitors. We have 15 competitors.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as Comparisons playbook",
+        "Recommends template structure for scale",
+        "Addresses unique data per comparison",
+        "Includes keyword research for variations",
+        "Provides URL structure recommendation",
+        "Includes internal linking strategy",
+        "Cross-references competitors skill",
+        "Applies quality checks"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "we want to rank for '[tool name] integration' keywords. we integrate with 50+ tools and want a page for each. like 'Slack integration', 'Salesforce integration' etc.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Triggers on casual phrasing",
+        "Identifies as Integrations playbook",
+        "Recommends template with unique content per integration",
+        "Includes setup steps and use cases per page",
+        "Provides URL structure recommendation",
+        "Recommends hub page for all integrations",
+        "Emphasizes genuine unique value per page"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "We built 500 programmatic pages but Google isn't indexing most of them. Only 80 are in the index. What's going wrong?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Diagnoses indexation problem",
+        "Investigates thin content as likely cause",
+        "Checks crawl budget considerations",
+        "Checks internal linking to programmatic pages",
+        "Checks XML sitemap and robots.txt",
+        "Recommends specific fixes for indexation",
+        "Warns about Google's thin content policies"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Help me create a glossary section for our marketing automation platform. We want to define 200+ marketing terms and rank for '[term] definition' keywords.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as Glossary playbook",
+        "Provides template design for term pages",
+        "Recommends hub/index page",
+        "Provides URL structure",
+        "Addresses content quality beyond dictionary definitions",
+        "Includes internal linking strategy",
+        "Recommends starting with highest-volume terms"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

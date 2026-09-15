@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "skill": "aso",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "Here's our app on the App Store: https://apps.apple.com/us/app/example/id123456789. Can you audit our listing and tell me what to fix?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Identifies as Apple App Store URL",
+        "Classifies brand maturity tier",
+        "Scores all 6 dimensions with weights",
+        "Provides scorecard with grade",
+        "Lists top 3 quick wins",
+        "Recommendations include character counts",
+        "Recommendations are specific (X to Y format)"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We're a small fintech startup with about 5,000 downloads. Our Play Store listing has a 2.8 rating and we haven't updated the description in 8 months. Help us figure out what to fix first.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies as Google Play app",
+        "Classifies as Challenger tier",
+        "Flags rating below 4.0",
+        "Flags stale update (>3 months)",
+        "Notes Google Play indexes full description",
+        "Mentions feature graphic requirement",
+        "Recommends keyword strategy in description",
+        "Prioritizes rating improvement"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Instagram's App Store listing has just 'Instagram' as the title and barely any keywords. Should they fix that?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Classifies Instagram as Dominant tier",
+        "Explains brand-only titles are valid for Dominant",
+        "Does NOT flag the title as a problem",
+        "Contrasts Dominant vs Challenger treatment",
+        "Cites the 'mistake vs deliberate choice' principle"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Compare our app https://apps.apple.com/us/app/ourapp/id111 against these two competitors: https://apps.apple.com/us/app/competitor1/id222 and https://apps.apple.com/us/app/competitor2/id333",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Scores all 3 apps with same framework",
+        "Builds comparison table",
+        "Identifies where user's app is weaker",
+        "Identifies keyword gaps vs competitors",
+        "Produces competitor-informed action list"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "We only have 3 screenshots and no preview video. Does this really matter that much?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Notes Visual Assets is 25% of score",
+        "Cites first 3 screenshots are most important",
+        "Mentions screenshot caption indexing (Apple, 2025)",
+        "Cites video conversion lift benchmark",
+        "Notes Google Play video has lower ROI",
+        "Recommends specific screenshot count and video specs",
+        "Flags <5 screenshots as always-flag issue"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

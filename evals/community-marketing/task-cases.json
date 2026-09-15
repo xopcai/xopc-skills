@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "skill": "community-marketing",
+  "cases": [
+    {
+      "id": "upstream-01",
+      "request": "We're a B2B SaaS that wants to start a community. Should we use Discord or Slack?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Checks for product-marketing.md",
+        "Recommends Slack for B2B context",
+        "Notes Slack free tier limitations",
+        "Compares Discord use case",
+        "Mentions Circle or other alternatives",
+        "Asks about audience identity or goal"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-02",
+      "request": "We just launched our community 3 weeks ago. We have 40 members but only 2-3 people post regularly. Everyone else just lurks. What do we do?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Diagnoses as launch-stage / new member activation problem",
+        "Applies 'launching from zero' playbook",
+        "Recommends DMs to new members",
+        "Recommends new member journey design",
+        "Recommends seeding conversations",
+        "Mentions the 1% / 90% power user dynamic",
+        "Mentions warning sign of company-dominated posts"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-03",
+      "request": "Help me write community guidelines for our Discord. We're building a community for indie game developers.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Reinforces shared identity (indie game devs)",
+        "Describes vibe, not just rules",
+        "Includes both rules and aspirational guidance",
+        "Tone matches audience (indie maker)",
+        "May suggest channel structure"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-04",
+      "request": "Design an ambassador program for our community. We have about 5,000 members and a few that always help others. Want to give them more recognition.",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Identifies candidates from existing helpful behavior",
+        "Recommends personal 1:1 ask",
+        "Suggests meaningful benefits beyond early access",
+        "Mentions tools/assets to enable advocates",
+        "Includes measurement plan",
+        "May cross-reference referrals skill"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    },
+    {
+      "id": "upstream-05",
+      "request": "Our community feels dead. Members joined 6 months ago but most haven't posted in months. How do I tell if it's salvageable?",
+      "fixture": "Use the supplied request and any referenced business context; current external facts must be verified.",
+      "expected": [
+        "Uses Health Audit Report format",
+        "References specific health metrics with benchmarks",
+        "Lists warning signs",
+        "Recommends concrete audit steps",
+        "Considers that some communities can't be saved",
+        "Proposes top 3 priorities"
+      ],
+      "forbidden": [
+        "invented customer or performance evidence",
+        "guaranteed business outcome",
+        "unauthorized external action"
+      ]
+    }
+  ]
+}

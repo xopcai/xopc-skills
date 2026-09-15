@@ -22,11 +22,13 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.15 experimental`，包含 13 个中英双语功能分类、64 个细粒度场景目录、104 个场景和 102 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.16 experimental`，包含 13 个中英双语功能分类、91 个细粒度场景目录、131 个场景和 148 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
-机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 64 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
+机器可读的功能分类以 [分类 registry](registry/categories.json) 为唯一事实来源，完整能力清单以 [Skill registry](registry/skills/) 为准。分类只服务 Store 浏览和筛选，具体触发与质量边界仍由 91 个场景目录维护；映射见 [分类体系](docs/category-taxonomy.md)、[场景目录](skills/README.md) 和 [能力边界图](docs/scenario-capability-map.md)。
+
+v0.16 固定审查 Corey Haines `marketingskills` v2.11.1 的 50 个 Skill：46 个非重叠任务完成 XOPC 适配并按测量、内容、开发、设计、商业运营和行业专业分类上线；4 个重复任务映射到现有主责 Skill。完整映射、命名冲突和授权边界见 [营销技能接入审计](docs/coreyhaines-marketingskills-intake-2026-09.md)。
 
 v0.15 根据 WorkBuddy 实际可见市场与 QwenWork 公开资料新增 12 个原创技能，补齐文档转换、长文与小说、浏览器事务、提示词与技能创建、工作交接、财务运营、合同履约、PRD 和入职协同。范围、接入缺口和未完成的行为验证见 [竞品技能对照审计](docs/workbuddy-qwenwork-intake-2026-09.md)。
 
