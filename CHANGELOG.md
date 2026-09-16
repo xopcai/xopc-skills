@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.18.0 - 2026-09-17
+
+- Added English and Simplified Chinese display names and descriptions for all 156 official Skills without changing their stable machine names or agent-routing descriptions.
+- Upgraded the Store release manifest to schema v4 and embedded matching `xopc-skill.json` metadata in every installable Skill archive.
+- Added validation and deterministic release tests for localized metadata, including package-to-manifest consistency.
+
 ## 0.17.0 - 2026-09-15
 
 - Audited 84 Skill entry files from `anbeime/skill` at fixed commit `afaf2ce2de5b678bf741242229c34dd7b3968900` and added eight licensed, non-overlapping Experimental Skills.

@@ -2,7 +2,7 @@
 name: brand-style-application
 description: Extract an approved brand guide into usable design tokens and apply it consistently to a supplied document, presentation, webpage, report, or campaign artifact with accessibility checks. Use to apply an existing brand; do not use to invent a company's identity, copy another brand, create the artifact's substantive content, or claim trademark approval.
 metadata:
-  version: "0.7.0"
+  version: "0.18.0"
 ---
 
 # Brand Style Application

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "brand-style-application",
   "path": "skills/brand-operations/brand-style-application",
-  "version": "0.7.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "apply-brand-style-to-artifact",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/brand-operations/brand-style-application/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Brand Style Application",
+      "description": "Extract an approved brand guide into usable design tokens and apply it consistently to a supplied document, presentation, webpage, report, or campaign artifact with accessibility checks."
+    },
+    "zh-CN": {
+      "displayName": "将已批准品牌规范应用到现有产物",
+      "description": "形成语义化品牌 token、完成一致应用并通过可访问性和品牌规范审查。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -2,7 +2,7 @@
 name: long-form-authoring
 description: Plan and draft multi-chapter manuals, white papers, books or long reports from supplied evidence. Use for 长文写作、手册、白皮书、书籍章节 and cross-chapter revision; operational SOPs, short copy, academic manuscripts and document layout have separate owners.
 metadata:
-  version: "0.15.0"
+  version: "0.18.0"
 ---
 
 # Long Form Authoring

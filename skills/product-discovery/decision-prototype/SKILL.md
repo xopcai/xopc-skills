@@ -2,7 +2,7 @@
 name: decision-prototype
 description: Build a deliberately throwaway interactive prototype to answer one product, workflow, state-model, or interface decision before production implementation. Use when learning is the deliverable; do not use for production-ready features, general frontend design, architecture documentation, or prototypes that mutate live data.
 metadata:
-  version: "0.7.0"
+  version: "0.18.0"
 ---
 
 # Decision Prototype

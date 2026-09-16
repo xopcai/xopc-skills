@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "frontend-design",
   "path": "skills/product-interface-design/frontend-design",
-  "version": "0.3.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "design-distinctive-web-interface",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/product-interface-design/frontend-design/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Frontend Design",
+      "description": "Design or substantially reshape a web interface with a distinctive brief-specific visual direction, responsive implementation, accessible interaction states, and screenshot-based critique."
+    },
+    "zh-CN": {
+      "displayName": "从真实产品简报设计并验证有辨识度的 Web 界面",
+      "description": "交付符合品牌与框架约束、响应式且经过渲染检查的产品界面。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Existing frontend project runtime", "Browser or screenshot tooling recommended"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "market-and-repo-evidence", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Blind-review rendered output across three frameworks", "Measure responsive and accessibility defect rate", "Compare distinctiveness against no-Skill baseline"]

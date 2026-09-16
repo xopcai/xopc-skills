@@ -4,7 +4,7 @@ description: Turn a defined ideal-customer profile into a small, verified, evide
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.2.0"
+  version: "0.18.0"
 ---
 
 # Prospect Research

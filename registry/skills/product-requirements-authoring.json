@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "product-requirements-authoring",
   "path": "skills/product-requirements/product-requirements-authoring",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "author-product-requirements",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Product Requirements Authoring",
+      "description": "Develop or revise a PRD from user problems, evidence and constraints before implementation breakdown."
+    },
+    "zh-CN": {
+      "displayName": "产品需求文档",
+      "description": "把用户问题与业务约束转化为范围明确、可验证并可供评审的 PRD。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

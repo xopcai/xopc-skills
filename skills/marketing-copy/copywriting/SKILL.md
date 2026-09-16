@@ -4,7 +4,7 @@ description: When the user wants to write, rewrite, or improve marketing copy fo
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Copywriting

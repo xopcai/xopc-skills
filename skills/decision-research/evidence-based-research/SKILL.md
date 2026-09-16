@@ -4,7 +4,7 @@ description: Research a consequential question or compare options using current 
 license: MIT
 metadata:
   author: XOPC, adapted from Microsoft
-  version: "0.2.0"
+  version: "0.18.0"
 ---
 
 # Evidence-Based Research

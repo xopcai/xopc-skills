@@ -4,7 +4,7 @@ description: "Build and leverage online communities to drive product growth and 
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Community Marketing

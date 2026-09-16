@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "fiction-continuity-writing",
   "path": "skills/fiction-writing/fiction-continuity-writing",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "write-fiction-with-continuity",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Fiction Continuity Writing",
+      "description": "Plan, draft and revise original fiction while maintaining character knowledge, timeline, world rules and unresolved plot threads."
+    },
+    "zh-CN": {
+      "displayName": "小说创作与连续性管理",
+      "description": "将原创故事设定和已写章节转化为人物、时间线和伏笔一致的后续正文。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

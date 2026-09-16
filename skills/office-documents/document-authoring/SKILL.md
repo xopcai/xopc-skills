@@ -2,7 +2,7 @@
 name: document-authoring
 description: Create, edit, format, or restructure a professional Word-compatible document while preserving templates and verifying the rendered result. Use when the requested deliverable is DOCX or an editable formal document; do not use for plain prose, PDFs, spreadsheets, or compliance review.
 metadata:
-  version: "0.5.0"
+  version: "0.18.0"
 ---
 
 # Document Authoring

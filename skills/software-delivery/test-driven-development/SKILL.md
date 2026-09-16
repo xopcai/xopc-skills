@@ -2,7 +2,7 @@
 name: test-driven-development
 description: Implement a behavior change through a verified red-green-refactor loop when the user requests test-driven development or the repository requires it. Do not trigger for general implementation requests that do not select TDD.
 metadata:
-  version: "0.4.0"
+  version: "0.18.0"
 ---
 
 # Test-Driven Development

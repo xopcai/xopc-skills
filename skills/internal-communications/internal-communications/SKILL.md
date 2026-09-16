@@ -2,7 +2,7 @@
 name: internal-communications
 description: Draft evidence-grounded internal status updates, leadership briefs, FAQs, incident updates, or newsletters for a defined audience. Use for organizational communication drafts; do not use for public marketing, release notes, or sending messages.
 metadata:
-  version: "0.4.0"
+  version: "0.18.0"
 ---
 
 # Internal Communications

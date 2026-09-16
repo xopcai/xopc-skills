@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "vendor-evaluation",
   "path": "skills/procurement-operations/vendor-evaluation",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "evaluate-vendor",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/procurement-operations/vendor-evaluation/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Vendor Evaluation",
+      "description": "Evaluate or compare vendors using requirements, total cost of ownership, implementation fit, security and continuity risks, service evidence, contract terms, and exit costs."
+    },
+    "zh-CN": {
+      "displayName": "基于证据评估和比较供应商",
+      "description": "形成需求可追溯、总成本透明、风险明确并包含尽调和谈判行动的供应商建议。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "attribution",
   "path": "skills/marketing-analytics/attribution",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-analytics",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-analytics/attribution/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Attribution",
+      "description": "Figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools."
+    },
+    "zh-CN": {
+      "displayName": "营销归因",
+      "description": "选择和解释营销归因方法，核对跨工具数据差异并判断渠道对转化和收入的贡献。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

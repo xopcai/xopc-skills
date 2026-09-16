@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "site-architecture",
   "path": "skills/website-search-foundations/site-architecture",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-website-search-foundations",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/website-search-foundations/site-architecture/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Site Architecture",
+      "description": "Plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking."
+    },
+    "zh-CN": {
+      "displayName": "网站信息架构",
+      "description": "规划网站页面层级、导航、URL 结构和内部链接关系。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

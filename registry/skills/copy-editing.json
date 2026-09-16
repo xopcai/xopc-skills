@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "copy-editing",
   "path": "skills/marketing-copy/copy-editing",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-copy",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-copy/copy-editing/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Copy Editing",
+      "description": "Edit, review, or improve existing marketing copy, or refresh outdated content."
+    },
+    "zh-CN": {
+      "displayName": "营销文案编辑",
+      "description": "审查并优化已有营销文案的清晰度、可信度、结构和转化表达。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

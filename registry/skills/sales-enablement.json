@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "sales-enablement",
   "path": "skills/sales-enablement/sales-enablement",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-sales-enablement",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/sales-enablement/sales-enablement/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Sales Enablement",
+      "description": "Create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts."
+    },
+    "zh-CN": {
+      "displayName": "制作销售支持内容",
+      "description": "把买方问题和销售阶段转化为可验证、可复用的销售资产。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

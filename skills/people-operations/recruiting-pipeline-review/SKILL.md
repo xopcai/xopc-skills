@@ -2,7 +2,7 @@
 name: recruiting-pipeline-review
 description: Review a recruiting pipeline using stage definitions, candidate movement, aging, conversion, source quality, open decisions, and next actions. Use for hiring operations and pipeline health; do not use for unstructured candidate ranking, sensitive-trait inference, final hiring decisions, or silent ATS updates.
 metadata:
-  version: "0.6.0"
+  version: "0.18.0"
 ---
 
 # Recruiting Pipeline Review

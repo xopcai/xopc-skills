@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "marketing-loops",
   "path": "skills/growth-distribution/marketing-loops",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-growth-distribution",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/growth-distribution/marketing-loops/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Marketing Loops",
+      "description": "Set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task."
+    },
+    "zh-CN": {
+      "displayName": "营销增长循环",
+      "description": "把营销任务设计成可重复运行、可观测并带有停止规则的周期性工作流。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

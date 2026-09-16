@@ -22,7 +22,7 @@ templates/            场景简报和上游适配记录模板
 tooling/              仓库校验与后续评测工具
 ```
 
-当前发布线为 `v0.17 experimental`，包含 13 个中英双语功能分类、97 个细粒度场景目录、137 个场景和 156 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
+当前发布线为 `v0.18 experimental`，包含 13 个中英双语功能分类、97 个细粒度场景目录、137 个场景和 156 个互斥 Skill。Experimental 表示结构、来源、安全边界和基础评测资产已通过仓库门禁，允许通过真实使用继续验证；它不等于已获得真实用户 baseline 的 stable 推荐。
 
 ## 当前能力
 
@@ -83,3 +83,5 @@ npm run test:store-release
 ## 发布到 XOPC Store
 
 本仓库是 XOPC Store 官方 Skill 的唯一来源。`npm run build:store-release` 从 `registry/skills` 递归解析场景目录，为每个 Skill 生成确定性 ZIP，并生成包含固定 commit 和 SHA-256 的完整目录 Release。生产发布仅由 GitHub Release 工作流或显式 `npm run publish:store-release -- <bundle> --publish` 执行；Store 不从第三方 Skill 市场同步内容。
+
+发布 manifest 使用 schema v4，声明 `en` 和 `zh-CN` 的用户可见名称与简介；每个 Skill ZIP 同时包含 `xopc-skill.json`。XOPC 安装后读取该文件，按用户语言展示和检索 `/` 技能，但插入消息和执行时始终使用 `SKILL.md` 中稳定的机器名。

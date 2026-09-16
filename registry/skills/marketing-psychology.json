@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "marketing-psychology",
   "path": "skills/marketing-psychology/marketing-psychology",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-psychology",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-psychology/marketing-psychology/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Marketing Psychology & Mental Models",
+      "description": "Apply psychological principles, mental models, or behavioral science to marketing."
+    },
+    "zh-CN": {
+      "displayName": "审查营销行为设计",
+      "description": "用合乎伦理的行为科学视角改进用户理解与选择。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

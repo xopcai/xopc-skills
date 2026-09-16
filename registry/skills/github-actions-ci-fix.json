@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "github-actions-ci-fix",
   "path": "skills/software-delivery/github-actions-ci-fix",
-  "version": "0.3.1",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "fix-failing-github-actions",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/software-delivery/github-actions-ci-fix/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "GitHub Actions CI Fix",
+      "description": "Diagnose and repair failing GitHub Actions checks on a pull request using gh metadata and logs, a focused root-cause plan, approval before code changes, and post-fix verification."
+    },
+    "zh-CN": {
+      "displayName": "基于日志诊断并修复失败的 GitHub Actions",
+      "description": "形成失败证据、根因、经批准的最小修复和最新检查状态。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Python 3.10+", "Git", "authenticated GitHub CLI"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "official-current-source", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "script-tested", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Exercise script against failed, pending, and external checks", "Measure root-cause precision on real CI failures", "Validate GitHub CLI field drift in CI"]

@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "browser-workflow-execution",
   "path": "skills/browser-operations/browser-workflow-execution",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "execute-browser-workflow",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Browser Workflow Execution",
+      "description": "Execute a bounded business workflow in an available authenticated browser, including collecting records, filling forms and verifying outcomes."
+    },
+    "zh-CN": {
+      "displayName": "浏览器事务执行",
+      "description": "通过可用浏览器工具完成有明确范围的网页事务并逐项验证结果。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -2,7 +2,7 @@
 name: frontend-design
 description: Design or substantially reshape a web interface with a distinctive brief-specific visual direction, responsive implementation, accessible interaction states, and screenshot-based critique. Use for landing pages, product surfaces, dashboards, and UI redesigns; do not use for tiny style fixes or backend-only work.
 metadata:
-  version: "0.3.0"
+  version: "0.18.0"
 ---
 
 # Frontend Design

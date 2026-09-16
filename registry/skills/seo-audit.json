@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "seo-audit",
   "path": "skills/search-visibility/seo-audit",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-search-visibility",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/search-visibility/seo-audit/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "SEO Audit",
+      "description": "Audit, review, or diagnose SEO issues on their site."
+    },
+    "zh-CN": {
+      "displayName": "SEO 审查",
+      "description": "基于可验证证据诊断网站的技术 SEO、页面优化、抓取、索引与排名问题。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

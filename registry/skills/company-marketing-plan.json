@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "company-marketing-plan",
   "path": "skills/marketing-strategy/company-marketing-plan",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-strategy",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-strategy/company-marketing-plan/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Company Marketing Plan",
+      "description": "Provide a comprehensive marketing plan for a client, a company they advise, or their own product."
+    },
+    "zh-CN": {
+      "displayName": "公司营销计划",
+      "description": "结合公司阶段、预算和团队能力，制定覆盖获客、激活、留存、推荐与收入的营销计划。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

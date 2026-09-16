@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "customer-support-ticket-triage",
   "path": "skills/business-operations/customer-support-ticket-triage",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "triage-customer-support-ticket",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/business-operations/customer-support-ticket-triage/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Customer Support Ticket Triage",
+      "description": "Triage a customer support ticket by extracting the issue, impact, urgency, evidence, duplicate or known-issue signals, routing, and a grounded initial response."
+    },
+    "zh-CN": {
+      "displayName": "对客户支持请求进行证据化分诊",
+      "description": "形成问题分类、影响优先级、重复证据、路由建议和安全的首轮回复草稿。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

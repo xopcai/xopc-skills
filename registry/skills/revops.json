@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "revops",
   "path": "skills/revenue-operations/revops",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-revenue-operations",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/revenue-operations/revops/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "RevOps",
+      "description": "Help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes."
+    },
+    "zh-CN": {
+      "displayName": "设计收入运营系统",
+      "description": "把营销、销售和客户成功数据转化为可执行的收入流程与治理。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "jupyter-notebook",
   "path": "skills/data-notebooks/jupyter-notebook",
-  "version": "0.3.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "build-reproducible-notebook",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/data-notebooks/jupyter-notebook/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Jupyter Notebook",
+      "description": "Create, restructure, or edit a reproducible Jupyter notebook for an experiment, exploratory analysis, or tutorial using deterministic templates and top-to-bottom validation."
+    },
+    "zh-CN": {
+      "displayName": "创建或重构可复现的 Jupyter Notebook",
+      "description": "交付结构清晰、无隐藏状态并可从头执行的实验或教程 Notebook。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Python 3.10+ scaffolder", "Jupyter runtime optional for execution"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "market-and-repo-evidence", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "script-tested", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Execute and review notebooks across three data stacks", "Measure hidden-state and oversized-output defects", "Validate safe refactoring of real existing notebooks"]

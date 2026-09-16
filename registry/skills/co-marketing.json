@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "co-marketing",
   "path": "skills/partner-marketing/co-marketing",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-partner-marketing",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/partner-marketing/co-marketing/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Co Marketing",
+      "description": "Find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities."
+    },
+    "zh-CN": {
+      "displayName": "联合营销",
+      "description": "筛选合作伙伴并设计目标、权益、执行分工和度量方式清晰的联合营销活动。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

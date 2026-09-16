@@ -2,7 +2,7 @@
 name: browser-workflow-execution
 description: Execute a bounded business workflow in an available authenticated browser, including collecting records, filling forms and verifying outcomes. Use for 网页操作、后台批量处理、浏览器表单事务; building Playwright tests and generic web research are separate tasks.
 metadata:
-  version: "0.15.0"
+  version: "0.18.0"
 ---
 
 # Browser Workflow Execution

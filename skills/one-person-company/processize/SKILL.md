@@ -2,7 +2,7 @@
 name: processize
 description: Convert a validated one-person-company offer into a safe paid manual delivery process before automation. Use when a solo founder must prove repeatable value with real customers; do not use for mature SOP documentation, software implementation, or an unvalidated idea.
 metadata:
-  version: "0.14.0"
+  version: "0.18.0"
 ---
 
 # Processize

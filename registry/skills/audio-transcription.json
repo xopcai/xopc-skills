@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "audio-transcription",
   "path": "skills/media-production/audio-transcription",
-  "version": "0.7.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "transcribe-audio-accurately",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/media-production/audio-transcription/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Audio Transcription",
+      "description": "Transcribe supplied audio or video into a faithful, reviewable transcript with timestamps, speaker labels, uncertainty markers, and privacy-aware handling."
+    },
+    "zh-CN": {
+      "displayName": "将音视频忠实转写为可复核文本",
+      "description": "交付带时间定位、说话人和不确定性标记且隐私边界明确的转录文本。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

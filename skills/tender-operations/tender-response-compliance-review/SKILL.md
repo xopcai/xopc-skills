@@ -2,7 +2,7 @@
 name: tender-response-compliance-review
 description: Review supplied Chinese tender documents and bid-response materials through a requirement-to-evidence matrix. Use for 招标文件解读、投标文件审查、废标风险、资格响应、签章格式、交付清单 and 标书合规; do not fabricate credentials, give legal approval, set prices, purchase data, sign, or submit.
 metadata:
-  version: "0.13.0"
+  version: "0.18.0"
 ---
 
 # Tender Response Compliance Review

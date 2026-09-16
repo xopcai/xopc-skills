@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "financial-statement-analysis",
   "path": "skills/business-analysis/financial-statement-analysis",
-  "version": "0.9.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "analyze-financial-statements",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Financial Statement Analysis",
+      "description": "Analyze Chinese-enterprise financial statements across periods and turn verified figures into management insight."
+    },
+    "zh-CN": {
+      "displayName": "从企业财务报表形成可追溯的经营诊断",
+      "description": "交付口径一致、计算可复核、假设透明且不越权作审计或投资结论的财务分析。"
+    }
+  },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied financial statements and optional research tools"],"os":["macOS","Linux","Windows"]},
   "qualityGates": {"Q0":"scenario-and-market-evidence","Q1":"passed","Q2":"passed","Q3":"passed","Q4":"fixtures-ready","Q5":"fixtures-ready","Q6":"declared","Q7":"experimental-release"},
   "stableBlockers": ["Run anonymized multi-industry baseline", "Complete accountant domain review", "Measure formula and omission error rates"]

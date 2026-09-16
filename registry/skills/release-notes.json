@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "release-notes",
   "path": "skills/software-delivery/release-notes",
-  "version": "0.1.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "write-evidence-based-release-notes",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/software-delivery/release-notes/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Evidence-Based Release Notes",
+      "description": "Turn verified tickets, pull requests, changelogs, and shipped behavior into concise user-facing release notes with benefits, breaking actions, fixes, and evidence status."
+    },
+    "zh-CN": {
+      "displayName": "从已交付变更生成有证据的用户发布说明",
+      "description": "产出不夸大、不泄密并清晰披露破坏性变化的用户发布说明。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["No helper runtime required"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Blind-review notes from three real releases", "Measure unsupported-claim rate", "Validate security disclosure workflow"]

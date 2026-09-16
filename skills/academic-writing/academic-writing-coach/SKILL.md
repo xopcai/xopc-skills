@@ -2,7 +2,7 @@
 name: academic-writing-coach
 description: Coach a student or researcher through topic refinement, research questions, outlines, arguments, literature synthesis, revision, citation hygiene, and defense preparation. Use for 论文辅导、开题、文献综述、学术写作、论文修改 and 答辩准备; do not fabricate sources, data, findings, ethics approval, or authorship.
 metadata:
-  version: "0.13.0"
+  version: "0.18.0"
 ---
 
 # Academic Writing Coach

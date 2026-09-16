@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "churn-prevention",
   "path": "skills/retention-marketing/churn-prevention",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-retention-marketing",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/retention-marketing/churn-prevention/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Churn Prevention",
+      "description": "Reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies."
+    },
+    "zh-CN": {
+      "displayName": "诊断并降低客户流失",
+      "description": "用流失信号、干预方案和护栏指标形成留存改进闭环。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

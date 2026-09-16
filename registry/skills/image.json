@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "image",
   "path": "skills/marketing-media-production/image",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-media-production",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-media-production/image/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Image",
+      "description": "Create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets."
+    },
+    "zh-CN": {
+      "displayName": "营销图片制作",
+      "description": "创建、编辑和优化博客首图、社交配图、产品效果图与品牌视觉资产。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

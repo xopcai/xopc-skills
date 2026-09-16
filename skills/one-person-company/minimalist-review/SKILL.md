@@ -2,7 +2,7 @@
 name: minimalist-review
 description: Run an evidence-based operating review for a one-person company and choose the single most important business constraint for the next cycle. Use for monthly or quarterly founder reviews; do not use for daily task planning, bookkeeping, or generic weekly productivity review.
 metadata:
-  version: "0.14.0"
+  version: "0.18.0"
 ---
 
 # Minimalist Review

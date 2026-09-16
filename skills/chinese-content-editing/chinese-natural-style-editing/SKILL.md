@@ -2,7 +2,7 @@
 name: chinese-natural-style-editing
 description: Edit user-supplied Chinese prose into natural, specific, audience-appropriate language while preserving facts and authorial intent. Use for 去AI味、中文润色、口语化、改得自然、减少套话和恢复作者声音; do not promise detector evasion, invent lived experience, conceal plagiarism, or alter claims without disclosure.
 metadata:
-  version: "0.13.0"
+  version: "0.18.0"
 ---
 
 # Chinese Natural Style Editing

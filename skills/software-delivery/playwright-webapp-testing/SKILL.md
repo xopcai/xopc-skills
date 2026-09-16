@@ -4,7 +4,7 @@ description: Add, repair, and run resilient Playwright end-to-end tests for an e
 license: MIT
 metadata:
   author: XOPC, adapted from TestMu AI
-  version: "0.1.0"
+  version: "0.18.0"
 ---
 
 # Playwright Web Application Testing

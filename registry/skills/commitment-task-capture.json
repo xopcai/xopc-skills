@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "commitment-task-capture",
   "path": "skills/work-management/commitment-task-capture",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "capture-cross-source-commitments",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/work-management/commitment-task-capture/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Commitment Task Capture",
+      "description": "Extract concrete asks, commitments, owners, deadlines, blockers, and evidence from bounded email, chat, meeting, or document sources."
+    },
+    "zh-CN": {
+      "displayName": "从沟通记录提取可追踪承诺",
+      "description": "从邮件、聊天、会议和文档中提取责任人、期限、状态与证据，并在确认后写入任务系统。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

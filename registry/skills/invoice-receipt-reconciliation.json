@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "invoice-receipt-reconciliation",
   "path": "skills/business-operations/invoice-receipt-reconciliation",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "reconcile-invoices-and-receipts",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Invoice and Receipt Reconciliation",
+      "description": "Extract and reconcile invoices, receipts, and supporting payment records into an evidence-backed review table while preserving originals and flagging duplicates or mismatches."
+    },
+    "zh-CN": {
+      "displayName": "整理并核对发票与收据",
+      "description": "保留原件并形成字段可追溯、异常明确的票据核对表和复核队列。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

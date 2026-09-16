@@ -2,7 +2,7 @@
 name: workstream-digest
 description: Create a bounded digest of team chat channels, threads, or workstream topics focused on decisions, blockers, asks, ownership, incidents, and status changes. Use for daily or periodic collaboration recaps; do not use for inbox triage, full project health reports, or unscoped organization-wide monitoring.
 metadata:
-  version: "0.6.0"
+  version: "0.18.0"
 ---
 
 # Workstream Digest

@@ -2,7 +2,7 @@
 name: translation-localization-review
 description: Translate or review user-facing content for a target locale while preserving meaning, terminology, variables, links, numbers, and product voice. Use when translation quality and localization consistency matter; do not use for certified translation, legal interpretation, or merely rewriting text in the same language.
 metadata:
-  version: "0.6.0"
+  version: "0.18.0"
 ---
 
 # Translation and Localization Review

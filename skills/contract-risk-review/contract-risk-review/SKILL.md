@@ -4,7 +4,7 @@ description: "Review a supplied contract from a stated party and business purpos
 license: Apache-2.0
 metadata:
   author: XOPC, adapted from anbeime/skill
-  version: "0.17.0"
+  version: "0.18.0"
 ---
 
 # Contract Risk Review

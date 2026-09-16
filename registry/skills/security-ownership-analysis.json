@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "security-ownership-analysis",
   "path": "skills/software-security/security-ownership-analysis",
-  "version": "0.7.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "analyze-security-ownership",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/software-security/security-ownership-analysis/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Security Ownership Analysis",
+      "description": "Analyze Git history to identify sensitive-code ownership concentration, low bus factor, stale ownership, CODEOWNERS drift, and security maintenance gaps with reproducible CSV and JSON evidence."
+    },
+    "zh-CN": {
+      "displayName": "分析敏感代码所有权与维护风险",
+      "description": "基于 Git 证据识别敏感代码低巴士因子、陈旧所有权和声明漂移。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

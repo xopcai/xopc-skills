@@ -4,7 +4,7 @@ description: "When the user wants multiple expert perspectives on a marketing qu
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Marketing Council

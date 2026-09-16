@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "business-budget-variance",
   "path": "skills/financial-operations/business-budget-variance",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "analyze-business-budget-variance",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Business Budget Variance",
+      "description": "Analyze organizational budget versus actuals and build an assumption-based forecast."
+    },
+    "zh-CN": {
+      "displayName": "企业预算差异分析",
+      "description": "将可比预算和实际数据转化为可复算的差异、驱动因素与行动建议。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

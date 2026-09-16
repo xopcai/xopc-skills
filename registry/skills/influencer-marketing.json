@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "influencer-marketing",
   "path": "skills/partner-marketing/influencer-marketing",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-partner-marketing",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/partner-marketing/influencer-marketing/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Influencer & Creator Marketing",
+      "description": "Run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI."
+    },
+    "zh-CN": {
+      "displayName": "达人营销",
+      "description": "筛选和评估创作者，设计合作方式、内容简报、披露要求和效果衡量。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -189,7 +189,15 @@ for (const catalogFile of catalogFiles) {
   const category = categoryBySkill.get(catalog.name)
   if (!category || !categoryIds.has(category)) throw new Error(`Missing display category for ${catalog.name}`)
   const artifactPath = `packages/${catalog.name}.zip`
-  const artifact = createZip(listFiles(source).map((name) => ({ name, data: readFileSync(join(source, name)) })))
+  const packageMetadata = {
+    schemaVersion: 1,
+    name: catalog.name,
+    localizations: catalog.localizations,
+  }
+  const artifact = createZip([
+    ...listFiles(source).map((name) => ({ name, data: readFileSync(join(source, name)) })),
+    { name: "xopc-skill.json", data: `${JSON.stringify(packageMetadata, null, 2)}\n` },
+  ])
   bundleEntries.push({ name: artifactPath, data: artifact })
   skills.push({
     name: catalog.name,
@@ -197,6 +205,7 @@ for (const catalogFile of catalogFiles) {
     version: catalog.version,
     category,
     scenarioId: catalog.scenarioId,
+    localizations: catalog.localizations,
     artifactPath,
     artifactSha256: sha256(artifact),
   })
@@ -214,8 +223,10 @@ visitSkills(join(root, "skills"))
 if (discovered.length !== skills.length) throw new Error(`Registry has ${skills.length} Skills but filesystem has ${discovered.length}`)
 
 const manifest = {
-  schemaVersion: 3,
+  schemaVersion: 4,
   catalogVersion: packageJson.version,
+  defaultLocale: "en",
+  supportedLocales: ["en", "zh-CN"],
   repository: "https://github.com/xopcai/xopc-skills",
   commit,
   categories: categories.filter((category) => skills.some((skill) => skill.category === category.id)),

@@ -2,7 +2,7 @@
 name: user-research-synthesis
 description: Synthesize interviews, surveys, support feedback, usability studies, observations, and behavior data into traceable product insights. Use for 用户研究整理、访谈编码、主题分析、用户旅程、痛点与机会点提炼; do not use for designing a new survey, generic document summary, or treating anecdotes as population estimates.
 metadata:
-  version: "0.9.0"
+  version: "0.18.0"
 ---
 
 # User Research Synthesis

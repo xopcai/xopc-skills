@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "free-tools",
   "path": "skills/marketing-free-tools/free-tools",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-free-tools",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-free-tools/free-tools/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Free Tool Strategy (Engineering as Marketing)",
+      "description": "Plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness."
+    },
+    "zh-CN": {
+      "displayName": "规划营销型免费工具",
+      "description": "把高意图用户问题转化为可实现、可测量的免费工具方案。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

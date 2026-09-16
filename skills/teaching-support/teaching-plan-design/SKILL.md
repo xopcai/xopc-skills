@@ -2,7 +2,7 @@
 name: teaching-plan-design
 description: Design an aligned lesson plan for Chinese primary, secondary, vocational, higher, or workplace teaching. Use for 教学设计、教案、备课、公开课、课程目标、课堂活动、分层作业和评价量规; do not use for merely formatting slides, fabricating curriculum-standard citations, or grading named students without an approved rubric.
 metadata:
-  version: "0.9.0"
+  version: "0.18.0"
 ---
 
 # Teaching Plan Design

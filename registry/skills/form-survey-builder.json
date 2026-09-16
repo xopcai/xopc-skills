@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "form-survey-builder",
   "path": "skills/forms-surveys/form-survey-builder",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "build-form-or-survey",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/forms-surveys/form-survey-builder/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Form and Survey Builder",
+      "description": "Design a form or survey from a clear collection goal, including concise questions, answer types, branching, validation, privacy notes, and a response schema."
+    },
+    "zh-CN": {
+      "displayName": "从收集目标设计表单或问卷",
+      "description": "交付问题精简、分支可测、隐私透明并具有稳定响应结构的表单设计。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

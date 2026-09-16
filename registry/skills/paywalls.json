@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "paywalls",
   "path": "skills/conversion-optimization/paywalls",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-conversion-optimization",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/conversion-optimization/paywalls/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Paywall and Upgrade Screen CRO",
+      "description": "Create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates."
+    },
+    "zh-CN": {
+      "displayName": "付费墙优化",
+      "description": "设计和优化产品内付费墙、升级页面、功能门槛与试用到期转化。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

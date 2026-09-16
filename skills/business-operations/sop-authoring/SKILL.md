@@ -2,7 +2,7 @@
 name: sop-authoring
 description: Convert observed work and controls into a usable, governed standard operating procedure. Use for SOP、标准作业程序、流程说明、岗位操作手册、检查表和异常处理卡; do not use for undocumented policy invention, software architecture, or declaring an untested process compliant.
 metadata:
-  version: "0.10.0"
+  version: "0.18.0"
 ---
 
 # SOP Authoring

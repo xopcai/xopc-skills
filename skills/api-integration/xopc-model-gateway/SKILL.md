@@ -4,7 +4,7 @@ description: Migrate an existing OpenAI-compatible application to the XOPC Model
 license: MIT
 metadata:
   author: XOPC
-  version: "0.1.0"
+  version: "0.18.0"
 ---
 
 # XOPC Model Gateway Migration

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "cold-email",
   "path": "skills/cold-outreach/cold-email",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-cold-outreach",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/cold-outreach/cold-email/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Cold Email Writing",
+      "description": "Write B2B cold emails and follow-up sequences that get replies."
+    },
+    "zh-CN": {
+      "displayName": "编写合规冷邮件",
+      "description": "用可验证的相关性和低风险外联边界生成冷邮件及跟进序列。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

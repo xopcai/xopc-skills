@@ -2,7 +2,7 @@
 name: email-reply-drafting
 description: Draft a grounded reply to a selected email message or thread, preserving facts, commitments, audience, and tone. Use when the reply itself is the task; do not use for inbox-wide triage, new marketing outreach, or sending without confirmation.
 metadata:
-  version: "0.5.0"
+  version: "0.18.0"
 ---
 
 # Email Reply Drafting

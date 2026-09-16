@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "programmatic-seo",
   "path": "skills/website-search-foundations/programmatic-seo",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-website-search-foundations",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/website-search-foundations/programmatic-seo/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Programmatic SEO",
+      "description": "Create SEO-driven pages at scale using templates and data."
+    },
+    "zh-CN": {
+      "displayName": "程序化 SEO",
+      "description": "使用模板和数据批量规划可维护、可索引且有明确搜索意图的 SEO 页面。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

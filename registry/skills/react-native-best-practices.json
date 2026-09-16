@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "react-native-best-practices",
   "path": "skills/software-delivery/react-native-best-practices",
-  "version": "0.1.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "diagnose-react-native-performance",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/software-delivery/react-native-best-practices/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "React Native Best Practices",
+      "description": "Provides React Native performance optimization guidelines for FPS, TTI, bundle size, memory leaks, re-renders, and animations."
+    },
+    "zh-CN": {
+      "displayName": "诊断 React Native 性能问题",
+      "description": "基于测量证据定位 FPS、TTI、重渲染、内存或包体问题。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["React Native project tooling", "optional agent-device"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "reviewed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Run baseline comparisons on three React Native versions", "Verify device profiling paths", "Complete upstream diff review"]

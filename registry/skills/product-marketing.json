@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "product-marketing",
   "path": "skills/product-marketing-strategy/product-marketing",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-product-marketing-strategy",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/product-marketing-strategy/product-marketing/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Product Marketing Context",
+      "description": "Create or update their product marketing context document."
+    },
+    "zh-CN": {
+      "displayName": "产品营销策略",
+      "description": "沉淀产品、目标受众、理想客户和定位信息，为后续营销任务提供统一上下文。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

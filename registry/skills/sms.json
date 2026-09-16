@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "sms",
   "path": "skills/lifecycle-messaging/sms",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-lifecycle-messaging",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/lifecycle-messaging/sms/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "SMS Marketing",
+      "description": "Plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS."
+    },
+    "zh-CN": {
+      "displayName": "生命周期短信",
+      "description": "设计欢迎、弃购、购后、召回、促销或事务类短信流程，并遵守许可与合规边界。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

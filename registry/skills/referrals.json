@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "referrals",
   "path": "skills/referral-marketing/referrals",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-referral-marketing",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/referral-marketing/referrals/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Referral & Affiliate Programs",
+      "description": "Create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy."
+    },
+    "zh-CN": {
+      "displayName": "设计推荐增长机制",
+      "description": "形成激励相容、可归因且防滥用的推荐计划。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

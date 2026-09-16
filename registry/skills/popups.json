@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "popups",
   "path": "skills/conversion-optimization/popups",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-conversion-optimization",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/conversion-optimization/popups/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Popup CRO",
+      "description": "Create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes."
+    },
+    "zh-CN": {
+      "displayName": "弹窗优化",
+      "description": "设计和优化用于获客或转化的弹窗、浮层、横幅与触发规则。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

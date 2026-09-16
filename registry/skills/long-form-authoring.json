@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "long-form-authoring",
   "path": "skills/long-form-content/long-form-authoring",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "author-long-form-content",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Long Form Authoring",
+      "description": "Plan and draft multi-chapter manuals, white papers, books or long reports from supplied evidence."
+    },
+    "zh-CN": {
+      "displayName": "长文与手册写作",
+      "description": "把资料、论点和读者目标转化为跨章节一致、来源可追溯的长篇稿件。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "aso",
   "path": "skills/app-store-growth/aso",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-app-store-growth",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/app-store-growth/aso/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "ASO Audit",
+      "description": "Audit or optimize an App Store or Google Play listing."
+    },
+    "zh-CN": {
+      "displayName": "优化应用商店表现",
+      "description": "用关键词、商店素材和实验数据形成可验证的应用商店增长计划。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

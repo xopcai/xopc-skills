@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "systematic-debugging",
   "path": "skills/software-delivery/systematic-debugging",
-  "version": "0.3.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "diagnose-software-defect",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/software-delivery/systematic-debugging/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Systematic Debugging",
+      "description": "Diagnose a reproducible software defect, failing test, build failure, integration error, or performance regression through evidence, competing hypotheses, and minimal experiments before changing code."
+    },
+    "zh-CN": {
+      "displayName": "以证据和最小实验诊断软件缺陷",
+      "description": "形成可复现或明确受限、能区分假设并解释症状的根因结论。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Project-selected build, test, log, and profiling tools"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "market-and-repo-evidence", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Measure root-cause accuracy on hidden seeded failures", "Validate intermittent and multi-service cases", "Measure speculative patch rate against baseline"]

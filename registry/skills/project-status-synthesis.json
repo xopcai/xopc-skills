@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "project-status-synthesis",
   "path": "skills/work-management/project-status-synthesis",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "synthesize-project-status",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/work-management/project-status-synthesis/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Project Status Synthesis",
+      "description": "Build an evidence-based project or program status report from milestones, metrics, work items, decisions, risks, and blockers."
+    },
+    "zh-CN": {
+      "displayName": "从项目证据形成健康状态报告",
+      "description": "聚合里程碑、指标、交付、风险、阻塞和决策，形成证据化项目健康报告。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

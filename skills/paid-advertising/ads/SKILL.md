@@ -4,7 +4,7 @@ description: "When the user wants help with paid advertising campaigns on Google
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 # Paid Ads
 > **XOPC adaptation:** use supplied or authorized data, label assumptions, and never guarantee rankings, reach, conversion, or revenue; draft by default; send, publish, spend, submit, or write to an external account only within the user's authorized scope and verify the result; date volatile platform guidance and verify current claims against primary sources.

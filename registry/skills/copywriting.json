@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "copywriting",
   "path": "skills/marketing-copy/copywriting",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-copy",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-copy/copywriting/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Copywriting",
+      "description": "Write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages."
+    },
+    "zh-CN": {
+      "displayName": "营销文案创作",
+      "description": "为主页、落地页、定价页和产品页创作或重写清晰可信的营销文案。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

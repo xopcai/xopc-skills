@@ -4,7 +4,7 @@ description: "When the user wants to optimize, improve, or increase conversions 
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Conversion Rate Optimization (CRO)

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "json-canvas",
   "path": "skills/obsidian-authoring/json-canvas",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "obsidian-authoring",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/obsidian-authoring/json-canvas/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "JSON Canvas Skill",
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections."
+    },
+    "zh-CN": {
+      "displayName": "Obsidian Canvas",
+      "description": "创建和编辑包含节点、连线和分组的 Obsidian Canvas 文件。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

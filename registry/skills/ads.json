@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "ads",
   "path": "skills/paid-advertising/ads",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-paid-advertising",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/paid-advertising/ads/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Paid Ads",
+      "description": "Help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms."
+    },
+    "zh-CN": {
+      "displayName": "付费广告规划",
+      "description": "规划付费广告的渠道、受众、预算、出价和优化方法，并用可验证指标控制投放。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

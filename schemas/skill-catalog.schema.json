@@ -3,9 +3,9 @@
   "title": "XOPC released Skill catalog entry",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "name", "path", "version", "stage", "scenarioId", "origin", "license", "owner", "compatibility", "qualityGates", "stableBlockers"],
+  "required": ["schemaVersion", "name", "path", "version", "stage", "scenarioId", "origin", "license", "owner", "localizations", "compatibility", "qualityGates", "stableBlockers"],
   "properties": {
-    "schemaVersion": { "const": 1 },
+    "schemaVersion": { "const": 2 },
     "name": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "path": { "type": "string", "pattern": "^skills/[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.-]+)?$" },
@@ -15,6 +15,15 @@
     "license": { "type": "string", "minLength": 1 },
     "owner": { "type": "string", "minLength": 1 },
     "source": { "type": "string" },
+    "localizations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh-CN"],
+      "properties": {
+        "en": { "$ref": "#/$defs/localization" },
+        "zh-CN": { "$ref": "#/$defs/localization" }
+      }
+    },
     "compatibility": {
       "type": "object",
       "required": ["agents", "runtime", "os"],
@@ -26,5 +35,16 @@
     },
     "qualityGates": { "type": "object" },
     "stableBlockers": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "localization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["displayName", "description"],
+      "properties": {
+        "displayName": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "description": { "type": "string", "minLength": 1, "maxLength": 500 }
+      }
+    }
   }
 }

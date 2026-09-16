@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "lead-magnets",
   "path": "skills/lead-magnets/lead-magnets",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-lead-magnets",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/lead-magnets/lead-magnets/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Lead Magnets",
+      "description": "Create, plan, or optimize a lead magnet for email capture or lead generation."
+    },
+    "zh-CN": {
+      "displayName": "设计获客内容资产",
+      "description": "把用户问题转化为有明确交换价值和后续路径的获客资产。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

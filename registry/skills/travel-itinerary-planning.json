@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "travel-itinerary-planning",
   "path": "skills/travel-planning/travel-itinerary-planning",
-  "version": "0.9.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "plan-travel-itinerary",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Travel Itinerary Planning",
+      "description": "Build a feasible travel itinerary with route, time, budget, booking, accessibility, and fallback details."
+    },
+    "zh-CN": {
+      "displayName": "规划可执行且动态事实可核验的旅行行程",
+      "description": "交付路线可行、预算透明、预约依赖明确且包含动态核验与备选方案的旅行手册。"
+    }
+  },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Current web research plus supplied bookings and preferences"],"os":["macOS","Linux","Windows"]},
   "qualityGates": {"Q0":"scenario-and-market-evidence","Q1":"passed","Q2":"passed","Q3":"passed","Q4":"fixtures-ready","Q5":"fixtures-ready","Q6":"declared","Q7":"experimental-release"},
   "stableBlockers": ["Run domestic and outbound itinerary baseline", "Complete travel-planner review", "Measure volatile-fact and route-feasibility errors"]

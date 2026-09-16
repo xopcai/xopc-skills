@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "directory-submissions",
   "path": "skills/growth-distribution/directory-submissions",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-growth-distribution",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/growth-distribution/directory-submissions/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Directory Submissions",
+      "description": "Submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery."
+    },
+    "zh-CN": {
+      "displayName": "目录提交",
+      "description": "规划产品在行业目录和评测平台的提交材料、优先级、进度与效果跟踪。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

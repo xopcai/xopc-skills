@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "prompt-evaluation-improvement",
   "path": "skills/prompt-quality/prompt-evaluation-improvement",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "evaluate-and-improve-prompt",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Prompt Evaluation Improvement",
+      "description": "Diagnose and improve a task prompt using representative inputs, observed failures and explicit evaluation criteria."
+    },
+    "zh-CN": {
+      "displayName": "提示词评测与优化",
+      "description": "将具体任务的提示词失败案例转化为可对比、可复现的提示词修订与评测结论。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

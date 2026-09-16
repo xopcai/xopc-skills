@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "recruiting-pipeline-review",
   "path": "skills/people-operations/recruiting-pipeline-review",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "review-recruiting-pipeline",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/people-operations/recruiting-pipeline-review/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Recruiting Pipeline Review",
+      "description": "Review a recruiting pipeline using stage definitions, candidate movement, aging, conversion, source quality, open decisions, and next actions."
+    },
+    "zh-CN": {
+      "displayName": "审查招聘漏斗健康度和行动",
+      "description": "在保护候选人隐私和公平性的前提下形成阶段、老化、转化、瓶颈和下一步行动报告。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "document-requirements-review",
   "path": "skills/document-compliance/document-requirements-review",
-  "version": "0.2.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "review-document-requirements",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/document-compliance/document-requirements-review/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Document Requirements Review",
+      "description": "Compare a proposal, response, policy, application, or other document against an explicit supplied requirement set and produce a traceability matrix, evidence gaps, ambiguities, and remediation plan."
+    },
+    "zh-CN": {
+      "displayName": "按明确要求审查专业文档完整性",
+      "description": "形成逐条可追溯矩阵、证据缺口、冲突和修复计划而不越权作法律结论。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Document reading tools as required by input format"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Measure requirement-level recall and false-met rate", "Validate large PDF/table inputs", "Obtain qualified review for regulated-domain fixtures"]

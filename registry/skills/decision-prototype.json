@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "decision-prototype",
   "path": "skills/product-discovery/decision-prototype",
-  "version": "0.7.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "prototype-product-decision",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/product-discovery/decision-prototype/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Decision Prototype",
+      "description": "Build a deliberately throwaway interactive prototype to answer one product, workflow, state-model, or interface decision before production implementation."
+    },
+    "zh-CN": {
+      "displayName": "用一次性原型验证产品决策",
+      "description": "以最小一次性原型回答一个高价值决策问题并记录证据与结论。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

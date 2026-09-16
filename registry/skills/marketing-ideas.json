@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "marketing-ideas",
   "path": "skills/marketing-strategy/marketing-ideas",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-strategy",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-strategy/marketing-ideas/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Marketing Ideas for SaaS",
+      "description": "Provide marketing ideas, inspiration, or strategies for their SaaS or software product."
+    },
+    "zh-CN": {
+      "displayName": "营销创意生成",
+      "description": "根据产品、受众和约束生成有优先级、可验证的营销增长创意。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "ad-creative",
   "path": "skills/paid-advertising/ad-creative",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-paid-advertising",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/paid-advertising/ad-creative/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Ad Creative",
+      "description": "Generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform."
+    },
+    "zh-CN": {
+      "displayName": "广告创意制作",
+      "description": "批量生成和迭代广告标题、正文与创意变体，并为创意测试提供可评审素材。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "video",
   "path": "skills/marketing-media-production/video",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-marketing-media-production",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/marketing-media-production/video/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Video",
+      "description": "Create, generate, or produce video content using AI tools or programmatic frameworks."
+    },
+    "zh-CN": {
+      "displayName": "营销视频制作",
+      "description": "使用合适的 AI 或程序化工具创建、编辑和交付营销视频内容。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

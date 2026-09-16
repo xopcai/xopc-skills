@@ -4,7 +4,7 @@ description: "When the user wants to generate, iterate, or scale ad creative —
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Ad Creative

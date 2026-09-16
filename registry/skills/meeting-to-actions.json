@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "meeting-to-actions",
   "path": "skills/meeting-execution/meeting-to-actions",
-  "version": "0.2.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "turn-meeting-into-actions",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/meeting-execution/meeting-to-actions/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Meeting to Actions",
+      "description": "Convert meeting notes or a transcript into decisions, ticket-ready commitments, owners, due dates, open questions, and an approval-ready write-back plan."
+    },
+    "zh-CN": {
+      "displayName": "把会议记录转成可执行行动闭环",
+      "description": "准确提取决策、责任人、截止日期、未决问题并形成经确认的写回计划。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["No helper runtime required; connectors optional for approved write-back"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Evaluate noisy multilingual transcripts", "Measure fabricated-owner and fabricated-date rates", "Test partial write-back failures against real connectors"]

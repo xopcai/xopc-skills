@@ -2,7 +2,7 @@
 name: first-customers
 description: Plan evidence-led founder sales for a one-person company's first repeatable cohort of paying customers. Use when a validated offer needs conversations, proposals and learning; do not use for mass lead scraping, generic prospect research, spam, or autonomous outreach.
 metadata:
-  version: "0.14.0"
+  version: "0.18.0"
 ---
 
 # First Customers

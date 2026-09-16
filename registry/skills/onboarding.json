@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "onboarding",
   "path": "skills/conversion-optimization/onboarding",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-conversion-optimization",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/conversion-optimization/onboarding/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Onboarding CRO",
+      "description": "Optimize post-signup onboarding, user activation, first-run experience, or time-to-value."
+    },
+    "zh-CN": {
+      "displayName": "用户引导优化",
+      "description": "优化注册后的首次体验、激活路径和价值到达时间，减少新用户流失。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

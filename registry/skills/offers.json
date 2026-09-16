@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "offers",
   "path": "skills/product-marketing-strategy/offers",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-product-marketing-strategy",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/product-marketing-strategy/offers/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Offer Design",
+      "description": "Design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure."
+    },
+    "zh-CN": {
+      "displayName": "Offer 设计",
+      "description": "设计产品或服务的价值表达、权益组合、保证机制、稀缺性、命名和付款结构。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

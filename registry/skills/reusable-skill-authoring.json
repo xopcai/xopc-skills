@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "reusable-skill-authoring",
   "path": "skills/skill-development/reusable-skill-authoring",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "author-reusable-skill",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Reusable Skill Authoring",
+      "description": "Create or revise a reusable SKILL.md package from a concrete repeated workflow."
+    },
+    "zh-CN": {
+      "displayName": "创建可复用技能",
+      "description": "将已明确的重复工作流程转化为可安装、触发清晰且可评测的 Skill 包。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "prospect-research",
   "path": "skills/sales-account-research/prospect-research",
-  "version": "0.2.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "research-qualified-prospects",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/sales-account-research/prospect-research/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Prospect Research",
+      "description": "Turn a defined ideal-customer profile into a small, verified, evidence-linked prospect list with fit, timing signals, confidence, and disqualifiers."
+    },
+    "zh-CN": {
+      "displayName": "按 ICP 研究并验证高质量潜在客户",
+      "description": "交付小而可信、包含匹配度、时机信号、来源和置信度的潜客清单。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Web research tools; licensed enrichment optional"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Measure company identity and timing-signal accuracy", "Run privacy and source-lineage review", "Validate list quality across SaaS, B2B and local branches"]

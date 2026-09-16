@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "community-marketing",
   "path": "skills/community-marketing/community-marketing",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-community-marketing",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/community-marketing/community-marketing/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Community Marketing",
+      "description": "Build and leverage online communities to drive product growth and brand loyalty."
+    },
+    "zh-CN": {
+      "displayName": "建立社区营销循环",
+      "description": "把成员价值、运营节奏和反馈机制转化为可持续社区计划。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

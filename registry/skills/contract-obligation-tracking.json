@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "contract-obligation-tracking",
   "path": "skills/contract-operations/contract-obligation-tracking",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "track-contract-obligations",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Contract Obligation Tracking",
+      "description": "Extract operational obligations, renewal notice windows and deliverable evidence from supplied contracts into a traceable register."
+    },
+    "zh-CN": {
+      "displayName": "合同履约台账",
+      "description": "从指定合同版本提取有条款定位的履约义务、日期条件和待确认事项。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

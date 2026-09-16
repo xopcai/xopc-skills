@@ -2,7 +2,7 @@
 name: travel-itinerary-planning
 description: Build a feasible travel itinerary with route, time, budget, booking, accessibility, and fallback details. Use for 旅行攻略、自由行路线、亲子/银发/独行行程、周末游、差旅延伸和旅游预算; do not use for booking purchases, guaranteed visa or entry advice, or static recommendations presented as current facts.
 metadata:
-  version: "0.9.0"
+  version: "0.18.0"
 ---
 
 # Travel Itinerary Planning

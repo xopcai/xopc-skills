@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "ai-seo",
   "path": "skills/search-visibility/ai-seo",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-search-visibility",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/search-visibility/ai-seo/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "AI SEO",
+      "description": "Optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers."
+    },
+    "zh-CN": {
+      "displayName": "AI 搜索优化",
+      "description": "诊断并改善内容在 AI 搜索和大模型答案中的可见性、引用机会与站点可读性。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

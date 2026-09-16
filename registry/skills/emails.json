@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "emails",
   "path": "skills/lifecycle-messaging/emails",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-lifecycle-messaging",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/lifecycle-messaging/emails/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Email Sequence Design",
+      "description": "Create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program."
+    },
+    "zh-CN": {
+      "displayName": "生命周期邮件",
+      "description": "设计欢迎、培育、激活、召回等自动化邮件序列，并明确触发条件与衡量指标。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

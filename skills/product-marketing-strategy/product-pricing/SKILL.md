@@ -4,7 +4,7 @@ description: "When the user wants help with pricing decisions, packaging, or mon
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Product Pricing Strategy

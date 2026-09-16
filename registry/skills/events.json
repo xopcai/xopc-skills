@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "events",
   "path": "skills/launch-marketing/events",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-launch-marketing",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/launch-marketing/events/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Event Marketing",
+      "description": "Plan, run, sponsor, speak at, or get pipeline from events — webinars, conferences, trade shows, meetups, dinners, workshops, virtual summits, or user conferences."
+    },
+    "zh-CN": {
+      "displayName": "营销活动策划",
+      "description": "规划线上或线下活动的目标、形式、执行、跟进和投入产出衡量。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "workstream-digest",
   "path": "skills/work-management/workstream-digest",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "digest-team-workstream",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/work-management/workstream-digest/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Workstream Digest",
+      "description": "Create a bounded digest of team chat channels, threads, or workstream topics focused on decisions, blockers, asks, ownership, incidents, and status changes."
+    },
+    "zh-CN": {
+      "displayName": "从团队协作流提炼关键动态",
+      "description": "对限定频道、主题和时间窗口提炼决策、阻塞、请求、负责人及状态变化。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

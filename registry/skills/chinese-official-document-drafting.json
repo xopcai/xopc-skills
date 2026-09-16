@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "chinese-official-document-drafting",
   "path": "skills/chinese-professional-writing/chinese-official-document-drafting",
-  "version": "0.9.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "draft-chinese-official-document",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Chinese Official Document Drafting",
+      "description": "Draft and revise evidence-based Chinese official or administrative documents."
+    },
+    "zh-CN": {
+      "displayName": "起草或修订事实准确的中文公文与行政材料",
+      "description": "交付文种、行文关系、结构、事实、职责和审批边界清楚的中文专业文稿。"
+    }
+  },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied facts, organization templates, and optional authoritative web research"],"os":["macOS","Linux","Windows"]},
   "qualityGates": {"Q0":"scenario-and-market-evidence","Q1":"passed","Q2":"passed","Q3":"passed","Q4":"fixtures-ready","Q5":"fixtures-ready","Q6":"declared","Q7":"experimental-release"},
   "stableBlockers": ["Run document-type baseline", "Complete Chinese professional-writing review", "Measure unsupported-claim rate"]

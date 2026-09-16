@@ -2,7 +2,7 @@
 name: contract-obligation-tracking
 description: Extract operational obligations, renewal notice windows and deliverable evidence from supplied contracts into a traceable register. Use for 合同履约台账、续约提醒清单、合同义务跟踪; legal opinions, redlining and signing are separate tasks.
 metadata:
-  version: "0.15.0"
+  version: "0.18.0"
 ---
 
 # Contract Obligation Tracking

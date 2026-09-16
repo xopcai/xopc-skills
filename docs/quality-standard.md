@@ -49,6 +49,7 @@
 - 声明并实际验证支持的 Agent、OS、运行时、工具和依赖。
 - 不把某一客户端实验性 frontmatter 当作跨客户端保证。
 - 客户端专用 UI metadata 与通用 `SKILL.md` 分离。
+- 用户可见名称和简介由 catalog 的 `localizations` 提供；`SKILL.md` 的 name 保持稳定机器标识，description 继续服务 Agent 发现与触发。
 
 ## Q7 发布与维护
 

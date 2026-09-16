@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "obsidian-bases",
   "path": "skills/obsidian-authoring/obsidian-bases",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "obsidian-authoring",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/obsidian-authoring/obsidian-bases/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Obsidian Bases Skill",
+      "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries."
+    },
+    "zh-CN": {
+      "displayName": "Obsidian Bases",
+      "description": "创建和编辑带视图、筛选、公式和汇总的 Obsidian Bases 文件。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

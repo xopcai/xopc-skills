@@ -2,7 +2,7 @@
 name: privacy-redaction
 description: Produce and verify a redacted copy of text, tables, images, or documents for a defined sharing purpose. Use for 数据脱敏、隐私清洗、手机号/身份证/银行卡/API 密钥遮盖、匿名化和外发前检查; do not use for compliance certification, deleting originals, or reversible masking without protected key handling.
 metadata:
-  version: "0.10.0"
+  version: "0.18.0"
 ---
 
 # Privacy Redaction

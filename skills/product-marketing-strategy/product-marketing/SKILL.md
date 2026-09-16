@@ -4,7 +4,7 @@ description: "When the user wants to create or update their product marketing co
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Product Marketing Context

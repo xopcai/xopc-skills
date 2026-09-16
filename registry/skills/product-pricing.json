@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "product-pricing",
   "path": "skills/product-marketing-strategy/product-pricing",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-product-marketing-strategy",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/product-marketing-strategy/product-pricing/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Product Pricing Strategy",
+      "description": "Help with pricing decisions, packaging, or monetization strategy."
+    },
+    "zh-CN": {
+      "displayName": "产品定价策略",
+      "description": "设计或审查价格、套餐、价值指标、免费试用与商业化策略。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

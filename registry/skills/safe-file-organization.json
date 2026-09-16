@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "safe-file-organization",
   "path": "skills/file-organization/safe-file-organization",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "organize-files-safely",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Safe File Organization",
+      "description": "Inventory and safely organize a bounded file collection using content-aware categories, duplicate evidence, a preview plan, collision handling, and a rollback manifest."
+    },
+    "zh-CN": {
+      "displayName": "安全整理并可回滚文件集合",
+      "description": "形成有边界的文件盘点、分类预览、重复证据、冲突处理和回滚清单。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

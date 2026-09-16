@@ -2,7 +2,7 @@
 name: product-requirements-authoring
 description: Develop or revise a PRD from user problems, evidence and constraints before implementation breakdown. Use for 编写PRD、梳理产品需求、需求范围和验收定义; approved-spec ticket splitting, prototypes and code implementation have separate owners.
 metadata:
-  version: "0.15.0"
+  version: "0.18.0"
 ---
 
 # Product Requirements Authoring

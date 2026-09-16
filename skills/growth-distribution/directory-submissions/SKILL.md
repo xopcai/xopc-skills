@@ -4,7 +4,7 @@ description: When the user wants to submit their product to startup, SaaS, AI, a
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Directory Submissions

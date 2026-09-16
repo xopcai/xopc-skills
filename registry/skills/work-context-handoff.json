@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "work-context-handoff",
   "path": "skills/work-handoff/work-context-handoff",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "prepare-work-context-handoff",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Work Context Handoff",
+      "description": "Create a portable handoff for another person, agent or future session from a bounded task's current state."
+    },
+    "zh-CN": {
+      "displayName": "工作上下文交接",
+      "description": "将当前任务证据压缩为保留目标、状态、约束和可继续步骤的交接材料。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

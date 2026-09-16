@@ -2,7 +2,7 @@
 name: reusable-skill-authoring
 description: Create or revise a reusable SKILL.md package from a concrete repeated workflow. Use for 创建技能、封装工作方法、编写SKILL.md or improving skill triggers; installing marketplace packages, connector development and one-off task execution are separate tasks.
 metadata:
-  version: "0.15.0"
+  version: "0.18.0"
 ---
 
 # Reusable Skill Authoring

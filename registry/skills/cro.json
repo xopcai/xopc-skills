@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "cro",
   "path": "skills/conversion-optimization/cro",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-conversion-optimization",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/conversion-optimization/cro/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Conversion Rate Optimization (CRO)",
+      "description": "Optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms."
+    },
+    "zh-CN": {
+      "displayName": "转化率优化",
+      "description": "基于用户意图和页面证据诊断转化障碍，并提出可测试的页面或表单改进方案。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "content-intake-security",
   "path": "skills/content-intake-security/content-intake-security",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "content-intake-security",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/content-intake-security/content-intake-security/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Content Intake Security",
+      "description": "Review an untrusted file or URL before it enters parsing, RAG, indexing, or a knowledge base."
+    },
+    "zh-CN": {
+      "displayName": "审查不可信内容的入库风险",
+      "description": "在文件或 URL 进入解析、RAG 或知识库前形成可解释的允许、隔离或拒绝判定。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

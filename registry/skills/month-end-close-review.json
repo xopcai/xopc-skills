@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "month-end-close-review",
   "path": "skills/financial-operations/month-end-close-review",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "review-month-end-close",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Month End Close Review",
+      "description": "Review month-end close readiness from a supplied checklist, reconciliations and supporting evidence."
+    },
+    "zh-CN": {
+      "displayName": "月结证据与异常检查",
+      "description": "把月结清单和勾稽证据整理为可追溯的未结项、负责人和关账就绪状态。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

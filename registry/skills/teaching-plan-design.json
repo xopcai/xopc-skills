@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "teaching-plan-design",
   "path": "skills/teaching-support/teaching-plan-design",
-  "version": "0.9.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "design-teaching-plan",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Teaching Plan Design",
+      "description": "Design an aligned lesson plan for Chinese primary, secondary, vocational, higher, or workplace teaching."
+    },
+    "zh-CN": {
+      "displayName": "设计目标、活动与评价一致的教学方案",
+      "description": "交付标准依据可核验、课堂时间可执行、兼顾差异化并能观察学习证据的教案。"
+    }
+  },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied curriculum context and optional authoritative web research"],"os":["macOS","Linux","Windows"]},
   "qualityGates": {"Q0":"scenario-and-market-evidence","Q1":"passed","Q2":"passed","Q3":"passed","Q4":"fixtures-ready","Q5":"fixtures-ready","Q6":"declared","Q7":"experimental-release"},
   "stableBlockers": ["Run cross-subject baseline", "Complete teacher review", "Measure alignment and feasibility errors"]

@@ -2,7 +2,7 @@
 name: chinese-official-document-drafting
 description: Draft and revise evidence-based Chinese official or administrative documents. Use for 公文、通知、请示、报告、批复、函、纪要、通报、工作方案、汇报材料和领导讲话稿; do not use for generic creative writing, visual Word layout, fabricated policy authority, or issuing/publishing documents without approval.
 metadata:
-  version: "0.9.0"
+  version: "0.18.0"
 ---
 
 # Chinese Official Document Drafting

@@ -2,7 +2,7 @@
 name: daily-agenda-brief
 description: Turn one day of calendar events into a practical agenda with conflicts, workday shape, preparation needs, and useful free windows. Use for today, tomorrow, or a named date; do not use for scheduling a new meeting or preparing one meeting in depth.
 metadata:
-  version: "0.5.0"
+  version: "0.18.0"
 ---
 
 # Daily Agenda Brief

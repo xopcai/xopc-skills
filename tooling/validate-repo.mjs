@@ -22,6 +22,22 @@ function requireString(value, label) {
   if (typeof value !== "string" || !value.trim()) errors.push(`${label}: must be a non-empty string`)
 }
 
+function validateLocalization(localization, label, { requireHan = false } = {}) {
+  if (!localization || typeof localization !== "object" || Array.isArray(localization)) {
+    errors.push(`${label}: must be an object`)
+    return
+  }
+  requireString(localization.displayName, `${label}.displayName`)
+  requireString(localization.description, `${label}.description`)
+  if ((localization.displayName ?? "").length > 80) errors.push(`${label}.displayName: exceeds 80 characters`)
+  if ((localization.description ?? "").length > 500) errors.push(`${label}.description: exceeds 500 characters`)
+  if (/\r|\n|<[^>]+>|^\s*#/m.test(localization.displayName ?? "")) errors.push(`${label}.displayName: must be plain single-line text`)
+  if (/\r|\n|<[^>]+>|^\s*#/m.test(localization.description ?? "")) errors.push(`${label}.description: must be plain single-line text`)
+  if (requireHan && !/[\u3400-\u9fff]/u.test(`${localization.displayName ?? ""}${localization.description ?? ""}`)) {
+    errors.push(`${label}: must contain Chinese text`)
+  }
+}
+
 function checkUnique(items, key, label) {
   const seen = new Set()
   for (const item of items) {
@@ -285,7 +301,7 @@ for (const skillDir of skillDirs) {
   if (existsSync(catalogPath)) {
     const catalog = readJson(`registry/skills/${name}.json`)
     if (catalog) {
-      if (catalog.schemaVersion !== 1 || catalog.name !== name) errors.push(`registry/skills/${name}.json: unsupported shape or name mismatch`)
+      if (catalog.schemaVersion !== 2 || catalog.name !== name) errors.push(`registry/skills/${name}.json: unsupported shape or name mismatch`)
       if (catalog.path !== relativeDir) errors.push(`${name}: catalog path must be '${relativeDir}'`)
       if (!/^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/.test(catalog.version ?? "")) errors.push(`${name}: invalid catalog version`)
       if (!["experimental", "candidate", "stable", "deprecated"].includes(catalog.stage)) errors.push(`${name}: invalid catalog stage`)
@@ -293,6 +309,8 @@ for (const skillDir of skillDirs) {
       if (!scenarioIds.has(catalog.scenarioId)) errors.push(`${name}: unknown catalog scenarioId '${catalog.scenarioId}'`)
       if (!["xopc-original", "xopc-adapted"].includes(catalog.origin)) errors.push(`${name}: invalid origin`)
       requireString(catalog.owner, `${name}.owner`)
+      validateLocalization(catalog.localizations?.en, `${name}.localizations.en`)
+      validateLocalization(catalog.localizations?.["zh-CN"], `${name}.localizations.zh-CN`, { requireHan: true })
       if (catalog.origin === "xopc-adapted") {
         requireString(catalog.source, `${name}.source`)
         const adaptationPath = `adaptations/${name}.md`

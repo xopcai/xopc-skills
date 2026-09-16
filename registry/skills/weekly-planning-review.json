@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "weekly-planning-review",
   "path": "skills/weekly-planning/weekly-planning-review",
-  "version": "0.2.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "run-weekly-planning-review",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/weekly-planning/weekly-planning-review/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Weekly Planning Review",
+      "description": "Review a person's current commitments, calendar constraints, waiting items, and projects to close open loops and produce a capacity-feasible next-week plan."
+    },
+    "zh-CN": {
+      "displayName": "完成个人周复盘并生成容量可行的下周计划",
+      "description": "关闭开放循环、处理逾期承诺并产出不超过真实容量的周计划。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["No helper runtime required; calendar/task connectors optional"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Validate plans against four weeks of actual execution", "Measure capacity overcommitment rate", "Test task/calendar write-back with rollback"]

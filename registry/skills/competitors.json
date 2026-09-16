@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "competitors",
   "path": "skills/comparison-pages/competitors",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-comparison-pages",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/comparison-pages/competitors/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Competitor & Alternative Pages",
+      "description": "Create competitor comparison or alternative pages for SEO and sales enablement."
+    },
+    "zh-CN": {
+      "displayName": "创作公平的竞品比较页",
+      "description": "基于可追溯证据形成有用、公平且可维护的比较或替代页面。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

@@ -4,7 +4,7 @@ description: When the user wants to create or optimize in-app paywalls, upgrade 
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.16.0"
+  version: "0.18.0"
 ---
 
 # Paywall and Upgrade Screen CRO

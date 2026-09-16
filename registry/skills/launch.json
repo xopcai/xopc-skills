@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "launch",
   "path": "skills/launch-marketing/launch",
-  "version": "0.16.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "market-launch-marketing",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/launch-marketing/launch/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Launch Strategy",
+      "description": "Plan a product launch, feature announcement, or release strategy."
+    },
+    "zh-CN": {
+      "displayName": "产品发布策划",
+      "description": "为产品、功能或版本发布制定时间线、渠道、素材、责任人和复盘指标。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

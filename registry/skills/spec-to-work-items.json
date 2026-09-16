@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "spec-to-work-items",
   "path": "skills/work-management/spec-to-work-items",
-  "version": "0.7.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "decompose-spec-into-work-items",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/work-management/spec-to-work-items/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Spec to Work Items",
+      "description": "Turn an approved product or engineering specification into small, independently verifiable work items with acceptance criteria, dependencies, and delivery order."
+    },
+    "zh-CN": {
+      "displayName": "把产品规格拆成可交付工作项",
+      "description": "形成纵向切片、依赖明确、可验收且经确认后才能写入系统的工作计划。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

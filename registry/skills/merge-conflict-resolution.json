@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "merge-conflict-resolution",
   "path": "skills/software-delivery/merge-conflict-resolution",
-  "version": "0.7.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "resolve-git-conflicts",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/software-delivery/merge-conflict-resolution/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Merge Conflict Resolution",
+      "description": "Resolve an in-progress Git merge, rebase, cherry-pick, or revert conflict by recovering each side's intent, choosing an evidence-backed result, and verifying repository integrity."
+    },
+    "zh-CN": {
+      "displayName": "安全解决 Git 合并或变基冲突",
+      "description": "在保留双方意图并通过验证的前提下完成或安全暂停冲突处理。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

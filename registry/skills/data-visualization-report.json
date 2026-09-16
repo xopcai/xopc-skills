@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "data-visualization-report",
   "path": "skills/office-data/data-visualization-report",
-  "version": "0.6.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "create-data-visualization-report",
   "origin": "xopc-adapted",
   "license": "Apache-2.0",
   "owner": "XOPC Skills Team",
   "source": "skills/office-data/data-visualization-report/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Data Visualization Report",
+      "description": "Turn a validated dataset and business question into an accurate, accessible visualization and concise insight report."
+    },
+    "zh-CN": {
+      "displayName": "从可信数据生成可视化报告",
+      "description": "交付数据验证、图表选择、可访问渲染、来源说明和结论一致的可视化报告。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

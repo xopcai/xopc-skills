@@ -1,13 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "document-to-markdown",
   "path": "skills/document-conversion/document-to-markdown",
-  "version": "0.15.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "convert-documents-to-markdown",
   "origin": "xopc-original",
   "license": "MIT",
   "owner": "XOPC Skills Team",
+  "localizations": {
+    "en": {
+      "displayName": "Document to Markdown",
+      "description": "Convert supplied documents or authorized web pages into source-traceable Markdown."
+    },
+    "zh-CN": {
+      "displayName": "文档转 Markdown",
+      "description": "将多格式资料转换为保留来源定位、结构和丢失说明的 Markdown 文件集。"
+    }
+  },
   "compatibility": {
     "agents": [
       "Codex",

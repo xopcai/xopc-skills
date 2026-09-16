@@ -1,14 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "name": "content-campaign-pack",
   "path": "skills/content-campaign/content-campaign-pack",
-  "version": "0.2.0",
+  "version": "0.18.0",
   "stage": "experimental",
   "scenarioId": "create-content-campaign-pack",
   "origin": "xopc-adapted",
   "license": "MIT",
   "owner": "XOPC Skills Team",
   "source": "skills/content-campaign/content-campaign-pack/SOURCE.json",
+  "localizations": {
+    "en": {
+      "displayName": "Content Campaign Pack",
+      "description": "Build an evidence-backed marketing campaign package from a business goal and audience: message, content pillars, prioritized briefs, channel adaptations, calendar, measurement, and quality checks."
+    },
+    "zh-CN": {
+      "displayName": "从业务目标形成完整内容营销 Campaign",
+      "description": "形成基于受众证据的内容支柱、资产 brief、渠道适配、日历与度量方案。"
+    }
+  },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["No helper runtime required; research/media tools optional"], "os": ["macOS", "Linux", "Windows"] },
   "qualityGates": { "Q0": "provisional", "Q1": "passed", "Q2": "passed", "Q3": "passed", "Q4": "fixtures-ready", "Q5": "fixtures-ready", "Q6": "declared", "Q7": "experimental-release" },
   "stableBlockers": ["Blind-review three real campaign packs", "Measure unsupported-claim and cross-channel consistency rates", "Validate constrained-team plans against actual delivery"]

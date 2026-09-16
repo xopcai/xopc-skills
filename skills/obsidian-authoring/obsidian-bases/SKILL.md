@@ -4,7 +4,7 @@ description: Create and edit Obsidian Bases (.base files) with views, filters, f
 license: MIT
 metadata:
   author: XOPC, adapted from Steph Ango
-  version: "0.17.0"
+  version: "0.18.0"
 ---
 # Obsidian Bases Skill
 > **XOPC adaptation:** preserve unknown vault metadata, reuse existing naming and folder conventions, avoid destructive bulk edits, and validate the resulting file syntax and internal references.
