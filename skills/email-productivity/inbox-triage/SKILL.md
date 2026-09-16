@@ -2,7 +2,7 @@
 name: inbox-triage
 description: Triage a bounded email inbox slice into urgent, reply-needed, waiting, and informational items with reasons and next actions. Use when the user asks what deserves attention; do not use to draft one reply or silently change mailbox state.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Inbox Triage

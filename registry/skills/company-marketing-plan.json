@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "company-marketing-plan",
   "path": "skills/marketing-strategy/company-marketing-plan",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-marketing-strategy",
   "origin": "xopc-adapted",

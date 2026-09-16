@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "code-review",
   "path": "skills/software-delivery/code-review",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "review-code-change-against-spec",
   "origin": "xopc-adapted",

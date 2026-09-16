@@ -4,7 +4,7 @@ description: "When the user wants to reduce churn, build cancellation flows, set
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Churn Prevention

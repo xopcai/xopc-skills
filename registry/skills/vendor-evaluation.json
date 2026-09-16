@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "vendor-evaluation",
   "path": "skills/procurement-operations/vendor-evaluation",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "evaluate-vendor",
   "origin": "xopc-adapted",

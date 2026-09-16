@@ -2,7 +2,7 @@
 name: secure-code-review
 description: Review Python, JavaScript/TypeScript, or Go code for concrete secure-by-default violations and produce evidence-linked remediation. Trigger only for an explicit application-security review or secure coding request; do not use for general code review or threat modeling.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Secure Code Review

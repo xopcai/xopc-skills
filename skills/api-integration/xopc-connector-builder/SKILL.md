@@ -4,7 +4,7 @@ description: Design and validate a least-privilege XOPC Connector manifest for a
 license: MIT
 metadata:
   author: XOPC
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # XOPC Connector Builder

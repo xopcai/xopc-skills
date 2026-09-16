@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "obsidian-bases",
   "path": "skills/obsidian-authoring/obsidian-bases",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "obsidian-authoring",
   "origin": "xopc-adapted",

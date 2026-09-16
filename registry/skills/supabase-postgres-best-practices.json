@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "supabase-postgres-best-practices",
   "path": "skills/software-delivery/supabase-postgres-best-practices",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "review-production-postgres",
   "origin": "xopc-adapted",

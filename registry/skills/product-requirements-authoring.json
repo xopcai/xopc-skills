@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "product-requirements-authoring",
   "path": "skills/product-requirements/product-requirements-authoring",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "author-product-requirements",
   "origin": "xopc-original",

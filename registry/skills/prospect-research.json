@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "prospect-research",
   "path": "skills/sales-account-research/prospect-research",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "research-qualified-prospects",
   "origin": "xopc-adapted",

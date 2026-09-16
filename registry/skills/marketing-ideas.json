@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "marketing-ideas",
   "path": "skills/marketing-strategy/marketing-ideas",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-marketing-strategy",
   "origin": "xopc-adapted",

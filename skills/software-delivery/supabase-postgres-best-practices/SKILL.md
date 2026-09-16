@@ -4,7 +4,7 @@ description: "Review a PostgreSQL workload or proposed database change for produ
 license: MIT
 metadata:
   author: supabase
-  version: "0.18.2"
+  version: "0.18.3"
   upstream-version: "1.1.1"
   organization: Supabase
   date: January 2026

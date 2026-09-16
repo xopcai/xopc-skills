@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "workstream-digest",
   "path": "skills/work-management/workstream-digest",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "digest-team-workstream",
   "origin": "xopc-adapted",

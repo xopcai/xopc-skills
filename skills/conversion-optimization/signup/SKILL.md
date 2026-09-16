@@ -4,7 +4,7 @@ description: When the user wants to optimize signup, registration, account creat
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Signup Flow CRO

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "commitment-task-capture",
   "path": "skills/work-management/commitment-task-capture",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "capture-cross-source-commitments",
   "origin": "xopc-adapted",

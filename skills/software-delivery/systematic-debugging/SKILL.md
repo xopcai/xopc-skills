@@ -2,7 +2,7 @@
 name: systematic-debugging
 description: Diagnose a reproducible software defect, failing test, build failure, integration error, or performance regression through evidence, competing hypotheses, and minimal experiments before changing code. Do not use for feature implementation, routine code review, or unexplained fixes without reproduction evidence.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Systematic Debugging

@@ -2,7 +2,7 @@
 name: code-review
 description: Review a bounded code change against repository standards and its originating requirement, reporting evidence-linked correctness, scope, and maintainability findings without modifying code. Use for branches, pull requests, commits, or working-tree diffs; do not use for whole-codebase audits or requested implementation.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Code Review

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "decision-prototype",
   "path": "skills/product-discovery/decision-prototype",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "prototype-product-decision",
   "origin": "xopc-adapted",

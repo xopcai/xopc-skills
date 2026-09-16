@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "influencer-marketing",
   "path": "skills/partner-marketing/influencer-marketing",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-partner-marketing",
   "origin": "xopc-adapted",

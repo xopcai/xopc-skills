@@ -5,7 +5,7 @@
     {
       "id": "office-efficiency",
       "labels": {
-        "en": "Office Efficiency",
+        "en": "Office Productivity",
         "zh-CN": "办公效率"
       },
       "scenarioIds": [
@@ -89,8 +89,8 @@
     {
       "id": "dev-programming",
       "labels": {
-        "en": "Development",
-        "zh-CN": "开发编程"
+        "en": "Development & Programming",
+        "zh-CN": "开发与编程"
       },
       "scenarioIds": [
         "build-reliable-web-test-suite",
@@ -170,7 +170,7 @@
       "id": "design-media",
       "labels": {
         "en": "Design & Media",
-        "zh-CN": "设计多媒体"
+        "zh-CN": "设计与多媒体"
       },
       "scenarioIds": [
         "design-distinctive-web-interface",
@@ -201,8 +201,8 @@
     {
       "id": "ai-agent",
       "labels": {
-        "en": "AI Agent",
-        "zh-CN": "AI Agent"
+        "en": "AI Agents",
+        "zh-CN": "AI 智能体"
       },
       "scenarioIds": [
         "connect-ai-app-to-xopc-models",
@@ -297,8 +297,8 @@
     {
       "id": "education",
       "labels": {
-        "en": "Education",
-        "zh-CN": "教育学习"
+        "en": "Education & Learning",
+        "zh-CN": "教育与学习"
       },
       "scenarioIds": [
         "design-teaching-plan",
@@ -318,8 +318,8 @@
     {
       "id": "professional",
       "labels": {
-        "en": "Professional",
-        "zh-CN": "行业专业"
+        "en": "Professional Services",
+        "zh-CN": "专业服务"
       },
       "scenarioIds": [
         "review-document-requirements",
@@ -385,7 +385,7 @@
     {
       "id": "life-service",
       "labels": {
-        "en": "Life Service",
+        "en": "Life Services",
         "zh-CN": "生活服务"
       },
       "scenarioIds": [

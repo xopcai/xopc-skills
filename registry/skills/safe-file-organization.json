@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "safe-file-organization",
   "path": "skills/file-organization/safe-file-organization",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "organize-files-safely",
   "origin": "xopc-original",

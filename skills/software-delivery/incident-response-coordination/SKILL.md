@@ -2,7 +2,7 @@
 name: incident-response-coordination
 description: Coordinate an active production incident from impact triage through mitigation evidence, communication, recovery validation, and blameless review. Use for 线上故障、生产事故、服务中断、告警升级、状态更新和复盘; do not use for ordinary debugging, unapproved production changes, or speculative root-cause claims.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Incident Response Coordination

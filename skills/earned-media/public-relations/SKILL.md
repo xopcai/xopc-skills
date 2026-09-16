@@ -4,7 +4,7 @@ description: "When the user wants help with public relations, earned media, pres
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Public Relations & Earned Media

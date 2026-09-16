@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "security-ownership-analysis",
   "path": "skills/software-security/security-ownership-analysis",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "analyze-security-ownership",
   "origin": "xopc-adapted",

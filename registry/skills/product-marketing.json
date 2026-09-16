@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "product-marketing",
   "path": "skills/product-marketing-strategy/product-marketing",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-product-marketing-strategy",
   "origin": "xopc-adapted",

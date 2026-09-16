@@ -4,7 +4,7 @@ description: "Turn complex source material into four linked card types: verified
 license: Apache-2.0
 metadata:
   author: XOPC, adapted from anbeime/skill
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Four-Color Evidence Analysis

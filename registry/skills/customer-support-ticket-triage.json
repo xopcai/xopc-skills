@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "customer-support-ticket-triage",
   "path": "skills/business-operations/customer-support-ticket-triage",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "triage-customer-support-ticket",
   "origin": "xopc-adapted",

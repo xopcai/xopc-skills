@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "travel-itinerary-planning",
   "path": "skills/travel-planning/travel-itinerary-planning",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "plan-travel-itinerary",
   "origin": "xopc-original",

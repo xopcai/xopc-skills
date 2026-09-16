@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "release-notes",
   "path": "skills/software-delivery/release-notes",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "write-evidence-based-release-notes",
   "origin": "xopc-adapted",

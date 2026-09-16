@@ -4,7 +4,7 @@ description: When the user wants to create, plan, or optimize a lead magnet for 
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Lead Magnets

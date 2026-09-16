@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "emails",
   "path": "skills/lifecycle-messaging/emails",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-lifecycle-messaging",
   "origin": "xopc-adapted",

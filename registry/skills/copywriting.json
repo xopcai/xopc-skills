@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "copywriting",
   "path": "skills/marketing-copy/copywriting",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-marketing-copy",
   "origin": "xopc-adapted",

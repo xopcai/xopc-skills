@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "marketing-psychology",
   "path": "skills/marketing-psychology/marketing-psychology",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-marketing-psychology",
   "origin": "xopc-adapted",

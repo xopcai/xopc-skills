@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "business-budget-variance",
   "path": "skills/financial-operations/business-budget-variance",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "analyze-business-budget-variance",
   "origin": "xopc-original",

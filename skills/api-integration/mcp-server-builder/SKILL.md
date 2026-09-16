@@ -2,7 +2,7 @@
 name: mcp-server-builder
 description: Design, implement, and evaluate an MCP server that exposes an external service through discoverable, bounded tools. Use for new or substantially revised MCP servers; do not use for packaging an existing server as an XOPC Connector.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # MCP Server Builder

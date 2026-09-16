@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "explainer-video-production",
   "path": "skills/media-production/explainer-video-production",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "produce-explainer-video",
   "origin": "xopc-adapted",

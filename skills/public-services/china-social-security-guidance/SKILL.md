@@ -2,7 +2,7 @@
 name: china-social-security-guidance
 description: Explain and verify current China social-insurance and housing-fund information for a specific location and date. Use for 社保、公积金、养老金、灵活就业参保、断缴、转移接续、异地就医 and benefit application checklists; do not make legal eligibility guarantees, reuse stale rates, or submit applications.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # China Social Security Guidance

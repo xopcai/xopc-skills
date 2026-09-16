@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "frontend-design",
   "path": "skills/product-interface-design/frontend-design",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "design-distinctive-web-interface",
   "origin": "xopc-adapted",

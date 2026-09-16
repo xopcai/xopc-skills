@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "community-marketing",
   "path": "skills/community-marketing/community-marketing",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-community-marketing",
   "origin": "xopc-adapted",

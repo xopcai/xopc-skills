@@ -2,7 +2,7 @@
 name: meeting-preparation
 description: Build a concise preparation brief for one upcoming meeting from its invitation, attendees, linked documents, prior decisions, and open questions. Use before a meeting; do not use for scheduling, daily calendar summaries, or post-meeting action extraction.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Meeting Preparation

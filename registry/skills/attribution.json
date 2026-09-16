@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "attribution",
   "path": "skills/marketing-analytics/attribution",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-marketing-analytics",
   "origin": "xopc-adapted",

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "paywalls",
   "path": "skills/conversion-optimization/paywalls",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-conversion-optimization",
   "origin": "xopc-adapted",

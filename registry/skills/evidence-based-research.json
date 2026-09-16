@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "evidence-based-research",
   "path": "skills/decision-research/evidence-based-research",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "create-decision-research-brief",
   "origin": "xopc-adapted",

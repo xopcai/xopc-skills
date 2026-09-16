@@ -4,7 +4,7 @@ description: When the user wants to plan, evaluate, or build a free tool for mar
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Free Tool Strategy (Engineering as Marketing)

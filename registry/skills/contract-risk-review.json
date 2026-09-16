@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "contract-risk-review",
   "path": "skills/contract-risk-review/contract-risk-review",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "contract-risk-review",
   "origin": "xopc-adapted",

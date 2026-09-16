@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "marketing-council",
   "path": "skills/marketing-strategy/marketing-council",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-marketing-strategy",
   "origin": "xopc-adapted",

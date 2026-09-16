@@ -4,7 +4,7 @@ description: "When the user wants to create, optimize, or analyze a referral pro
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Referral & Affiliate Programs

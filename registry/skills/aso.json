@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "aso",
   "path": "skills/app-store-growth/aso",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-app-store-growth",
   "origin": "xopc-adapted",

@@ -2,7 +2,7 @@
 name: group-scheduling
 description: Find and rank practical meeting times across required attendees, timezones, work hours, buffers, and room or location constraints. Use when selecting a slot is the task; do not use for a one-person agenda summary or create the event without confirmation.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Group Scheduling

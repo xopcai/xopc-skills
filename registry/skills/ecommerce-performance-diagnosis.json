@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "ecommerce-performance-diagnosis",
   "path": "skills/business-analysis/ecommerce-performance-diagnosis",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "diagnose-ecommerce-performance",
   "origin": "xopc-original",

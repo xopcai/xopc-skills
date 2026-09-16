@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "recruiting-pipeline-review",
   "path": "skills/people-operations/recruiting-pipeline-review",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "review-recruiting-pipeline",
   "origin": "xopc-adapted",

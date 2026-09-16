@@ -4,7 +4,7 @@ description: "When the user wants to plan, run, sponsor, speak at, or get pipeli
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Event Marketing

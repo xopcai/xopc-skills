@@ -4,7 +4,7 @@ description: "When the user wants to create sales collateral, pitch decks, one-p
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Sales Enablement

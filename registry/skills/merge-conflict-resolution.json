@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "merge-conflict-resolution",
   "path": "skills/software-delivery/merge-conflict-resolution",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "resolve-git-conflicts",
   "origin": "xopc-adapted",

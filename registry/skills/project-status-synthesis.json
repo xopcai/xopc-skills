@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "project-status-synthesis",
   "path": "skills/work-management/project-status-synthesis",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "synthesize-project-status",
   "origin": "xopc-adapted",

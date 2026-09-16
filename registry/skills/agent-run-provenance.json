@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "agent-run-provenance",
   "path": "skills/agent-run-provenance/agent-run-provenance",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "agent-run-provenance",
   "origin": "xopc-adapted",

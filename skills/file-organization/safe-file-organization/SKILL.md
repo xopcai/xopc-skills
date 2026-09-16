@@ -2,7 +2,7 @@
 name: safe-file-organization
 description: Inventory and safely organize a bounded file collection using content-aware categories, duplicate evidence, a preview plan, collision handling, and a rollback manifest. Use for folder cleanup or archive preparation; do not use for application-specific document analysis or unconfirmed destructive moves and deletion.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Safe File Organization

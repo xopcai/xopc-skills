@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "four-color-evidence-analysis",
   "path": "skills/four-color-evidence-analysis/four-color-evidence-analysis",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "four-color-evidence-analysis",
   "origin": "xopc-adapted",

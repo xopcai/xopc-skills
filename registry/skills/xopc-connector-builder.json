@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "xopc-connector-builder",
   "path": "skills/api-integration/xopc-connector-builder",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "build-trusted-xopc-connector",
   "origin": "xopc-original",

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "financial-statement-analysis",
   "path": "skills/business-analysis/financial-statement-analysis",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "analyze-financial-statements",
   "origin": "xopc-original",

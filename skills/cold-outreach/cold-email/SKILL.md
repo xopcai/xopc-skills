@@ -4,7 +4,7 @@ description: Write B2B cold emails and follow-up sequences that get replies. Use
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Cold Email Writing

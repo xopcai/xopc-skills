@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "security-threat-model",
   "path": "skills/software-security/security-threat-model",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "threat-model-software-system",
   "origin": "xopc-adapted",

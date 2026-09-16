@@ -4,7 +4,7 @@ description: Compare a proposal, response, policy, application, or other documen
 license: MIT
 metadata:
   author: XOPC, adapted from Mohit Aggarwal
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Document Requirements Review

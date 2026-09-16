@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.18.3 - 2026-09-17
+
+- Polished the remaining Store category labels in English and Simplified Chinese, including development, design, AI agents, education, professional services, and life services.
+
 ## 0.18.2 - 2026-09-17
 
 - Reviewed all English and Simplified Chinese Store metadata and human-edited sentence-like labels and descriptions into concise, idiomatic product language.

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "xopc-model-gateway",
   "path": "skills/api-integration/xopc-model-gateway",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "connect-ai-app-to-xopc-models",
   "origin": "xopc-original",

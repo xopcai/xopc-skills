@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "meeting-to-actions",
   "path": "skills/meeting-execution/meeting-to-actions",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "turn-meeting-into-actions",
   "origin": "xopc-adapted",

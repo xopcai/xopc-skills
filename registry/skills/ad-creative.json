@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "ad-creative",
   "path": "skills/paid-advertising/ad-creative",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "market-paid-advertising",
   "origin": "xopc-adapted",

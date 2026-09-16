@@ -2,7 +2,7 @@
 name: commitment-task-capture
 description: Extract concrete asks, commitments, owners, deadlines, blockers, and evidence from bounded email, chat, meeting, or document sources. Use to build an auditable task intake or follow-up list; do not use for general summaries, project status reports, or silent task creation.
 metadata:
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # Commitment Task Capture

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "document-to-markdown",
   "path": "skills/document-conversion/document-to-markdown",
-  "version": "0.18.2",
+  "version": "0.18.3",
   "stage": "experimental",
   "scenarioId": "convert-documents-to-markdown",
   "origin": "xopc-original",

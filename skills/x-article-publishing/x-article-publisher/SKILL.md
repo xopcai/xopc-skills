@@ -4,7 +4,7 @@ description: "Convert a supplied Markdown article and authorized images into a r
 license: MIT
 metadata:
   author: XOPC, adapted from Qiaomu
-  version: "0.18.2"
+  version: "0.18.3"
 ---
 
 # X Article Publisher
