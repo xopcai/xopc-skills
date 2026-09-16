@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "github-actions-ci-fix",
   "path": "skills/software-delivery/github-actions-ci-fix",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "fix-failing-github-actions",
   "origin": "xopc-adapted",

@@ -2,7 +2,7 @@
 name: wechat-miniprogram-delivery
 description: Build or modify a WeChat Mini Program from supplied requirements and source, then verify it against current official platform constraints. Use for 微信小程序、WXML、WXSS、页面开发、分包、登录、云开发 and 开发者工具调试; do not reverse engineer third-party code, collect secrets, bypass platform review, or publish without authorization.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # WeChat Mini Program Delivery

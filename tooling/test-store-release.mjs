@@ -47,10 +47,14 @@ try {
   for (const skill of manifest.skills ?? []) {
     if (!skill.localizations?.en || !skill.localizations?.["zh-CN"]) throw new Error(`Missing manifest localizations for ${skill.name}`)
     const packageEntries = readStoredZipEntries(releaseEntries.get(skill.artifactPath) ?? Buffer.alloc(0))
-    const metadata = JSON.parse(packageEntries.get("xopc-skill.json")?.toString("utf8") ?? "null")
-    if (metadata?.name !== skill.name || !metadata.localizations?.["zh-CN"]) throw new Error(`Missing package localizations for ${skill.name}`)
+    if (packageEntries.has("xopc-skill.json")) throw new Error(`Legacy xopc-skill.json found for ${skill.name}`)
+    const skillMarkdown = packageEntries.get("SKILL.md")?.toString("utf8") ?? ""
+    const zh = skill.localizations["zh-CN"]
+    if (!skillMarkdown.includes("  i18n:") || !skillMarkdown.includes(`      name: ${JSON.stringify(zh.displayName)}`)) {
+      throw new Error(`Missing SKILL.md localization metadata for ${skill.name}`)
+    }
   }
-  console.log("Store release test passed: builds are deterministic, exclude untracked files, and embed localized metadata.")
+  console.log("Store release test passed: builds are deterministic, exclude untracked files, and embed SKILL.md localization metadata.")
 } finally {
   rmSync(temp, { recursive: true, force: true })
 }

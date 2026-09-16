@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "workspace-knowledge-synthesis",
   "path": "skills/knowledge-workspace/workspace-knowledge-synthesis",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "synthesize-workspace-knowledge",
   "origin": "xopc-adapted",

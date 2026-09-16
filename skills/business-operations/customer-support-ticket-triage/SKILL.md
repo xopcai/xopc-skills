@@ -2,7 +2,7 @@
 name: customer-support-ticket-triage
 description: Triage a customer support ticket by extracting the issue, impact, urgency, evidence, duplicate or known-issue signals, routing, and a grounded initial response. Use for new or escalated support intake; do not use to diagnose an unverified root cause, promise an SLA, or silently change ticket priority or assignment.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Customer Support Ticket Triage

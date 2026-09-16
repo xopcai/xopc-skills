@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "user-research-synthesis",
   "path": "skills/user-research/user-research-synthesis",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "synthesize-user-research",
   "origin": "xopc-original",

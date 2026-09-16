@@ -2,7 +2,7 @@
 name: scam-message-triage
 description: Triage suspicious Chinese-language calls, texts, chats, links, QR codes, payment requests, and apps, then provide safe verification and containment steps. Use for 防诈骗、可疑短信、刷单返利、冒充客服/公检法/老板、杀猪盘、虚假投资和钓鱼链接; do not open links, contact suspects, access accounts, or promise fund recovery.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Scam Message Triage

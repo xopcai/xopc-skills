@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "playwright-webapp-testing",
   "path": "skills/software-delivery/playwright-webapp-testing",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "build-reliable-web-test-suite",
   "origin": "xopc-adapted",

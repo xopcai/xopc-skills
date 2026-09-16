@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "invoice-receipt-reconciliation",
   "path": "skills/business-operations/invoice-receipt-reconciliation",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "reconcile-invoices-and-receipts",
   "origin": "xopc-original",

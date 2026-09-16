@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "cold-email",
   "path": "skills/cold-outreach/cold-email",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-cold-outreach",
   "origin": "xopc-adapted",

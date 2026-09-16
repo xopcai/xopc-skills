@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "document-requirements-review",
   "path": "skills/document-compliance/document-requirements-review",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "review-document-requirements",
   "origin": "xopc-adapted",

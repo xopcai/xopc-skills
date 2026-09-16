@@ -2,7 +2,7 @@
 name: marketing-plan
 description: Design a narrow, measurable marketing system for a one-person company across positioning, message, channel, content and conversion. Use when a solo founder has a defined offer and needs a sustainable acquisition loop; do not use only to create campaign assets or auto-publish social content.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Marketing Plan

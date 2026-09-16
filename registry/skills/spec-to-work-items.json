@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "spec-to-work-items",
   "path": "skills/work-management/spec-to-work-items",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "decompose-spec-into-work-items",
   "origin": "xopc-adapted",

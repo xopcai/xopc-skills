@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "public-relations",
   "path": "skills/earned-media/public-relations",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-earned-media",
   "origin": "xopc-adapted",

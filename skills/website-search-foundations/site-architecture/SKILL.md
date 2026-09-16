@@ -4,7 +4,7 @@ description: When the user wants to plan, map, or restructure their website's pa
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Site Architecture

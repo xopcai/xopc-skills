@@ -2,7 +2,7 @@
 name: data-visualization-report
 description: Turn a validated dataset and business question into an accurate, accessible visualization and concise insight report. Use for a chart, report graphic, or dashboard-ready visual; do not use for general spreadsheet editing, unsupported causal claims, or decorative charts without a decision question.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Data Visualization Report

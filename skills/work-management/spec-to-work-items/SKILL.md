@@ -2,7 +2,7 @@
 name: spec-to-work-items
 description: Turn an approved product or engineering specification into small, independently verifiable work items with acceptance criteria, dependencies, and delivery order. Use for implementation breakdown and tracker-ready drafts; do not use to discover requirements, extract existing commitments, implement the work, or silently publish tickets.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Spec to Work Items

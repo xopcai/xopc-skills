@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "brand-style-application",
   "path": "skills/brand-operations/brand-style-application",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "apply-brand-style-to-artifact",
   "origin": "xopc-adapted",

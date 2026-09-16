@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "seo-audit",
   "path": "skills/search-visibility/seo-audit",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-search-visibility",
   "origin": "xopc-adapted",

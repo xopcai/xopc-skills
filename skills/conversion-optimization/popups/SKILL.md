@@ -4,7 +4,7 @@ description: When the user wants to create or optimize popups, modals, overlays,
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Popup CRO

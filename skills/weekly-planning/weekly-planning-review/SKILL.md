@@ -4,7 +4,7 @@ description: Review a person's current commitments, calendar constraints, waitin
 license: MIT
 metadata:
   author: XOPC, adapted from Alireza Rezvani
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Weekly Planning Review

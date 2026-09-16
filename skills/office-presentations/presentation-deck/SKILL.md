@@ -2,7 +2,7 @@
 name: presentation-deck
 description: Create, edit, or restructure an editable presentation deck with a purposeful narrative, varied slide layouts, and rendered visual verification. Use when the deliverable is PPTX or equivalent slides; do not use for plain outlines, documents, or single images.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Presentation Deck

@@ -2,7 +2,7 @@
 name: audio-transcription
 description: Transcribe supplied audio or video into a faithful, reviewable transcript with timestamps, speaker labels, uncertainty markers, and privacy-aware handling. Use when the transcript itself is the deliverable; do not use to summarize meetings, infer action items, translate content, imitate voices, or upload recordings without authorization.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Audio Transcription

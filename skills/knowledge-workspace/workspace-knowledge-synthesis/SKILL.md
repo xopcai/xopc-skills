@@ -2,7 +2,7 @@
 name: workspace-knowledge-synthesis
 description: Synthesize evidence from workplace documents, email, chat, knowledge bases, and task systems into a current answer with deduplication, citations, conflicts, and confidence. Use for cross-source company knowledge questions; do not use for open-web research, simple file lookup, or source-system edits.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Workspace Knowledge Synthesis

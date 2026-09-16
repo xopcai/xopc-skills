@@ -146,6 +146,34 @@ function sha256(data) {
   return createHash("sha256").update(data).digest("hex")
 }
 
+function withI18nMetadata(skillMarkdown, localizations, skillName) {
+  const newline = skillMarkdown.includes("\r\n") ? "\r\n" : "\n"
+  const lines = skillMarkdown.split(/\r?\n/)
+  if (lines[0] !== "---") throw new Error(`SKILL.md requires YAML frontmatter: ${skillName}`)
+  const closing = lines.indexOf("---", 1)
+  if (closing === -1) throw new Error(`SKILL.md has unterminated YAML frontmatter: ${skillName}`)
+  if (lines.slice(1, closing).some((line) => /^\s+i18n:\s*$/.test(line))) {
+    throw new Error(`SKILL.md already contains metadata.i18n: ${skillName}`)
+  }
+
+  const block = [
+    "  i18n:",
+    ...["en", "zh-CN"].flatMap((locale) => {
+      const value = localizations?.[locale]
+      if (!value?.displayName || !value?.description) throw new Error(`Missing ${locale} localization for ${skillName}`)
+      return [
+        `    ${locale}:`,
+        `      name: ${JSON.stringify(value.displayName)}`,
+        `      description: ${JSON.stringify(value.description)}`,
+      ]
+    }),
+  ]
+  const metadata = lines.slice(1, closing).findIndex((line) => /^metadata:\s*$/.test(line))
+  if (metadata === -1) lines.splice(closing, 0, "metadata:", ...block)
+  else lines.splice(metadata + 2, 0, ...block)
+  return lines.join(newline)
+}
+
 const options = parseArgs(process.argv)
 const packageJson = JSON.parse(readFileSync(join(root, "package.json"), "utf8"))
 const categoryRegistry = JSON.parse(readFileSync(join(root, "registry/categories.json"), "utf8"))
@@ -189,15 +217,12 @@ for (const catalogFile of catalogFiles) {
   const category = categoryBySkill.get(catalog.name)
   if (!category || !categoryIds.has(category)) throw new Error(`Missing display category for ${catalog.name}`)
   const artifactPath = `packages/${catalog.name}.zip`
-  const packageMetadata = {
-    schemaVersion: 1,
-    name: catalog.name,
-    localizations: catalog.localizations,
-  }
-  const artifact = createZip([
-    ...listFiles(source).map((name) => ({ name, data: readFileSync(join(source, name)) })),
-    { name: "xopc-skill.json", data: `${JSON.stringify(packageMetadata, null, 2)}\n` },
-  ])
+  const artifact = createZip(listFiles(source).map((name) => ({
+    name,
+    data: name === "SKILL.md"
+      ? withI18nMetadata(readFileSync(join(source, name), "utf8"), catalog.localizations, catalog.name)
+      : readFileSync(join(source, name)),
+  })))
   bundleEntries.push({ name: artifactPath, data: artifact })
   skills.push({
     name: catalog.name,

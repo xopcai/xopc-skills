@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "churn-prevention",
   "path": "skills/retention-marketing/churn-prevention",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-retention-marketing",
   "origin": "xopc-adapted",

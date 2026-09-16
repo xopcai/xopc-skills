@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "events",
   "path": "skills/launch-marketing/events",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-launch-marketing",
   "origin": "xopc-adapted",

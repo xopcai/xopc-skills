@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "work-context-handoff",
   "path": "skills/work-handoff/work-context-handoff",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "prepare-work-context-handoff",
   "origin": "xopc-original",

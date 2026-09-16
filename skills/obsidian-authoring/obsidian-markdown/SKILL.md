@@ -4,7 +4,7 @@ description: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, 
 license: MIT
 metadata:
   author: XOPC, adapted from Steph Ango
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Obsidian Flavored Markdown Skill

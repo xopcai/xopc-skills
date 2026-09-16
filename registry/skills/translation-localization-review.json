@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "translation-localization-review",
   "path": "skills/language-localization/translation-localization-review",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "review-translation-localization",
   "origin": "xopc-original",

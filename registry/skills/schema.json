@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "schema",
   "path": "skills/website-search-foundations/schema",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-website-search-foundations",
   "origin": "xopc-adapted",

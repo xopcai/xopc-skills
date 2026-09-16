@@ -1,9 +1,14 @@
 # Changelog
 
+## 0.18.1 - 2026-09-17
+
+- Moved install-time localization metadata into `SKILL.md` under `metadata.i18n`, making each Skill self-describing across built-in, Store-installed, and project sources.
+- Removed the separate `xopc-skill.json` package file and added release tests that verify the inline metadata matches the Store manifest.
+
 ## 0.18.0 - 2026-09-17
 
 - Added English and Simplified Chinese display names and descriptions for all 156 official Skills without changing their stable machine names or agent-routing descriptions.
-- Upgraded the Store release manifest to schema v4 and embedded matching `xopc-skill.json` metadata in every installable Skill archive.
+- Upgraded the Store release manifest to schema v4 and embedded matching install-time localization metadata in every Skill archive.
 - Added validation and deterministic release tests for localized metadata, including package-to-manifest consistency.
 
 ## 0.17.0 - 2026-09-15

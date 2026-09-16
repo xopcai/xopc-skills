@@ -2,7 +2,7 @@
 name: month-end-close-review
 description: Review month-end close readiness from a supplied checklist, reconciliations and supporting evidence. Use for 月结检查、关账准备、账表勾稽 and close exception tracking; ledger posting, tax filings and audit certification are outside scope.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Month End Close Review

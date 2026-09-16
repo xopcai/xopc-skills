@@ -2,7 +2,7 @@
 name: grow-sustainably
 description: Diagnose and relieve the current growth constraint of a one-person company without exceeding cash, quality, trust or founder capacity. Use when demand or operations have traction but growth is stalling or becoming unhealthy; do not use for early idea validation or generic marketing plans.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Grow Sustainably

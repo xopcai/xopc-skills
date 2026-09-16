@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "employee-onboarding-planning",
   "path": "skills/employee-operations/employee-onboarding-planning",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "plan-employee-onboarding",
   "origin": "xopc-original",

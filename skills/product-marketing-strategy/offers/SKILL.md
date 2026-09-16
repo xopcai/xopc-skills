@@ -4,7 +4,7 @@ description: "When the user wants to design, construct, or improve an offer — 
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Offer Design

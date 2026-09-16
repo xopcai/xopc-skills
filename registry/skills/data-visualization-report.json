@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "data-visualization-report",
   "path": "skills/office-data/data-visualization-report",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "create-data-visualization-report",
   "origin": "xopc-adapted",

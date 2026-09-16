@@ -2,7 +2,7 @@
 name: business-budget-variance
 description: Analyze organizational budget versus actuals and build an assumption-based forecast. Use for 企业预算差异、预算执行、滚动预测 and department spending review; personal budgets, statutory statements, bookkeeping and tax advice have separate owners.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Business Budget Variance

@@ -2,7 +2,7 @@
 name: github-review-comments
 description: Triage and address actionable review comments on the GitHub pull request for the current branch, with explicit selection and fresh verification. Use for PR review feedback; do not use for general code review or failing CI diagnosis.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # GitHub Review Comments

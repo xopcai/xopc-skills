@@ -2,7 +2,7 @@
 name: learning-assessment-analysis
 description: Analyze class-level assessment evidence to identify learning gaps and plan instruction. Use for 学情分析、试卷分析、错题与知识点诊断、班级成绩分布和分层教学建议; do not use for high-stakes student ranking, personality inference, unsupported learning-style labels, or writing a lesson plan from scratch.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Learning Assessment Analysis

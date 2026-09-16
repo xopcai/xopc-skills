@@ -2,7 +2,7 @@
 name: fiction-continuity-writing
 description: Plan, draft and revise original fiction while maintaining character knowledge, timeline, world rules and unresolved plot threads. Use for 小说创作、续写章节、网文大纲、人物设定和伏笔管理; nonfiction long reports and prose-only editing have separate owners.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Fiction Continuity Writing

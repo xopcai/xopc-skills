@@ -2,7 +2,7 @@
 name: prompt-evaluation-improvement
 description: Diagnose and improve a task prompt using representative inputs, observed failures and explicit evaluation criteria. Use for 提示词优化、提示词A/B评测、结构化输出不稳定 and instruction conflict debugging; skill packaging and model integration are separate tasks.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Prompt Evaluation Improvement

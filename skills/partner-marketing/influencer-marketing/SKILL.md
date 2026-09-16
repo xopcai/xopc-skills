@@ -4,7 +4,7 @@ description: "When the user wants to run influencer, creator, or ambassador part
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Influencer & Creator Marketing

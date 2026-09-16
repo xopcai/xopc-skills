@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "teaching-plan-design",
   "path": "skills/teaching-support/teaching-plan-design",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "design-teaching-plan",
   "origin": "xopc-original",

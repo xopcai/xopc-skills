@@ -4,7 +4,7 @@ description: Turn verified tickets, pull requests, changelogs, and shipped behav
 license: MIT
 metadata:
   author: XOPC, adapted from Pawel Huryn
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Evidence-Based Release Notes

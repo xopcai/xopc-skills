@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "content-campaign-pack",
   "path": "skills/content-campaign/content-campaign-pack",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "create-content-campaign-pack",
   "origin": "xopc-adapted",

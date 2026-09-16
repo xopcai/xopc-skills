@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "sms",
   "path": "skills/lifecycle-messaging/sms",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-lifecycle-messaging",
   "origin": "xopc-adapted",

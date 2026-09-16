@@ -4,7 +4,7 @@ description: Create and edit JSON Canvas files (.canvas) with nodes, edges, grou
 license: MIT
 metadata:
   author: XOPC, adapted from Steph Ango
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # JSON Canvas Skill

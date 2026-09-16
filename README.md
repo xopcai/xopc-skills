@@ -84,4 +84,4 @@ npm run test:store-release
 
 本仓库是 XOPC Store 官方 Skill 的唯一来源。`npm run build:store-release` 从 `registry/skills` 递归解析场景目录，为每个 Skill 生成确定性 ZIP，并生成包含固定 commit 和 SHA-256 的完整目录 Release。生产发布仅由 GitHub Release 工作流或显式 `npm run publish:store-release -- <bundle> --publish` 执行；Store 不从第三方 Skill 市场同步内容。
 
-发布 manifest 使用 schema v4，声明 `en` 和 `zh-CN` 的用户可见名称与简介；每个 Skill ZIP 同时包含 `xopc-skill.json`。XOPC 安装后读取该文件，按用户语言展示和检索 `/` 技能，但插入消息和执行时始终使用 `SKILL.md` 中稳定的机器名。
+发布 manifest 使用 schema v4，声明 `en` 和 `zh-CN` 的用户可见名称与简介；构建时同一份信息写入每个包的 `SKILL.md` `metadata.i18n`。XOPC 安装后直接读取 Skill 自描述元数据，按用户语言展示和检索 `/` 技能，但插入消息和执行时始终使用顶层稳定的机器名。

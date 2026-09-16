@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "audio-transcription",
   "path": "skills/media-production/audio-transcription",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "transcribe-audio-accurately",
   "origin": "xopc-adapted",

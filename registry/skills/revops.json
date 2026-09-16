@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "revops",
   "path": "skills/revenue-operations/revops",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-revenue-operations",
   "origin": "xopc-adapted",

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "form-survey-builder",
   "path": "skills/forms-surveys/form-survey-builder",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "build-form-or-survey",
   "origin": "xopc-adapted",

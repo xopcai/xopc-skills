@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "referrals",
   "path": "skills/referral-marketing/referrals",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-referral-marketing",
   "origin": "xopc-adapted",

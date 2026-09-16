@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "launch",
   "path": "skills/launch-marketing/launch",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-launch-marketing",
   "origin": "xopc-adapted",

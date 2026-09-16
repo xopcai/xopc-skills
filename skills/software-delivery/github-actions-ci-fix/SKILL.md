@@ -2,7 +2,7 @@
 name: github-actions-ci-fix
 description: Diagnose and repair failing GitHub Actions checks on a pull request using gh metadata and logs, a focused root-cause plan, approval before code changes, and post-fix verification. Do not use for non-GitHub CI providers, creating new CI systems, or unrelated local test failures.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # GitHub Actions CI Fix

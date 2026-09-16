@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "ads",
   "path": "skills/paid-advertising/ads",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-paid-advertising",
   "origin": "xopc-adapted",

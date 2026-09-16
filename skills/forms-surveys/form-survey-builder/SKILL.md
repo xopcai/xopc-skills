@@ -2,7 +2,7 @@
 name: form-survey-builder
 description: Design a form or survey from a clear collection goal, including concise questions, answer types, branching, validation, privacy notes, and a response schema. Use for feedback, intake, registration, or internal data collection; do not use for statistical analysis of responses or silently publishing and distributing a live form.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Form and Survey Builder

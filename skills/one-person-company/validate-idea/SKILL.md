@@ -2,7 +2,7 @@
 name: validate-idea
 description: Test whether a specific one-person-company problem and offer deserve investment using interviews, behavior and payment evidence. Use before building when a solo founder needs a go, revise, or stop decision; do not use for broad community discovery, MVP implementation, or generic competitor research.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Validate Idea

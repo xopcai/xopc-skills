@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "ai-seo",
   "path": "skills/search-visibility/ai-seo",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-search-visibility",
   "origin": "xopc-adapted",

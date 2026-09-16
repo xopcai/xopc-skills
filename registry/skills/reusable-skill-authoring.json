@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "reusable-skill-authoring",
   "path": "skills/skill-development/reusable-skill-authoring",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "author-reusable-skill",
   "origin": "xopc-original",

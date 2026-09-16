@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "competitors",
   "path": "skills/comparison-pages/competitors",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-comparison-pages",
   "origin": "xopc-adapted",

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "sales-enablement",
   "path": "skills/sales-enablement/sales-enablement",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-sales-enablement",
   "origin": "xopc-adapted",

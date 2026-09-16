@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "directory-submissions",
   "path": "skills/growth-distribution/directory-submissions",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-growth-distribution",
   "origin": "xopc-adapted",

@@ -4,7 +4,7 @@ description: Convert meeting notes or a transcript into decisions, ticket-ready 
 license: MIT
 metadata:
   author: XOPC, adapted from Mohit Aggarwal
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Meeting to Actions

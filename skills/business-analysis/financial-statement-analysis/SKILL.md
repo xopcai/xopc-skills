@@ -2,7 +2,7 @@
 name: financial-statement-analysis
 description: Analyze Chinese-enterprise financial statements across periods and turn verified figures into management insight. Use for 财务报表分析、经营财务复盘、杜邦分析、偿债/周转/盈利/现金流质量诊断; do not use for bookkeeping, tax opinions, securities recommendations, statutory audit conclusions, or invoice reconciliation.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Financial Statement Analysis

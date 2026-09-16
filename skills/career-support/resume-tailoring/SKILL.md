@@ -2,7 +2,7 @@
 name: resume-tailoring
 description: Tailor a resume or CV to a target role using only verified candidate evidence. Use for 简历优化、JD 匹配、STAR/CAR 经历改写、ATS 可读性和中英文简历内容; do not use for fabricating experience, applying to jobs, visual document rendering, or guaranteeing interviews.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Resume Tailoring

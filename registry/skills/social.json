@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "social",
   "path": "skills/social-marketing/social",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "market-social-marketing",
   "origin": "xopc-adapted",

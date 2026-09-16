@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "chinese-official-document-drafting",
   "path": "skills/chinese-professional-writing/chinese-official-document-drafting",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "draft-chinese-official-document",
   "origin": "xopc-original",

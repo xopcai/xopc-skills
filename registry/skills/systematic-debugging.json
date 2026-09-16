@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "systematic-debugging",
   "path": "skills/software-delivery/systematic-debugging",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "diagnose-software-defect",
   "origin": "xopc-adapted",

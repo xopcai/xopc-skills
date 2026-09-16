@@ -2,7 +2,7 @@
 name: security-threat-model
 description: Build a repository-grounded application security threat model with scoped components, trust boundaries, assets, attacker capabilities, abuse paths, risk reasoning, and mitigations. Trigger only for explicit threat-modeling requests; do not use for generic architecture summaries, compliance certification, or ordinary code review.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Security Threat Model

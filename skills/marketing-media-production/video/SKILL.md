@@ -4,7 +4,7 @@ description: "When the user wants to create, generate, or produce video content 
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Video

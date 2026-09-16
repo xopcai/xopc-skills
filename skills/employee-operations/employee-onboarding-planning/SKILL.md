@@ -2,7 +2,7 @@
 name: employee-onboarding-planning
 description: Coordinate onboarding for an already selected employee using supplied role expectations and company procedures. Use for 入职计划、入职材料清单、新员工30/60/90天安排; recruiting decisions, employee scoring and account provisioning are separate tasks.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Employee Onboarding Planning

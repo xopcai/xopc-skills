@@ -2,7 +2,7 @@
 name: reading-companion
 description: Help choose a book, plan reading, organize user-supplied highlights, ask reflection questions, and build source-faithful notes. Use for 读书计划、书单选择、章节笔记、划线整理、读后总结和阅读复盘; do not reproduce unavailable books, invent quotations, bypass paywalls, or manage a reading account without authorization.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Reading Companion

@@ -2,7 +2,7 @@
 name: china-social-content-adaptation
 description: Adapt verified source material into a platform-native Chinese social content asset. Use for 微信公众号、小红书、抖音、快手、B站、微博或视频号的单篇图文、标题、口播脚本和发布检查; do not use for campaign strategy, fake testimonials, engagement manipulation, scraping, or automatic publishing.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # China Social Content Adaptation

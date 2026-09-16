@@ -2,7 +2,7 @@
 name: ecommerce-performance-diagnosis
 description: Diagnose Chinese ecommerce performance from platform exports and produce an evidence-backed action plan. Use for 电商经营分析、GMV 拆解、淘宝/天猫/京东/拼多多/抖店/快手/视频号店铺复盘、流量转化商品复购履约分析; do not use for generic charting, ad buying, account operation, or fabricated platform benchmarks.
 metadata:
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Ecommerce Performance Diagnosis

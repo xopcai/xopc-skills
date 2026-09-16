@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "fiction-continuity-writing",
   "path": "skills/fiction-writing/fiction-continuity-writing",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "write-fiction-with-continuity",
   "origin": "xopc-original",

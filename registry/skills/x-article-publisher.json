@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "x-article-publisher",
   "path": "skills/x-article-publishing/x-article-publisher",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "x-article-publishing",
   "origin": "xopc-adapted",

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "prompt-evaluation-improvement",
   "path": "skills/prompt-quality/prompt-evaluation-improvement",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "stage": "experimental",
   "scenarioId": "evaluate-and-improve-prompt",
   "origin": "xopc-original",

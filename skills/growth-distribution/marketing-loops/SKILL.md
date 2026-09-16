@@ -4,7 +4,7 @@ description: "When the user wants to set up a recurring, self-running marketing 
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # Marketing Loops

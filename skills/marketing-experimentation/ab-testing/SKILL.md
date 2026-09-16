@@ -4,7 +4,7 @@ description: When the user wants to plan, design, or implement an A/B test or ex
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.0"
+  version: "0.18.1"
 ---
 
 # A/B Test Setup
