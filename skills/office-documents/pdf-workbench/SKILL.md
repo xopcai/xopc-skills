@@ -2,7 +2,7 @@
 name: pdf-workbench
 description: Read, create, reformat, combine, split, annotate, or fill a PDF when fixed layout and page-level visual verification matter. Use for PDF deliverables or PDF-specific operations; do not use when the requested output should remain an editable Word document.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # PDF Workbench

@@ -2,7 +2,7 @@
 name: work-context-handoff
 description: Create a portable handoff for another person, agent or future session from a bounded task's current state. Use for 会话交接、换Agent继续、上下文压缩 and interrupted-work resumption; project status reporting and automatic memory updates are separate tasks.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Work Context Handoff

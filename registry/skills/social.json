@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "social",
   "path": "skills/social-marketing/social",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-social-marketing",
   "origin": "xopc-adapted",
@@ -12,11 +12,11 @@
   "localizations": {
     "en": {
       "displayName": "Social Content",
-      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage."
+      "description": "Create, adapt, schedule, or optimize social media content and support social listening and engagement triage across major platforms."
     },
     "zh-CN": {
-      "displayName": "规划社交媒体内容",
-      "description": "把品牌目标和受众证据转化为平台适配的社交内容与节奏。"
+      "displayName": "社交媒体内容",
+      "description": "为 LinkedIn、X、Instagram、TikTok 等平台策划、改写和优化符合平台习惯的社交内容。"
     }
   },
   "compatibility": {

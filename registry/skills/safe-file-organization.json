@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "safe-file-organization",
   "path": "skills/file-organization/safe-file-organization",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "organize-files-safely",
   "origin": "xopc-original",
@@ -14,8 +14,8 @@
       "description": "Inventory and safely organize a bounded file collection using content-aware categories, duplicate evidence, a preview plan, collision handling, and a rollback manifest."
     },
     "zh-CN": {
-      "displayName": "安全整理并可回滚文件集合",
-      "description": "形成有边界的文件盘点、分类预览、重复证据、冲突处理和回滚清单。"
+      "displayName": "安全文件整理",
+      "description": "先盘点并预览分类方案，再处理重复文件、命名冲突和移动操作，同时保留回滚清单。"
     }
   },
   "compatibility": {

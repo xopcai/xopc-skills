@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "obsidian-markdown",
   "path": "skills/obsidian-authoring/obsidian-markdown",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "obsidian-authoring",
   "origin": "xopc-adapted",
@@ -11,7 +11,7 @@
   "source": "skills/obsidian-authoring/obsidian-markdown/SOURCE.json",
   "localizations": {
     "en": {
-      "displayName": "Obsidian Flavored Markdown Skill",
+      "displayName": "Obsidian Markdown",
       "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax."
     },
     "zh-CN": {

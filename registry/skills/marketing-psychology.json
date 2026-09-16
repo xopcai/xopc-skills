@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "marketing-psychology",
   "path": "skills/marketing-psychology/marketing-psychology",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-psychology",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Apply psychological principles, mental models, or behavioral science to marketing."
     },
     "zh-CN": {
-      "displayName": "审查营销行为设计",
+      "displayName": "营销心理学审查",
       "description": "用合乎伦理的行为科学视角改进用户理解与选择。"
     }
   },

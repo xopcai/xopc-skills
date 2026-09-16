@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "travel-itinerary-planning",
   "path": "skills/travel-planning/travel-itinerary-planning",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "plan-travel-itinerary",
   "origin": "xopc-original",
@@ -14,8 +14,8 @@
       "description": "Build a feasible travel itinerary with route, time, budget, booking, accessibility, and fallback details."
     },
     "zh-CN": {
-      "displayName": "规划可执行且动态事实可核验的旅行行程",
-      "description": "交付路线可行、预算透明、预约依赖明确且包含动态核验与备选方案的旅行手册。"
+      "displayName": "旅行行程规划",
+      "description": "综合路线、时间、预算、预订条件和无障碍需求，制定可执行并带有备选方案的行程。"
     }
   },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Current web research plus supplied bookings and preferences"],"os":["macOS","Linux","Windows"]},

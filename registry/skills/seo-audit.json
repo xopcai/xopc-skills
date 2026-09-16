@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "seo-audit",
   "path": "skills/search-visibility/seo-audit",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-search-visibility",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "SEO Audit",
-      "description": "Audit, review, or diagnose SEO issues on their site."
+      "description": "Audit and diagnose technical and on-page SEO issues on a website."
     },
     "zh-CN": {
       "displayName": "SEO 审查",

@@ -2,7 +2,7 @@
 name: jupyter-notebook
 description: Create, restructure, or edit a reproducible Jupyter notebook for an experiment, exploratory analysis, or tutorial using deterministic templates and top-to-bottom validation. Use for .ipynb artifacts; do not use when a plain script, spreadsheet, or prose report is the requested deliverable.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Jupyter Notebook

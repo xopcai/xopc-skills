@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "ab-testing",
   "path": "skills/marketing-experimentation/ab-testing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-experimentation",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Plan, design, or implement an A/B test or experiment, or build a growth experimentation program."
     },
     "zh-CN": {
-      "displayName": "设计可信的营销实验",
-      "description": "把增长假设转化为有样本量、指标和停止规则的实验计划。"
+      "displayName": "A/B 测试设计",
+      "description": "把增长假设变成包含样本量、核心指标和停止条件的 A/B 测试方案。"
     }
   },
   "compatibility": {

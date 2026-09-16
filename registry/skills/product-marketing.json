@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "product-marketing",
   "path": "skills/product-marketing-strategy/product-marketing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-product-marketing-strategy",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Product Marketing Context",
-      "description": "Create or update their product marketing context document."
+      "description": "Create or update a shared product-marketing context covering the product, audience, ideal customer, and positioning."
     },
     "zh-CN": {
       "displayName": "产品营销策略",

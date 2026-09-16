@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "agent-run-provenance",
   "path": "skills/agent-run-provenance/agent-run-provenance",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "agent-run-provenance",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Design or review provenance for an AI-agent run: trace and span identifiers, tool events, input/output artifact references, integrity data, redaction, retention, replay, and failure recovery."
     },
     "zh-CN": {
-      "displayName": "设计 Agent 运行证据链",
-      "description": "把 Agent 工具调用和产物组织为可查询、可脱敏、可回放的运行记录。"
+      "displayName": "Agent 运行溯源",
+      "description": "记录 Agent 的工具调用、输入输出和产物，让运行过程可查询、可脱敏并可回放。"
     }
   },
   "compatibility": {

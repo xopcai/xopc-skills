@@ -2,7 +2,7 @@
 name: company-values
 description: Turn a one-person-company founder's real trade-offs into observable operating principles for customers, collaborators, delegation and future hiring. Use when repeated decisions need consistency; do not use for generic slogans, employer branding, or legal employment policy.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Company Values

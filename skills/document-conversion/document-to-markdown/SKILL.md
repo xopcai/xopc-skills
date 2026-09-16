@@ -2,7 +2,7 @@
 name: document-to-markdown
 description: Convert supplied documents or authorized web pages into source-traceable Markdown. Use for 文档转Markdown、批量知识库入库、网页转笔记 or MarkItDown-style conversion; PDF editing, workbook analysis and audio transcription have separate owners.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Document to Markdown

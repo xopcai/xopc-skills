@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "evidence-based-research",
   "path": "skills/decision-research/evidence-based-research",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "create-decision-research-brief",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Research a consequential question or compare options using current multi-source evidence, explicit confidence, contradictions, and a decision-ready brief."
     },
     "zh-CN": {
-      "displayName": "从多源研究形成可追溯的决策简报",
-      "description": "形成区分事实、推断、冲突和未知且关键结论均可追溯的决策建议。"
+      "displayName": "循证研究",
+      "description": "综合当前的多来源证据，区分事实、推断、分歧和未知，形成可用于决策的研究简报。"
     }
   },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Web or repository research tools when needed"], "os": ["macOS", "Linux", "Windows"] },

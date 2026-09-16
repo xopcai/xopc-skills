@@ -4,7 +4,7 @@ description: "Review an untrusted file or URL before it enters parsing, RAG, ind
 license: Apache-2.0
 metadata:
   author: XOPC, adapted from anbeime/skill
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Content Intake Security

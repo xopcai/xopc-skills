@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "browser-workflow-execution",
   "path": "skills/browser-operations/browser-workflow-execution",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "execute-browser-workflow",
   "origin": "xopc-original",

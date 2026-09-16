@@ -2,7 +2,7 @@
 name: module-design
 description: Design or improve a bounded software module so it has a small stable interface, clear seams, local complexity, and realistic test adapters. Use for module boundaries and interface redesign; do not use for ordinary code review or system-wide architecture strategy.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Module Design

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "aso",
   "path": "skills/app-store-growth/aso",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-app-store-growth",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Audit or optimize an App Store or Google Play listing."
     },
     "zh-CN": {
-      "displayName": "优化应用商店表现",
-      "description": "用关键词、商店素材和实验数据形成可验证的应用商店增长计划。"
+      "displayName": "应用商店优化审查",
+      "description": "审查并优化 App Store 或 Google Play 的关键词、商店素材和实验方案。"
     }
   },
   "compatibility": {

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "revops",
   "path": "skills/revenue-operations/revops",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-revenue-operations",
   "origin": "xopc-adapted",
@@ -12,11 +12,11 @@
   "localizations": {
     "en": {
       "displayName": "RevOps",
-      "description": "Help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes."
+      "description": "Improve revenue operations, lead lifecycle management, and marketing-to-sales handoffs."
     },
     "zh-CN": {
-      "displayName": "设计收入运营系统",
-      "description": "把营销、销售和客户成功数据转化为可执行的收入流程与治理。"
+      "displayName": "收入运营",
+      "description": "梳理营销、销售和客户成功之间的数据与交接流程，改进线索生命周期和收入运营治理。"
     }
   },
   "compatibility": {

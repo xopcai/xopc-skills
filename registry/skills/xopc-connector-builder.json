@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "xopc-connector-builder",
   "path": "skills/api-integration/xopc-connector-builder",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "build-trusted-xopc-connector",
   "origin": "xopc-original",
@@ -14,7 +14,7 @@
       "description": "Design and validate a least-privilege XOPC Connector manifest for a remote HTTPS MCP service or an explicitly reviewed pinned npm MCP package."
     },
     "zh-CN": {
-      "displayName": "创建并验证可信 XOPC Connector",
+      "displayName": "XOPC Connector 构建",
       "description": "产出最小权限、可安装且通过契约验证的 Connector。"
     }
   },

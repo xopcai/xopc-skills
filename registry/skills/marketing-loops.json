@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "marketing-loops",
   "path": "skills/growth-distribution/marketing-loops",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-growth-distribution",
   "origin": "xopc-adapted",
@@ -16,7 +16,7 @@
     },
     "zh-CN": {
       "displayName": "营销增长循环",
-      "description": "把营销任务设计成可重复运行、可观测并带有停止规则的周期性工作流。"
+      "description": "把营销任务设计为定期或按条件触发的可重复工作流，并明确观察指标和停止条件。"
     }
   },
   "compatibility": {

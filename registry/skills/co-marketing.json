@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "co-marketing",
   "path": "skills/partner-marketing/co-marketing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-partner-marketing",
   "origin": "xopc-adapted",
@@ -11,7 +11,7 @@
   "source": "skills/partner-marketing/co-marketing/SOURCE.json",
   "localizations": {
     "en": {
-      "displayName": "Co Marketing",
+      "displayName": "Co-Marketing",
       "description": "Find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities."
     },
     "zh-CN": {

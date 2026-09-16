@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "decision-prototype",
   "path": "skills/product-discovery/decision-prototype",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "prototype-product-decision",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Build a deliberately throwaway interactive prototype to answer one product, workflow, state-model, or interface decision before production implementation."
     },
     "zh-CN": {
-      "displayName": "用一次性原型验证产品决策",
+      "displayName": "决策原型",
       "description": "以最小一次性原型回答一个高价值决策问题并记录证据与结论。"
     }
   },

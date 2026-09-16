@@ -2,7 +2,7 @@
 name: vendor-evaluation
 description: Evaluate or compare vendors using requirements, total cost of ownership, implementation fit, security and continuity risks, service evidence, contract terms, and exit costs. Use for procurement or renewal decisions; do not use for legal approval, invented benchmarks, or autonomous purchasing and negotiation.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Vendor Evaluation

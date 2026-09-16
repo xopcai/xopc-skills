@@ -2,7 +2,7 @@
 name: invoice-receipt-reconciliation
 description: Extract and reconcile invoices, receipts, and supporting payment records into an evidence-backed review table while preserving originals and flagging duplicates or mismatches. Use for expense preparation and document organization; do not use for tax deductibility decisions, accounting approval, payment execution, or destructive file moves.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Invoice and Receipt Reconciliation

@@ -2,7 +2,7 @@
 name: agent-cli-builder
 description: Design and build a durable agent-friendly CLI for a repeated local workflow or external service. Use when the user wants a reusable command-line product with stable JSON and safe write operations; do not use for one-off scripts or MCP servers.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Agent CLI Builder

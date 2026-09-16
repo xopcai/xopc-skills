@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "analytics",
   "path": "skills/marketing-analytics/analytics",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-analytics",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Set up, improve, or audit analytics tracking and measurement."
     },
     "zh-CN": {
-      "displayName": "营销分析",
-      "description": "围绕业务问题设计指标、事件和跟踪方案，形成可审计的营销测量体系。"
+      "displayName": "数据跟踪与分析",
+      "description": "设置、改进或审查数据跟踪与衡量方案，让关键事件和业务指标可验证、可追溯。"
     }
   },
   "compatibility": {

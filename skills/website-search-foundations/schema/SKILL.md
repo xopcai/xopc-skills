@@ -4,7 +4,7 @@ description: When the user wants to add, fix, or optimize schema markup and stru
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Schema Markup

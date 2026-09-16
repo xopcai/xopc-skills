@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "product-pricing",
   "path": "skills/product-marketing-strategy/product-pricing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-product-marketing-strategy",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Product Pricing Strategy",
-      "description": "Help with pricing decisions, packaging, or monetization strategy."
+      "description": "Make informed decisions about pricing, packaging, and monetization strategy."
     },
     "zh-CN": {
       "displayName": "产品定价策略",

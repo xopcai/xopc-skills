@@ -2,7 +2,7 @@
 name: find-community
 description: Identify and rank communities a one-person company can genuinely reach and serve before choosing a product. Use when a solo founder is deciding whom to build for or where recurring problems can be observed; do not use for generic market sizing, prospect lists, or validating an already-defined offer.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Find Community

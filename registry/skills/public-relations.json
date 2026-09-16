@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "public-relations",
   "path": "skills/earned-media/public-relations",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-earned-media",
   "origin": "xopc-adapted",
@@ -12,11 +12,11 @@
   "localizations": {
     "en": {
       "displayName": "Public Relations & Earned Media",
-      "description": "Help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests)."
+      "description": "Plan public relations, earned media, press outreach, and media strategy."
     },
     "zh-CN": {
-      "displayName": "准备公共关系材料",
-      "description": "把可证实的新闻价值转化为媒体名单、pitch 和发布材料。"
+      "displayName": "公共关系与媒体传播",
+      "description": "围绕可核实的新闻价值，准备媒体策略、记者沟通、新闻材料和播客采访内容。"
     }
   },
   "compatibility": {

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "code-review",
   "path": "skills/software-delivery/code-review",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "review-code-change-against-spec",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Review a bounded code change against repository standards and its originating requirement, reporting evidence-linked correctness, scope, and maintainability findings without modifying code."
     },
     "zh-CN": {
-      "displayName": "按需求和仓库标准审查代码变更",
-      "description": "形成定位准确、证据充分且严重度合理的只读代码审查。"
+      "displayName": "代码审查",
+      "description": "对照需求和仓库规范审查代码变更，指出有证据的正确性、范围和可维护性问题。"
     }
   },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Git repository and project-selected inspection tools"], "os": ["macOS", "Linux", "Windows"] },

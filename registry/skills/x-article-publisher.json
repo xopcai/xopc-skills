@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "x-article-publisher",
   "path": "skills/x-article-publishing/x-article-publisher",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "x-article-publishing",
   "origin": "xopc-adapted",
@@ -11,12 +11,12 @@
   "source": "skills/x-article-publishing/x-article-publisher/SOURCE.json",
   "localizations": {
     "en": {
-      "displayName": "X Article Publisher",
+      "displayName": "X Articles Publisher",
       "description": "Convert a supplied Markdown article and authorized images into a reviewable X Articles draft, preserving headings, lists, quotes, links, and media placement."
     },
     "zh-CN": {
-      "displayName": "把 Markdown 长文保存到 X Articles",
-      "description": "把本地 Markdown 和图片转换为可核验的 X Articles 草稿，并在明确授权后发布。"
+      "displayName": "X Articles 长文发布",
+      "description": "把 Markdown 长文和已授权图片整理为可检查的 X Articles 草稿，经明确授权后再发布。"
     }
   },
   "compatibility": {

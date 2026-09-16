@@ -2,7 +2,7 @@
 name: project-status-synthesis
 description: Build an evidence-based project or program status report from milestones, metrics, work items, decisions, risks, and blockers. Use for stakeholder health reporting; do not use for generic internal announcements, personal weekly planning, or unsupported green/yellow/red judgments.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Project Status Synthesis

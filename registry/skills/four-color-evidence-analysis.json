@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "four-color-evidence-analysis",
   "path": "skills/four-color-evidence-analysis/four-color-evidence-analysis",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "four-color-evidence-analysis",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Turn complex source material into four linked card types: verified facts, interpretations, risks or uncertainties, and actions."
     },
     "zh-CN": {
-      "displayName": "用四色框架组织复杂证据",
+      "displayName": "四色证据分析",
       "description": "把来源材料分成事实、解释、风险和行动，并保留跨卡片证据链。"
     }
   },

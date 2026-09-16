@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "referrals",
   "path": "skills/referral-marketing/referrals",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-referral-marketing",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy."
     },
     "zh-CN": {
-      "displayName": "设计推荐增长机制",
-      "description": "形成激励相容、可归因且防滥用的推荐计划。"
+      "displayName": "推荐与联盟营销",
+      "description": "设计或优化推荐、联盟与口碑增长计划，兼顾激励、归因和防滥用。"
     }
   },
   "compatibility": {

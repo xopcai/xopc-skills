@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "obsidian-bases",
   "path": "skills/obsidian-authoring/obsidian-bases",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "obsidian-authoring",
   "origin": "xopc-adapted",
@@ -11,7 +11,7 @@
   "source": "skills/obsidian-authoring/obsidian-bases/SOURCE.json",
   "localizations": {
     "en": {
-      "displayName": "Obsidian Bases Skill",
+      "displayName": "Obsidian Bases",
       "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries."
     },
     "zh-CN": {

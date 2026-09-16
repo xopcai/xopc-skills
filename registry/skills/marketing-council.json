@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "marketing-council",
   "path": "skills/marketing-strategy/marketing-council",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-strategy",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Marketing Council",
-      "description": "When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory Sutherland, Alex Hormozi, Byron Sharp, and more)."
+      "description": "Explore a marketing question through multiple distinct expert perspectives in a simulated advisory council."
     },
     "zh-CN": {
       "displayName": "营销策略会诊",

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "audio-transcription",
   "path": "skills/media-production/audio-transcription",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "transcribe-audio-accurately",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Transcribe supplied audio or video into a faithful, reviewable transcript with timestamps, speaker labels, uncertainty markers, and privacy-aware handling."
     },
     "zh-CN": {
-      "displayName": "将音视频忠实转写为可复核文本",
-      "description": "交付带时间定位、说话人和不确定性标记且隐私边界明确的转录文本。"
+      "displayName": "音视频转写",
+      "description": "把音频或视频忠实转写为带时间戳、说话人标签和不确定性标记的可复核文本。"
     }
   },
   "compatibility": {

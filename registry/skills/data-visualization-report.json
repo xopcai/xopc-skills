@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "data-visualization-report",
   "path": "skills/office-data/data-visualization-report",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "create-data-visualization-report",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Turn a validated dataset and business question into an accurate, accessible visualization and concise insight report."
     },
     "zh-CN": {
-      "displayName": "从可信数据生成可视化报告",
-      "description": "交付数据验证、图表选择、可访问渲染、来源说明和结论一致的可视化报告。"
+      "displayName": "数据可视化报告",
+      "description": "把经过验证的数据转成准确、易读的图表，并附上简明洞察和来源说明。"
     }
   },
   "compatibility": {

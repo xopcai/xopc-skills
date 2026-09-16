@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "jupyter-notebook",
   "path": "skills/data-notebooks/jupyter-notebook",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "build-reproducible-notebook",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Create, restructure, or edit a reproducible Jupyter notebook for an experiment, exploratory analysis, or tutorial using deterministic templates and top-to-bottom validation."
     },
     "zh-CN": {
-      "displayName": "创建或重构可复现的 Jupyter Notebook",
-      "description": "交付结构清晰、无隐藏状态并可从头执行的实验或教程 Notebook。"
+      "displayName": "Jupyter Notebook 制作",
+      "description": "创建或重构能够从头运行、结构清楚且没有隐藏状态的 Jupyter Notebook。"
     }
   },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Python 3.10+ scaffolder", "Jupyter runtime optional for execution"], "os": ["macOS", "Linux", "Windows"] },

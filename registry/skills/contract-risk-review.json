@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "contract-risk-review",
   "path": "skills/contract-risk-review/contract-risk-review",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "contract-risk-review",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Review a supplied contract from a stated party and business purpose, add clause-level risk comments without changing the source text, and produce a traceable issue register, objective summary, and escalation list."
     },
     "zh-CN": {
-      "displayName": "审查合同风险并生成批注",
+      "displayName": "合同风险审查",
       "description": "基于指定合同版本和审查立场生成有条款定位的风险、理由与修改建议。"
     }
   },

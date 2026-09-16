@@ -2,7 +2,7 @@
 name: knowledge-base-curation
 description: Turn a bounded collection of documents into a governed, retrievable knowledge base. Use for 知识库整理、文档入库、分类标签、去重、分块、元数据、过期治理和检索质量; do not use for answering a one-off research question, moving files without approval, or silently rewriting source material.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Knowledge Base Curation

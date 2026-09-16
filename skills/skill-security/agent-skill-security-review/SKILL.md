@@ -2,7 +2,7 @@
 name: agent-skill-security-review
 description: Perform a read-only pre-installation security review of an Agent Skill package, repository, or archive. Use for Skill 安全审查、安装前评估、权限检查、恶意指令、供应链风险 and 可疑脚本; do not install, execute, authenticate, or certify absolute safety.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Agent Skill Security Review

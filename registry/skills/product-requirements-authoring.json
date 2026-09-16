@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "product-requirements-authoring",
   "path": "skills/product-requirements/product-requirements-authoring",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "author-product-requirements",
   "origin": "xopc-original",
@@ -15,7 +15,7 @@
     },
     "zh-CN": {
       "displayName": "产品需求文档",
-      "description": "把用户问题与业务约束转化为范围明确、可验证并可供评审的 PRD。"
+      "description": "从用户问题、证据和约束出发编写或修订范围明确、可验证的产品需求文档。"
     }
   },
   "compatibility": {

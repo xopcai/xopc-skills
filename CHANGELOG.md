@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.18.2 - 2026-09-17
+
+- Reviewed all English and Simplified Chinese Store metadata and human-edited sentence-like labels and descriptions into concise, idiomatic product language.
+- Corrected inaccurate or awkward terminology such as analytics tracking, ASO, content campaigns, diagram communication, offers, and X Articles.
+- Added locale-aware display-name quality gates so future Store entries remain concise and suitable for search results.
+
 ## 0.18.1 - 2026-09-17
 
 - Moved install-time localization metadata into `SKILL.md` under `metadata.i18n`, making each Skill self-describing across built-in, Store-installed, and project sources.

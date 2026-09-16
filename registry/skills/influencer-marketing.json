@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "influencer-marketing",
   "path": "skills/partner-marketing/influencer-marketing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-partner-marketing",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Influencer & Creator Marketing",
-      "description": "Run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI."
+      "description": "Plan and run influencer, creator, or ambassador partnerships, including partner vetting, deal structure, briefs, disclosure compliance, and ROI measurement."
     },
     "zh-CN": {
       "displayName": "达人营销",

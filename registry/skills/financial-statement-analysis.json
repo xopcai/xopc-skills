@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "financial-statement-analysis",
   "path": "skills/business-analysis/financial-statement-analysis",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "analyze-financial-statements",
   "origin": "xopc-original",
@@ -14,8 +14,8 @@
       "description": "Analyze Chinese-enterprise financial statements across periods and turn verified figures into management insight."
     },
     "zh-CN": {
-      "displayName": "从企业财务报表形成可追溯的经营诊断",
-      "description": "交付口径一致、计算可复核、假设透明且不越权作审计或投资结论的财务分析。"
+      "displayName": "财务报表分析",
+      "description": "跨期间分析中国企业财务报表，核对计算口径、解释经营变化，并避免越权作审计或投资结论。"
     }
   },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied financial statements and optional research tools"],"os":["macOS","Linux","Windows"]},

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "user-research-synthesis",
   "path": "skills/user-research/user-research-synthesis",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "synthesize-user-research",
   "origin": "xopc-original",
@@ -14,8 +14,8 @@
       "description": "Synthesize interviews, surveys, support feedback, usability studies, observations, and behavior data into traceable product insights."
     },
     "zh-CN": {
-      "displayName": "从混合用户研究证据提炼可追溯洞察",
-      "description": "交付保留反例、样本限制和来源映射的主题、洞察、机会点与后续研究计划。"
+      "displayName": "用户研究综合分析",
+      "description": "综合访谈、问卷、客服反馈、可用性研究和行为数据，提炼可追溯的主题、洞察和机会点。"
     }
   },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied research corpus and optional connected evidence sources"],"os":["macOS","Linux","Windows"]},

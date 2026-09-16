@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "document-to-markdown",
   "path": "skills/document-conversion/document-to-markdown",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "convert-documents-to-markdown",
   "origin": "xopc-original",
@@ -15,7 +15,7 @@
     },
     "zh-CN": {
       "displayName": "文档转 Markdown",
-      "description": "将多格式资料转换为保留来源定位、结构和丢失说明的 Markdown 文件集。"
+      "description": "把文档或已授权网页转换为保留结构、来源定位和内容缺失说明的 Markdown。"
     }
   },
   "compatibility": {

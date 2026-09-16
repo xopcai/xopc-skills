@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "supabase-postgres-best-practices",
   "path": "skills/software-delivery/supabase-postgres-best-practices",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "review-production-postgres",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Review a PostgreSQL workload or proposed database change for production performance, connection, RLS/security, schema, locking, and data-access risks using Supabase-maintained rules."
     },
     "zh-CN": {
-      "displayName": "审查生产 PostgreSQL 的性能、安全和并发风险",
-      "description": "形成按证据和影响排序的数据库风险清单与可回滚改进方案。"
+      "displayName": "Supabase Postgres 最佳实践",
+      "description": "依据 Supabase 维护的规则审查 PostgreSQL 的性能、连接、RLS、安全、锁和数据访问风险。"
     }
   },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["PostgreSQL evidence supplied by user or authorized read-only access"], "os": ["macOS", "Linux", "Windows"] },

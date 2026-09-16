@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "document-requirements-review",
   "path": "skills/document-compliance/document-requirements-review",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "review-document-requirements",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Compare a proposal, response, policy, application, or other document against an explicit supplied requirement set and produce a traceability matrix, evidence gaps, ambiguities, and remediation plan."
     },
     "zh-CN": {
-      "displayName": "按明确要求审查专业文档完整性",
-      "description": "形成逐条可追溯矩阵、证据缺口、冲突和修复计划而不越权作法律结论。"
+      "displayName": "文档要求审查",
+      "description": "逐条对照明确的要求审查文档，列出证据缺口、歧义、冲突和修正建议。"
     }
   },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Document reading tools as required by input format"], "os": ["macOS", "Linux", "Windows"] },

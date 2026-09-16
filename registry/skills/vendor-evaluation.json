@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "vendor-evaluation",
   "path": "skills/procurement-operations/vendor-evaluation",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "evaluate-vendor",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Evaluate or compare vendors using requirements, total cost of ownership, implementation fit, security and continuity risks, service evidence, contract terms, and exit costs."
     },
     "zh-CN": {
-      "displayName": "基于证据评估和比较供应商",
-      "description": "形成需求可追溯、总成本透明、风险明确并包含尽调和谈判行动的供应商建议。"
+      "displayName": "供应商评估",
+      "description": "按需求、总拥有成本、实施适配度、安全与持续性风险、服务证据和退出成本比较供应商。"
     }
   },
   "compatibility": {

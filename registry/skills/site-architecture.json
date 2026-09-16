@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "site-architecture",
   "path": "skills/website-search-foundations/site-architecture",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-website-search-foundations",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Site Architecture",
-      "description": "Plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking."
+      "description": "Plan or restructure a website's page hierarchy, navigation, URL structure, and internal linking."
     },
     "zh-CN": {
       "displayName": "网站信息架构",

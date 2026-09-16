@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "meeting-to-actions",
   "path": "skills/meeting-execution/meeting-to-actions",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "turn-meeting-into-actions",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Convert meeting notes or a transcript into decisions, ticket-ready commitments, owners, due dates, open questions, and an approval-ready write-back plan."
     },
     "zh-CN": {
-      "displayName": "把会议记录转成可执行行动闭环",
+      "displayName": "会议行动项提取",
       "description": "准确提取决策、责任人、截止日期、未决问题并形成经确认的写回计划。"
     }
   },

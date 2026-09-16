@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "churn-prevention",
   "path": "skills/retention-marketing/churn-prevention",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-retention-marketing",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies."
     },
     "zh-CN": {
-      "displayName": "诊断并降低客户流失",
+      "displayName": "客户流失预防",
       "description": "用流失信号、干预方案和护栏指标形成留存改进闭环。"
     }
   },

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "content-intake-security",
   "path": "skills/content-intake-security/content-intake-security",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "content-intake-security",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Review an untrusted file or URL before it enters parsing, RAG, indexing, or a knowledge base."
     },
     "zh-CN": {
-      "displayName": "审查不可信内容的入库风险",
+      "displayName": "内容入库安全审查",
       "description": "在文件或 URL 进入解析、RAG 或知识库前形成可解释的允许、隔离或拒绝判定。"
     }
   },

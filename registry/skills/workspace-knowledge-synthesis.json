@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "workspace-knowledge-synthesis",
   "path": "skills/knowledge-workspace/workspace-knowledge-synthesis",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "synthesize-workspace-knowledge",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Synthesize evidence from workplace documents, email, chat, knowledge bases, and task systems into a current answer with deduplication, citations, conflicts, and confidence."
     },
     "zh-CN": {
-      "displayName": "从跨系统信息形成可追溯的工作答案",
+      "displayName": "工作区知识综合",
       "description": "对跨文档、邮件、聊天和任务结果去重、处理冲突并形成带来源和置信度的答案。"
     }
   },

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "form-survey-builder",
   "path": "skills/forms-surveys/form-survey-builder",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "build-form-or-survey",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Design a form or survey from a clear collection goal, including concise questions, answer types, branching, validation, privacy notes, and a response schema."
     },
     "zh-CN": {
-      "displayName": "从收集目标设计表单或问卷",
-      "description": "交付问题精简、分支可测、隐私透明并具有稳定响应结构的表单设计。"
+      "displayName": "表单与问卷设计",
+      "description": "根据收集目标设计精简的问题、答案类型、分支、校验、隐私提示和响应结构。"
     }
   },
   "compatibility": {

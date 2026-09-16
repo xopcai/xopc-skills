@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "free-tools",
   "path": "skills/marketing-free-tools/free-tools",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-free-tools",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness."
     },
     "zh-CN": {
-      "displayName": "规划营销型免费工具",
+      "displayName": "营销型免费工具",
       "description": "把高意图用户问题转化为可实现、可测量的免费工具方案。"
     }
   },

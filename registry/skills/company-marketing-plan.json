@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "company-marketing-plan",
   "path": "skills/marketing-strategy/company-marketing-plan",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-strategy",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Company Marketing Plan",
-      "description": "Provide a comprehensive marketing plan for a client, a company they advise, or their own product."
+      "description": "Create a comprehensive marketing plan for a company, client, or product."
     },
     "zh-CN": {
       "displayName": "公司营销计划",

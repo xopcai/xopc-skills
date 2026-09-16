@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "prompt-evaluation-improvement",
   "path": "skills/prompt-quality/prompt-evaluation-improvement",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "evaluate-and-improve-prompt",
   "origin": "xopc-original",
@@ -15,7 +15,7 @@
     },
     "zh-CN": {
       "displayName": "提示词评测与优化",
-      "description": "将具体任务的提示词失败案例转化为可对比、可复现的提示词修订与评测结论。"
+      "description": "用代表性输入、实际失败案例和明确标准诊断提示词问题，并比较修订效果。"
     }
   },
   "compatibility": {

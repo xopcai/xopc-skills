@@ -2,7 +2,7 @@
 name: pricing
 description: Build and test a one-person-company price using customer value, alternatives, delivery cost, capacity and cash needs. Use for a new offer, packaging change, or price review; do not use for personal budgeting, audited valuation, tax, accounting, or investment advice.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Pricing

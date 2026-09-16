@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "weekly-planning-review",
   "path": "skills/weekly-planning/weekly-planning-review",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "run-weekly-planning-review",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Review a person's current commitments, calendar constraints, waiting items, and projects to close open loops and produce a capacity-feasible next-week plan."
     },
     "zh-CN": {
-      "displayName": "完成个人周复盘并生成容量可行的下周计划",
+      "displayName": "每周复盘与规划",
       "description": "关闭开放循环、处理逾期承诺并产出不超过真实容量的周计划。"
     }
   },

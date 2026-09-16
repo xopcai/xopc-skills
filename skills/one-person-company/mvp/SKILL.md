@@ -2,7 +2,7 @@
 name: mvp
 description: Scope the smallest one-person-company product experiment that tests one validated risk with a usable customer outcome. Use after problem and payment evidence exists; do not use for idea validation, production architecture, or a feature-complete launch plan.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # MVP

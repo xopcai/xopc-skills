@@ -2,7 +2,7 @@
 name: merge-conflict-resolution
 description: Resolve an in-progress Git merge, rebase, cherry-pick, or revert conflict by recovering each side's intent, choosing an evidence-backed result, and verifying repository integrity. Use only when Git reports conflicts; do not use for ordinary code review, unrelated test failures, force pushes, or silently discarding either side.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Merge Conflict Resolution

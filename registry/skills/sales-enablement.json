@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "sales-enablement",
   "path": "skills/sales-enablement/sales-enablement",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-sales-enablement",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts."
     },
     "zh-CN": {
-      "displayName": "制作销售支持内容",
-      "description": "把买方问题和销售阶段转化为可验证、可复用的销售资产。"
+      "displayName": "销售赋能内容",
+      "description": "根据买方问题和销售阶段制作演示文稿、单页材料、异议处理指南或演示脚本。"
     }
   },
   "compatibility": {

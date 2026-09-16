@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "customer-support-ticket-triage",
   "path": "skills/business-operations/customer-support-ticket-triage",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "triage-customer-support-ticket",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Triage a customer support ticket by extracting the issue, impact, urgency, evidence, duplicate or known-issue signals, routing, and a grounded initial response."
     },
     "zh-CN": {
-      "displayName": "对客户支持请求进行证据化分诊",
-      "description": "形成问题分类、影响优先级、重复证据、路由建议和安全的首轮回复草稿。"
+      "displayName": "客服工单分诊",
+      "description": "从客服请求中识别问题、影响、紧急程度和已知问题线索，并给出路由建议和首轮回复草稿。"
     }
   },
   "compatibility": {

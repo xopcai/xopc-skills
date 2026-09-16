@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "signup",
   "path": "skills/conversion-optimization/signup",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-conversion-optimization",
   "origin": "xopc-adapted",

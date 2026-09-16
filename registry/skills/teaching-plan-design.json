@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "teaching-plan-design",
   "path": "skills/teaching-support/teaching-plan-design",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "design-teaching-plan",
   "origin": "xopc-original",
@@ -14,8 +14,8 @@
       "description": "Design an aligned lesson plan for Chinese primary, secondary, vocational, higher, or workplace teaching."
     },
     "zh-CN": {
-      "displayName": "设计目标、活动与评价一致的教学方案",
-      "description": "交付标准依据可核验、课堂时间可执行、兼顾差异化并能观察学习证据的教案。"
+      "displayName": "教学方案设计",
+      "description": "设计教学目标、课堂活动、作业与评价相互一致，并能兼顾学生差异的教学方案。"
     }
   },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied curriculum context and optional authoritative web research"],"os":["macOS","Linux","Windows"]},

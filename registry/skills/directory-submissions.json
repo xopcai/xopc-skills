@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "directory-submissions",
   "path": "skills/growth-distribution/directory-submissions",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-growth-distribution",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Directory Submissions",
-      "description": "Submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery."
+      "description": "Plan and manage product submissions to startup, SaaS, AI, agent, MCP, no-code, and review directories for discovery and backlinks."
     },
     "zh-CN": {
       "displayName": "目录提交",

@@ -2,7 +2,7 @@
 name: spreadsheet-workbench
 description: Create, analyze, edit, format, or validate spreadsheet files such as XLSX, XLSM, CSV, and TSV with formula and workbook-integrity checks. Use when the spreadsheet is an input or deliverable; do not use for databases, notebooks, or prose-only analysis.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Spreadsheet Workbench

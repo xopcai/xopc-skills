@@ -2,7 +2,7 @@
 name: cultural-divination
 description: Provide clearly labeled entertainment readings inspired by 八字、周易卦象、星座、塔罗 or other symbolic traditions. Use for 算命、看运势、算一卦、八字娱乐解读、星座和塔罗反思; do not claim supernatural certainty, predict death/illness/disaster, determine compatibility, or guide financial, medical, legal, safety, or major life decisions.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Cultural Divination

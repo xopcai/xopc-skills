@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "work-context-handoff",
   "path": "skills/work-handoff/work-context-handoff",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "prepare-work-context-handoff",
   "origin": "xopc-original",
@@ -15,7 +15,7 @@
     },
     "zh-CN": {
       "displayName": "工作上下文交接",
-      "description": "将当前任务证据压缩为保留目标、状态、约束和可继续步骤的交接材料。"
+      "description": "把当前任务的目标、状态、证据、约束和后续步骤整理成他人或未来会话可继续使用的交接材料。"
     }
   },
   "compatibility": {

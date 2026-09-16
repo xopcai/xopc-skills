@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "translation-localization-review",
   "path": "skills/language-localization/translation-localization-review",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "review-translation-localization",
   "origin": "xopc-original",
@@ -15,7 +15,7 @@
     },
     "zh-CN": {
       "displayName": "翻译并审查本地化质量",
-      "description": "交付保持源文含义、术语、变量和区域规范且经过双语质量检查的本地化内容。"
+      "description": "翻译或审校面向用户的内容，保持含义、术语、变量、链接、数字和产品语气准确一致。"
     }
   },
   "compatibility": {

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "schema",
   "path": "skills/website-search-foundations/schema",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-website-search-foundations",
   "origin": "xopc-adapted",
@@ -12,7 +12,7 @@
   "localizations": {
     "en": {
       "displayName": "Schema Markup",
-      "description": "Add, fix, or optimize schema markup and structured data on their site."
+      "description": "Add, fix, or optimize Schema.org markup and structured data on a website."
     },
     "zh-CN": {
       "displayName": "结构化数据",

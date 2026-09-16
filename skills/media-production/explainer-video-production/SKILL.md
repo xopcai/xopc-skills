@@ -2,7 +2,7 @@
 name: explainer-video-production
 description: Turn a bounded topic, source, or product explanation into a coherent explainer-video package with factual script, storyboard, narration and visual plan, production specification, and render QA. Use for one explanatory video; do not use for broad content campaigns, slide decks, generic video editing, or publishing without approval.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Explainer Video Production

@@ -2,7 +2,7 @@
 name: competitive-intelligence
 description: Build current, source-traceable competitor intelligence for a specific product, market, sales, or strategy decision. Use for 竞品分析、竞争情报、产品/价格/渠道对比、battlecard and competitor monitoring; do not use for generic research, deceptive collection, or claims based only on vendor marketing.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Competitive Intelligence

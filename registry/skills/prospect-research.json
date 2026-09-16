@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "prospect-research",
   "path": "skills/sales-account-research/prospect-research",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "research-qualified-prospects",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Turn a defined ideal-customer profile into a small, verified, evidence-linked prospect list with fit, timing signals, confidence, and disqualifiers."
     },
     "zh-CN": {
-      "displayName": "按 ICP 研究并验证高质量潜在客户",
-      "description": "交付小而可信、包含匹配度、时机信号、来源和置信度的潜客清单。"
+      "displayName": "潜在客户研究",
+      "description": "根据明确的理想客户画像，整理一份小而可信的潜客清单，注明匹配度、时机信号、来源和置信度。"
     }
   },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["Web research tools; licensed enrichment optional"], "os": ["macOS", "Linux", "Windows"] },

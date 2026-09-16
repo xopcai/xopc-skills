@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "business-budget-variance",
   "path": "skills/financial-operations/business-budget-variance",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "analyze-business-budget-variance",
   "origin": "xopc-original",
@@ -15,7 +15,7 @@
     },
     "zh-CN": {
       "displayName": "企业预算差异分析",
-      "description": "将可比预算和实际数据转化为可复算的差异、驱动因素与行动建议。"
+      "description": "比较企业预算与实际支出，解释差异驱动因素，并基于明确假设更新预测。"
     }
   },
   "compatibility": {

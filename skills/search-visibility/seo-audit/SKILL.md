@@ -4,7 +4,7 @@ description: When the user wants to audit, review, or diagnose SEO issues on the
 license: MIT
 metadata:
   author: XOPC, adapted from Corey Haines
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 # SEO Audit
 > **XOPC adaptation:** use supplied or authorized data, label assumptions, and never guarantee rankings, reach, conversion, or revenue; date volatile platform guidance and verify current claims against primary sources.

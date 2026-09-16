@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "xopc-model-gateway",
   "path": "skills/api-integration/xopc-model-gateway",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "connect-ai-app-to-xopc-models",
   "origin": "xopc-original",
@@ -14,7 +14,7 @@
       "description": "Migrate an existing OpenAI-compatible application to the XOPC Model Gateway and verify model discovery, authentication, non-streaming, and streaming behavior."
     },
     "zh-CN": {
-      "displayName": "将现有 AI 应用接入 XOPC Model Gateway",
+      "displayName": "XOPC 模型网关迁移",
       "description": "完成兼容迁移并通过请求、流式响应和错误处理验证。"
     }
   },

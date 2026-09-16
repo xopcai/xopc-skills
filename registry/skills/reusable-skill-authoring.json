@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "reusable-skill-authoring",
   "path": "skills/skill-development/reusable-skill-authoring",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "author-reusable-skill",
   "origin": "xopc-original",
@@ -15,7 +15,7 @@
     },
     "zh-CN": {
       "displayName": "创建可复用技能",
-      "description": "将已明确的重复工作流程转化为可安装、触发清晰且可评测的 Skill 包。"
+      "description": "把明确、可重复的工作流程整理为可安装、触发清楚并可评测的 SKILL.md 包。"
     }
   },
   "compatibility": {

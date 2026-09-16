@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "image",
   "path": "skills/marketing-media-production/image",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-media-production",
   "origin": "xopc-adapted",

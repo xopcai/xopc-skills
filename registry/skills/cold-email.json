@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "cold-email",
   "path": "skills/cold-outreach/cold-email",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-cold-outreach",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Write B2B cold emails and follow-up sequences that get replies."
     },
     "zh-CN": {
-      "displayName": "编写合规冷邮件",
+      "displayName": "B2B 冷邮件写作",
       "description": "用可验证的相关性和低风险外联边界生成冷邮件及跟进序列。"
     }
   },

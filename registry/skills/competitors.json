@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "competitors",
   "path": "skills/comparison-pages/competitors",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-comparison-pages",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Create competitor comparison or alternative pages for SEO and sales enablement."
     },
     "zh-CN": {
-      "displayName": "创作公平的竞品比较页",
+      "displayName": "竞品与替代方案页面",
       "description": "基于可追溯证据形成有用、公平且可维护的比较或替代页面。"
     }
   },

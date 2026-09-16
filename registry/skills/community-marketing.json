@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "community-marketing",
   "path": "skills/community-marketing/community-marketing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-community-marketing",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Build and leverage online communities to drive product growth and brand loyalty."
     },
     "zh-CN": {
-      "displayName": "建立社区营销循环",
-      "description": "把成员价值、运营节奏和反馈机制转化为可持续社区计划。"
+      "displayName": "社区营销",
+      "description": "围绕成员价值、运营节奏和反馈机制，制定可持续的社区增长计划。"
     }
   },
   "compatibility": {

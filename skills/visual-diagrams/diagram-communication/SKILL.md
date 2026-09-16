@@ -2,7 +2,7 @@
 name: diagram-communication
 description: Turn supplied architecture, process, sequence, state, entity, data-flow, or decision information into an accurate diagram specification and verified visual. Use for 架构图、流程图、时序图、状态图、ER图、拓扑图 and Mermaid; do not invent missing systems, certify designs, or use a diagram when a table is clearer.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Diagram Communication

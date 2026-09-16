@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "commitment-task-capture",
   "path": "skills/work-management/commitment-task-capture",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "capture-cross-source-commitments",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Extract concrete asks, commitments, owners, deadlines, blockers, and evidence from bounded email, chat, meeting, or document sources."
     },
     "zh-CN": {
-      "displayName": "从沟通记录提取可追踪承诺",
+      "displayName": "承诺与任务提取",
       "description": "从邮件、聊天、会议和文档中提取责任人、期限、状态与证据，并在确认后写入任务系统。"
     }
   },

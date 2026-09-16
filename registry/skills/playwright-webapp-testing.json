@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "playwright-webapp-testing",
   "path": "skills/software-delivery/playwright-webapp-testing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "build-reliable-web-test-suite",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Add, repair, and run resilient Playwright end-to-end tests for an existing web application, including selectors, auth state, API mocking, traces, and flaky-test diagnosis."
     },
     "zh-CN": {
-      "displayName": "为现有 Web 应用建立可靠的 Playwright 端到端测试",
+      "displayName": "Playwright Web 应用测试",
       "description": "关键用户旅程拥有可重复执行、能产生失败证据且不依赖硬等待的浏览器测试。"
     }
   },

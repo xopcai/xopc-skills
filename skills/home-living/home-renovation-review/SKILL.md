@@ -2,7 +2,7 @@
 name: home-renovation-review
 description: Review a Chinese home-renovation requirement, layout, quote, contract scope, material schedule, or construction milestone and produce a decision checklist. Use for 装修规划、报价对比、增项风险、材料核对、施工节点和验收准备; do not certify structural/electrical/gas/fire/waterproofing safety, give legal conclusions, or approve payment.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Home Renovation Review

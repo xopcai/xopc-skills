@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "copy-editing",
   "path": "skills/marketing-copy/copy-editing",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "market-marketing-copy",
   "origin": "xopc-adapted",

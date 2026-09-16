@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "release-notes",
   "path": "skills/software-delivery/release-notes",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "write-evidence-based-release-notes",
   "origin": "xopc-adapted",
@@ -15,7 +15,7 @@
       "description": "Turn verified tickets, pull requests, changelogs, and shipped behavior into concise user-facing release notes with benefits, breaking actions, fixes, and evidence status."
     },
     "zh-CN": {
-      "displayName": "从已交付变更生成有证据的用户发布说明",
+      "displayName": "发布说明写作",
       "description": "产出不夸大、不泄密并清晰披露破坏性变化的用户发布说明。"
     }
   },

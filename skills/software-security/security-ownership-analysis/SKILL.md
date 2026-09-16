@@ -2,7 +2,7 @@
 name: security-ownership-analysis
 description: Analyze Git history to identify sensitive-code ownership concentration, low bus factor, stale ownership, CODEOWNERS drift, and security maintenance gaps with reproducible CSV and JSON evidence. Use for security-oriented ownership risk; do not use for employee performance scoring, general maintainer lists, or access-control changes.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Security Ownership Analysis

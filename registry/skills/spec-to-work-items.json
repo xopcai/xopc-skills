@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "spec-to-work-items",
   "path": "skills/work-management/spec-to-work-items",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "decompose-spec-into-work-items",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Turn an approved product or engineering specification into small, independently verifiable work items with acceptance criteria, dependencies, and delivery order."
     },
     "zh-CN": {
-      "displayName": "把产品规格拆成可交付工作项",
-      "description": "形成纵向切片、依赖明确、可验收且经确认后才能写入系统的工作计划。"
+      "displayName": "规格拆解为工作项",
+      "description": "把已批准的产品或工程规格拆成可独立验收、依赖清楚且顺序合理的工作项。"
     }
   },
   "compatibility": {

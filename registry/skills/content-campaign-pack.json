@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "content-campaign-pack",
   "path": "skills/content-campaign/content-campaign-pack",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "create-content-campaign-pack",
   "origin": "xopc-adapted",
@@ -15,8 +15,8 @@
       "description": "Build an evidence-backed marketing campaign package from a business goal and audience: message, content pillars, prioritized briefs, channel adaptations, calendar, measurement, and quality checks."
     },
     "zh-CN": {
-      "displayName": "从业务目标形成完整内容营销 Campaign",
-      "description": "形成基于受众证据的内容支柱、资产 brief、渠道适配、日历与度量方案。"
+      "displayName": "内容营销活动方案",
+      "description": "围绕业务目标和受众，制定内容主题、素材简报、渠道适配、发布日历和衡量方案。"
     }
   },
   "compatibility": { "agents": ["Codex", "Claude Code", "Cursor", "Gemini CLI"], "runtime": ["No helper runtime required; research/media tools optional"], "os": ["macOS", "Linux", "Windows"] },

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "chinese-official-document-drafting",
   "path": "skills/chinese-professional-writing/chinese-official-document-drafting",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "draft-chinese-official-document",
   "origin": "xopc-original",
@@ -14,8 +14,8 @@
       "description": "Draft and revise evidence-based Chinese official or administrative documents."
     },
     "zh-CN": {
-      "displayName": "起草或修订事实准确的中文公文与行政材料",
-      "description": "交付文种、行文关系、结构、事实、职责和审批边界清楚的中文专业文稿。"
+      "displayName": "中文公文写作",
+      "description": "根据事实和行文关系起草或修订中文公文与行政材料，明确文种、结构、职责和审批边界。"
     }
   },
   "compatibility": {"agents":["Codex","Claude Code","Cursor","Gemini CLI"],"runtime":["Supplied facts, organization templates, and optional authoritative web research"],"os":["macOS","Linux","Windows"]},

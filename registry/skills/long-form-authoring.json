@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "name": "long-form-authoring",
   "path": "skills/long-form-content/long-form-authoring",
-  "version": "0.18.1",
+  "version": "0.18.2",
   "stage": "experimental",
   "scenarioId": "author-long-form-content",
   "origin": "xopc-original",

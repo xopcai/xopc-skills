@@ -2,7 +2,7 @@
 name: focus-session-planning
 description: Turn a messy personal task list into a bounded 15–90 minute focus session with a clear finish condition, setup, interruption plan, and review. Use for 专注计划、番茄钟、拖延启动、任务拆小和心流准备; do not diagnose attention disorders, build a weekly plan, silently schedule calendars, or shame missed work.
 metadata:
-  version: "0.18.1"
+  version: "0.18.2"
 ---
 
 # Focus Session Planning
